@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/site/PageShell";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { SITE_NAME } from "@/lib/seo/title";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Blog — ${SITE_NAME}`,
+  title: `Blog`,
   description: "Tıbbi inceleyici onaylı sağlık ve dizin makaleleri.",
   path: "/blog",
 });

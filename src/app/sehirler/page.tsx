@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 import { cities, doctors, clinics } from "@/data";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Disclaimer } from "@/components/ui/disclaimer";
-import { ALPHABETICAL_DISCLAIMER, SITE_NAME } from "@/lib/seo/title";
+import { ALPHABETICAL_DISCLAIMER } from "@/lib/seo/title";
 import { breadcrumb, jsonLdScript } from "@/lib/seo/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Şehirler — ${SITE_NAME}`,
+  title: "Şehirler",
   description: "Türkiye geneli doktor ve klinik dizini şehirlere göre.",
   path: "/sehirler",
 });

@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/site/PageShell";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { SITE_NAME } from "@/lib/seo/title";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Çerez Politikası — ${SITE_NAME}`,
+  title: `Çerez Politikası`,
   description: "Site içinde kullanılan çerezler ve tercihler hakkında bilgi.",
   path: "/cerez-politikasi",
 });

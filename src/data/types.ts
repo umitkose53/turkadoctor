@@ -23,11 +23,68 @@ export type Specialty = {
   description?: string;
 };
 
+export type ProcedureMethod = {
+  name: string;
+  description: string;
+};
+
+export type ProcedureRecoveryStage = {
+  period: string; // "İlk 24 saat", "1. hafta", "1-3. ay" gibi
+  description: string;
+};
+
+export type ProcedureFaq = {
+  question: string;
+  answer: string; // düz metin, paragraflar `\n\n` ile
+};
+
+export type ProcedureSource = {
+  title: string;
+  publisher: string;
+  url?: string;
+};
+
 export type Procedure = {
   slug: string;
   name: string;
   specialtySlug: string;
+  /** Liste kartlarında ve özet alanlarda kullanılan 1-2 cümle. */
   description?: string;
+
+  // --- Detaylı içerik (opsiyonel; varsa /tedaviler/[tedavi] sayfasında render edilir)
+  /** Sayfanın hero altı 2-3 cümlelik giriş. */
+  intro?: string;
+  /** "Saç ekimi nedir?" altı 2-4 paragraf. */
+  whatIs?: string;
+  /** FUE, DHI, Sapphire gibi alt teknikler. */
+  methods?: ProcedureMethod[];
+  /** Hangi durumlarda uygulanır / kimler aday olabilir. */
+  candidates?: string[];
+  /** Kimler aday olmayabilir / dikkat edilmesi gerekenler. */
+  notCandidates?: string[];
+  /** Operasyon öncesi süreç. */
+  preparation?: string[];
+  /** Operasyon süreci özet. */
+  process?: string[];
+  /** İyileşme dönemleri. */
+  recovery?: ProcedureRecoveryStage[];
+  /** Risk ve komplikasyonlar (mevzuat: garantili sonuç yok demek için ŞART). */
+  risks?: string[];
+  /** Türkiye'de bu tedaviyi seçerken nelere bakılır. */
+  selectionCriteria?: string[];
+  /** Sık sorulan sorular — FAQPage JSON-LD'e dönüşür. */
+  faq?: ProcedureFaq[];
+  /** İlgili tedaviler — slug ile. */
+  relatedProcedureSlugs?: string[];
+  /** Kaynaklar — Article + sources_jsonb için. */
+  sources?: ProcedureSource[];
+
+  /** Tıbbi inceleyici bilgisi. */
+  medicalReviewerName?: string;
+  /** Son güncelleme tarihi (ISO). */
+  lastReviewedAt?: string;
+  /** Bir sonraki gözden geçirme tarihi (ISO). */
+  nextReviewDueAt?: string;
 };
 
 export type ReviewSignalSource =
@@ -64,6 +121,7 @@ export type ClinicSummary = {
   phone?: string;
   logoUrl?: string;
   jciCert?: boolean;
+  temosCert?: boolean;
   isoCerts?: string[];
   sbRuhsatNo?: string;
   ruhsatVerifiedAt?: string;

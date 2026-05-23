@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/site/PageShell";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { SITE_NAME } from "@/lib/seo/title";
 
 export const metadata: Metadata = buildMetadata({
-  title: `KVKK — ${SITE_NAME}`,
+  title: `KVKK`,
   description: "Kişisel Verilerin Korunması Kanunu kapsamında bilgilendirme.",
   path: "/kvkk",
 });

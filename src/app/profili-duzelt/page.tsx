@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/site/PageShell";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { SITE_NAME } from "@/lib/seo/title";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Profili Düzelt — ${SITE_NAME}`,
+  title: `Profili Düzelt`,
   description:
     "Bir doktor veya klinik profilindeki hatalı bilgi için düzeltme başvurusu.",
   path: "/profili-duzelt",

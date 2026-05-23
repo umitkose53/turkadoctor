@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/site/PageShell";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { SITE_NAME } from "@/lib/seo/title";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Hakkımızda — ${SITE_NAME}`,
+  title: `Hakkımızda`,
   description:
     "TurkaDoctor; Türkiye genelindeki doktor ve klinikleri kamuya açık verilere dayalı olarak listeleyen bilgilendirme platformudur.",
   path: "/hakkimizda",

@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 import { specialties, doctors, clinics } from "@/data";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { ALPHABETICAL_DISCLAIMER, SITE_NAME } from "@/lib/seo/title";
+import { ALPHABETICAL_DISCLAIMER } from "@/lib/seo/title";
 import { breadcrumb, jsonLdScript } from "@/lib/seo/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Tüm Branşlar — ${SITE_NAME}`,
+  title: "Tüm Branşlar",
   description:
     "Türkiye genelindeki tıbbi branşlar dizini. Her branş için şehir ve klinik dağılımı bilgilendirme amaçlıdır.",
   path: "/branslar",

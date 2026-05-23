@@ -5,11 +5,11 @@ import { procedures, doctors, clinics } from "@/data";
 import { Card } from "@/components/ui/card";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { ALPHABETICAL_DISCLAIMER, SITE_NAME } from "@/lib/seo/title";
+import { ALPHABETICAL_DISCLAIMER } from "@/lib/seo/title";
 import { breadcrumb, jsonLdScript } from "@/lib/seo/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Tedaviler ve Tıbbi Rehberler — ${SITE_NAME}`,
+  title: "Tedaviler ve Tıbbi Rehberler",
   description:
     "Saç ekimi, diş implantı, LASIK, rinoplasti ve daha fazla tedavi için tıbbi inceleyici onaylı bilgilendirme rehberleri.",
   path: "/tedaviler",

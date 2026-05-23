@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/site/PageShell";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { SITE_NAME } from "@/lib/seo/title";
 
 export const metadata: Metadata = buildMetadata({
-  title: `Yorum İtirazı — ${SITE_NAME}`,
+  title: `Yorum İtirazı`,
   description:
     "TurkaDoctor üzerindeki bir yoruma itiraz veya kaldırma başvurusu.",
   path: "/yorum-itiraz",
