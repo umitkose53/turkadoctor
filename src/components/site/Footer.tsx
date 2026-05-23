@@ -74,11 +74,31 @@ export function SiteFooter() {
             </ul>
           </div>
           <div>
-            <p className="font-semibold text-zinc-900">Profil Sahipleri</p>
+            <p className="font-semibold text-zinc-900">Popüler Tedaviler</p>
             <ul className="mt-2 space-y-1">
               <li>
-                <Link href="/profili-talep-et" className="hover:text-zinc-900">
-                  Profili Talep Et
+                <Link href="/tedaviler/yuz-germe" className="hover:text-zinc-900">
+                  Yüz Germe
+                </Link>
+              </li>
+              <li>
+                <Link href="/tedaviler/meme-buyutme" className="hover:text-zinc-900">
+                  Meme Büyütme
+                </Link>
+              </li>
+              <li>
+                <Link href="/tedaviler/rinoplasti" className="hover:text-zinc-900">
+                  Burun Estetiği
+                </Link>
+              </li>
+              <li>
+                <Link href="/tedaviler/sac-ekimi" className="hover:text-zinc-900">
+                  Saç Ekimi
+                </Link>
+              </li>
+              <li>
+                <Link href="/tedaviler" className="hover:text-zinc-900">
+                  Tüm tedaviler →
                 </Link>
               </li>
             </ul>
