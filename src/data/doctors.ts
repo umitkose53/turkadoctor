@@ -1,11 +1,15 @@
 import type { DoctorSummary } from "./types";
+import { doctorsAdditional } from "./doctors-additional";
 
 /**
  * Day-1 manuel seed doktor verisi.
  * Kamuya açık bilgi temelinde örnek profil olarak yer alır.
  * Doktorlar sahiplenme akışıyla (claim) bilgilerini doğrulayabilir.
+ *
+ * NOT: İkinci parti (yeni tedavileri kapsayan + geniş şehir dağılımı)
+ * `doctors-additional.ts` dosyasından eklenir.
  */
-export const doctors: DoctorSummary[] = [
+const doctorsPrimary: DoctorSummary[] = [
   // ═══════════════ İSTANBUL — SAÇ EKİM ═══════════════
   {
     slug: "dr-ali-cetinkaya-sac-ekimi",
@@ -779,6 +783,9 @@ export const doctors: DoctorSummary[] = [
     ],
   },
 ];
+
+// Birleştirilmiş final liste
+export const doctors: DoctorSummary[] = [...doctorsPrimary, ...doctorsAdditional];
 
 export function findDoctor(slug: string): DoctorSummary | undefined {
   return doctors.find((d) => d.slug === slug);
