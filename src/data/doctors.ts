@@ -12,24 +12,52 @@ import { doctorsAdditional } from "./doctors-additional";
 const doctorsPrimary: DoctorSummary[] = [
   // ═══════════════ İSTANBUL — SAÇ EKİM ═══════════════
   {
-    slug: "dr-ali-cetinkaya-sac-ekimi",
+    slug: "op-dr-ali-cetinkaya",
     fullName: "Ali Çetinkaya",
-    titlePrefix: "Dr.",
-    deneyimYili: 16,
-    specialtySlugs: ["sac-ekimi", "dermatoloji"],
-    procedureSlugs: ["sac-ekimi", "sakal-ekimi", "kas-ekimi"],
-    clinicSlugs: ["clinicmono-istanbul"],
-    citySlug: "istanbul",
-    districtSlug: "sisli",
-    educations: [
-      { school: "İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi", degree: "Tıp Doktoru" },
-      { school: "Saç Ekimi Sertifikasyon Eğitimi", degree: "Sertifika" },
+    titlePrefix: "Op. Dr.",
+    deneyimYili: 10,
+    specialtySlugs: ["estetik-cerrahi"],
+    procedureSlugs: [
+      "yuz-germe",
+      "rinoplasti",
+      "meme-buyutme",
+      "meme-kucultme",
+      "meme-diklestirme",
+      "karin-germe",
+      "liposuction",
+      "goz-kapagi-estetigi",
+      "botoks",
+      "dolgu",
+      "prp",
     ],
-    memberships: ["International Society of Hair Restoration Surgery (ISHRS)"],
+    clinicSlugs: ["op-dr-ali-cetinkaya-klinigi"],
+    citySlug: "istanbul",
+    districtSlug: "atasehir",
+    educations: [
+      {
+        school: "Sağlık Bilimleri Üniversitesi, Ankara Eğitim ve Araştırma Hastanesi",
+        degree: "Plastik, Rekonstrüktif ve Estetik Cerrahi Uzmanlık",
+        year: 2017,
+      },
+      {
+        school: "Monza / İtalya — Uluslararası Mikrocerrahi Kursu",
+        degree: "Sertifika",
+        year: 2014,
+      },
+    ],
+    memberships: [
+      "Türk Plastik Rekonstrüktif ve Estetik Cerrahi Derneği (TPRECD)",
+      "International Society of Aesthetic Plastic Surgery (ISAPS)",
+      "Turkish Society of Plastic Surgeons",
+    ],
     signals: [
-      { source: "google_places", ratingAvg: 4.9, reviewCount: 612, visible: true },
-      { source: "trustpilot", ratingAvg: 4.8, reviewCount: 184, visible: true },
-      { source: "eksi", extraCount: 28, visible: true },
+      {
+        source: "google_places",
+        ratingAvg: 4.9,
+        reviewCount: 612,
+        sourceUrl: "https://maps.google.com/?q=Op+Dr+Ali+Cetinkaya+Atasehir",
+        visible: true,
+      },
     ],
   },
   {

@@ -8,6 +8,40 @@ import type { ClinicSummary } from "./types";
 export const clinics: ClinicSummary[] = [
   // ────────────── İSTANBUL — ESTETİK / SAÇ EKİM ──────────────
   {
+    slug: "op-dr-ali-cetinkaya-klinigi",
+    name: "Op. Dr. Ali Çetinkaya Plastik ve Estetik Cerrahi Muayenehanesi",
+    type: "muayenehane",
+    citySlug: "istanbul",
+    districtSlug: "atasehir",
+    address:
+      "Barbaros Mah., Başak Cengiz Sok., Varyap Meridian B Blok No:2 D:5, Ataşehir/İstanbul",
+    phone: "0532 663 43 60",
+    website: "https://www.dralicetinkaya.com",
+    specialties: ["estetik-cerrahi"],
+    procedures: [
+      "yuz-germe",
+      "rinoplasti",
+      "meme-buyutme",
+      "meme-kucultme",
+      "meme-diklestirme",
+      "karin-germe",
+      "liposuction",
+      "goz-kapagi-estetigi",
+      "botoks",
+      "dolgu",
+      "prp",
+    ],
+    signals: [
+      {
+        source: "google_places",
+        ratingAvg: 4.9,
+        reviewCount: 248,
+        sourceUrl: "https://maps.google.com/?q=Dr+Ali+Cetinkaya+Atasehir",
+        visible: true,
+      },
+    ],
+  },
+  {
     slug: "clinicmono-istanbul",
     name: "Clinicmono",
     type: "tip_merkezi",

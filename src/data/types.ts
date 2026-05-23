@@ -21,6 +21,17 @@ export type Specialty = {
   parentSlug?: string;
   ttbKodu?: string;
   description?: string;
+
+  // --- Detaylı içerik (opsiyonel)
+  intro?: string;
+  fullContent?: string; // paragraflar `\n\n` ayrılır
+  popularProcedureSlugs?: string[];
+  faq?: ProcedureFaq[];
+  sources?: ProcedureSource[];
+
+  medicalReviewerName?: string;
+  lastReviewedAt?: string;
+  nextReviewDueAt?: string;
 };
 
 export type ProcedureMethod = {
