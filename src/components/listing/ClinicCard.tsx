@@ -15,6 +15,7 @@ const TYPE_LABELS: Record<ClinicSummary["type"], string> = {
   universite_hastanesi: "Üniversite Hastanesi",
   tip_merkezi: "Tıp Merkezi",
   agdc: "Ağız ve Diş Sağlığı Merkezi",
+  gunubirlik_cerrahi: "Günübirlik Cerrahi Merkezi",
 };
 
 export function ClinicCard({ clinic }: { clinic: ClinicSummary }) {

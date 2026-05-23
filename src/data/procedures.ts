@@ -872,6 +872,287 @@ export const procedures: Procedure[] = [
     nextReviewDueAt: NEXT_REVIEW,
   },
 
+  {
+    slug: "jinekomasti",
+    name: "Jinekomasti (Erkek Meme Küçültme)",
+    specialtySlug: "estetik-cerrahi",
+    description:
+      "Erkeklerde meme dokusunun büyümesi durumunun cerrahi olarak düzeltilmesi.",
+    intro:
+      "Jinekomasti; erkeklerde meme dokusunun çeşitli sebeplerle büyümesidir. Tedavi; liposuction, glandüler doku eksizyonu veya bunların kombinasyonu ile yapılır. Hormonal nedenler önce endokrinolojik olarak değerlendirilir.",
+    methods: [
+      {
+        name: "Liposuction ile Jinekomasti",
+        description:
+          "Yalnız yağ dokusu artışı baskınsa liposuction yeterli olabilir.",
+      },
+      {
+        name: "Glandüler Eksizyon",
+        description:
+          "Bez doku artışı baskınsa cerrahi eksizyon ile çıkarılır.",
+      },
+      {
+        name: "Kombine Yöntem",
+        description:
+          "Yağ + glandüler doku ikisi de varsa liposuction + eksizyon birlikte uygulanır.",
+      },
+    ],
+    risks: [
+      "Şişlik, morluk",
+      "Asimetri",
+      "Meme başında geçici hassasiyet",
+      "İz oluşumu (genelde areola çevresinde gizlenir)",
+    ],
+    relatedProcedureSlugs: ["liposuction", "meme-kucultme"],
+    sources: [
+      {
+        title: "Gynecomastia Surgery",
+        publisher: "American Society of Plastic Surgeons (ASPS)",
+        url: "https://www.plasticsurgery.org/cosmetic-procedures/gynecomastia-surgery",
+      },
+    ],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "dudak-estetigi",
+    name: "Dudak Estetiği (Lip Augmentation)",
+    specialtySlug: "dermatoloji",
+    description:
+      "Dudaklara hacim eklemek ve şekillendirmek için yapılan dolgu veya cerrahi uygulama.",
+    intro:
+      "Dudak estetiği; dudaklara hyaluronik asit dolgu veya yağ enjeksiyonu ile hacim eklemek, dudak kontürünü düzenlemek için yapılır. Kalıcı çözüm istenirse cerrahi (lip lift) yöntemler tercih edilebilir.",
+    methods: [
+      {
+        name: "Hyaluronik Asit Dolgu",
+        description:
+          "Dudaklara doğal görünümlü hacim ekler. Etki 6-12 ay sürer.",
+      },
+      {
+        name: "Yağ Enjeksiyonu",
+        description:
+          "Hastanın kendi yağı kullanılır. Daha uzun ömürlü ama emilim oranı değişkendir.",
+      },
+      {
+        name: "Lip Lift",
+        description:
+          "Üst dudağı kalıcı olarak yukarı kaldıran cerrahi yöntem.",
+      },
+    ],
+    risks: [
+      "Şişlik, kızarıklık",
+      "Asimetri",
+      "Damar tıkanıklığı (dolgu) — nadir ama ciddi",
+      "Granüloma",
+    ],
+    relatedProcedureSlugs: ["dolgu", "yag-enjeksiyonu", "botoks"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "cene-estetigi",
+    name: "Çene Estetiği (Genioplasty)",
+    specialtySlug: "estetik-cerrahi",
+    description:
+      "Çenenin şeklini ve boyutunu cerrahi veya implant ile düzenleme.",
+    intro:
+      "Çene estetiği; küçük veya geride olan çenenin implant veya kemik osteotomisi ile düzeltildiği yöntemdir. Yüz oranlarını dengelemek ve profil görünümünü iyileştirmek için tercih edilir.",
+    risks: [
+      "Şişlik, geçici uyuşukluk (sinir hassasiyeti)",
+      "Asimetri",
+      "İmplant durumlarında pozisyon kayması",
+    ],
+    relatedProcedureSlugs: ["rinoplasti", "yuz-germe"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "bichectomy",
+    name: "Bichectomy (Yanak İnceltme)",
+    specialtySlug: "estetik-cerrahi",
+    description:
+      "Yanak iç kısmındaki Bichat yağ pedinin cerrahi olarak çıkarılması.",
+    intro:
+      "Bichectomy; yanaklardaki dolgun görünümün cerrahi olarak ince hale getirilmesidir. Ağız iç kısmından yapılan küçük kesiyle Bichat yağ pedi çıkarılır. Sonuç kalıcıdır.",
+    risks: [
+      "Şişlik, ağız içinde geçici hassasiyet",
+      "Asimetri",
+      "Yaşlanma sürecinde yüz çökmesi (aşırı çıkarımda)",
+    ],
+    relatedProcedureSlugs: ["yuz-germe", "yag-enjeksiyonu"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "hifu",
+    name: "HIFU (Yoğunlaştırılmış Ultrason)",
+    specialtySlug: "dermatoloji",
+    description:
+      "Cilt altı dokuya enerji ileterek sıkılaştırma sağlayan, cerrahi olmayan yöntem.",
+    intro:
+      "HIFU (High-Intensity Focused Ultrasound); cildin alt katmanlarına yoğun ultrason enerjisi ileterek kolajen üretimini uyaran ve cildi sıkılaştıran cerrahi olmayan bir uygulamadır. Yüz ve boyun bölgesinde hafif-orta düzey sarkmalarda tercih edilir.",
+    risks: [
+      "Geçici kızarıklık, hassasiyet",
+      "Nadir hipopigmentasyon",
+      "Sonuçların kişiden kişiye değişmesi",
+    ],
+    relatedProcedureSlugs: ["yuz-germe", "botoks", "dolgu"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "prp",
+    name: "PRP Tedavisi (Trombositten Zengin Plazma)",
+    specialtySlug: "dermatoloji",
+    description:
+      "Hastadan alınan kanın işlenip cilde veya saçlı deriye enjekte edildiği rejeneratif uygulama.",
+    intro:
+      "PRP (Platelet Rich Plasma); hastanın kendi kanının santrifüj ile işlenip büyüme faktörlerinden zengin plazmanın hedef bölgeye enjekte edildiği tedavidir. Saç dökülmesi, cilt yenileme, sivilce izi tedavisinde uygulanır.",
+    risks: [
+      "Enjeksiyon bölgesinde kızarıklık, hassasiyet",
+      "Hafif şişlik",
+      "Sonuçların seans sayısına bağlı değişmesi",
+    ],
+    relatedProcedureSlugs: ["sac-ekimi", "mezoterapi", "fraksiyonel-lazer"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "hidrafacial",
+    name: "Hidrafacial",
+    specialtySlug: "dermatoloji",
+    description:
+      "Cilt temizleme, soyma, hidrasyon ve serum infüzyonunu birlikte uygulayan estetik uygulama.",
+    intro:
+      "Hidrafacial; cilt yüzeyini özel uçlarla temizleyip aynı seansta nemlendirici ve antioksidan içeren serumların infüze edildiği cerrahi olmayan bir cilt bakımı uygulamasıdır.",
+    risks: [
+      "Hafif geçici kızarıklık",
+      "İçeriklere alerji (nadir)",
+    ],
+    relatedProcedureSlugs: ["mezoterapi", "kimyasal-peeling", "prp"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "mezoterapi",
+    name: "Mezoterapi",
+    specialtySlug: "dermatoloji",
+    description:
+      "Cildin orta katmanına vitamin, mineral, amino asit ve hyaluronik asit gibi içeriklerin mikro enjeksiyonu.",
+    intro:
+      "Mezoterapi; cildin orta katmanına çoklu mikro enjeksiyonlarla bireysel olarak hazırlanan içeriklerin verildiği bir dermatolojik uygulamadır. Cilt yenileme, saç dökülmesi, lokal yağlanma tedavilerinde tercih edilir.",
+    risks: [
+      "Enjeksiyon noktalarında geçici kızarıklık ve hassasiyet",
+      "İçeriklere alerji (nadir)",
+    ],
+    relatedProcedureSlugs: ["prp", "hidrafacial", "dolgu"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "kimyasal-peeling",
+    name: "Kimyasal Peeling",
+    specialtySlug: "dermatoloji",
+    description:
+      "Cildin üst katmanlarının kimyasal solüsyonlarla soyularak yenilenmesi.",
+    intro:
+      "Kimyasal peeling; cildin üst katmanlarının kontrollü olarak soyulmasıyla yeni cilt katmanının ortaya çıkarıldığı bir uygulamadır. Yüzeyel, orta ve derin peeling olarak üç düzeyde yapılır.",
+    risks: [
+      "Geçici kızarıklık ve soyulma",
+      "Yanlış doz/uygulamada yanık ve renk değişikliği",
+      "Güneş hassasiyeti",
+    ],
+    relatedProcedureSlugs: ["fraksiyonel-lazer", "mezoterapi", "hidrafacial"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "fraksiyonel-lazer",
+    name: "Fraksiyonel Lazer",
+    specialtySlug: "dermatoloji",
+    description:
+      "Cilt yüzeyine mikro lazer noktaları ile uygulanan, kolajen sentezini uyaran cilt yenileme yöntemi.",
+    intro:
+      "Fraksiyonel lazer; cilt yüzeyine mikro odaklı lazer noktaları uygulanarak çevresindeki sağlam dokunun iyileşmeyi hızlandırmasını hedefler. Yüzeyel kırışıklık, akne izleri ve cilt pürüzlülüğü için tercih edilir.",
+    risks: [
+      "Kızarıklık, geçici şişlik",
+      "Hipopigmentasyon / hiperpigmentasyon (uygun olmayan cilt tipinde)",
+      "Güneş hassasiyeti — koruma şart",
+    ],
+    relatedProcedureSlugs: ["kimyasal-peeling", "mezoterapi"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "kulak-estetigi",
+    name: "Kulak Estetiği (Otoplasti)",
+    specialtySlug: "estetik-cerrahi",
+    description:
+      "Kepçe kulak veya kulak şekil bozukluklarının cerrahi olarak düzeltilmesi.",
+    intro:
+      "Otoplasti; kulağın şekil veya konum bozukluklarının cerrahi olarak düzeltildiği işlemdir. Genellikle kepçe kulak için yapılır; çocuklarda 5-6 yaşından itibaren uygulanabilir.",
+    risks: [
+      "Şişlik, morluk",
+      "Asimetri",
+      "Nüks (kulağın tekrar ileri kayması)",
+    ],
+    relatedProcedureSlugs: ["rinoplasti"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "g-spot-vajinoplasti",
+    name: "Vajinoplasti",
+    specialtySlug: "kadin-hastaliklari-ve-dogum",
+    description:
+      "Vajen ve çevresindeki dokuların cerrahi olarak yeniden şekillendirilmesi.",
+    intro:
+      "Vajinoplasti; doğum, yaşlanma veya genetik nedenlerle vajen bölgesinde oluşan gevşekliğin cerrahi olarak düzeltildiği işlemdir. Kadın hastalıkları ve doğum uzmanı veya estetik cerrah tarafından uygulanır.",
+    risks: [
+      "Şişlik, hassasiyet",
+      "İz oluşumu",
+      "Geçici cinsel hassasiyet değişimi",
+    ],
+    relatedProcedureSlugs: ["labioplasti"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
+  {
+    slug: "labioplasti",
+    name: "Labioplasti",
+    specialtySlug: "kadin-hastaliklari-ve-dogum",
+    description:
+      "Dış genital bölgedeki anatomik düzensizliklerin cerrahi olarak düzeltilmesi.",
+    relatedProcedureSlugs: ["g-spot-vajinoplasti"],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+
   // ═════════════════════════════════════════════════════════════════════════
   // SAÇ EKİMİ
   // ═════════════════════════════════════════════════════════════════════════

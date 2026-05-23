@@ -9,11 +9,14 @@ import {
   findClinic,
   findCity,
   findProcedure,
+  doctorsBySpecialty,
+  sortAlphabetical,
 } from "@/data";
 
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { Badge } from "@/components/ui/badge";
 import { ReviewSignalRow } from "@/components/listing/ReviewSignalRow";
+import { DoctorCard } from "@/components/listing/DoctorCard";
 
 import { buildMetadata } from "@/lib/seo/metadata";
 import {
@@ -45,6 +48,9 @@ export async function generateMetadata({
 
   const sp = findSpecialty(doctor.specialtySlugs[0])?.name ?? "Hekim";
   const city = findCity(doctor.citySlug)?.name ?? "Türkiye";
+  const clinic = doctor.clinicSlugs[0]
+    ? findClinic(doctor.clinicSlugs[0])?.name
+    : undefined;
 
   return buildMetadata({
     title: doctorTitle({
@@ -53,7 +59,7 @@ export async function generateMetadata({
       specialty: sp,
       city,
     }),
-    description: `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} · ${sp} · ${city}. TTB sicil doğrulamalı bilgilendirme amaçlı profil.`,
+    description: `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} · ${sp} uzmanı · ${city}${clinic ? ` · ${clinic}` : ""}. TTB sicil doğrulamalı bilgilendirme amaçlı profil.`,
     path: `/doktor/${slug}`,
   });
 }
@@ -76,7 +82,36 @@ export default async function DoctorPage({
   const primaryClinic = doctor.clinicSlugs[0]
     ? findClinic(doctor.clinicSlugs[0])
     : undefined;
+  const allClinics = doctor.clinicSlugs
+    .map((s) => findClinic(s))
+    .filter((c) => c !== undefined);
+  const doctorProcedures = doctor.procedureSlugs
+    .map((s) => findProcedure(s))
+    .filter((p) => p !== undefined);
   const visibleSignals = doctor.signals.filter((s) => s.visible);
+
+  // Aynı klinikteki diğer hekimler (max 6)
+  const sameClinic = primaryClinic
+    ? sortAlphabetical(
+        doctors.filter(
+          (d) =>
+            d.slug !== doctor.slug &&
+            d.clinicSlugs.includes(primaryClinic.slug),
+        ),
+      ).slice(0, 6)
+    : [];
+
+  // Benzer hekimler (aynı branş + aynı şehir)
+  const similar = primarySpecialty
+    ? sortAlphabetical(
+        doctorsBySpecialty(primarySpecialty.slug).filter(
+          (d) =>
+            d.slug !== doctor.slug &&
+            d.citySlug === doctor.citySlug &&
+            !sameClinic.some((s) => s.slug === d.slug),
+        ),
+      ).slice(0, 6)
+    : [];
 
   const bc = breadcrumb([
     { name: "Anasayfa", url: "/" },
@@ -111,24 +146,18 @@ export default async function DoctorPage({
           addressLocality: city?.name,
           addressRegion: city?.name,
         },
-    hospitalAffiliations: primaryClinic
-      ? [
-          {
-            name: primaryClinic.name,
-            url: `/klinik/${primaryClinic.slug}`,
-          },
-        ]
-      : undefined,
+    hospitalAffiliations: allClinics.map((c) => ({
+      name: c.name,
+      url: `/klinik/${c.slug}`,
+    })),
     alumniOf: doctor.educations?.map((e) => ({ name: e.school })),
     memberships: doctor.memberships,
     ttbSicilNo: doctor.ttbSicilNo,
-    procedureNames: doctor.procedureSlugs
-      .map((p) => findProcedure(p)?.name)
-      .filter((n): n is string => Boolean(n)),
+    procedureNames: doctorProcedures.map((p) => p.name),
   });
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8">
+    <div className="mx-auto max-w-5xl px-4 py-8">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLdScript(bc) }}
@@ -189,8 +218,8 @@ export default async function DoctorPage({
               .slice(0, 2)
               .join("")}
           </div>
-          <div>
-            <h1 className="text-2xl font-semibold tracking-tight text-zinc-900">
+          <div className="min-w-0">
+            <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 md:text-3xl">
               {doctor.titlePrefix ?? "Dr."} {doctor.fullName}
             </h1>
             <p className="mt-1 text-sm text-zinc-700">
@@ -219,8 +248,8 @@ export default async function DoctorPage({
                 </Badge>
               ) : null}
               {otherSpecialties.map((s) => (
-                <Badge key={s!.slug} variant="muted">
-                  {s!.name}
+                <Badge key={s.slug} variant="muted">
+                  {s.name}
                 </Badge>
               ))}
             </div>
@@ -228,48 +257,141 @@ export default async function DoctorPage({
         </div>
       </header>
 
-      {/* Eğitim ve üyelikler */}
-      {doctor.educations?.length || doctor.memberships?.length ? (
-        <section className="mt-6 rounded-xl border border-zinc-200 bg-white p-6">
-          <h2 className="text-lg font-semibold text-zinc-900">Hakkında</h2>
+      {/* İçindekiler */}
+      <nav
+        aria-label="İçindekiler"
+        className="mt-6 rounded-xl border border-zinc-200 bg-white p-5"
+      >
+        <h2 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+          İçindekiler
+        </h2>
+        <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-sky-700">
+          <li><a href="#hakkinda" className="hover:underline">Hakkında</a></li>
+          {doctorProcedures.length > 0 ? <li><a href="#tedaviler" className="hover:underline">Yaptığı tedaviler</a></li> : null}
+          {visibleSignals.length > 0 ? <li><a href="#degerlendirmeler" className="hover:underline">Değerlendirmeler</a></li> : null}
+          {primaryClinic ? <li><a href="#konum" className="hover:underline">Konum</a></li> : null}
+          {sameClinic.length > 0 ? <li><a href="#ayniklinik" className="hover:underline">Aynı klinikteki hekimler</a></li> : null}
+          {similar.length > 0 ? <li><a href="#benzer" className="hover:underline">Benzer hekimler</a></li> : null}
+        </ul>
+      </nav>
 
-          {doctor.educations?.length ? (
-            <div className="mt-4">
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
-                Eğitim
-              </h3>
-              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                {doctor.educations.map((e, i) => (
-                  <li key={i}>
-                    {e.degree} — {e.school}
-                    {e.year ? ` (${e.year})` : ""}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
+      {/* Hakkında */}
+      <section
+        id="hakkinda"
+        className="mt-6 rounded-xl border border-zinc-200 bg-white p-6"
+      >
+        <h2 className="text-xl font-semibold text-zinc-900">Hakkında</h2>
 
-          {doctor.memberships?.length ? (
-            <div className="mt-4">
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
-                Üyelikler
-              </h3>
-              <ul className="mt-2 flex flex-wrap gap-2 text-sm">
-                {doctor.memberships.map((m, i) => (
-                  <li key={i}>
-                    <Badge variant="outline">{m}</Badge>
+        {doctor.educations?.length ? (
+          <div className="mt-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+              Eğitim
+            </h3>
+            <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+              {doctor.educations.map((e, i) => (
+                <li key={i}>
+                  {e.degree} — {e.school}
+                  {e.year ? ` (${e.year})` : ""}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
+        {allClinics.length > 0 ? (
+          <div className="mt-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+              Çalıştığı Kurumlar
+            </h3>
+            <ul className="mt-2 space-y-1 text-sm">
+              {allClinics.map((c) => (
+                <li key={c.slug}>
+                  <Link
+                    href={`/klinik/${c.slug}`}
+                    className="text-sky-700 hover:underline"
+                  >
+                    {c.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
+        {doctor.memberships?.length ? (
+          <div className="mt-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+              Üyelikler
+            </h3>
+            <ul className="mt-2 flex flex-wrap gap-2 text-sm">
+              {doctor.memberships.map((m, i) => (
+                <li key={i}>
+                  <Badge variant="outline">{m}</Badge>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
+        {doctor.specialtySlugs.length > 0 ? (
+          <div className="mt-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+              Uzmanlık Alanları
+            </h3>
+            <ul className="mt-2 flex flex-wrap gap-2 text-sm">
+              {doctor.specialtySlugs.map((s) => {
+                const sp = findSpecialty(s);
+                if (!sp) return null;
+                return (
+                  <li key={sp.slug}>
+                    <Link
+                      href={`/branslar/${sp.slug}`}
+                      className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-zinc-800 hover:border-zinc-300"
+                    >
+                      {sp.name}
+                    </Link>
                   </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
+                );
+              })}
+            </ul>
+          </div>
+        ) : null}
+      </section>
+
+      {/* Yaptığı tedaviler */}
+      {doctorProcedures.length > 0 ? (
+        <section
+          id="tedaviler"
+          className="mt-6 rounded-xl border border-zinc-200 bg-white p-6"
+        >
+          <h2 className="text-xl font-semibold text-zinc-900">
+            {doctor.titlePrefix ?? "Dr."} {doctor.fullName.split(" ")[0]}{" "}
+            tarafından yapılan tedaviler
+          </h2>
+          <p className="mt-1 text-xs text-zinc-500">
+            Tedaviler bilgilendirme amaçlıdır; tıbbi tavsiye yerine geçmez.
+          </p>
+          <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3">
+            {doctorProcedures.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/tedaviler/${p.slug}`}
+                className="rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm font-medium text-zinc-800 hover:border-zinc-300 hover:bg-zinc-50"
+              >
+                {p.name}
+              </Link>
+            ))}
+          </div>
         </section>
       ) : null}
 
       {/* Yorum sinyalleri */}
       {visibleSignals.length > 0 ? (
-        <section className="mt-6 rounded-xl border border-zinc-200 bg-white p-6">
-          <h2 className="text-lg font-semibold text-zinc-900">
+        <section
+          id="degerlendirmeler"
+          className="mt-6 rounded-xl border border-zinc-200 bg-white p-6"
+        >
+          <h2 className="text-xl font-semibold text-zinc-900">
             Diğer kaynaklarda değerlendirmeler
           </h2>
           <p className="mt-1 text-xs text-zinc-500">
@@ -284,21 +406,70 @@ export default async function DoctorPage({
         </section>
       ) : null}
 
+      {/* Konum */}
+      {primaryClinic ? (
+        <section
+          id="konum"
+          className="mt-6 rounded-xl border border-zinc-200 bg-white p-6"
+        >
+          <h2 className="text-xl font-semibold text-zinc-900">Konum</h2>
+          <p className="mt-2 text-sm text-zinc-700">
+            <Link
+              href={`/klinik/${primaryClinic.slug}`}
+              className="font-medium text-sky-700 hover:underline"
+            >
+              {primaryClinic.name}
+            </Link>
+          </p>
+          {primaryClinic.address ? (
+            <p className="mt-1 text-sm text-zinc-600">
+              📍 {primaryClinic.address}
+            </p>
+          ) : null}
+          {primaryClinic.phone ? (
+            <p className="mt-1 text-sm text-zinc-600">
+              📞 <a href={`tel:${primaryClinic.phone.replace(/\s/g, "")}`} className="hover:underline">{primaryClinic.phone}</a>
+            </p>
+          ) : null}
+        </section>
+      ) : null}
+
+      {/* Aynı klinikteki hekimler */}
+      {sameClinic.length > 0 ? (
+        <section id="ayniklinik" className="mt-10">
+          <h2 className="text-xl font-semibold text-zinc-900">
+            {primaryClinic?.name} bünyesindeki diğer hekimler
+          </h2>
+          <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
+            {sameClinic.map((d) => (
+              <DoctorCard key={d.slug} doctor={d} />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {/* Benzer hekimler */}
+      {similar.length > 0 ? (
+        <section id="benzer" className="mt-10">
+          <h2 className="text-xl font-semibold text-zinc-900">
+            {city?.name}&apos;da {primarySpecialty?.name} alanında diğer hekimler
+          </h2>
+          <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
+            {similar.map((d) => (
+              <DoctorCard key={d.slug} doctor={d} />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       {/* Disclaimerlar */}
-      <div className="mt-8 space-y-3">
+      <div className="mt-10 space-y-3">
         <Disclaimer variant="muted">{ALPHABETICAL_DISCLAIMER}</Disclaimer>
         <Disclaimer variant="info">{MEDICAL_INFO_DISCLAIMER}</Disclaimer>
       </div>
 
       {/* Düzeltme akışı */}
       <div className="mt-8 flex flex-wrap gap-3 border-t border-zinc-200 pt-6 text-sm">
-        <Link
-          href={`/profili-talep-et?type=doctor&slug=${doctor.slug}`}
-          className="text-sky-700 hover:underline"
-        >
-          Bu profili sahiplen
-        </Link>
-        <span aria-hidden className="text-zinc-300">·</span>
         <Link
           href={`/profili-duzelt?type=doctor&slug=${doctor.slug}`}
           className="text-sky-700 hover:underline"

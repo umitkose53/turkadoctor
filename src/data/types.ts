@@ -114,11 +114,13 @@ export type ClinicSummary = {
     | "devlet_hastanesi"
     | "universite_hastanesi"
     | "tip_merkezi"
-    | "agdc";
+    | "agdc"
+    | "gunubirlik_cerrahi";
   citySlug: string;
   districtSlug?: string;
   address?: string;
   phone?: string;
+  website?: string;
   logoUrl?: string;
   jciCert?: boolean;
   temosCert?: boolean;
