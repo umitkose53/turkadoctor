@@ -177,7 +177,7 @@ export const procedures: Procedure[] = [
       {
         title: "Türk Plastik Rekonstrüktif ve Estetik Cerrahi Derneği",
         publisher: "TPRECD",
-        url: "https://www.plastikcerrahidernegi.org",
+        url: "https://www.plastikcerrahi.org.tr",
       },
     ],
     medicalReviewerName: REVIEWER,
@@ -645,7 +645,7 @@ export const procedures: Procedure[] = [
       {
         title: "Breast Implants — Safety, Risks, and Complications",
         publisher: "U.S. Food and Drug Administration (FDA)",
-        url: "https://www.fda.gov/medical-devices/breast-implants",
+        url: "https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants",
       },
     ],
     medicalReviewerName: REVIEWER,
@@ -680,7 +680,7 @@ export const procedures: Procedure[] = [
       {
         title: "Breast Reduction",
         publisher: "American Society of Plastic Surgeons (ASPS)",
-        url: "https://www.plasticsurgery.org/cosmetic-procedures/breast-reduction",
+        url: "https://www.plasticsurgery.org/reconstructive-procedures/breast-reduction",
       },
     ],
     medicalReviewerName: REVIEWER,
@@ -1773,12 +1773,12 @@ export const procedures: Procedure[] = [
       {
         title: "LASIK Patient Information",
         publisher: "U.S. Food and Drug Administration (FDA)",
-        url: "https://www.fda.gov/medical-devices/lasik",
+        url: "https://www.fda.gov/medical-devices/lasik/fdas-lasik-program",
       },
       {
-        title: "Refractive Errors and Refractive Surgery",
-        publisher: "American Academy of Ophthalmology",
-        url: "https://www.aao.org",
+        title: "Laser Eye Surgery and Lens Surgery — Patient Information",
+        publisher: "NHS UK",
+        url: "https://www.nhs.uk/tests-and-treatments/laser-eye-surgery-and-lens-surgery/",
       },
     ],
     medicalReviewerName: REVIEWER,
@@ -1802,9 +1802,9 @@ export const procedures: Procedure[] = [
     relatedProcedureSlugs: ["lasik"],
     sources: [
       {
-        title: "SMILE Procedure — American Academy of Ophthalmology",
-        publisher: "AAO",
-        url: "https://www.aao.org",
+        title: "Laser Eye Surgery and Lens Surgery — Patient Information",
+        publisher: "NHS UK",
+        url: "https://www.nhs.uk/tests-and-treatments/laser-eye-surgery-and-lens-surgery/",
       },
     ],
     medicalReviewerName: REVIEWER,

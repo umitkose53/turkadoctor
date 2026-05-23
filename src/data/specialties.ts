@@ -53,7 +53,7 @@ export const specialties: Specialty[] = [
       {
         title: "Türk Plastik Rekonstrüktif ve Estetik Cerrahi Derneği",
         publisher: "TPRECD",
-        url: "https://www.plastikcerrahidernegi.org",
+        url: "https://www.plastikcerrahi.org.tr",
       },
       {
         title: "Plastic Surgery Procedures",
@@ -242,9 +242,9 @@ export const specialties: Specialty[] = [
         publisher: "TOD",
       },
       {
-        title: "Refractive Surgery Guidelines",
-        publisher: "American Academy of Ophthalmology",
-        url: "https://www.aao.org",
+        title: "Laser Eye Surgery and Lens Surgery",
+        publisher: "NHS UK",
+        url: "https://www.nhs.uk/tests-and-treatments/laser-eye-surgery-and-lens-surgery/",
       },
     ],
     medicalReviewerName: REVIEWER,

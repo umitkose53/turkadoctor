@@ -66,16 +66,16 @@ export const clinics: ClinicSummary[] = [
         sourceUrl: "https://maps.google.com/?q=Clinicmono+Istanbul",
         visible: true,
       },
+      // Trustpilot/WhatClinic için doğrulanmış profil URL'leri henüz yok;
+      // gerçek profil oluşturulduğunda sourceUrl eklenecek.
       {
         source: "trustpilot",
         ratingAvg: 4.7,
         reviewCount: 410,
-        sourceUrl: "https://www.trustpilot.com/review/clinicmono.com",
         visible: true,
       },
       {
         source: "whatclinic",
-        sourceUrl: "https://www.whatclinic.com",
         visible: true,
       },
     ],
