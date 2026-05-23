@@ -1,0 +1,95 @@
+import Link from "next/link";
+import { SITE_NAME } from "@/lib/seo/title";
+
+export function SiteFooter() {
+  const year = new Date().getFullYear();
+  return (
+    <footer className="border-t border-zinc-200 bg-zinc-50">
+      <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-zinc-600">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+          <div>
+            <p className="font-semibold text-zinc-900">{SITE_NAME}</p>
+            <p className="mt-2">
+              Türkiye&apos;nin doğrulanmış doktor ve klinik dizini.
+              Bilgilendirme amaçlıdır, tıbbi reklam değildir.
+            </p>
+          </div>
+          <div>
+            <p className="font-semibold text-zinc-900">Kurumsal</p>
+            <ul className="mt-2 space-y-1">
+              <li>
+                <Link href="/hakkimizda" className="hover:text-zinc-900">
+                  Hakkımızda
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/tibbi-danisma-kurulu"
+                  className="hover:text-zinc-900"
+                >
+                  Tıbbi Danışma Kurulu
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/editoryel-politika"
+                  className="hover:text-zinc-900"
+                >
+                  Editöryel Politika
+                </Link>
+              </li>
+              <li>
+                <Link href="/iletisim" className="hover:text-zinc-900">
+                  İletişim
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold text-zinc-900">Hukuki</p>
+            <ul className="mt-2 space-y-1">
+              <li>
+                <Link href="/kvkk" className="hover:text-zinc-900">
+                  KVKK
+                </Link>
+              </li>
+              <li>
+                <Link href="/aydinlatma-metni" className="hover:text-zinc-900">
+                  Aydınlatma Metni
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/cerez-politikasi"
+                  className="hover:text-zinc-900"
+                >
+                  Çerez Politikası
+                </Link>
+              </li>
+              <li>
+                <Link href="/yorum-itiraz" className="hover:text-zinc-900">
+                  Yorum İtirazı
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold text-zinc-900">Profil Sahipleri</p>
+            <ul className="mt-2 space-y-1">
+              <li>
+                <Link href="/profili-talep-et" className="hover:text-zinc-900">
+                  Profili Talep Et
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-8 border-t border-zinc-200 pt-6 text-xs text-zinc-500">
+          © {year} {SITE_NAME}. Tüm hakları saklıdır. Site içeriği
+          bilgilendirme amaçlıdır, tıbbi tavsiye yerine geçmez.
+        </div>
+      </div>
+    </footer>
+  );
+}
