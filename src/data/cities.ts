@@ -1,17 +1,77 @@
 import type { City } from "./types";
 
+const REVIEWER = "TurkaDoctor Tıbbi Danışma Kurulu";
+const LAST_REVIEWED = "2026-05-23";
+const NEXT_REVIEW = "2026-11-23";
+
 /**
  * Türkiye 81 il — plaka kodu sırasında.
- * (NUTS ve coğrafi koordinatlar Faz 2'de eklenecek.)
+ * 8-10 büyük şehirde uzun-form E-E-A-T içerik mevcuttur.
  */
 export const cities: City[] = [
-  { slug: "adana", name: "Adana", plateCode: 1 },
+  {
+    slug: "adana",
+    name: "Adana",
+    plateCode: 1,
+    intro:
+      "Adana; Güneydoğu Anadolu Bölgesi'nin en büyük metropollerinden biri olup özel ve devlet sağlık kuruluşları ile bölgesel bir sağlık merkezi konumundadır.",
+    popularSpecialtySlugs: [
+      "kardiyoloji",
+      "ic-hastaliklari",
+      "kadin-hastaliklari-ve-dogum",
+      "dis-hekimligi",
+    ],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
   { slug: "adiyaman", name: "Adıyaman", plateCode: 2 },
   { slug: "afyonkarahisar", name: "Afyonkarahisar", plateCode: 3 },
   { slug: "agri", name: "Ağrı", plateCode: 4 },
   { slug: "amasya", name: "Amasya", plateCode: 5 },
-  { slug: "ankara", name: "Ankara", plateCode: 6 },
-  { slug: "antalya", name: "Antalya", plateCode: 7 },
+  {
+    slug: "ankara",
+    name: "Ankara",
+    plateCode: 6,
+    intro:
+      "Ankara; Türkiye'nin başkenti ve ülkenin en büyük ikinci tıbbi araştırma ve uzmanlık merkezidir. Hacettepe, Gazi, Ankara Üniversitesi gibi köklü tıp fakülteleri ile özel hastane ağı geniştir.",
+    fullContent:
+      "Ankara, üniversite hastanelerinin yoğunluğu ile Türkiye'nin akademik tıp merkezi konumundadır. Hacettepe Üniversitesi Tıp Fakültesi, Ankara Üniversitesi Tıp Fakültesi ve Gazi Üniversitesi Tıp Fakültesi gibi köklü kurumlar; ileri tedavi gerektiren durumların yönlendirildiği referans merkezler arasındadır.\n\nÖzel hastane sektöründe Medical Park, Acıbadem, Liv Hospital gibi zincirler ile Çankaya ve Ümitköy bölgelerinde yoğunlaşan özel klinikler bulunur. Diş hekimliği, estetik cerrahi, ortopedi ve kardiyoloji öne çıkan alanlardır.\n\nAnkara'da hekim seçerken; çalıştığı kurumun Sağlık Bakanlığı ruhsatlı olması, hekimin Türk Tabipleri Birliği sicil numarasının doğrulanabilmesi ve hekimin ilgili branş uzmanlık derneği üyeliği aranan başlıca güven göstergeleridir.",
+    popularSpecialtySlugs: [
+      "estetik-cerrahi",
+      "dis-hekimligi",
+      "kardiyoloji",
+      "ortopedi-ve-travmatoloji",
+      "kadin-hastaliklari-ve-dogum",
+      "goz-hastaliklari",
+      "dermatoloji",
+      "sac-ekimi",
+    ],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "antalya",
+    name: "Antalya",
+    plateCode: 7,
+    intro:
+      "Antalya; Akdeniz kıyısının en büyük şehri ve aynı zamanda Türkiye'nin sağlık turizmi açısından öne çıkan merkezlerinden biridir.",
+    fullContent:
+      "Antalya, yılda milyonlarca uluslararası ziyaretçiyi ağırlayan kuruluşları, gelişmiş ulaşım altyapısı ve sıcak iklimi ile özellikle diş tedavisi, estetik cerrahi ve saç ekimi alanlarında medical tourism için tercih edilen bir lokasyondur. Muratpaşa, Konyaaltı ve Lara semtleri özel hastane ve klinik yoğunluğunun en yüksek olduğu bölgelerdir.\n\nDiş tedavisi turizmi açısından şehirde yoğun aktivite mevcuttur; All-on-4 ve zirkonyum kaplama gibi uygulamalar uluslararası hastalara yönelik paketler halinde sunulmaktadır. Yurt dışından gelen hastalar için klinik seçiminde TÜRSAB onaylı sağlık turizmi acente bağlantısı ve USHAŞ kapsamındaki kuruluşlarla çalışmak güven sağlar.\n\nBölgenin önde gelen kuruluşları arasında Medical Park Antalya Hastanesi gibi özel hastaneler ile Antalya Eğitim ve Araştırma Hastanesi gibi devlet kuruluşları yer alır.",
+    medicalTourismNote:
+      "Antalya, Türkiye'nin önde gelen medical tourism merkezlerinden biridir. Uluslararası hasta hizmeti veren klinikler için USHAŞ kapsamında çalışmak ve sağlık turizmi yetki belgesi şarttır.",
+    popularSpecialtySlugs: [
+      "dis-hekimligi",
+      "estetik-cerrahi",
+      "sac-ekimi",
+      "goz-hastaliklari",
+      "dermatoloji",
+    ],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
   { slug: "artvin", name: "Artvin", plateCode: 8 },
   { slug: "aydin", name: "Aydın", plateCode: 9 },
   { slug: "balikesir", name: "Balıkesir", plateCode: 10 },
@@ -20,7 +80,23 @@ export const cities: City[] = [
   { slug: "bitlis", name: "Bitlis", plateCode: 13 },
   { slug: "bolu", name: "Bolu", plateCode: 14 },
   { slug: "burdur", name: "Burdur", plateCode: 15 },
-  { slug: "bursa", name: "Bursa", plateCode: 16 },
+  {
+    slug: "bursa",
+    name: "Bursa",
+    plateCode: 16,
+    intro:
+      "Bursa; Marmara Bölgesi'nin en büyük şehirlerinden biri olup Uludağ Üniversitesi Tıp Fakültesi gibi köklü kurumlarla bölgesel sağlık merkezi konumundadır.",
+    popularSpecialtySlugs: [
+      "kardiyoloji",
+      "estetik-cerrahi",
+      "ortopedi-ve-travmatoloji",
+      "kadin-hastaliklari-ve-dogum",
+      "dis-hekimligi",
+    ],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
   { slug: "canakkale", name: "Çanakkale", plateCode: 17 },
   { slug: "cankiri", name: "Çankırı", plateCode: 18 },
   { slug: "corum", name: "Çorum", plateCode: 19 },
@@ -38,8 +114,49 @@ export const cities: City[] = [
   { slug: "hatay", name: "Hatay", plateCode: 31 },
   { slug: "isparta", name: "Isparta", plateCode: 32 },
   { slug: "mersin", name: "Mersin", plateCode: 33 },
-  { slug: "istanbul", name: "İstanbul", plateCode: 34 },
-  { slug: "izmir", name: "İzmir", plateCode: 35 },
+  {
+    slug: "istanbul",
+    name: "İstanbul",
+    plateCode: 34,
+    intro:
+      "İstanbul; Türkiye'nin ekonomik merkezi ve sağlık sektörünün en yoğun olduğu metropolüdür. Avrupa ve Asya yakalarında JCI akredite uluslararası hastaneler, üniversite tıp fakülteleri ve binlerce özel klinik ile global bir sağlık merkezi konumundadır.",
+    fullContent:
+      "İstanbul; saç ekimi, estetik cerrahi, diş tedavisi, göz lazeri ve tüp bebek gibi alanlarda Türkiye'nin uluslararası medical tourism akışının büyük çoğunluğunu çekmektedir. Şehir; JCI akredite Acıbadem, Memorial, Liv Hospital, Medipol, Florence Nightingale, VKV Amerikan Hastanesi gibi büyük zincirlerin ana üslerine ev sahipliği yapar.\n\nÜniversite tıp fakültelerinden Hacettepe ve Çapa Tıp Fakültesi, Cerrahpaşa Tıp Fakültesi ileri seviye tedavi referans noktalarıdır. Şişli, Maslak, Ataşehir ve Kadıköy semtleri özel klinik yoğunluğu en yüksek bölgelerdir; saç ekimi merkezleri özellikle Şişli ve Ataşehir'de yoğunlaşır.\n\nİstanbul'da hekim ve klinik seçerken; JCI veya Temos uluslararası akreditasyonu, Sağlık Bakanlığı ruhsat numarasının açık olarak yer alması, hekimin TTB sicil numarasının doğrulanabilmesi ve uluslararası uzmanlık dernek üyelikleri başlıca güven göstergeleridir.",
+    medicalTourismNote:
+      "İstanbul, dünya genelinde saç ekiminde en fazla hasta çeken şehirlerden biridir. Uluslararası hasta hizmeti veren klinikler için USHAŞ kapsamında çalışma şartı vardır.",
+    popularSpecialtySlugs: [
+      "estetik-cerrahi",
+      "sac-ekimi",
+      "dis-hekimligi",
+      "dermatoloji",
+      "goz-hastaliklari",
+      "kadin-hastaliklari-ve-dogum",
+      "kardiyoloji",
+      "psikoloji",
+    ],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "izmir",
+    name: "İzmir",
+    plateCode: 35,
+    intro:
+      "İzmir; Ege Bölgesi'nin en büyük şehri ve Türkiye'nin üçüncü büyük sağlık merkezidir. Ege Üniversitesi ve Dokuz Eylül Üniversitesi Tıp Fakülteleri ile özel hastane ağı geniştir.",
+    fullContent:
+      "İzmir; özellikle göz hastalıkları, kardiyoloji ve estetik cerrahi alanlarında bölgenin önde gelen merkezidir. Alsancak, Bornova ve Karşıyaka semtleri özel klinik yoğunluğunun en yüksek olduğu bölgelerdir.\n\nKent Hastanesi (JCI akredite), Medical Park ve Özel Sağlık gibi özel hastaneler ile Ege Üniversitesi Hastanesi gibi üniversite kurumları şehrin sağlık altyapısının omurgasını oluşturur.\n\nMedical tourism açısından İzmir; Antalya ve İstanbul'a göre daha küçük bir paya sahip olsa da Yunan adalarına yakınlığı nedeniyle özellikle Avrupa'dan gelen hastalar için pratik bir alternatif konumundadır.",
+    popularSpecialtySlugs: [
+      "estetik-cerrahi",
+      "goz-hastaliklari",
+      "kardiyoloji",
+      "dis-hekimligi",
+      "dermatoloji",
+    ],
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
   { slug: "kars", name: "Kars", plateCode: 36 },
   { slug: "kastamonu", name: "Kastamonu", plateCode: 37 },
   { slug: "kayseri", name: "Kayseri", plateCode: 38 },

@@ -7,6 +7,19 @@ export type City = {
   slug: string;
   name: string;
   plateCode: number;
+
+  /** Şehir hub sayfasında üstte gösterilen kısa giriş. */
+  intro?: string;
+  /** Şehirdeki sağlık altyapısı hakkında uzun-form içerik. */
+  fullContent?: string;
+  /** Bu şehir için medical tourism / yabancı hasta odaklı not (varsa). */
+  medicalTourismNote?: string;
+  /** Şehirde öne çıkan branş slug'ları. */
+  popularSpecialtySlugs?: string[];
+
+  medicalReviewerName?: string;
+  lastReviewedAt?: string;
+  nextReviewDueAt?: string;
 };
 
 export type District = {
