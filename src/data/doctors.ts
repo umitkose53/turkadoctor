@@ -1,6 +1,7 @@
 import type { DoctorSummary } from "./types";
 import { doctorsAdditional } from "./doctors-additional";
 import { doctorsVkv } from "./doctors-vkv";
+import { doctorsAdana } from "./doctors-adana";
 
 /**
  * Day-1 manuel seed doktor verisi.
@@ -818,6 +819,7 @@ export const doctors: DoctorSummary[] = [
   ...doctorsPrimary,
   ...doctorsAdditional,
   ...doctorsVkv,
+  ...doctorsAdana,
 ];
 
 export function findDoctor(slug: string): DoctorSummary | undefined {
