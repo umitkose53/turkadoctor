@@ -2,6 +2,9 @@ import type { DoctorSummary } from "./types";
 import { doctorsAdditional } from "./doctors-additional";
 import { doctorsVkv } from "./doctors-vkv";
 import { doctorsAdana } from "./doctors-adana";
+import { doctorsAcibadem } from "./doctors-acibadem";
+import { doctorsFlorence } from "./doctors-florence";
+import { doctorsAnadolusaglik } from "./doctors-anadolusaglik";
 
 /**
  * Day-1 manuel seed doktor verisi.
@@ -815,12 +818,22 @@ const doctorsPrimary: DoctorSummary[] = [
 ];
 
 // Birleştirilmiş final liste
-export const doctors: DoctorSummary[] = [
+// Dedupe: bazı doktorlar birden fazla kaynakta görünebilir; slug bazlı uniqueness.
+const _all = [
   ...doctorsPrimary,
   ...doctorsAdditional,
   ...doctorsVkv,
   ...doctorsAdana,
+  ...doctorsAcibadem,
+  ...doctorsFlorence,
+  ...doctorsAnadolusaglik,
 ];
+const _seen = new Set<string>();
+export const doctors: DoctorSummary[] = _all.filter((d) => {
+  if (_seen.has(d.slug)) return false;
+  _seen.add(d.slug);
+  return true;
+});
 
 export function findDoctor(slug: string): DoctorSummary | undefined {
   return doctors.find((d) => d.slug === slug);
