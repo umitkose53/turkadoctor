@@ -401,6 +401,96 @@ export const specialties: Specialty[] = [
     description:
       "Sindirim sistemi ve karaciğer hastalıklarının tanı ve tedavisi.",
   },
+  {
+    slug: "anesteziyoloji-ve-reanimasyon",
+    name: "Anesteziyoloji ve Reanimasyon",
+    description:
+      "Cerrahi ve girişimsel işlemlerde anestezi yönetimi ile yoğun bakım hizmetleri.",
+  },
+  {
+    slug: "beyin-ve-sinir-cerrahisi",
+    name: "Beyin ve Sinir Cerrahisi (Nöroşirürji)",
+    description:
+      "Beyin, omurilik ve periferik sinir sistemi hastalıklarının cerrahi tedavisi.",
+  },
+  {
+    slug: "radyoloji",
+    name: "Radyoloji",
+    description:
+      "Görüntüleme yöntemleri (MR, BT, ultrason, mamografi) ile tanı ve görüntüleme rehberliğinde girişimler.",
+  },
+  {
+    slug: "medikal-onkoloji",
+    name: "Medikal Onkoloji",
+    description:
+      "Kanser hastalıklarının tıbbi (kemoterapi, immünoterapi, hedefe yönelik tedavi) tedavisi.",
+  },
+  {
+    slug: "hematoloji",
+    name: "Hematoloji",
+    description:
+      "Kan, kemik iliği ve lenf sistemi hastalıklarının tanı ve tedavisi.",
+  },
+  {
+    slug: "radyasyon-onkolojisi",
+    name: "Radyasyon Onkolojisi",
+    description:
+      "Kanser tedavisinde radyoterapi (ışın tedavisi) uygulamaları.",
+  },
+  {
+    slug: "enfeksiyon-hastaliklari",
+    name: "Enfeksiyon Hastalıkları",
+    description:
+      "Bakteriyel, viral, fungal ve paraziter enfeksiyon hastalıklarının tanı ve tedavisi.",
+  },
+  {
+    slug: "kalp-ve-damar-cerrahisi",
+    name: "Kalp ve Damar Cerrahisi",
+    description:
+      "Kalp ve büyük damar hastalıklarının cerrahi tedavisi (bypass, kapak, anevrizma vb.).",
+  },
+  {
+    slug: "gogus-cerrahisi",
+    name: "Göğüs Cerrahisi",
+    description:
+      "Akciğer, mediasten ve göğüs duvarı hastalıklarının cerrahi tedavisi.",
+  },
+  {
+    slug: "gogus-hastaliklari",
+    name: "Göğüs Hastalıkları",
+    description:
+      "Akciğer ve solunum sistemi hastalıklarının tıbbi tanı ve tedavisi.",
+  },
+  {
+    slug: "cocuk-cerrahisi",
+    name: "Çocuk Cerrahisi",
+    description:
+      "Yenidoğan, bebek, çocuk ve adolesanların cerrahi tedavi gerektiren rahatsızlıkları.",
+  },
+  {
+    slug: "romatoloji",
+    name: "Romatoloji",
+    description:
+      "Eklem, kas ve bağ dokusu hastalıklarının (romatoid artrit, lupus, vaskülitler) tanı ve tedavisi.",
+  },
+  {
+    slug: "nefroloji",
+    name: "Nefroloji",
+    description:
+      "Böbrek hastalıkları, hipertansiyon ve diyaliz süreçlerinin yönetimi.",
+  },
+  {
+    slug: "aile-hekimligi",
+    name: "Aile Hekimliği",
+    description:
+      "Birinci basamak sağlık hizmeti: koruyucu hekimlik, takip ve genel tanı.",
+  },
+  {
+    slug: "acil-tip",
+    name: "Acil Tıp",
+    description:
+      "Acil sağlık durumlarının ilk değerlendirme ve müdahale süreçleri.",
+  },
 ];
 
 export function findSpecialty(slug: string): Specialty | undefined {
