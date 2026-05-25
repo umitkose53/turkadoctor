@@ -8,6 +8,7 @@ import { doctorsAnadolusaglik } from "./doctors-anadolusaglik";
 import { doctorsMedicana } from "./doctors-medicana";
 import { doctorsMp } from "./doctors-mp";
 import { doctorsMemorial } from "./doctors-memorial";
+import { doctorsCukurova } from "./doctors-cukurova";
 
 /**
  * Day-1 manuel seed doktor verisi.
@@ -833,6 +834,7 @@ const _all = [
   ...doctorsMedicana,
   ...doctorsMp,
   ...doctorsMemorial,
+  ...doctorsCukurova,
 ];
 const _seen = new Set<string>();
 export const doctors: DoctorSummary[] = _all.filter((d) => {
