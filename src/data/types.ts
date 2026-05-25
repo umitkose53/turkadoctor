@@ -28,6 +28,27 @@ export type District = {
   citySlug: string;
 };
 
+/**
+ * Blog yazısı (Article / MedicalWebPage).
+ * Article schema'ya direkt eşlenir; FAQPage ek olarak üretilebilir.
+ */
+export type BlogPost = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  bodyMd: string; // Markdown
+  heroImageUrl?: string;
+  heroImageAlt?: string;
+  authorName: string;
+  medicalReviewerName?: string;
+  publishedAt: string; // ISO
+  lastReviewedAt?: string;
+  nextReviewDueAt?: string;
+  relatedProcedureSlugs?: string[];
+  relatedSpecialtySlugs?: string[];
+  sources?: ProcedureSource[];
+};
+
 export type Specialty = {
   slug: string;
   name: string;
@@ -173,3 +194,4 @@ export type DoctorSummary = {
   memberships?: string[];
   signals: ReviewSignal[];
 };
+
