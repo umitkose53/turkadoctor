@@ -11,6 +11,7 @@ import {
   clinicsByCity,
   sortAlphabetical,
 } from "@/data";
+import { dtDoctorsByCity } from "@/data/dt-doctors";
 
 import { DoctorCard } from "@/components/listing/DoctorCard";
 import { ClinicCard } from "@/components/listing/ClinicCard";
@@ -48,7 +49,10 @@ export async function generateMetadata({
   const city = findCity(sehir);
   if (!city) return {};
 
-  const total = doctorsByCity(city.slug).length + clinicsByCity(city.slug).length;
+  const total =
+    doctorsByCity(city.slug).length +
+    dtDoctorsByCity(city.slug).length +
+    clinicsByCity(city.slug).length;
 
   return buildMetadata({
     title: cityTitle(city.name),
@@ -69,7 +73,11 @@ export default async function CityHubPage({
   const city = findCity(sehir);
   if (!city) notFound();
 
-  const cityDoctors = doctorsByCity(city.slug);
+  const curatedDoctors = doctorsByCity(city.slug);
+  const dtDoctors = dtDoctorsByCity(city.slug);
+  const seenSlugs = new Set(curatedDoctors.map((d) => d.slug));
+  const dtUniq = dtDoctors.filter((d) => !seenSlugs.has(d.slug));
+  const cityDoctors = [...curatedDoctors, ...dtUniq];
   const cityClinics = clinicsByCity(city.slug);
 
   const branchBreakdown = specialties

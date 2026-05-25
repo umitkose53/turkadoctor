@@ -7,18 +7,48 @@ import {
   doctors,
   clinics,
 } from "@/data";
+import { allDtDoctorSlugs } from "@/data/dt-doctors";
 import { SITE_URL } from "@/lib/seo/title";
 
 /**
- * Dinamik sitemap üretimi. Şu anda manuel seed verisinden besleniyor;
- * DB geldiğinde aynı yapı Drizzle sorgusuyla beslenecek.
+ * Sharded sitemap (Google 50.000 URL / dosya limiti). Shard 0 = curated içerik
+ * (statik sayfalar, şehir, branş, klinik, kombinasyon, curated doktorlar).
+ * Shard 1..N = Doctortakvimi havuzundaki ~160K hekim, slug bazlı bölünmüş.
  *
- * Doorway koruma: liste sayfasında <5 listing varsa robots `noindex` koyduğumuz
- * için sitemap'te de göstermiyoruz.
+ * Next.js her shard'ı `/sitemap/<id>.xml` olarak üretir; `/sitemap.xml` ise
+ * sitemapindex.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+
+const DT_SHARD_SIZE = 40_000;
+
+export async function generateSitemaps(): Promise<{ id: number }[]> {
+  const dtSlugCount = allDtDoctorSlugs().length;
+  const dtShards = Math.ceil(dtSlugCount / DT_SHARD_SIZE);
+  // 0 = curated, 1..dtShards = DT
+  return Array.from({ length: 1 + dtShards }, (_, i) => ({ id: i }));
+}
+
+export default function sitemap({
+  id,
+}: {
+  id: number;
+}): MetadataRoute.Sitemap {
   const now = new Date();
 
+  if (id === 0) return curatedSitemap(now);
+
+  const dtSlugs = allDtDoctorSlugs();
+  const start = (id - 1) * DT_SHARD_SIZE;
+  const slice = dtSlugs.slice(start, start + DT_SHARD_SIZE);
+  return slice.map((slug) => ({
+    url: `${SITE_URL}/doktor/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  }));
+}
+
+function curatedSitemap(now: Date): MetadataRoute.Sitemap {
   const staticPaths: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "daily", priority: 1.0 },
     { url: `${SITE_URL}/branslar`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
@@ -48,7 +78,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // şehir × branş kombinasyonları
   const cityBranchPaths: MetadataRoute.Sitemap = [];
   for (const c of cities) {
     for (const s of specialties) {
@@ -61,7 +90,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
           (cl) =>
             cl.citySlug === c.slug && cl.specialties.includes(s.slug),
         );
-      // Doorway koruma — listing yoksa sitemap'te gösterme
       if (!hasContent) continue;
       cityBranchPaths.push({
         url: `${SITE_URL}/${c.slug}/${s.slug}`,

@@ -12,6 +12,7 @@ import {
   doctorsBySpecialty,
   sortAlphabetical,
 } from "@/data";
+import { findDtDoctor, dtDoctorsByCityAndSpecialty } from "@/data/dt-doctors";
 
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { Badge } from "@/components/ui/badge";
@@ -33,9 +34,16 @@ import { formatTrDate } from "@/lib/utils";
 
 type RouteParams = { slug: string };
 
+/**
+ * Sadece curated doktorları statik üret. DT havuzundaki ~160K doktor için
+ * Next.js'in dynamicParams (default: true) özelliği on-demand SSG yapacak —
+ * ilk ziyarette üretilip cache'lenir.
+ */
 export async function generateStaticParams(): Promise<RouteParams[]> {
   return doctors.map((d) => ({ slug: d.slug }));
 }
+
+export const dynamicParams = true;
 
 export async function generateMetadata({
   params,
@@ -43,7 +51,7 @@ export async function generateMetadata({
   params: Promise<RouteParams>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const doctor = findDoctor(slug);
+  const doctor = findDoctor(slug) ?? findDtDoctor(slug);
   if (!doctor) return {};
 
   const sp = findSpecialty(doctor.specialtySlugs[0])?.name ?? "Hekim";
@@ -70,8 +78,10 @@ export default async function DoctorPage({
   params: Promise<RouteParams>;
 }) {
   const { slug } = await params;
-  const doctor = findDoctor(slug);
+  const curated = findDoctor(slug);
+  const doctor = curated ?? findDtDoctor(slug);
   if (!doctor) notFound();
+  const isDtSource = !curated;
 
   const primarySpecialty = findSpecialty(doctor.specialtySlugs[0]);
   const otherSpecialties = doctor.specialtySlugs
@@ -90,7 +100,7 @@ export default async function DoctorPage({
     .filter((p) => p !== undefined);
   const visibleSignals = doctor.signals.filter((s) => s.visible);
 
-  // Aynı klinikteki diğer hekimler (max 6)
+  // Aynı klinikteki diğer hekimler (max 6) — sadece curated
   const sameClinic = primaryClinic
     ? sortAlphabetical(
         doctors.filter(
@@ -101,16 +111,28 @@ export default async function DoctorPage({
       ).slice(0, 6)
     : [];
 
-  // Benzer hekimler (aynı branş + aynı şehir)
+  // Benzer hekimler (aynı branş + aynı şehir) — curated + DT havuzu birleşik
   const similar = primarySpecialty
-    ? sortAlphabetical(
-        doctorsBySpecialty(primarySpecialty.slug).filter(
+    ? (() => {
+        const curatedSimilar = doctorsBySpecialty(primarySpecialty.slug).filter(
           (d) =>
             d.slug !== doctor.slug &&
             d.citySlug === doctor.citySlug &&
             !sameClinic.some((s) => s.slug === d.slug),
-        ),
-      ).slice(0, 6)
+        );
+        const dtSimilar = dtDoctorsByCityAndSpecialty(
+          doctor.citySlug,
+          primarySpecialty.slug,
+        ).filter((d) => d.slug !== doctor.slug);
+        const merged = [...curatedSimilar];
+        const seen = new Set(merged.map((d) => d.slug));
+        for (const d of dtSimilar) {
+          if (seen.has(d.slug)) continue;
+          merged.push(d);
+          if (merged.length >= 12) break;
+        }
+        return sortAlphabetical(merged).slice(0, 6);
+      })()
     : [];
 
   const bc = breadcrumb([
@@ -256,6 +278,26 @@ export default async function DoctorPage({
           </div>
         </div>
       </header>
+
+      {isDtSource ? (
+        <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+          <p className="font-semibold">ℹ️ Bu profil sınırlı bilgiyle listeleniyor</p>
+          <p className="mt-1 leading-relaxed">
+            {doctor.titlePrefix ?? "Dr."} {doctor.fullName} kayıtlı uzman olarak{" "}
+            <strong>{primarySpecialty?.name ?? "—"}</strong> branşında
+            {city ? ` ${city.name} bölgesinde` : ""} hizmet vermektedir. Detaylı
+            CV, eğitim ve klinik bilgisi henüz doğrulanmamıştır. Hekim veya yetkilisi
+            iseniz profili tamamlamak için{" "}
+            <Link
+              href="/profili-duzelt"
+              className="font-medium underline underline-offset-2"
+            >
+              profili düzelt
+            </Link>
+            {" "}sayfasından bize ulaşabilirsiniz.
+          </p>
+        </div>
+      ) : null}
 
       {/* İçindekiler */}
       <nav

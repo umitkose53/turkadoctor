@@ -11,6 +11,7 @@ import {
   clinicsByCityAndSpecialty,
   sortAlphabetical,
 } from "@/data";
+import { dtDoctorsByCityAndSpecialty } from "@/data/dt-doctors";
 
 import { DoctorCard } from "@/components/listing/DoctorCard";
 import { ClinicCard } from "@/components/listing/ClinicCard";
@@ -53,7 +54,9 @@ export async function generateMetadata({
   const sp = findSpecialty(bransh);
   if (!city || !sp) return {};
 
-  const doctorCount = doctorsByCityAndSpecialty(city.slug, sp.slug).length;
+  const doctorCount =
+    doctorsByCityAndSpecialty(city.slug, sp.slug).length +
+    dtDoctorsByCityAndSpecialty(city.slug, sp.slug).length;
   const clinicCount = clinicsByCityAndSpecialty(city.slug, sp.slug).length;
   const total = doctorCount + clinicCount;
 
@@ -80,9 +83,12 @@ export default async function CityBranchPage({
   const sp = findSpecialty(bransh);
   if (!city || !sp) notFound();
 
-  const doctors = sortAlphabetical(
-    doctorsByCityAndSpecialty(city.slug, sp.slug),
-  );
+  // Curated + DT havuzu — curated başa, dedupe slug bazlı
+  const curatedDoctors = doctorsByCityAndSpecialty(city.slug, sp.slug);
+  const dtDoctors = dtDoctorsByCityAndSpecialty(city.slug, sp.slug);
+  const seenSlugs = new Set(curatedDoctors.map((d) => d.slug));
+  const dtUniq = dtDoctors.filter((d) => !seenSlugs.has(d.slug));
+  const doctors = sortAlphabetical([...curatedDoctors, ...dtUniq]);
   const clinics = sortAlphabetical(
     clinicsByCityAndSpecialty(city.slug, sp.slug),
   );

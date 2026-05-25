@@ -11,6 +11,7 @@ import {
   sortAlphabetical,
   findProcedure,
 } from "@/data";
+import { dtDoctorsBySpecialty } from "@/data/dt-doctors";
 
 import { DoctorCard } from "@/components/listing/DoctorCard";
 import { ClinicCard } from "@/components/listing/ClinicCard";
@@ -49,7 +50,9 @@ export async function generateMetadata({
   const sp = findSpecialty(bransh);
   if (!sp) return {};
   const total =
-    doctorsBySpecialty(sp.slug).length + clinicsBySpecialty(sp.slug).length;
+    doctorsBySpecialty(sp.slug).length +
+    dtDoctorsBySpecialty(sp.slug).length +
+    clinicsBySpecialty(sp.slug).length;
   return buildMetadata({
     title: branchTitle(sp.name),
     description:
@@ -70,7 +73,11 @@ export default async function BranchHubPage({
   const sp = findSpecialty(bransh);
   if (!sp) notFound();
 
-  const docs = sortAlphabetical(doctorsBySpecialty(sp.slug));
+  const curatedDocs = doctorsBySpecialty(sp.slug);
+  const dtDocs = dtDoctorsBySpecialty(sp.slug);
+  const seenSlugs = new Set(curatedDocs.map((d) => d.slug));
+  const dtUniq = dtDocs.filter((d) => !seenSlugs.has(d.slug));
+  const docs = sortAlphabetical([...curatedDocs, ...dtUniq]);
   const cls = sortAlphabetical(clinicsBySpecialty(sp.slug));
   const total = docs.length + cls.length;
 
