@@ -20646,7 +20646,7 @@ export const doctorsMp: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-rifat-kayis-mp",
-    "fullName": "MEHMET RIFAT KAYIŞ",
+    "fullName": "Mehmet Rıfat Kayış",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -21750,7 +21750,7 @@ export const doctorsMp: DoctorSummary[] = [
   },
   {
     "slug": "mervenur-gulsen-mp",
-    "fullName": "MERVENUR GÜLŞEN",
+    "fullName": "Mervenur Gülşen",
     "titlePrefix": "Dyt.",
     "specialtySlugs": [
       "diyetisyen"
@@ -33570,7 +33570,7 @@ export const doctorsMp: DoctorSummary[] = [
   },
   {
     "slug": "ugur-tolga-sen-mp",
-    "fullName": "UĞUR TOLGA ŞEN",
+    "fullName": "Uğur Tolga Şen",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "uroloji"

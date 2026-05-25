@@ -8,8 +8,8 @@ import type { DoctorSummary } from "./types";
 export const doctorsAcibadem: DoctorSummary[] = [
   {
     "slug": "a-erdem-kilavuz-acibadem",
-    "fullName": "Profesör Doktor A. Erdem Kılavuz",
-    "titlePrefix": "Dr.",
+    "fullName": "A. Erdem Kılavuz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -29,7 +29,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "a-sercan-soyarslan-acibadem",
-    "fullName": "Fizyoterapist A.sercan Soyarslan",
+    "fullName": "Fizyoterapist A. sercan Soyarslan",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
@@ -50,8 +50,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "a-sibel-erdamar-cetin-acibadem",
-    "fullName": "Profesör Doktor A.sibel Erdamar Çetin",
-    "titlePrefix": "Dr.",
+    "fullName": "A. sibel Erdamar Çetin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -153,8 +153,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "abdullah-buyukcelik-acibadem",
-    "fullName": "Profesör Doktor Abdullah Büyükçelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Abdullah Büyükçelik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -216,8 +216,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "abdullah-igci-acibadem",
-    "fullName": "Profesör Doktor Abdullah İğci",
-    "titlePrefix": "Dr.",
+    "fullName": "Abdullah İğci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -279,8 +279,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "abdullah-zorluoglu-acibadem",
-    "fullName": "Profesör Doktor Abdullah Zorluoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Abdullah Zorluoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -384,8 +384,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "abulent-oktay-acibadem",
-    "fullName": "Profesör Doktor A. Bülent Oktay",
-    "titlePrefix": "Dr.",
+    "fullName": "A. Bülent Oktay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -445,8 +445,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "adnan-batman-acibadem",
-    "fullName": "Doçent Doktor Adnan Batman (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Adnan Batman",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -487,8 +487,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "afag-aghayeva-acibadem",
-    "fullName": "Doçent Doktor Afag Aghayeva",
-    "titlePrefix": "Dr.",
+    "fullName": "Afag Aghayeva",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -508,8 +508,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "agop-citak-acibadem",
-    "fullName": "Profesör Doktor Agop Çıtak",
-    "titlePrefix": "Dr.",
+    "fullName": "Agop Çıtak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -530,8 +530,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-akyol-acibadem",
-    "fullName": "Profesör Doktor Ahmet Akyol",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Akyol",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -572,8 +572,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-alanay-acibadem",
-    "fullName": "Profesör Doktor Ahmet Alanay",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Alanay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -636,8 +636,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-arnaz-acibadem",
-    "fullName": "Profesör Doktor Ahmet Arnaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Arnaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -699,8 +699,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-cem-batukan-acibadem",
-    "fullName": "Profesör Doktor Ahmet Cem Batukan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Cem Batukan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -844,8 +844,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-ifran-acibadem",
-    "fullName": "Doçent Doktor Ahmet Ifran",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Ifran",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -866,8 +866,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-karabulut-acibadem",
-    "fullName": "Profesör Doktor Ahmet Karabulut",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Karabulut",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -887,8 +887,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-karaman-acibadem",
-    "fullName": "Profesör Doktor Ahmet Karaman",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Karaman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -908,8 +908,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-kaya-bilge-acibadem",
-    "fullName": "Profesör Doktor Ahmet Kaya Bilge",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Kaya Bilge",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -950,8 +950,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-keskinoglu-acibadem",
-    "fullName": "Profesör Doktor Ahmet Keskinoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Keskinoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -969,8 +969,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-koc-acibadem",
-    "fullName": "Profesör Doktor Ahmet Koç",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Koç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -1011,8 +1011,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-kucukcelebi-acibadem",
-    "fullName": "Doçent Doktor Ahmet Küçükçelebi",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Küçükçelebi",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
     ],
@@ -1053,8 +1053,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-oytun-baykan-acibadem",
-    "fullName": "Profesör Doktor Ahmet Oytun Baykan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Oytun Baykan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -1074,8 +1074,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-ozturk-acibadem",
-    "fullName": "Profesör Doktor Ahmet Öztürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Öztürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -1095,8 +1095,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-ozveren-acibadem",
-    "fullName": "Doçent Doktor Ahmet Özveren",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Özveren",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -1137,8 +1137,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-tayyar-acibadem",
-    "fullName": "Profesör Doktor Ahmet Tayyar",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Tayyar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -1179,8 +1179,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-tulga-ulus-acibadem",
-    "fullName": "Profesör Doktor Ahmet Tulga Ulus",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Tulga Ulus",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -1200,8 +1200,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-umit-gullu-acibadem",
-    "fullName": "Profesör Doktor Ahmet Ümit Güllü",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Ümit Güllü",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -1221,8 +1221,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-yesilyurt-acibadem",
-    "fullName": "Doçent Doktor Ahmet Yeşilyurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Yeşilyurt",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -1241,8 +1241,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ahmet-ziya-yazgan-acibadem",
-    "fullName": "Diş Hekimi Ahmet Ziya Yazgan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ahmet Ziya Yazgan",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -1283,8 +1283,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "akif-aydin-sen-acibadem",
-    "fullName": "Diş Hekimi Akif Aydın Şen",
-    "titlePrefix": "Dr.",
+    "fullName": "Akif Aydın Şen",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -1304,8 +1304,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "akif-enes-arikan-acibadem",
-    "fullName": "Doçent Doktor A. Enes Arıkan",
-    "titlePrefix": "Dr.",
+    "fullName": "A. Enes Arıkan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -1407,8 +1407,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alara-guler-acibadem",
-    "fullName": "Diş Hekimi Alara Güler",
-    "titlePrefix": "Dr.",
+    "fullName": "Alara Güler",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -1428,8 +1428,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alara-naz-kenir-acibadem",
-    "fullName": "Diş Hekimi Alara Naz Kenir Çelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Alara Naz Kenir Çelik",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -1449,8 +1449,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aleks-degirmencioglu-acibadem",
-    "fullName": "Profesör Doktor Aleks Değirmencioğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Aleks Değirmencioğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -1489,8 +1489,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alev-gurgun-acibadem",
-    "fullName": "Profesör Doktor Alev Gürgün",
-    "titlePrefix": "Dr.",
+    "fullName": "Alev Gürgün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -1510,8 +1510,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-akyuz-acibadem",
-    "fullName": "Profesör Doktor Ali Akyüz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Akyüz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -1552,8 +1552,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-arican-acibadem",
-    "fullName": "Profesör Doktor Ali Arıcan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Arıcan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -1594,8 +1594,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-aydinlar-acibadem",
-    "fullName": "Profesör Doktor Ali Aydınlar",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Aydınlar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -1615,8 +1615,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-bulent-antmen-acibadem",
-    "fullName": "Profesör Doktor Ali Bülent Antmen",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Bülent Antmen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -1697,8 +1697,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-erhan-kayalar-acibadem",
-    "fullName": "Doçent Doktor Ali Erhan Kayalar",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Erhan Kayalar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -1760,8 +1760,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-harman-acibadem",
-    "fullName": "Doçent Doktor Ali Harman",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Harman",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -1802,8 +1802,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-kurtsoy-acibadem",
-    "fullName": "Profesör Doktor Ali Kurtsoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Kurtsoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -1886,8 +1886,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-ozer-acibadem",
-    "fullName": "Doçent Doktor Ali Özer",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Özer",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -1905,8 +1905,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-riza-kural-acibadem",
-    "fullName": "Profesör Doktor Ali Rıza Kural",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Rıza Kural",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -1926,8 +1926,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-sahin-2-acibadem",
-    "fullName": "Doçent Doktor Ali Şahin",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Şahin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -2010,8 +2010,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-tekin-acibadem",
-    "fullName": "Profesör Doktor Ali Tekin",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Tekin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -2031,8 +2031,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ali-titiz-acibadem",
-    "fullName": "Doçent Doktor Ali Titiz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ali Titiz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -2134,8 +2134,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alp-demireller-acibadem",
-    "fullName": "Profesör Doktor Alp Demireller",
-    "titlePrefix": "Dr.",
+    "fullName": "Alp Demireller",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -2155,8 +2155,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alp-dincer-acibadem",
-    "fullName": "Profesör Doktor Alp Dinçer",
-    "titlePrefix": "Dr.",
+    "fullName": "Alp Dinçer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -2197,8 +2197,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alp-yentur-acibadem",
-    "fullName": "Profesör Doktor Alp Yentür",
-    "titlePrefix": "Dr.",
+    "fullName": "Alp Yentür",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -2240,8 +2240,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alpay-medetalibeyoglu-acibadem",
-    "fullName": "Doçent Doktor Alpay Medetalibeyoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Alpay Medetalibeyoğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -2261,8 +2261,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alpay-yilmaz-acibadem",
-    "fullName": "Doçent Doktor Alpay Yılmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Alpay Yılmaz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -2322,8 +2322,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alper-celal-akcan-acibadem",
-    "fullName": "Profesör Doktor Alper Celal Akcan",
-    "titlePrefix": "Dr.",
+    "fullName": "Alper Celal Akcan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -2343,8 +2343,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alper-eken-acibadem",
-    "fullName": "Doçent Doktor Alper Eken",
-    "titlePrefix": "Dr.",
+    "fullName": "Alper Eken",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -2364,8 +2364,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alper-findikcioglu-acibadem",
-    "fullName": "Profesör Doktor Alper Fındıkcıoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Alper Fındıkcıoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
     ],
@@ -2406,8 +2406,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alper-karakus-acibadem",
-    "fullName": "Doçent Doktor Alper Karakuş",
-    "titlePrefix": "Dr.",
+    "fullName": "Alper Karakuş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -2427,8 +2427,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alper-kaya-acibadem",
-    "fullName": "Profesör Doktor Alper Kaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Alper Kaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -2490,8 +2490,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "alper-ozkan-acibadem",
-    "fullName": "Profesör Doktor Alper Özkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Alper Özkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -2617,8 +2617,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "altan-goktas-acibadem",
-    "fullName": "Profesör Doktor Altan Göktaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Altan Göktaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -2638,8 +2638,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "altay-beduk-acibadem",
-    "fullName": "Profesör Doktor Altay Bedük",
-    "titlePrefix": "Dr.",
+    "fullName": "Altay Bedük",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -2701,8 +2701,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "altug-yucekul-acibadem",
-    "fullName": "Doçent Doktor Altuğ Yücekul",
-    "titlePrefix": "Dr.",
+    "fullName": "Altuğ Yücekul",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -2722,8 +2722,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "andac-salman-acibadem",
-    "fullName": "Profesör Doktor Andaç Salman",
-    "titlePrefix": "Dr.",
+    "fullName": "Andaç Salman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -2743,8 +2743,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "anil-ayvat-acibadem",
-    "fullName": "Diş Hekimi Anıl Ayvat",
-    "titlePrefix": "Dr.",
+    "fullName": "Anıl Ayvat",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -2828,8 +2828,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "anil-yavuzyilmaz-acibadem",
-    "fullName": "Diş Hekimi Anıl Yavuzyılmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Anıl Yavuzyılmaz",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -2849,8 +2849,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ant-uzay-acibadem",
-    "fullName": "Doçent Doktor Ant Uzay",
-    "titlePrefix": "Dr.",
+    "fullName": "Ant Uzay",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -2891,8 +2891,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "arel-gereli-acibadem",
-    "fullName": "Profesör Doktor Arel Gereli",
-    "titlePrefix": "Dr.",
+    "fullName": "Arel Gereli",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -2955,8 +2955,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "arzu-akcay-2-acibadem",
-    "fullName": "Profesör Doktor Arzu Akçay",
-    "titlePrefix": "Dr.",
+    "fullName": "Arzu Akçay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -3039,8 +3039,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "arzu-erturk-acibadem",
-    "fullName": "Profesör Doktor Arzu Ertürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Arzu Ertürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -3121,8 +3121,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "arzu-tatlipinar-acibadem",
-    "fullName": "Profesör Doktor Arzu Tatlıpınar",
-    "titlePrefix": "Dr.",
+    "fullName": "Arzu Tatlıpınar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -3142,8 +3142,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "arzu-tiftikci-acibadem",
-    "fullName": "Profesör Doktor Arzu Tiftikçi",
-    "titlePrefix": "Dr.",
+    "fullName": "Arzu Tiftikçi",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -3163,8 +3163,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "arzu-yurci-acibadem",
-    "fullName": "Doçent Doktor Arzu Yurci",
-    "titlePrefix": "Dr.",
+    "fullName": "Arzu Yurci",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -3226,8 +3226,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "asim-kaytaz-acibadem",
-    "fullName": "Profesör Doktor Asım Kaytaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Asım Kaytaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -3310,8 +3310,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "asli-aslan-acibadem",
-    "fullName": "Profesör Doktor Aslı Aslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Aslı Aslan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -3435,8 +3435,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aslihan-demirel-acibadem",
-    "fullName": "Doçent Doktor Aslıhan Demirel",
-    "titlePrefix": "Dr.",
+    "fullName": "Aslıhan Demirel",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -3498,8 +3498,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ata-can-atalar-acibadem",
-    "fullName": "Profesör Doktor Ata Can Atalar",
-    "titlePrefix": "Dr.",
+    "fullName": "Ata Can Atalar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -3519,8 +3519,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ata-can-acibadem",
-    "fullName": "Doçent Doktor Ata Can",
-    "titlePrefix": "Dr.",
+    "fullName": "Ata Can",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -3540,8 +3540,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "atakan-yesil-acibadem",
-    "fullName": "Profesör Doktor Atakan Yeşil",
-    "titlePrefix": "Dr.",
+    "fullName": "Atakan Yeşil",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji",
       "ic-hastaliklari"
@@ -3562,8 +3562,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ataner-usta-acibadem",
-    "fullName": "Profesör Doktor A. Taner Usta",
-    "titlePrefix": "Dr.",
+    "fullName": "A. Taner Usta",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -3752,8 +3752,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayca-ersen-danyeli-acibadem",
-    "fullName": "Profesör Doktor Ayça Erşen Danyeli",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayça Erşen Danyeli",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -3792,8 +3792,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayca-ozbal-koc-acibadem",
-    "fullName": "Profesör Doktor Ayça Özbal Koç (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayça Özbal Koç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -4024,8 +4024,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayhan-askin-acibadem",
-    "fullName": "Profesör Doktor Ayhan Aşkın",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayhan Aşkın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -4045,8 +4045,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayhan-cevik-acibadem",
-    "fullName": "Profesör Doktor Ayhan Çevik",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayhan Çevik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -4064,8 +4064,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayhan-gulsan-sucak-acibadem",
-    "fullName": "Profesör Doktor Gülsan Sucak",
-    "titlePrefix": "Dr.",
+    "fullName": "Gülsan Sucak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -4127,8 +4127,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aykut-soyder-acibadem",
-    "fullName": "Profesör Doktor Aykut Soyder",
-    "titlePrefix": "Dr.",
+    "fullName": "Aykut Soyder",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -4231,8 +4231,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aylin-altan-kus-acibadem",
-    "fullName": "Doçent Doktor Aylin Altan Kuş",
-    "titlePrefix": "Dr.",
+    "fullName": "Aylin Altan Kuş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -4315,8 +4315,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aylin-onder-dirican-acibadem",
-    "fullName": "Doçent Doktor Aylin Önder Dirican",
-    "titlePrefix": "Dr.",
+    "fullName": "Aylin Önder Dirican",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -4462,8 +4462,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-ebru-kilavuzoglu-acibadem",
-    "fullName": "Doçent Doktor Ayşe Ebru Bahadır",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe Ebru Bahadır",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -4546,8 +4546,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-ileyda-konya-acibadem",
-    "fullName": "Diş Hekimi Ayşe İleyda Konya",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe İleyda Konya",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -4588,8 +4588,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-korkmaz-toygar-acibadem",
-    "fullName": "Profesör Doktor Ayşe Korkmaz Toygar",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe Korkmaz Toygar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -4607,7 +4607,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-nur-gumus-acibadem",
-    "fullName": "Ayşe Nur Gümüş (m)",
+    "fullName": "Ayşe Nur Gümüş",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
@@ -4670,8 +4670,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-sagduyu-kocaman-acibadem",
-    "fullName": "Profesör Doktor Ayşe Sağduyu Kocaman",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe Sağduyu Kocaman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -4691,8 +4691,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-sarioglu-acibadem",
-    "fullName": "Profesör Doktor Ayşe Sarıoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe Sarıoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -4731,8 +4731,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-sesin-kocagoz-acibadem",
-    "fullName": "Profesör Doktor Ayşe Sesin Kocagöz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe Sesin Kocagöz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -4774,8 +4774,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-tulin-tuglular-acibadem",
-    "fullName": "Profesör Doktor Tülin Tuğlular",
-    "titlePrefix": "Dr.",
+    "fullName": "Tülin Tuğlular",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -4796,8 +4796,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayse-yenigun-acibadem",
-    "fullName": "Profesör Doktor Ayşe Yenigün",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe Yenigün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -4836,8 +4836,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aysegul-coskun-acibadem",
-    "fullName": "Diş Hekimi Ayşegül Coşkun",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşegül Coşkun",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -4899,8 +4899,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aysen-timuragaoglu-acibadem",
-    "fullName": "Profesör Doktor Ayşen Timurağaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşen Timurağaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -4960,8 +4960,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aysenur-meric-hafiz-acibadem",
-    "fullName": "Profesör Doktor Ayşenur Meriç Hafız",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşenur Meriç Hafız",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -4981,8 +4981,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aysenur-ozderya-acibadem",
-    "fullName": "Doçent Doktor Ayşenur Özderya",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşenur Özderya",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -5044,8 +5044,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aysun-isiklar-acibadem",
-    "fullName": "Doçent Doktor Aysun Işıklar",
-    "titlePrefix": "Dr.",
+    "fullName": "Aysun Işıklar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -5147,8 +5147,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ayten-ferahbas-kesikoglu-acibadem",
-    "fullName": "Profesör Doktor Ayten Ferahbaş Kesikoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayten Ferahbaş Kesikoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -5189,8 +5189,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aziz-kaya-alturfan-acibadem",
-    "fullName": "Profesör Doktor Aziz Kaya Alturfan",
-    "titlePrefix": "Dr.",
+    "fullName": "Aziz Kaya Alturfan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -5231,8 +5231,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aziz-polat-acibadem",
-    "fullName": "Profesör Doktor Aziz Polat",
-    "titlePrefix": "Dr.",
+    "fullName": "Aziz Polat",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -5252,8 +5252,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aziz-sumer-acibadem",
-    "fullName": "Profesör Doktor Aziz Sümer (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Aziz Sümer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -5273,8 +5273,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "aziz-yazar-acibadem",
-    "fullName": "Profesör Doktor Aziz Yazar",
-    "titlePrefix": "Dr.",
+    "fullName": "Aziz Yazar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -5357,8 +5357,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bahadir-osman-bozkirli-acibadem",
-    "fullName": "Doçent Doktor Bahadır Osman Bozkırlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Bahadır Osman Bozkırlı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -5378,8 +5378,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bahadir-topuz-acibadem",
-    "fullName": "Doçent Doktor Bahadır Topuz",
-    "titlePrefix": "Dr.",
+    "fullName": "Bahadır Topuz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -5420,8 +5420,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bahar-artim-esen-acibadem",
-    "fullName": "Profesör Doktor Bahar Artım Esen",
-    "titlePrefix": "Dr.",
+    "fullName": "Bahar Artım Esen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "romatoloji"
     ],
@@ -5462,8 +5462,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bahar-ozcabi-acibadem",
-    "fullName": "Doçent Doktor Bahar Özcabı",
-    "titlePrefix": "Dr.",
+    "fullName": "Bahar Özcabı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -5505,8 +5505,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bahar-sevimli-dikicier-acibadem",
-    "fullName": "Doçent Doktor Bahar Sevimli Dikicier",
-    "titlePrefix": "Dr.",
+    "fullName": "Bahar Sevimli Dikicier",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -5526,8 +5526,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bahattin-cicek-acibadem",
-    "fullName": "Profesör Doktor Bahattin Çiçek",
-    "titlePrefix": "Dr.",
+    "fullName": "Bahattin Çiçek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -5547,8 +5547,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bahattin-tanrikulu-acibadem",
-    "fullName": "Profesör Doktor Bahattin Tanrıkulu",
-    "titlePrefix": "Dr.",
+    "fullName": "Bahattin Tanrıkulu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -5589,8 +5589,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baki-adapinar-acibadem",
-    "fullName": "Profesör Doktor Baki Adapınar",
-    "titlePrefix": "Dr.",
+    "fullName": "Baki Adapınar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -5610,8 +5610,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baki-erdem-acibadem",
-    "fullName": "Profesör Doktor Baki Erdem (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Baki Erdem",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -5631,8 +5631,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "banu-cosar-acibadem",
-    "fullName": "Profesör Doktor Banu Coşar",
-    "titlePrefix": "Dr.",
+    "fullName": "Banu Coşar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -5652,8 +5652,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "banu-lebe-acibadem",
-    "fullName": "Profesör Doktor Banu Lebe",
-    "titlePrefix": "Dr.",
+    "fullName": "Banu Lebe",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -5711,8 +5711,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baran-bozkurt-acibadem",
-    "fullName": "Profesör Doktor Baran Bozkurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Baran Bozkurt",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -5732,8 +5732,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baran-cengiz-arcagok-acibadem",
-    "fullName": "Doçent Doktor Baran Cengiz Arcagök",
-    "titlePrefix": "Dr.",
+    "fullName": "Baran Cengiz Arcagök",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -5816,8 +5816,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baris-gorgun-acibadem",
-    "fullName": "Doçent Doktor Barış Görgün",
-    "titlePrefix": "Dr.",
+    "fullName": "Barış Görgün",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -5837,8 +5837,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baris-kilicaslan-acibadem",
-    "fullName": "Profesör Doktor Barış Kılıçaslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Barış Kılıçaslan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -5858,8 +5858,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baris-kocaoglu-acibadem",
-    "fullName": "Profesör Doktor Barış Kocaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Barış Kocaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -5963,8 +5963,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "basak-oyan-uluc-acibadem",
-    "fullName": "Profesör Doktor Başak Oyan Uluç",
-    "titlePrefix": "Dr.",
+    "fullName": "Başak Oyan Uluç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -6024,8 +6024,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "baykal-tulek-acibadem",
-    "fullName": "Profesör Doktor Baykal Tülek",
-    "titlePrefix": "Dr.",
+    "fullName": "Baykal Tülek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -6106,8 +6106,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bedriye-koyuncu-sokmen-acibadem",
-    "fullName": "Doçent Doktor Bedriye Koyuncu Sökmen",
-    "titlePrefix": "Dr.",
+    "fullName": "Bedriye Koyuncu Sökmen",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -6148,7 +6148,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "begum-altunbas-acibadem",
-    "fullName": "D.k.t. Begüm Altunbaş Sarıgöl",
+    "fullName": "D. k.t. Begüm Altunbaş Sarıgöl",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -6230,8 +6230,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "behice-kurtaran-acibadem",
-    "fullName": "Profesör Doktor Behice Kurtaran",
-    "titlePrefix": "Dr.",
+    "fullName": "Behice Kurtaran",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -6314,8 +6314,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bekir-sitki-cebeci-acibadem",
-    "fullName": "Profesör Doktor Bekir Sıtkı Cebeci",
-    "titlePrefix": "Dr.",
+    "fullName": "Bekir Sıtkı Cebeci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -6356,8 +6356,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "belgin-selam-acibadem",
-    "fullName": "Profesör Doktor Belgin Selam",
-    "titlePrefix": "Dr.",
+    "fullName": "Belgin Selam",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -6501,8 +6501,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "beril-akman-acibadem",
-    "fullName": "Profesör Doktor Beril Akman",
-    "titlePrefix": "Dr.",
+    "fullName": "Beril Akman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "nefroloji"
@@ -6586,8 +6586,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "berkin-toker-acibadem",
-    "fullName": "Doçent Doktor Berkin Toker",
-    "titlePrefix": "Dr.",
+    "fullName": "Berkin Toker",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -6628,8 +6628,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "berna-atici-acibadem",
-    "fullName": "Diş Hekimi Berna Atıcı",
-    "titlePrefix": "Dr.",
+    "fullName": "Berna Atıcı",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -6649,7 +6649,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "berna-kirimtay-acibadem",
-    "fullName": "D.k.t. Berna Kırımtay",
+    "fullName": "D. k.t. Berna Kırımtay",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -6690,8 +6690,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "berna-olce-acibadem",
-    "fullName": "Diş Hekimi Berna Ölce",
-    "titlePrefix": "Dr.",
+    "fullName": "Berna Ölce",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -6711,8 +6711,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "berna-ozkan-acibadem",
-    "fullName": "Profesör Doktor Berna Özkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Berna Özkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -6795,8 +6795,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "berrin-karadag-acibadem",
-    "fullName": "Profesör Doktor Berrin Karadağ",
-    "titlePrefix": "Dr.",
+    "fullName": "Berrin Karadağ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -6837,8 +6837,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bertan-cengiz-acibadem",
-    "fullName": "Doçent Doktor Bertan Cengiz",
-    "titlePrefix": "Dr.",
+    "fullName": "Bertan Cengiz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -6879,8 +6879,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "betul-mazlum-acibadem",
-    "fullName": "Doçent Doktor Betül Mazlum",
-    "titlePrefix": "Dr.",
+    "fullName": "Betül Mazlum",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -6962,8 +6962,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "beyhan-kasapoglu-acibadem",
-    "fullName": "Diş Hekimi Beyhan Kasapoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Beyhan Kasapoğlu",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -7131,8 +7131,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bilge-bas-acibadem",
-    "fullName": "Diş Hekimi Bilge Baş",
-    "titlePrefix": "Dr.",
+    "fullName": "Bilge Baş",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -7236,8 +7236,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bilgi-baca-acibadem",
-    "fullName": "Profesör Doktor Bilgi Baca",
-    "titlePrefix": "Dr.",
+    "fullName": "Bilgi Baca",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -7404,8 +7404,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bora-ozveren-acibadem",
-    "fullName": "Doçent Doktor Bora Özveren",
-    "titlePrefix": "Dr.",
+    "fullName": "Bora Özveren",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -7425,8 +7425,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bora-peynircioglu-acibadem",
-    "fullName": "Profesör Doktor Bora Peynircioğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Bora Peynircioğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -7446,8 +7446,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "borcak-caglar-ruhi-acibadem",
-    "fullName": "Doçent Doktor Çağlar Ruhi",
-    "titlePrefix": "Dr.",
+    "fullName": "Çağlar Ruhi",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "nefroloji"
     ],
@@ -7593,8 +7593,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-degertekin-acibadem",
-    "fullName": "Profesör Doktor Bülent Değertekin",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Değertekin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji",
       "ic-hastaliklari"
@@ -7636,8 +7636,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-evren-erkul-acibadem",
-    "fullName": "Profesör Doktor Bülent Evren Erkul",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Evren Erkul",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -7657,8 +7657,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-gucyetmez-acibadem",
-    "fullName": "Profesör Doktor Bülent Güçyetmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Güçyetmez",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -7679,8 +7679,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-karabulut-acibadem",
-    "fullName": "Profesör Doktor Bülent Karabulut",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Karabulut",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -7700,8 +7700,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-kisacikoglu-acibadem",
-    "fullName": "Profesör Doktor Bülent Kısacıkoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Kısacıkoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -7721,8 +7721,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-orhan-acibadem",
-    "fullName": "Profesör Doktor Bülent Orhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Orhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -7763,8 +7763,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-ozcelik-acibadem",
-    "fullName": "Profesör Doktor Bülent Özçelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Özçelik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -7826,8 +7826,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-sacak-acibadem",
-    "fullName": "Profesör Doktor Bülent Saçak",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Saçak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
     ],
@@ -7847,8 +7847,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-soyupak-acibadem",
-    "fullName": "Profesör Doktor Bülent Soyupak",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Soyupak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -7868,8 +7868,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-tiras-acibadem",
-    "fullName": "Profesör Doktor Bülent Tıraş",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Tıraş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -7889,8 +7889,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bulent-tutluoglu-acibadem",
-    "fullName": "Profesör Doktor Bülent Tutluoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Bülent Tutluoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -7931,8 +7931,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "bunyamin-kaplan-acibadem",
-    "fullName": "Profesör Doktor Bünyamin Kaplan",
-    "titlePrefix": "Dr.",
+    "fullName": "Bünyamin Kaplan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -7952,8 +7952,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-akan-acibadem",
-    "fullName": "Profesör Doktor Burak Akan",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Akan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -8017,8 +8017,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-citamak-acibadem",
-    "fullName": "Doçent Doktor Burak Çıtamak",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Çıtamak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -8038,8 +8038,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-elmas-acibadem",
-    "fullName": "Doçent Doktor Burak Elmas",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Elmas",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -8118,8 +8118,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-ozkan-acibadem",
-    "fullName": "Profesör Doktor Burak Özkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Özkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -8139,8 +8139,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-ozturan-acibadem",
-    "fullName": "Doçent Doktor Burak Özturan",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Özturan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -8160,8 +8160,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-pamukcu-acibadem",
-    "fullName": "Profesör Doktor Burak Pamukçu",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Pamukçu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -8181,7 +8181,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-sercan-ercin-acibadem",
-    "fullName": "Burak Sercan Erçin (m)",
+    "fullName": "Burak Sercan Erçin",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
@@ -8202,8 +8202,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-tander-acibadem",
-    "fullName": "Profesör Doktor Burak Tander",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Tander",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi"
     ],
@@ -8245,8 +8245,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-tanyildiz-acibadem",
-    "fullName": "Doçent Doktor Burak Tanyıldız",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Tanyıldız",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -8266,8 +8266,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burak-turna-acibadem",
-    "fullName": "Profesör Doktor Burak Turna",
-    "titlePrefix": "Dr.",
+    "fullName": "Burak Turna",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -8308,8 +8308,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burcin-beken-acibadem",
-    "fullName": "Doçent Doktor Burçin Beken (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Burçin Beken",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -8431,8 +8431,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burcu-bulum-akbulut-acibadem",
-    "fullName": "Doçent Doktor Burcu Bulum Akbulut",
-    "titlePrefix": "Dr.",
+    "fullName": "Burcu Bulum Akbulut",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -8554,8 +8554,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "burcu-yavuz-acibadem",
-    "fullName": "Profesör Doktor Burcu Yavuz",
-    "titlePrefix": "Dr.",
+    "fullName": "Burcu Yavuz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "psikiyatri"
     ],
@@ -8720,8 +8720,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cafer-eroglu-acibadem",
-    "fullName": "Profesör Doktor Cafer Eroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Cafer Eroğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -8739,8 +8739,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cagatay-karsidag-acibadem",
-    "fullName": "Profesör Doktor Çağatay Karşıdağ",
-    "titlePrefix": "Dr.",
+    "fullName": "Çağatay Karşıdağ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "psikiyatri"
     ],
@@ -8760,8 +8760,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cagin-senturk-acibadem",
-    "fullName": "Profesör Doktor Çağın Şentürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Çağın Şentürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -8802,8 +8802,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "caglar-baysal-acibadem",
-    "fullName": "Doçent Doktor Çağlar Baysal",
-    "titlePrefix": "Dr.",
+    "fullName": "Çağlar Baysal",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -8823,8 +8823,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "caglar-cuhadaroglu-acibadem",
-    "fullName": "Profesör Doktor Çağlar Çuhadaroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Çağlar Çuhadaroğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -8886,8 +8886,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cagri-buke-acibadem",
-    "fullName": "Profesör Doktor A. Çağrı Büke",
-    "titlePrefix": "Dr.",
+    "fullName": "A. Çağrı Büke",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -8908,8 +8908,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cagri-ors-acibadem",
-    "fullName": "Doçent Doktor Çağrı Örs",
-    "titlePrefix": "Dr.",
+    "fullName": "Çağrı Örs",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -8950,8 +8950,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cahide-soydas-cinar-acibadem",
-    "fullName": "Profesör Doktor Cahide Soydaş Çınar",
-    "titlePrefix": "Dr.",
+    "fullName": "Cahide Soydaş Çınar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -8992,8 +8992,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "can-caliskan-acibadem",
-    "fullName": "Profesör Doktor Can Çalışkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Can Çalışkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -9013,8 +9013,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "can-gonen-acibadem",
-    "fullName": "Profesör Doktor Can Gönen",
-    "titlePrefix": "Dr.",
+    "fullName": "Can Gönen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -9034,8 +9034,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "can-kucuk-acibadem",
-    "fullName": "Profesör Doktor Can Küçük",
-    "titlePrefix": "Dr.",
+    "fullName": "Can Küçük",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -9055,8 +9055,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "can-obek-acibadem",
-    "fullName": "Profesör Doktor Can Öbek",
-    "titlePrefix": "Dr.",
+    "fullName": "Can Öbek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -9076,8 +9076,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "can-sart-acibadem",
-    "fullName": "Diş Hekimi Can Sart",
-    "titlePrefix": "Dr.",
+    "fullName": "Can Sart",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -9097,7 +9097,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "can-turan-acibadem",
-    "fullName": "Can Turan (m)",
+    "fullName": "Can Turan",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -9139,8 +9139,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "canan-ayabakan-acibadem",
-    "fullName": "Profesör Doktor Canan Ayabakan",
-    "titlePrefix": "Dr.",
+    "fullName": "Canan Ayabakan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -9160,8 +9160,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "canan-duman-acibadem",
-    "fullName": "Doçent Doktor Canan Duman",
-    "titlePrefix": "Dr.",
+    "fullName": "Canan Duman",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -9181,8 +9181,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "canan-ersoz-acibadem",
-    "fullName": "Profesör Doktor Canan Ersöz",
-    "titlePrefix": "Dr.",
+    "fullName": "Canan Ersöz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -9282,8 +9282,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "caner-baran-acibadem",
-    "fullName": "Doçent Doktor Caner Baran",
-    "titlePrefix": "Dr.",
+    "fullName": "Caner Baran",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -9512,8 +9512,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "celaletdin-camci-acibadem",
-    "fullName": "Profesör Doktor Celaletdin Camcı",
-    "titlePrefix": "Dr.",
+    "fullName": "Celaletdin Camcı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -9533,8 +9533,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-akbal-acibadem",
-    "fullName": "Profesör Doktor Cem Akbal",
-    "titlePrefix": "Dr.",
+    "fullName": "Cem Akbal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi",
       "uroloji"
@@ -9555,8 +9555,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-alhan-acibadem",
-    "fullName": "Profesör Doktor Cem Alhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Cem Alhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -9577,8 +9577,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-aygun-acibadem",
-    "fullName": "Profesör Doktor Cem Aygün",
-    "titlePrefix": "Dr.",
+    "fullName": "Cem Aygün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -9619,8 +9619,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-demirel-acibadem",
-    "fullName": "Profesör Doktor Cem Demirel",
-    "titlePrefix": "Dr.",
+    "fullName": "Cem Demirel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -9640,8 +9640,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-ficicioglu-acibadem",
-    "fullName": "Profesör Doktor Cem Fıçıcıoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Cem Fıçıcıoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -9661,8 +9661,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-gun-acibadem",
-    "fullName": "Doçent Doktor Cem Gün",
-    "titlePrefix": "Dr.",
+    "fullName": "Cem Gün",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "acil-tip"
     ],
@@ -9682,7 +9682,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-kara-acibadem",
-    "fullName": "Cem Kara (m)",
+    "fullName": "Cem Kara",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi"
@@ -9703,8 +9703,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cem-koz-acibadem",
-    "fullName": "Doçent Doktor Cem Köz",
-    "titlePrefix": "Dr.",
+    "fullName": "Cem Köz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -9850,8 +9850,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cemal-ustun-acibadem",
-    "fullName": "Profesör Doktor Cemal Üstün",
-    "titlePrefix": "Dr.",
+    "fullName": "Cemal Üstün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -9932,8 +9932,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cengiz-canpolat-acibadem",
-    "fullName": "Profesör Doktor Cengiz Canpolat",
-    "titlePrefix": "Dr.",
+    "fullName": "Cengiz Canpolat",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -10203,8 +10203,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ceren-yildiz-eren-acibadem",
-    "fullName": "Doçent Doktor Ceren Yıldız Eren",
-    "titlePrefix": "Dr.",
+    "fullName": "Ceren Yıldız Eren",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -10224,8 +10224,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cetin-karaca-acibadem",
-    "fullName": "Profesör Doktor Çetin Karaca (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Çetin Karaca",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -10245,8 +10245,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cetin-kilicci-acibadem",
-    "fullName": "Profesör Doktor Çetin Kılıççı",
-    "titlePrefix": "Dr.",
+    "fullName": "Çetin Kılıççı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -10267,8 +10267,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cetin-vural-acibadem",
-    "fullName": "Profesör Doktor Çetin Vural",
-    "titlePrefix": "Dr.",
+    "fullName": "Çetin Vural",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -10288,8 +10288,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cevat-rifat-cundubey-acibadem",
-    "fullName": "Doçent Doktor Cevat Rıfat Cündübey",
-    "titlePrefix": "Dr.",
+    "fullName": "Cevat Rıfat Cündübey",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -10330,8 +10330,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ceyda-erel-kirisoglu-acibadem",
-    "fullName": "Profesör Doktor Ceyda Erel Kırışoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Ceyda Erel Kırışoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -10498,8 +10498,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cigdem-kalaycik-ertugay-acibadem",
-    "fullName": "Profesör Doktor Çiğdem Kalaycık",
-    "titlePrefix": "Dr.",
+    "fullName": "Çiğdem Kalaycık",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -10540,8 +10540,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cihadiye-elif-ozturk-acibadem",
-    "fullName": "Profesör Doktor Elif Öztürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Öztürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -10561,8 +10561,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cihan-aksoy-acibadem",
-    "fullName": "Profesör Doktor Cihan Aksoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Cihan Aksoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -10622,8 +10622,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cihan-uras-acibadem",
-    "fullName": "Profesör Doktor Cihan Uras",
-    "titlePrefix": "Dr.",
+    "fullName": "Cihan Uras",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -10644,8 +10644,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cihangir-tetik-acibadem",
-    "fullName": "Profesör Doktor Cihangir Tetik",
-    "titlePrefix": "Dr.",
+    "fullName": "Cihangir Tetik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi",
       "ortopedi-ve-travmatoloji"
@@ -10666,8 +10666,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cinar-basekim-acibadem",
-    "fullName": "Profesör Doktor Çınar Başekim",
-    "titlePrefix": "Dr.",
+    "fullName": "Çınar Başekim",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -10750,8 +10750,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "coskun-celtik-acibadem",
-    "fullName": "Profesör Doktor Coşkun Çeltik",
-    "titlePrefix": "Dr.",
+    "fullName": "Coşkun Çeltik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -10793,8 +10793,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cuneyt-gocmez-acibadem",
-    "fullName": "Doçent Doktor Cüneyt Göçmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Cüneyt Göçmez",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -10814,8 +10814,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cuneyt-isiker-acibadem",
-    "fullName": "Diş Hekimi Cüneyt Işıker",
-    "titlePrefix": "Dr.",
+    "fullName": "Cüneyt Işıker",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -10856,8 +10856,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "cuneyt-narin-acibadem",
-    "fullName": "Doçent Doktor Cüneyt Narin",
-    "titlePrefix": "Dr.",
+    "fullName": "Cüneyt Narin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -10919,7 +10919,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "damla-akcora-acibadem",
-    "fullName": "Damla Akçora (m)",
+    "fullName": "Damla Akçora",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -11044,8 +11044,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "demet-etit-acibadem",
-    "fullName": "Profesör Doktor Demet Etit",
-    "titlePrefix": "Dr.",
+    "fullName": "Demet Etit",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -11105,8 +11105,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "deniz-atasoy-acibadem",
-    "fullName": "Profesör Doktor Deniz Atasoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Deniz Atasoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -11168,8 +11168,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "deniz-can-alis-acibadem",
-    "fullName": "Doçent Doktor Deniz Can Aliş",
-    "titlePrefix": "Dr.",
+    "fullName": "Deniz Can Aliş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -11273,8 +11273,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "deniz-gokalp-acibadem",
-    "fullName": "Profesör Doktor Deniz Gökalp",
-    "titlePrefix": "Dr.",
+    "fullName": "Deniz Gökalp",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji",
       "ic-hastaliklari"
@@ -11316,8 +11316,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "deniz-konya-acibadem",
-    "fullName": "Profesör Doktor Deniz Konya (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Deniz Konya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -11421,8 +11421,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "deniz-tuna-edizer-acibadem",
-    "fullName": "Profesör Doktor Deniz Tuna Edizer",
-    "titlePrefix": "Dr.",
+    "fullName": "Deniz Tuna Edizer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -11463,8 +11463,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "derya-eroglu-acibadem",
-    "fullName": "Profesör Doktor Derya Eroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Derya Eroğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -11547,8 +11547,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "digdem-ozer-etik-acibadem",
-    "fullName": "Doçent Doktor Diğdem Özer Etik",
-    "titlePrefix": "Dr.",
+    "fullName": "Diğdem Özer Etik",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -11568,7 +11568,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilan-ertan-acibadem",
-    "fullName": "D.k.t. Dilan Ertan",
+    "fullName": "D. k.t. Dilan Ertan",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -11671,8 +11671,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilaver-ersanli-acibadem",
-    "fullName": "Profesör Doktor Dilaver Erşanlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Dilaver Erşanlı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -11692,8 +11692,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilaver-kaya-acibadem",
-    "fullName": "Profesör Doktor Dilaver Kaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Dilaver Kaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -11713,8 +11713,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilaver-ozturan-acibadem",
-    "fullName": "Profesör Doktor Dilaver Özturan",
-    "titlePrefix": "Dr.",
+    "fullName": "Dilaver Özturan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -11734,8 +11734,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilek-altun-acibadem",
-    "fullName": "Doçent Doktor Dilek Altun",
-    "titlePrefix": "Dr.",
+    "fullName": "Dilek Altun",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -11755,8 +11755,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilek-biyik-ozkaya-acibadem",
-    "fullName": "Profesör Doktor Dilek Bıyık Özkaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Dilek Bıyık Özkaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -11797,8 +11797,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilek-guven-acibadem",
-    "fullName": "Profesör Doktor Dilek Güven",
-    "titlePrefix": "Dr.",
+    "fullName": "Dilek Güven",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -11818,8 +11818,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "dilek-hacer-cesme-acibadem",
-    "fullName": "Doçent Doktor Dilek Hacer Çeşme",
-    "titlePrefix": "Dr.",
+    "fullName": "Dilek Hacer Çeşme",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -12028,8 +12028,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "duhan-fatih-bayrak-acibadem",
-    "fullName": "Profesör Doktor Duhan Fatih Bayrak",
-    "titlePrefix": "Dr.",
+    "fullName": "Duhan Fatih Bayrak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -12112,8 +12112,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "duzgun-yildirim-acibadem",
-    "fullName": "Profesör Doktor Düzgün Yıldırım",
-    "titlePrefix": "Dr.",
+    "fullName": "Düzgün Yıldırım",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -12134,7 +12134,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ebru-banu-turk-acibadem",
-    "fullName": "Ebru Banu Türk (m)",
+    "fullName": "Ebru Banu Türk",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "radyoloji"
@@ -12257,8 +12257,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ebru-sevinc-ok-acibadem",
-    "fullName": "Doçent Doktor Ebru Sevinç Ok",
-    "titlePrefix": "Dr.",
+    "fullName": "Ebru Sevinç Ok",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "nefroloji"
     ],
@@ -12321,8 +12321,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ebubekir-senates-acibadem",
-    "fullName": "Profesör Doktor Ebubekir Şenateş",
-    "titlePrefix": "Dr.",
+    "fullName": "Ebubekir Şenateş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -12382,8 +12382,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ece-aydog-acibadem",
-    "fullName": "Profesör Doktor Ece Aydoğ",
-    "titlePrefix": "Dr.",
+    "fullName": "Ece Aydoğ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -12487,8 +12487,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ece-orhon-acibadem",
-    "fullName": "Doçent Doktor Ece Orhon",
-    "titlePrefix": "Dr.",
+    "fullName": "Ece Orhon",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "psikiyatri"
     ],
@@ -12508,8 +12508,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ece-uysal-acibadem",
-    "fullName": "Doçent Doktor Ece Uysal Çine",
-    "titlePrefix": "Dr.",
+    "fullName": "Ece Uysal Çine",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -12719,8 +12719,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "eda-kepenekli-acibadem",
-    "fullName": "Profesör Doktor Eda Kepenekli (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Eda Kepenekli",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -13097,8 +13097,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ekrem-algun-acibadem",
-    "fullName": "Profesör Doktor Ekrem Algün",
-    "titlePrefix": "Dr.",
+    "fullName": "Ekrem Algün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji",
       "ic-hastaliklari"
@@ -13141,8 +13141,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "elif-akpek-acibadem",
-    "fullName": "Profesör Doktor Elif Akpek",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Akpek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -13183,8 +13183,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "elif-ceren-guzelel-acibadem",
-    "fullName": "Diş Hekimi Elif Ceren Güzelel",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Ceren Güzelel",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -13246,8 +13246,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "elif-eroglu-buyukoner-acibadem",
-    "fullName": "Profesör Doktor Elif Eroğlu Büyüköner",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Eroğlu Büyüköner",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -13267,8 +13267,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "elif-ganime-aygun-acibadem",
-    "fullName": "Doçent Doktor Elif Ganime Aygün",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Ganime Aygün",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -13309,8 +13309,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "elif-ilgaz-aydinlar-acibadem",
-    "fullName": "Profesör Doktor Elif Ilgaz Aydınlar",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Ilgaz Aydınlar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -13351,8 +13351,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "elif-meseci-acibadem",
-    "fullName": "Doçent Doktor Elif Meşeci",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Meşeci",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -13393,8 +13393,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "elif-senocak-tasci-acibadem",
-    "fullName": "Doçent Doktor Elif Şenocak Taşçı",
-    "titlePrefix": "Dr.",
+    "fullName": "Elif Şenocak Taşçı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -13538,8 +13538,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emel-gungor-acibadem",
-    "fullName": "Profesör Doktor Emel Güngör",
-    "titlePrefix": "Dr.",
+    "fullName": "Emel Güngör",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -13559,8 +13559,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emel-kabakoglu-unsur-acibadem",
-    "fullName": "Doçent Doktor Emel Kabakoğlu Ünsür",
-    "titlePrefix": "Dr.",
+    "fullName": "Emel Kabakoğlu Ünsür",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -13580,8 +13580,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emel-ozturk-durmaz-acibadem",
-    "fullName": "Profesör Doktor Emel Öztürk Durmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Emel Öztürk Durmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -13683,8 +13683,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emel-ur-ozcelik-acibadem",
-    "fullName": "Doçent Doktor Emel Ur Özçelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Emel Ur Özçelik",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -13725,8 +13725,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emin-bas-acibadem",
-    "fullName": "Diş Hekimi Emin Gökalp Baş (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Emin Gökalp Baş",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -13768,8 +13768,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emine-acar-akkaya-acibadem",
-    "fullName": "Doçent Doktor Emine Acar Akkaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Emine Acar Akkaya",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -13808,8 +13808,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emine-karabuk-acibadem",
-    "fullName": "Doçent Doktor Emine Karabük",
-    "titlePrefix": "Dr.",
+    "fullName": "Emine Karabük",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -13829,8 +13829,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emine-koroglu-acibadem",
-    "fullName": "Doçent Doktor Emine Şatır",
-    "titlePrefix": "Dr.",
+    "fullName": "Emine Şatır",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -13850,8 +13850,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emine-nese-tuncer-acibadem",
-    "fullName": "Profesör Doktor Neşe Tuncer",
-    "titlePrefix": "Dr.",
+    "fullName": "Neşe Tuncer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -13892,8 +13892,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emir-capkinoglu-acibadem",
-    "fullName": "Doçent Doktor Emir Çapkınoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Emir Çapkınoğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -13913,8 +13913,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emrah-erdal-acibadem",
-    "fullName": "Doçent Doktor Emrah Erdal",
-    "titlePrefix": "Dr.",
+    "fullName": "Emrah Erdal",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -13934,8 +13934,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emrah-erdogan-acibadem",
-    "fullName": "Doçent Doktor Emrah Erdoğan",
-    "titlePrefix": "Dr.",
+    "fullName": "Emrah Erdoğan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -14014,8 +14014,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-bozkirli-acibadem",
-    "fullName": "Profesör Doktor Emre Bozkırlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Bozkırlı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji",
       "ic-hastaliklari"
@@ -14036,8 +14036,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-bozkurt-acibadem",
-    "fullName": "Doçent Doktor Emre Bozkurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Bozkurt",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -14139,8 +14139,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-gunay-acibadem",
-    "fullName": "Doçent Doktor Emre Günay",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Günay",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -14160,8 +14160,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-karabay-acibadem",
-    "fullName": "Doçent Doktor Emre Karabay",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Karabay",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -14244,8 +14244,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-ozgu-acibadem",
-    "fullName": "Doçent Doktor Emre Özgü",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Özgü",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -14265,8 +14265,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-ozker-acibadem",
-    "fullName": "Profesör Doktor Emre Özker",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Özker",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -14285,7 +14285,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-sahillioglu-acibadem",
-    "fullName": "Emre Sahillioğlu (m)",
+    "fullName": "Emre Sahillioğlu",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -14371,8 +14371,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-togrul-acibadem",
-    "fullName": "Profesör Doktor Emre Toğrul",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Toğrul",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -14392,8 +14392,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emre-tokuc-acibadem",
-    "fullName": "Doçent Doktor Emre Tokuç",
-    "titlePrefix": "Dr.",
+    "fullName": "Emre Tokuç",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -14413,8 +14413,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "emrullah-hayta-acibadem",
-    "fullName": "Doçent Doktor Emrullah Hayta",
-    "titlePrefix": "Dr.",
+    "fullName": "Emrullah Hayta",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -14434,8 +14434,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ender-arikan-acibadem",
-    "fullName": "Profesör Doktor Ender Arıkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ender Arıkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -14455,8 +14455,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ender-ozden-acibadem",
-    "fullName": "Profesör Doktor Ender Özden",
-    "titlePrefix": "Dr.",
+    "fullName": "Ender Özden",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -14476,8 +14476,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ender-semiz-acibadem",
-    "fullName": "Profesör Doktor Ender Semiz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ender Semiz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -14539,8 +14539,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "engin-celik-acibadem",
-    "fullName": "Doçent Doktor Engin Çelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Engin Çelik",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -14560,8 +14560,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "engin-oral-acibadem",
-    "fullName": "Profesör Doktor Engin Oral (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Engin Oral",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -14581,8 +14581,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "enis-ozyar-acibadem",
-    "fullName": "Profesör Doktor Enis Özyar",
-    "titlePrefix": "Dr.",
+    "fullName": "Enis Özyar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -14602,8 +14602,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "enis-rauf-coskuner-acibadem",
-    "fullName": "Profesör Doktor Enis Rauf Coşkuner",
-    "titlePrefix": "Dr.",
+    "fullName": "Enis Rauf Coşkuner",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -14623,8 +14623,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "enver-mahir-gulcan-acibadem",
-    "fullName": "Doçent Doktor Enver Mahir Gülcan",
-    "titlePrefix": "Dr.",
+    "fullName": "Enver Mahir Gülcan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -14750,8 +14750,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ercan-karaarslan-acibadem",
-    "fullName": "Profesör Doktor Ercan Karaarslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ercan Karaarslan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -14813,8 +14813,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ercument-levent-elemen-acibadem",
-    "fullName": "Profesör Doktor E. Levent Elemen",
-    "titlePrefix": "Dr.",
+    "fullName": "E. Levent Elemen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi"
     ],
@@ -14834,8 +14834,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ercument-yilmaz-acibadem",
-    "fullName": "Profesör Doktor Ercüment Yılmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ercüment Yılmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -14876,8 +14876,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erdal-okur-acibadem",
-    "fullName": "Profesör Doktor Erdal Okur",
-    "titlePrefix": "Dr.",
+    "fullName": "Erdal Okur",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
     ],
@@ -14898,8 +14898,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erdem-guven-acibadem",
-    "fullName": "Doçent Doktor Erdem Güven (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Erdem Güven",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
     ],
@@ -15024,8 +15024,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "eren-erken-acibadem",
-    "fullName": "Profesör Doktor Eren Erken",
-    "titlePrefix": "Dr.",
+    "fullName": "Eren Erken",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "romatoloji"
@@ -15109,8 +15109,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ergun-seyfeli-acibadem",
-    "fullName": "Profesör Doktor Ergün Seyfeli",
-    "titlePrefix": "Dr.",
+    "fullName": "Ergün Seyfeli",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -15151,8 +15151,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erhan-serin-acibadem",
-    "fullName": "Profesör Doktor Erhan Serin",
-    "titlePrefix": "Dr.",
+    "fullName": "Erhan Serin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji",
       "cocuk-cerrahisi"
@@ -15297,8 +15297,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erkan-kaba-acibadem",
-    "fullName": "Profesör Doktor Erkan Kaba",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkan Kaba",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
     ],
@@ -15339,8 +15339,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erkan-vardareli-acibadem",
-    "fullName": "Profesör Doktor Erkan Vardareli",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkan Vardareli",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -15358,8 +15358,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erkan-yildirim-acibadem",
-    "fullName": "Profesör Doktor Erkan Yıldırım",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkan Yıldırım",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -15379,8 +15379,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erkin-ismail-acibadem",
-    "fullName": "Profesör Doktor Erkin İsmail",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkin İsmail",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -15400,8 +15400,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erkin-oztas-acibadem",
-    "fullName": "Profesör Doktor Erkin Öztaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkin Öztaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -15421,8 +15421,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erkin-sonmez-acibadem",
-    "fullName": "Profesör Doktor Erkin Sönmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkin Sönmez",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -15442,8 +15442,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "erman-cilsal-acibadem",
-    "fullName": "Doçent Doktor Erman Çilsal",
-    "titlePrefix": "Dr.",
+    "fullName": "Erman Çilsal",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -15501,8 +15501,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ersin-erek-acibadem",
-    "fullName": "Profesör Doktor Ersin Erek",
-    "titlePrefix": "Dr.",
+    "fullName": "Ersin Erek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -15522,8 +15522,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ersin-ozaslan-acibadem",
-    "fullName": "Profesör Doktor Ersin Özaslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ersin Özaslan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -15543,8 +15543,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ersoy-hazneci-acibadem",
-    "fullName": "Doçent Doktor Ersoy Hazneci",
-    "titlePrefix": "Dr.",
+    "fullName": "Ersoy Hazneci",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -15586,8 +15586,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ertap-akoglu-acibadem",
-    "fullName": "Profesör Doktor Ertap Akoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Ertap Akoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -15628,8 +15628,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ertugrul-emre-gunturk-acibadem",
-    "fullName": "Doçent Doktor Ertuğrul Emre Güntürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Ertuğrul Emre Güntürk",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -15670,8 +15670,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ertugrul-seyrek-acibadem",
-    "fullName": "Profesör Doktor Ertuğrul Seyrek",
-    "titlePrefix": "Dr.",
+    "fullName": "Ertuğrul Seyrek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "medikal-onkoloji"
@@ -15734,8 +15734,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ertugrul-zencirci-acibadem",
-    "fullName": "Profesör Doktor Ertuğrul Zencirci",
-    "titlePrefix": "Dr.",
+    "fullName": "Ertuğrul Zencirci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -15776,8 +15776,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "esen-demir-acibadem",
-    "fullName": "Profesör Doktor Esen Demir",
-    "titlePrefix": "Dr.",
+    "fullName": "Esen Demir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -15795,8 +15795,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "eser-colak-acibadem",
-    "fullName": "Doçent Doktor Eser Çolak",
-    "titlePrefix": "Dr.",
+    "fullName": "Eser Çolak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -15814,8 +15814,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "eser-kaya-acibadem",
-    "fullName": "Profesör Doktor Eser Kaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Eser Kaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -15875,8 +15875,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "esma-kobak-acibadem",
-    "fullName": "Doçent Doktor Esma Kobak Tur",
-    "titlePrefix": "Dr.",
+    "fullName": "Esma Kobak Tur",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -16020,8 +16020,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "esra-nur-ademoglu-dilekci-acibadem",
-    "fullName": "Profesör Doktor Esra Nur Ademoğlu Dilekçi",
-    "titlePrefix": "Dr.",
+    "fullName": "Esra Nur Ademoğlu Dilekçi",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -16041,8 +16041,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ethem-kumbay-acibadem",
-    "fullName": "Profesör Doktor Ethem Kumbay",
-    "titlePrefix": "Dr.",
+    "fullName": "Ethem Kumbay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -16062,8 +16062,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ethem-tankurt-acibadem",
-    "fullName": "Profesör Doktor Ethem Tankurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Ethem Tankurt",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -16205,8 +16205,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "evrim-kadriye-tezcanli-acibadem",
-    "fullName": "Profesör Doktor Evrim Kadriye Tezcanlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Evrim Kadriye Tezcanlı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -16330,8 +16330,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "eyup-murat-okten-acibadem",
-    "fullName": "Profesör Doktor Eyüp Murat Ökten",
-    "titlePrefix": "Dr.",
+    "fullName": "Eyüp Murat Ökten",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -16352,7 +16352,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ezel-aydog-acibadem",
-    "fullName": "Ezel Aydoğ (m)",
+    "fullName": "Ezel Aydoğ",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "uroloji"
@@ -16620,8 +16620,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fahrettin-kilic-acibadem",
-    "fullName": "Doçent Doktor Fahrettin Kılıç (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Fahrettin Kılıç",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -16662,8 +16662,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "faik-acar-koc-acibadem",
-    "fullName": "Profesör Doktor Faik Acar Koç",
-    "titlePrefix": "Dr.",
+    "fullName": "Faik Acar Koç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -16744,8 +16744,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "faruk-abike-acibadem",
-    "fullName": "Profesör Doktor Faruk Abike",
-    "titlePrefix": "Dr.",
+    "fullName": "Faruk Abike",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -16785,8 +16785,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "faruk-buyru-acibadem",
-    "fullName": "Profesör Doktor Faruk Buyru",
-    "titlePrefix": "Dr.",
+    "fullName": "Faruk Buyru",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -16806,8 +16806,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "faruk-suat-dede-acibadem",
-    "fullName": "Profesör Doktor Faruk Suat Dede",
-    "titlePrefix": "Dr.",
+    "fullName": "Faruk Suat Dede",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -16827,8 +16827,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatih-aydogan-acibadem",
-    "fullName": "Profesör Doktor Fatih Aydoğan",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatih Aydoğan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -16849,8 +16849,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatih-aygun-acibadem",
-    "fullName": "Doçent Doktor Fatih Aygün",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatih Aygün",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -16868,8 +16868,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatih-buyukcam-acibadem",
-    "fullName": "Doçent Doktor Fatih Büyükcam",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatih Büyükcam",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "acil-tip"
     ],
@@ -16931,8 +16931,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatih-dikici-acibadem",
-    "fullName": "Profesör Doktor Fatih Dikici",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatih Dikici",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -17013,8 +17013,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatih-koksal-acibadem",
-    "fullName": "Profesör Doktor Fatih Köksal",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatih Köksal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -17032,8 +17032,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatih-oguz-onder-acibadem",
-    "fullName": "Profesör Doktor Fatih Oğuz Önder",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatih Oğuz Önder",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -17074,8 +17074,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatih-simsek-acibadem",
-    "fullName": "Doçent Doktor Fatih Şimşek",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatih Şimşek",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -17177,8 +17177,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatma-olmez-acibadem",
-    "fullName": "Doçent Doktor Fatma Ölmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatma Ölmez",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -17199,7 +17199,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatma-rabia-ay-acibadem",
-    "fullName": "F.rabia Ay",
+    "fullName": "F. rabia Ay",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "psikiyatri"
@@ -17241,8 +17241,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fatma-tokat-acibadem",
-    "fullName": "Doçent Doktor Fatma Tokat",
-    "titlePrefix": "Dr.",
+    "fullName": "Fatma Tokat",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -17323,8 +17323,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "faysal-dane-acibadem",
-    "fullName": "Profesör Doktor Faysal Dane",
-    "titlePrefix": "Dr.",
+    "fullName": "Faysal Dane",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -17384,8 +17384,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ferda-cagavi-acibadem",
-    "fullName": "Doçent Doktor Ferda Çağavi",
-    "titlePrefix": "Dr.",
+    "fullName": "Ferda Çağavi",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -17405,8 +17405,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ferda-kahveci-acibadem",
-    "fullName": "Profesör Doktor Ferda Kahveci",
-    "titlePrefix": "Dr.",
+    "fullName": "Ferda Kahveci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -17426,8 +17426,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ferda-ozdemir-acibadem",
-    "fullName": "Profesör Doktor Ferda Özdemir",
-    "titlePrefix": "Dr.",
+    "fullName": "Ferda Özdemir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -17447,8 +17447,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ferdane-pirincci-sapmaz-acibadem",
-    "fullName": "Profesör Doktor Ferdane Pirinççi Sapmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ferdane Pirinççi Sapmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -17489,8 +17489,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ferhan-oz-acibadem",
-    "fullName": "Profesör Doktor Ferhan Öz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ferhan Öz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -17615,8 +17615,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fevzi-toraman-acibadem",
-    "fullName": "Profesör Doktor Fevzi Toraman",
-    "titlePrefix": "Dr.",
+    "fullName": "Fevzi Toraman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -17721,8 +17721,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "feyzi-arda-atar-acibadem",
-    "fullName": "Doçent Doktor F. Arda Atar",
-    "titlePrefix": "Dr.",
+    "fullName": "F. Arda Atar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -17763,8 +17763,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "feyzullah-cetinkaya-acibadem",
-    "fullName": "Profesör Doktor Feyzullah Çetinkaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Feyzullah Çetinkaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -17826,8 +17826,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fikret-aksoy-acibadem",
-    "fullName": "Profesör Doktor Fikret Aksoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Fikret Aksoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -17890,8 +17890,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "filiz-akyuz-acibadem",
-    "fullName": "Profesör Doktor Filiz Akyüz (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Filiz Akyüz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -17953,8 +17953,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "filiz-gulustan-acibadem",
-    "fullName": "Doçent Doktor Filiz Gülüstan",
-    "titlePrefix": "Dr.",
+    "fullName": "Filiz Gülüstan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -17974,8 +17974,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "filiz-sacan-acibadem",
-    "fullName": "Profesör Doktor Filiz Saçan",
-    "titlePrefix": "Dr.",
+    "fullName": "Filiz Saçan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -17995,8 +17995,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "filiz-tubas-acibadem",
-    "fullName": "Doçent Doktor Filiz Tubaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Filiz Tubaş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -18098,8 +18098,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "firat-tulek-acibadem",
-    "fullName": "Doçent Doktor Fırat Tülek",
-    "titlePrefix": "Dr.",
+    "fullName": "Fırat Tülek",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -18180,8 +18180,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fuat-bilgen-acibadem",
-    "fullName": "Profesör Doktor Fuat Bilgen",
-    "titlePrefix": "Dr.",
+    "fullName": "Fuat Bilgen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -18201,8 +18201,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fuat-demirci-acibadem",
-    "fullName": "Profesör Doktor Fuat Demirci",
-    "titlePrefix": "Dr.",
+    "fullName": "Fuat Demirci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -18224,8 +18224,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fuat-demirkiran-acibadem",
-    "fullName": "Profesör Doktor Fuat Demirkıran",
-    "titlePrefix": "Dr.",
+    "fullName": "Fuat Demirkıran",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -18245,8 +18245,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fulden-kalelioglu-acibadem",
-    "fullName": "Diş Hekimi Fulden Kalelioğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Fulden Kalelioğlu",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -18266,8 +18266,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fulya-agaoglu-acibadem",
-    "fullName": "Profesör Doktor Fulya Ağaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Fulya Ağaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -18390,8 +18390,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "funda-vesile-corapcioglu-acibadem",
-    "fullName": "Profesör Doktor Funda Vesile Çorapcıoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Funda Vesile Çorapcıoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -18432,8 +18432,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "fuzuli-tugrul-acibadem",
-    "fullName": "Doçent Doktor Fuzuli Tuğrul",
-    "titlePrefix": "Dr.",
+    "fullName": "Fuzuli Tuğrul",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -18474,8 +18474,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "galip-ertugrul-mirza-acibadem",
-    "fullName": "Profesör Doktor G. Ertuğrul Mirza",
-    "titlePrefix": "Dr.",
+    "fullName": "G. Ertuğrul Mirza",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -18558,8 +18558,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gamze-erfan-acibadem",
-    "fullName": "Profesör Doktor Gamze Erfan",
-    "titlePrefix": "Dr.",
+    "fullName": "Gamze Erfan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -18600,8 +18600,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gamze-ugurluer-acibadem",
-    "fullName": "Profesör Doktor Gamze Uğurluer Sümer",
-    "titlePrefix": "Dr.",
+    "fullName": "Gamze Uğurluer Sümer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -18994,8 +18994,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gokhan-aydemir-acibadem",
-    "fullName": "Profesör Doktor Gökhan Aydemir",
-    "titlePrefix": "Dr.",
+    "fullName": "Gökhan Aydemir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -19015,8 +19015,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gokhan-demir-acibadem",
-    "fullName": "Profesör Doktor Gökhan Demir",
-    "titlePrefix": "Dr.",
+    "fullName": "Gökhan Demir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -19036,8 +19036,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gokhan-ergene-acibadem",
-    "fullName": "Profesör Doktor Gökhan Ergene",
-    "titlePrefix": "Dr.",
+    "fullName": "Gökhan Ergene",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
     ],
@@ -19057,8 +19057,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gokhan-karademir-acibadem",
-    "fullName": "Doçent Doktor Gökhan Karademir",
-    "titlePrefix": "Dr.",
+    "fullName": "Gökhan Karademir",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -19099,8 +19099,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gokhan-tosun-acibadem",
-    "fullName": "Doçent Doktor Gökhan Tosun",
-    "titlePrefix": "Dr.",
+    "fullName": "Gökhan Tosun",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -19141,8 +19141,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "goksel-dikmen-acibadem",
-    "fullName": "Profesör Doktor Göksel Dikmen",
-    "titlePrefix": "Dr.",
+    "fullName": "Göksel Dikmen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -19183,8 +19183,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "goksen-goksenoglu-acibadem",
-    "fullName": "Doçent Doktor Gökşen Gökşenoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Gökşen Gökşenoğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -19223,8 +19223,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gonca-katmer-acibadem",
-    "fullName": "Diş Hekimi Gonca Katmer",
-    "titlePrefix": "Dr.",
+    "fullName": "Gonca Katmer",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -19328,8 +19328,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gozde-yesil-sayin-acibadem",
-    "fullName": "Profesör Doktor Gözde Yeşil Sayın (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Gözde Yeşil Sayın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -19348,8 +19348,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gul-basaran-acibadem",
-    "fullName": "Profesör Doktor Gül Başaran",
-    "titlePrefix": "Dr.",
+    "fullName": "Gül Başaran",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -19369,8 +19369,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gul-dabak-acibadem",
-    "fullName": "Doçent Doktor Gül Dabak",
-    "titlePrefix": "Dr.",
+    "fullName": "Gül Dabak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -19390,8 +19390,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gul-esen-icten-acibadem",
-    "fullName": "Profesör Doktor Gül Esen İçten",
-    "titlePrefix": "Dr.",
+    "fullName": "Gül Esen İçten",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -19411,8 +19411,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gul-sagin-saylam-acibadem",
-    "fullName": "Profesör Doktor Gül Sağın Saylam",
-    "titlePrefix": "Dr.",
+    "fullName": "Gül Sağın Saylam",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -19473,8 +19473,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gulbin-bingol-acibadem",
-    "fullName": "Profesör Doktor Gülbin Bingöl",
-    "titlePrefix": "Dr.",
+    "fullName": "Gülbin Bingöl",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -19492,7 +19492,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gulcan-seymen-acibadem",
-    "fullName": "Gülcan Seymen (m)",
+    "fullName": "Gülcan Seymen",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -19512,8 +19512,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gulcihan-ozkan-acibadem",
-    "fullName": "Profesör Doktor Gülcihan Özkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Gülcihan Özkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -19596,8 +19596,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "guler-berkiten-acibadem",
-    "fullName": "Profesör Doktor Güler Berkiten",
-    "titlePrefix": "Dr.",
+    "fullName": "Güler Berkiten",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -19617,8 +19617,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gulfer-mehtap-yazicioglu-acibadem",
-    "fullName": "Profesör Doktor Gülfer Mehtap Yazıcıoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Gülfer Mehtap Yazıcıoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -19821,8 +19821,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gultekin-karakus-acibadem",
-    "fullName": "Profesör Doktor Gültekin Karakuş",
-    "titlePrefix": "Dr.",
+    "fullName": "Gültekin Karakuş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -19884,8 +19884,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gungor-boztas-acibadem",
-    "fullName": "Profesör Doktor Güngör Boztaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Güngör Boztaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -19905,8 +19905,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gunseli-bozdogan-acibadem",
-    "fullName": "Doçent Doktor Günseli Bozdoğan (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Günseli Bozdoğan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -19926,8 +19926,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "guralp-onur-ceyhan-acibadem",
-    "fullName": "Profesör Doktor Güralp Onur Ceyhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Güralp Onur Ceyhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -19947,8 +19947,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gurbuz-gorumlu-acibadem",
-    "fullName": "Doçent Doktor Gürbüz Görümlü",
-    "titlePrefix": "Dr.",
+    "fullName": "Gürbüz Görümlü",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -19968,8 +19968,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "gurhan-sisman-acibadem",
-    "fullName": "Profesör Doktor Gürhan Şişman (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Gürhan Şişman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -20111,8 +20111,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hacer-kuzu-okur-acibadem",
-    "fullName": "Profesör Doktor Hacer Kuzu Okur",
-    "titlePrefix": "Dr.",
+    "fullName": "Hacer Kuzu Okur",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -20216,8 +20216,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-agir-acibadem",
-    "fullName": "Profesör Doktor Hakan Ağır",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Ağır",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
     ],
@@ -20258,8 +20258,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-coskun-acibadem",
-    "fullName": "Profesör Doktor Hakan Coşkun",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Coşkun",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -20321,8 +20321,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-hasdemir-acibadem",
-    "fullName": "Doçent Doktor Hakan Hasdemir",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Hasdemir",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -20382,8 +20382,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-murat-goksel-acibadem",
-    "fullName": "Profesör Doktor Hakan Murat Göksel",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Murat Göksel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -20403,8 +20403,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-necip-iscan-acibadem",
-    "fullName": "Profesör Doktor Hakan Necip İşcan",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Necip İşcan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -20445,8 +20445,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-ozveri-acibadem",
-    "fullName": "Profesör Doktor Hakan Özveri",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Özveri",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -20487,8 +20487,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-seckin-acibadem",
-    "fullName": "Profesör Doktor Hakan Seçkin",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Seçkin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -20527,8 +20527,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-turan-cift-acibadem",
-    "fullName": "Profesör Doktor Hakan Turan Çift",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Turan Çift",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -20548,8 +20548,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-umit-unal-acibadem",
-    "fullName": "Profesör Doktor Hakan Ümit Ünal",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Ümit Ünal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -20569,8 +20569,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-yardimci-acibadem",
-    "fullName": "Doçent Doktor Hakan Yardımcı",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Yardımcı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -20590,8 +20590,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-yavuzer-acibadem",
-    "fullName": "Profesör Doktor Hakan Yavuzer",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Yavuzer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -20611,8 +20611,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hakan-yildiz-acibadem",
-    "fullName": "Profesör Doktor Hakan Yıldız",
-    "titlePrefix": "Dr.",
+    "fullName": "Hakan Yıldız",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -20653,8 +20653,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "haldun-akgoz-acibadem",
-    "fullName": "Profesör Doktor Haldun Akgöz",
-    "titlePrefix": "Dr.",
+    "fullName": "Haldun Akgöz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -20695,8 +20695,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hale-goksever-celik-acibadem",
-    "fullName": "Profesör Doktor Hale Göksever Çelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Hale Göksever Çelik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -20716,8 +20716,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "halenur-bozdag-acibadem",
-    "fullName": "Doçent Doktor Halenur Bozdağ",
-    "titlePrefix": "Dr.",
+    "fullName": "Halenur Bozdağ",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -20777,8 +20777,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "halil-kara-acibadem",
-    "fullName": "Doçent Doktor Halil Kara",
-    "titlePrefix": "Dr.",
+    "fullName": "Halil Kara",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -20819,8 +20819,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "halil-koyuncu-acibadem",
-    "fullName": "Profesör Doktor Halil Koyuncu",
-    "titlePrefix": "Dr.",
+    "fullName": "Halil Koyuncu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -20840,8 +20840,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "halim-ulugol-acibadem",
-    "fullName": "Doçent Doktor Halim Ulugöl",
-    "titlePrefix": "Dr.",
+    "fullName": "Halim Ulugöl",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -20882,8 +20882,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "halit-cavusoglu-acibadem",
-    "fullName": "Profesör Doktor Halit Çavuşoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Halit Çavuşoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -20924,8 +20924,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "haluk-esgin-acibadem",
-    "fullName": "Profesör Doktor Haluk Esgin",
-    "titlePrefix": "Dr.",
+    "fullName": "Haluk Esgin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -20966,8 +20966,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "haluk-ozkarakas-acibadem",
-    "fullName": "Profesör Doktor Haluk Özkarakaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Haluk Özkarakaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -21008,8 +21008,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hamdi-karakayali-acibadem",
-    "fullName": "Profesör Doktor Hamdi Karakayalı",
-    "titlePrefix": "Dr.",
+    "fullName": "Hamdi Karakayalı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -21151,8 +21151,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "handan-onur-topuzlu-acibadem",
-    "fullName": "Profesör Doktor Handan Onur Topuzlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Handan Onur Topuzlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -21172,8 +21172,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "handan-zeren-acibadem",
-    "fullName": "Profesör Doktor Emine Handan Zeren",
-    "titlePrefix": "Dr.",
+    "fullName": "Emine Handan Zeren",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -21254,8 +21254,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hande-senem-deveci-acibadem",
-    "fullName": "Doçent Doktor Hande Senem Deveci",
-    "titlePrefix": "Dr.",
+    "fullName": "Hande Senem Deveci",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -21296,8 +21296,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hanife-altunkaya-acibadem",
-    "fullName": "Profesör Doktor Hanife Altunkaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Hanife Altunkaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -21401,8 +21401,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "harzem-ozger-acibadem",
-    "fullName": "Profesör Doktor Harzem Özger",
-    "titlePrefix": "Dr.",
+    "fullName": "Harzem Özger",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -21443,8 +21443,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hasan-aldinc-acibadem",
-    "fullName": "Doçent Doktor Hasan Aldinç",
-    "titlePrefix": "Dr.",
+    "fullName": "Hasan Aldinç",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "acil-tip"
     ],
@@ -21567,8 +21567,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hasan-m-tanyeri-acibadem",
-    "fullName": "Profesör Doktor Hasan M. Tanyeri",
-    "titlePrefix": "Dr.",
+    "fullName": "Hasan M. Tanyeri",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -21651,8 +21651,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hasan-ucmak-acibadem",
-    "fullName": "Profesör Doktor Hasan Uçmak",
-    "titlePrefix": "Dr.",
+    "fullName": "Hasan Uçmak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -21672,8 +21672,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hasan-ustun-acibadem",
-    "fullName": "Doçent Doktor Hasan Üstün",
-    "titlePrefix": "Dr.",
+    "fullName": "Hasan Üstün",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -21735,8 +21735,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hatem-hakan-selcuk-acibadem",
-    "fullName": "Profesör Doktor Hatem Hakan Selçuk",
-    "titlePrefix": "Dr.",
+    "fullName": "Hatem Hakan Selçuk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -21778,7 +21778,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hatice-demirbag-acibadem",
-    "fullName": "Hatice Coşğun (m)",
+    "fullName": "Hatice Coşğun",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
@@ -21799,8 +21799,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hatice-gamze-demirdag-acibadem",
-    "fullName": "Doçent Doktor Hatice Gamze Demirdağ",
-    "titlePrefix": "Dr.",
+    "fullName": "Hatice Gamze Demirdağ",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -21820,8 +21820,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hatice-ilgen-sasmaz-acibadem",
-    "fullName": "Profesör Doktor Hatice İlgen Şaşmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Hatice İlgen Şaşmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -21862,8 +21862,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hatice-nur-olgun-acibadem",
-    "fullName": "Profesör Doktor Nur Olgun",
-    "titlePrefix": "Dr.",
+    "fullName": "Nur Olgun",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -21944,8 +21944,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hayrettin-dizen-acibadem",
-    "fullName": "Doçent Doktor Hayrettin Dizen",
-    "titlePrefix": "Dr.",
+    "fullName": "Hayrettin Dizen",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -21965,8 +21965,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hayriye-elbi-acibadem",
-    "fullName": "Profesör Doktor Hayriye Elbi",
-    "titlePrefix": "Dr.",
+    "fullName": "Hayriye Elbi",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "psikiyatri"
     ],
@@ -22028,8 +22028,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hepsen-mine-serin-acibadem",
-    "fullName": "Doçent Doktor Hepsen Mine Serin",
-    "titlePrefix": "Dr.",
+    "fullName": "Hepsen Mine Serin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -22072,8 +22072,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hikmet-aktas-acibadem",
-    "fullName": "Doçent Doktor Hikmet Aktaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Hikmet Aktaş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -22135,8 +22135,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hilal-unal-acibadem",
-    "fullName": "Profesör Doktor Hilal Ünal",
-    "titlePrefix": "Dr.",
+    "fullName": "Hilal Ünal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -22173,8 +22173,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hilmi-kodaz-acibadem",
-    "fullName": "Doçent Doktor Hilmi Kodaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Hilmi Kodaz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -22276,8 +22276,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hulya-dede-acibadem",
-    "fullName": "Profesör Doktor Hülya Dede",
-    "titlePrefix": "Dr.",
+    "fullName": "Hülya Dede",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -22319,8 +22319,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "hulya-hamzaoglu-acibadem",
-    "fullName": "Profesör Doktor Hülya Hamzaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Hülya Hamzaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -22466,8 +22466,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "huseyin-bayram-acibadem",
-    "fullName": "Profesör Doktor Hüseyin Bayram",
-    "titlePrefix": "Dr.",
+    "fullName": "Hüseyin Bayram",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi",
       "ortopedi-ve-travmatoloji"
@@ -22488,8 +22488,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "huseyin-cahit-yilmaz-acibadem",
-    "fullName": "Doçent Doktor Hüseyin Cahit Yılmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Hüseyin Cahit Yılmaz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -22572,8 +22572,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "huseyin-engin-acibadem",
-    "fullName": "Profesör Doktor Hüseyin Engin",
-    "titlePrefix": "Dr.",
+    "fullName": "Hüseyin Engin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -22614,8 +22614,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "huseyin-hayri-kertmen-acibadem",
-    "fullName": "Profesör Doktor Hüseyin Hayrı Kertmen",
-    "titlePrefix": "Dr.",
+    "fullName": "Hüseyin Hayrı Kertmen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -22719,8 +22719,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "huseyin-toz-acibadem",
-    "fullName": "Profesör Doktor Hüseyin Töz",
-    "titlePrefix": "Dr.",
+    "fullName": "Hüseyin Töz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "nefroloji"
     ],
@@ -22740,8 +22740,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "huseyin-tugsan-balli-acibadem",
-    "fullName": "Profesör Doktor Tuğsan Ballı",
-    "titlePrefix": "Dr.",
+    "fullName": "Tuğsan Ballı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -22761,8 +22761,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "husnu-gorgen-acibadem",
-    "fullName": "Profesör Doktor Hüsnü Görgen",
-    "titlePrefix": "Dr.",
+    "fullName": "Hüsnü Görgen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -22782,8 +22782,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ibrahim-berber-acibadem",
-    "fullName": "Profesör Doktor İbrahim Berber",
-    "titlePrefix": "Dr.",
+    "fullName": "İbrahim Berber",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -22803,8 +22803,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ibrahim-bildirici-acibadem",
-    "fullName": "Profesör Doktor İbrahim Bildirici",
-    "titlePrefix": "Dr.",
+    "fullName": "İbrahim Bildirici",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -22866,8 +22866,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ibrahim-kaya-acibadem",
-    "fullName": "Profesör Doktor İbrahim Kaya",
-    "titlePrefix": "Dr.",
+    "fullName": "İbrahim Kaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -22908,8 +22908,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ibrahim-tuncay-acibadem",
-    "fullName": "Profesör Doktor İbrahim Tuncay",
-    "titlePrefix": "Dr.",
+    "fullName": "İbrahim Tuncay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -22930,8 +22930,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ibrahim-yildiz-acibadem",
-    "fullName": "Profesör Doktor İbrahim Yıldız",
-    "titlePrefix": "Dr.",
+    "fullName": "İbrahim Yıldız",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -23035,8 +23035,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "iftahar-koksal-acibadem",
-    "fullName": "Profesör Doktor İftahar Köksal",
-    "titlePrefix": "Dr.",
+    "fullName": "İftahar Köksal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -23077,8 +23077,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ikbal-esen-aydingoz-acibadem",
-    "fullName": "Profesör Doktor İkbal Esen Aydıngöz",
-    "titlePrefix": "Dr.",
+    "fullName": "İkbal Esen Aydıngöz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -23201,8 +23201,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ildem-deveci-acibadem",
-    "fullName": "Profesör Doktor İldem Deveci",
-    "titlePrefix": "Dr.",
+    "fullName": "İldem Deveci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -23222,8 +23222,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilgaz-dogusoy-acibadem",
-    "fullName": "Profesör Doktor Ilgaz Doğusoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Ilgaz Doğusoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
     ],
@@ -23244,8 +23244,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilgin-ozden-acibadem",
-    "fullName": "Profesör Doktor İlgin Özden",
-    "titlePrefix": "Dr.",
+    "fullName": "İlgin Özden",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -23266,8 +23266,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilhan-elmaci-acibadem",
-    "fullName": "Profesör Doktor İlhan Elmacı",
-    "titlePrefix": "Dr.",
+    "fullName": "İlhan Elmacı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -23287,8 +23287,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilim-irmak-acibadem",
-    "fullName": "Doçent Doktor İlim Irmak",
-    "titlePrefix": "Dr.",
+    "fullName": "İlim Irmak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -23350,7 +23350,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilkay-kisa-acibadem",
-    "fullName": "İlkay Kısa Özdemir (m)",
+    "fullName": "İlkay Kısa Özdemir",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -23392,8 +23392,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilke-ozer-aslan-acibadem",
-    "fullName": "Doçent Doktor İlke Özer Aslan",
-    "titlePrefix": "Dr.",
+    "fullName": "İlke Özer Aslan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -23434,8 +23434,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilker-ozgur-koska-acibadem",
-    "fullName": "Doçent Doktor İlker Özgür Koska",
-    "titlePrefix": "Dr.",
+    "fullName": "İlker Özgür Koska",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -23476,8 +23476,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilker-yagci-acibadem",
-    "fullName": "Profesör Doktor İlker Yağcı",
-    "titlePrefix": "Dr.",
+    "fullName": "İlker Yağcı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -23497,8 +23497,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilkkan-dunder-acibadem",
-    "fullName": "Profesör Doktor İlkkan Dünder",
-    "titlePrefix": "Dr.",
+    "fullName": "İlkkan Dünder",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -23603,8 +23603,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ilter-tufek-acibadem",
-    "fullName": "Profesör Doktor İlter Tüfek",
-    "titlePrefix": "Dr.",
+    "fullName": "İlter Tüfek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -23645,8 +23645,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "imam-bakir-bati-acibadem",
-    "fullName": "Doçent Doktor İmam Bakır Batı",
-    "titlePrefix": "Dr.",
+    "fullName": "İmam Bakır Batı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -23706,8 +23706,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "inan-anaforoglu-acibadem",
-    "fullName": "Profesör Doktor İnan Anaforoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "İnan Anaforoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -23788,8 +23788,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ipek-mehmetoglu-torun-acibadem",
-    "fullName": "Diş Hekimi İpek Mehmetoğlu Torun",
-    "titlePrefix": "Dr.",
+    "fullName": "İpek Mehmetoğlu Torun",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -23913,8 +23913,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "irem-cosar-tufekci-acibadem",
-    "fullName": "Diş Hekimi İrem Coşar Tüfekçi",
-    "titlePrefix": "Dr.",
+    "fullName": "İrem Coşar Tüfekçi",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -24098,8 +24098,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "irmak-durur-subasi-acibadem",
-    "fullName": "Profesör Doktor Irmak Durur Subaşı",
-    "titlePrefix": "Dr.",
+    "fullName": "Irmak Durur Subaşı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -24119,8 +24119,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "isik-aslay-acibadem",
-    "fullName": "Profesör Doktor Işık Aslay",
-    "titlePrefix": "Dr.",
+    "fullName": "Işık Aslay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -24161,8 +24161,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "isik-turkalp-acibadem",
-    "fullName": "Doçent Doktor Işık Türkalp",
-    "titlePrefix": "Dr.",
+    "fullName": "Işık Türkalp",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -24201,8 +24201,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "isil-fazilet-kartaloglu-acibadem",
-    "fullName": "Doçent Doktor Işıl Fazilet Kartaloğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Işıl Fazilet Kartaloğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -24243,8 +24243,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "isil-yildiz-acibadem",
-    "fullName": "Doçent Doktor Işıl Yıldız",
-    "titlePrefix": "Dr.",
+    "fullName": "Işıl Yıldız",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -24264,8 +24264,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "isin-dogan-ekici-acibadem",
-    "fullName": "Profesör Doktor Işın Doğan Ekici",
-    "titlePrefix": "Dr.",
+    "fullName": "Işın Doğan Ekici",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -24304,8 +24304,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismail-ahmet-bilgin-acibadem",
-    "fullName": "Doçent Doktor İsmail Ahmet Bilgin",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmail Ahmet Bilgin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -24407,8 +24407,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismail-cepni-acibadem",
-    "fullName": "Profesör Doktor İsmail Çepni",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmail Çepni",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -24428,8 +24428,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismail-cinel-acibadem",
-    "fullName": "Profesör Doktor İsmail Cinel",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmail Cinel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -24471,8 +24471,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismail-hamzaoglu-acibadem",
-    "fullName": "Profesör Doktor İsmail Hamzaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmail Hamzaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -24493,8 +24493,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismail-mete-itil-acibadem",
-    "fullName": "Profesör Doktor İsmail Mete İtil",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmail Mete İtil",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -24514,8 +24514,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismail-selcuk-acibadem",
-    "fullName": "Doçent Doktor İsmail Selçuk",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmail Selçuk",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -24596,8 +24596,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismail-yuce-acibadem",
-    "fullName": "Doçent Doktor İsmail Yüce",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmail Yüce",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -24617,8 +24617,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismet-aydogdu-acibadem",
-    "fullName": "Profesör Doktor İsmet Aydoğdu",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmet Aydoğdu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -24659,8 +24659,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ismet-tamer-acibadem",
-    "fullName": "Profesör Doktor İsmet Tamer",
-    "titlePrefix": "Dr.",
+    "fullName": "İsmet Tamer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -24720,8 +24720,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "izzet-dogan-acibadem",
-    "fullName": "Doçent Doktor İzzet Doğan",
-    "titlePrefix": "Dr.",
+    "fullName": "İzzet Doğan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -24805,8 +24805,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "javad-parvizi-acibadem",
-    "fullName": "Profesör Doktor Javad Parvızı (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Javad Parvızı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -24868,8 +24868,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "k-latif-abbasoglu-acibadem",
-    "fullName": "Profesör Doktor K. Latif Abbasoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "K. Latif Abbasoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi"
     ],
@@ -24889,8 +24889,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kaan-abdullah-erler-acibadem",
-    "fullName": "Profesör Doktor Kaan Erler",
-    "titlePrefix": "Dr.",
+    "fullName": "Kaan Erler",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -24995,8 +24995,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kagan-tun-acibadem",
-    "fullName": "Profesör Doktor Kağan Tun",
-    "titlePrefix": "Dr.",
+    "fullName": "Kağan Tun",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -25016,8 +25016,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kahraman-ozturk-acibadem",
-    "fullName": "Profesör Doktor Kahraman Öztürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Kahraman Öztürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -25037,8 +25037,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kamer-dere-acibadem",
-    "fullName": "Doçent Doktor Kamer Dere",
-    "titlePrefix": "Dr.",
+    "fullName": "Kamer Dere",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -25057,8 +25057,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kamil-kadir-topalkara-acibadem",
-    "fullName": "Profesör Doktor Kamil Kadir Topalkara",
-    "titlePrefix": "Dr.",
+    "fullName": "Kamil Kadir Topalkara",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -25162,8 +25162,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kayahan-karaytug-acibadem",
-    "fullName": "Doçent Doktor Kayahan Karaytuğ",
-    "titlePrefix": "Dr.",
+    "fullName": "Kayahan Karaytuğ",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -25183,8 +25183,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kayihan-uluc-acibadem",
-    "fullName": "Profesör Doktor Kayıhan Uluç",
-    "titlePrefix": "Dr.",
+    "fullName": "Kayıhan Uluç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -25204,8 +25204,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kazim-uzum-acibadem",
-    "fullName": "Profesör Doktor Kazım Üzüm",
-    "titlePrefix": "Dr.",
+    "fullName": "Kazım Üzüm",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -25223,8 +25223,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kemal-oncu-acibadem",
-    "fullName": "Doçent Doktor Kemal Öncü",
-    "titlePrefix": "Dr.",
+    "fullName": "Kemal Öncü",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -25244,8 +25244,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kemal-ozyurt-acibadem",
-    "fullName": "Profesör Doktor Kemal Özyurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Kemal Özyurt",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -25265,8 +25265,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kemal-paksoy-acibadem",
-    "fullName": "Doçent Doktor Kemal Paksoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Kemal Paksoy",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -25327,8 +25327,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kenan-hizel-acibadem",
-    "fullName": "Profesör Doktor Kenan Hızel",
-    "titlePrefix": "Dr.",
+    "fullName": "Kenan Hızel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -25369,8 +25369,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kenan-koc-acibadem",
-    "fullName": "Profesör Doktor Kenan Koç",
-    "titlePrefix": "Dr.",
+    "fullName": "Kenan Koç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -25430,8 +25430,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kerem-bilsel-acibadem",
-    "fullName": "Profesör Doktor Kerem Bilsel",
-    "titlePrefix": "Dr.",
+    "fullName": "Kerem Bilsel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -25493,8 +25493,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kerim-muhammed-aktas-acibadem",
-    "fullName": "Diş Hekimi Kerim Muhammed Aktaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Kerim Muhammed Aktaş",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -25514,8 +25514,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kerim-sariyilmaz-acibadem",
-    "fullName": "Profesör Doktor Kerim Sarıyılmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Kerim Sarıyılmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -25556,8 +25556,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kfehmi-narter-acibadem",
-    "fullName": "Profesör Doktor K.fehmi Narter",
-    "titlePrefix": "Dr.",
+    "fullName": "K. fehmi Narter",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -25577,8 +25577,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "koptagel-ilgun-acibadem",
-    "fullName": "Profesör Doktor Koptagel İlgün",
-    "titlePrefix": "Dr.",
+    "fullName": "Koptagel İlgün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -25598,8 +25598,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "koray-guven-acibadem",
-    "fullName": "Profesör Doktor Koray Güven",
-    "titlePrefix": "Dr.",
+    "fullName": "Koray Güven",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -25619,8 +25619,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "koray-ozduman-acibadem",
-    "fullName": "Profesör Doktor Koray Özduman",
-    "titlePrefix": "Dr.",
+    "fullName": "Koray Özduman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -25640,8 +25640,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "koray-yalcin-acibadem",
-    "fullName": "Doçent Doktor Koray Yalçın",
-    "titlePrefix": "Dr.",
+    "fullName": "Koray Yalçın",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -25661,8 +25661,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "korhan-ozkan-acibadem",
-    "fullName": "Profesör Doktor Korhan Özkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Korhan Özkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -25683,8 +25683,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "korkut-atalan-acibadem",
-    "fullName": "Doçent Doktor Korkut Atalan",
-    "titlePrefix": "Dr.",
+    "fullName": "Korkut Atalan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -25725,8 +25725,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kubel-ozkut-acibadem",
-    "fullName": "Diş Hekimi Kübel Özkut",
-    "titlePrefix": "Dr.",
+    "fullName": "Kübel Özkut",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -25868,8 +25868,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "kutsal-turhan-acibadem",
-    "fullName": "Profesör Doktor Kutsal Turhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Kutsal Turhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
     ],
@@ -25949,8 +25949,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "levent-aydemir-acibadem",
-    "fullName": "Doçent Doktor Levent Aydemir",
-    "titlePrefix": "Dr.",
+    "fullName": "Levent Aydemir",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -25991,8 +25991,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "levent-eralp-acibadem",
-    "fullName": "Profesör Doktor Levent Eralp",
-    "titlePrefix": "Dr.",
+    "fullName": "Levent Eralp",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -26012,8 +26012,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "levent-erisen-acibadem",
-    "fullName": "Profesör Doktor Levent Erişen",
-    "titlePrefix": "Dr.",
+    "fullName": "Levent Erişen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -26094,8 +26094,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "levent-turkeri-acibadem",
-    "fullName": "Profesör Doktor Levent Türkeri",
-    "titlePrefix": "Dr.",
+    "fullName": "Levent Türkeri",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -26115,8 +26115,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "leyla-agaoglu-acibadem",
-    "fullName": "Profesör Doktor Leyla Ağaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Leyla Ağaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -26197,8 +26197,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "lutfi-ozkan-acibadem",
-    "fullName": "Profesör Doktor Lütfi Özkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Lütfi Özkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -26218,8 +26218,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "lutfi-telci-acibadem",
-    "fullName": "Profesör Doktor Lütfi Telci",
-    "titlePrefix": "Dr.",
+    "fullName": "Lütfi Telci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -26239,8 +26239,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "lutfi-tunc-acibadem",
-    "fullName": "Profesör Doktor Lütfi Tunç",
-    "titlePrefix": "Dr.",
+    "fullName": "Lütfi Tunç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -26260,8 +26260,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "lutfiye-kilic-acibadem",
-    "fullName": "Doçent Doktor Lütfiye Kılıç",
-    "titlePrefix": "Dr.",
+    "fullName": "Lütfiye Kılıç",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -26281,8 +26281,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "lutfiye-uygur-acibadem",
-    "fullName": "Doçent Doktor Lütfiye Uygur (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Lütfiye Uygur",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -26365,8 +26365,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "m-nadir-sener-acibadem",
-    "fullName": "Profesör Doktor M. Nadir Şener",
-    "titlePrefix": "Dr.",
+    "fullName": "M. Nadir Şener",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -26428,8 +26428,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mahir-gulsen-acibadem",
-    "fullName": "Profesör Doktor Mahir Gülşen",
-    "titlePrefix": "Dr.",
+    "fullName": "Mahir Gülşen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -26617,8 +26617,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mahmut-subasi-acibadem",
-    "fullName": "Doçent Doktor Mahmut Subaşı",
-    "titlePrefix": "Dr.",
+    "fullName": "Mahmut Subaşı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gogus-cerrahisi"
     ],
@@ -26743,8 +26743,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mefkur-bakan-acibadem",
-    "fullName": "Profesör Doktor Mefkür Bakan",
-    "titlePrefix": "Dr.",
+    "fullName": "Mefkür Bakan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -26764,8 +26764,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehdi-sogut-acibadem",
-    "fullName": "Profesör Doktor Mehdi S.öğüt",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehdi S. öğüt",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -26787,8 +26787,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ada-acibadem",
-    "fullName": "Profesör Doktor Mehmet Ada",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Ada",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -26829,8 +26829,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-akif-ozdemir-acibadem",
-    "fullName": "Profesör Doktor Mehmet Akif Özdemir",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Akif Özdemir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -26850,8 +26850,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-akif-sargin-acibadem",
-    "fullName": "Profesör Doktor Mehmet Akif Sargın",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Akif Sargın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -26871,8 +26871,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-akif-somdas-acibadem",
-    "fullName": "Profesör Doktor Mehmet Akif Somdaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Akif Somdaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -26913,8 +26913,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ali-sehitoglu-acibadem",
-    "fullName": "Profesör Doktor Mehmet Ali Şehitoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Ali Şehitoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -26934,8 +26934,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ali-vardar-acibadem",
-    "fullName": "Profesör Doktor Mehmet Ali Vardar",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Ali Vardar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -26955,8 +26955,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-altiparmak-acibadem",
-    "fullName": "Doçent Doktor Mehmet Altıparmak",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Altıparmak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
     ],
@@ -27018,8 +27018,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-aytac-yuksel-acibadem",
-    "fullName": "Profesör Doktor Mehmet Aytaç Yüksel",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Aytaç Yüksel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -27039,8 +27039,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-barburoglu-acibadem",
-    "fullName": "Doçent Doktor Mehmet Barburoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Barburoğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -27058,7 +27058,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-behram-cam-acibadem",
-    "fullName": "Mehmet Behram Çam (m)",
+    "fullName": "Mehmet Behram Çam",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "kbb"
@@ -27203,8 +27203,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-cihat-unlu-acibadem",
-    "fullName": "Profesör Doktor Mehmet Cihat Ünlü",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Cihat Ünlü",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -27225,8 +27225,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-cincik-acibadem",
-    "fullName": "Profesör Doktor Mehmet Cıncık",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Cıncık",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -27368,8 +27368,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-erkan-ozcan-acibadem",
-    "fullName": "Profesör Doktor Erkan Özcan",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkan Özcan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "psikiyatri"
     ],
@@ -27389,8 +27389,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-fatih-karakas-acibadem",
-    "fullName": "Doçent Doktor Mehmet Fatih Karakaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Fatih Karakaş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -27431,8 +27431,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ferdi-kinci-acibadem",
-    "fullName": "Doçent Doktor Mehmet Ferdi Kıncı",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Ferdi Kıncı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -27560,8 +27560,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-karadag-acibadem",
-    "fullName": "Profesör Doktor Mehmet Karadağ",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Karadağ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -27623,8 +27623,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-kostek-acibadem",
-    "fullName": "Doçent Doktor Mehmet Köstek",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Köstek",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -27747,8 +27747,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ozgur-akkurt-acibadem",
-    "fullName": "Doçent Doktor Mehmet Özgür Akkurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Özgür Akkurt",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -27768,8 +27768,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ozkan-acibadem",
-    "fullName": "Profesör Doktor Mehmet Özkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Özkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -27810,8 +27810,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-salih-soylemez-acibadem",
-    "fullName": "Doçent Doktor Mehmet Salih Söylemez",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Salih Söylemez",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -27831,8 +27831,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-serdar-binnet-acibadem",
-    "fullName": "Profesör Doktor Mehmet Serdar Binnet",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Serdar Binnet",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -27894,8 +27894,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-surmeli-acibadem",
-    "fullName": "Doçent Doktor Mehmet Sürmeli",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Sürmeli",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -27957,8 +27957,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ufuk-abacioglu-acibadem",
-    "fullName": "Profesör Doktor Mehmet Ufuk Abacıoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Ufuk Abacıoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -27979,8 +27979,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ugur-ozbaydar-acibadem",
-    "fullName": "Profesör Doktor Mehmet Uğur Özbaydar",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Uğur Özbaydar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -28000,8 +28000,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-veli-karaaltin-acibadem",
-    "fullName": "Profesör Doktor Mehmet Veli Karaaltın",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Veli Karaaltın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
     ],
@@ -28084,8 +28084,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-zafer-berkman-acibadem",
-    "fullName": "Profesör Doktor Mehmet Zafer Berkman",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Zafer Berkman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -28105,8 +28105,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehmet-ziya-ozuer-acibadem",
-    "fullName": "Profesör Doktor Mehmet Ziya Özüer",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehmet Ziya Özüer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -28269,8 +28269,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mehtap-cakir-acibadem",
-    "fullName": "Profesör Doktor Mehtap Çakır",
-    "titlePrefix": "Dr.",
+    "fullName": "Mehtap Çakır",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -28435,8 +28435,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "melih-bozkurt-acibadem",
-    "fullName": "Profesör Doktor Melih Bozkurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Melih Bozkurt",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -28561,8 +28561,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "meliha-nalcaci-acibadem",
-    "fullName": "Profesör Doktor Meliha Nalçacı",
-    "titlePrefix": "Dr.",
+    "fullName": "Meliha Nalçacı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -28750,7 +28750,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "melodi-dincel-acibadem",
-    "fullName": "Melodi Dinçel (m)",
+    "fullName": "Melodi Dinçel",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -28853,7 +28853,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "meltem-sen-acibadem",
-    "fullName": "D.k.t. Meltem Şen",
+    "fullName": "D. k.t. Meltem Şen",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -28872,8 +28872,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "meltem-serin-acibadem",
-    "fullName": "Profesör Doktor Meltem Serin",
-    "titlePrefix": "Dr.",
+    "fullName": "Meltem Serin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -28893,8 +28893,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "meltem-vural-acibadem",
-    "fullName": "Profesör Doktor Meltem Vural",
-    "titlePrefix": "Dr.",
+    "fullName": "Meltem Vural",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -28935,7 +28935,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "meltem-yucebas-acibadem",
-    "fullName": "Meltem Yücebaş (m)",
+    "fullName": "Meltem Yücebaş",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -28956,8 +28956,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "memduha-merve-kara-acibadem",
-    "fullName": "Diş Hekimi Memduha Merve Kara",
-    "titlePrefix": "Dr.",
+    "fullName": "Memduha Merve Kara",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -28977,8 +28977,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "memet-ozek-acibadem",
-    "fullName": "Profesör Doktor Memet Özek",
-    "titlePrefix": "Dr.",
+    "fullName": "Memet Özek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -29061,8 +29061,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "meral-bayramoglu-acibadem",
-    "fullName": "Profesör Doktor Meral Bayramoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Meral Bayramoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -29103,8 +29103,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "meric-sengoz-acibadem",
-    "fullName": "Profesör Doktor Meriç Şengöz",
-    "titlePrefix": "Dr.",
+    "fullName": "Meriç Şengöz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -29145,8 +29145,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "merkin-aribal-acibadem",
-    "fullName": "Profesör Doktor Erkin Arıbal",
-    "titlePrefix": "Dr.",
+    "fullName": "Erkin Arıbal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -29166,8 +29166,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mert-akan-acibadem",
-    "fullName": "Doçent Doktor Mert Akan",
-    "titlePrefix": "Dr.",
+    "fullName": "Mert Akan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -29187,8 +29187,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mert-altinel-acibadem",
-    "fullName": "Doçent Doktor Mert Altınel",
-    "titlePrefix": "Dr.",
+    "fullName": "Mert Altınel",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -29208,8 +29208,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mert-ilker-hayiroglu-acibadem",
-    "fullName": "Profesör Doktor Mert İlker Hayıroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Mert İlker Hayıroğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -29272,8 +29272,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mert-senturk-acibadem",
-    "fullName": "Profesör Doktor Mert Şentürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Mert Şentürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -29377,8 +29377,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "merve-gursoy-bulut-acibadem",
-    "fullName": "Profesör Doktor Merve Gürsoy Bulut",
-    "titlePrefix": "Dr.",
+    "fullName": "Merve Gürsoy Bulut",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -29482,8 +29482,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "merve-torun-yuksel-acibadem",
-    "fullName": "Diş Hekimi Merve Torun Yüksel",
-    "titlePrefix": "Dr.",
+    "fullName": "Merve Torun Yüksel",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -29564,8 +29564,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mete-dalbeler-acibadem",
-    "fullName": "Diş Hekimi Mete Dalbeler",
-    "titlePrefix": "Dr.",
+    "fullName": "Mete Dalbeler",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -29585,8 +29585,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mete-gungor-acibadem",
-    "fullName": "Profesör Doktor Mete Güngör",
-    "titlePrefix": "Dr.",
+    "fullName": "Mete Güngör",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -29606,8 +29606,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "metehan-ozen-acibadem",
-    "fullName": "Profesör Doktor Metehan Özen",
-    "titlePrefix": "Dr.",
+    "fullName": "Metehan Özen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -29668,8 +29668,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "metin-cakmakci-acibadem",
-    "fullName": "Profesör Doktor Metin Çakmakçı",
-    "titlePrefix": "Dr.",
+    "fullName": "Metin Çakmakçı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -29689,8 +29689,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "metin-ertem-acibadem",
-    "fullName": "Profesör Doktor Metin Ertem",
-    "titlePrefix": "Dr.",
+    "fullName": "Metin Ertem",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -29710,8 +29710,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "metin-gursurer-acibadem",
-    "fullName": "Profesör Doktor Metin Gürsürer",
-    "titlePrefix": "Dr.",
+    "fullName": "Metin Gürsürer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -29731,8 +29731,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "metin-keskin-acibadem",
-    "fullName": "Profesör Doktor Metin Keskin",
-    "titlePrefix": "Dr.",
+    "fullName": "Metin Keskin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -29752,8 +29752,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "metin-turkmen-acibadem",
-    "fullName": "Profesör Doktor Metin Türkmen",
-    "titlePrefix": "Dr.",
+    "fullName": "Metin Türkmen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -29773,8 +29773,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "metin-uzun-acibadem",
-    "fullName": "Profesör Doktor Metin Uzun",
-    "titlePrefix": "Dr.",
+    "fullName": "Metin Uzun",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -29815,8 +29815,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mfaruk-kose-acibadem",
-    "fullName": "Profesör Doktor M.faruk Köse",
-    "titlePrefix": "Dr.",
+    "fullName": "M. faruk Köse",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -29876,8 +29876,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mine-yavuz-taslipinar-acibadem",
-    "fullName": "Doçent Doktor Mine Yavuz Taşlıpınar",
-    "titlePrefix": "Dr.",
+    "fullName": "Mine Yavuz Taşlıpınar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -29937,8 +29937,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mitat-bahceci-acibadem",
-    "fullName": "Profesör Doktor Mitat Bahçeci",
-    "titlePrefix": "Dr.",
+    "fullName": "Mitat Bahçeci",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -30021,8 +30021,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mose-benhabib-acibadem",
-    "fullName": "Profesör Doktor Moşe Benhabib",
-    "titlePrefix": "Dr.",
+    "fullName": "Moşe Benhabib",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -30063,8 +30063,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mozcan-erdemli-acibadem",
-    "fullName": "Profesör Doktor M.özcan Erdemli",
-    "titlePrefix": "Dr.",
+    "fullName": "M. özcan Erdemli",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -30084,8 +30084,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muammer-doygun-acibadem",
-    "fullName": "Profesör Doktor Muammer Doygun",
-    "titlePrefix": "Dr.",
+    "fullName": "Muammer Doygun",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -30126,8 +30126,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muazzez-cevik-acibadem",
-    "fullName": "Profesör Doktor Muazzez Çevik",
-    "titlePrefix": "Dr.",
+    "fullName": "Muazzez Çevik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi"
     ],
@@ -30170,8 +30170,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mufit-kalelioglu-acibadem",
-    "fullName": "Profesör Doktor Müfit Kalelioğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Müfit Kalelioğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -30297,8 +30297,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muhammet-ahmet-karakaya-acibadem",
-    "fullName": "Doçent Doktor Muhammet Ahmet Karakaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Muhammet Ahmet Karakaya",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -30361,8 +30361,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muharrem-kocyigit-acibadem",
-    "fullName": "Doçent Doktor Muharrem Koçyiğit",
-    "titlePrefix": "Dr.",
+    "fullName": "Muharrem Koçyiğit",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -30382,8 +30382,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muhsin-akbaba-acibadem",
-    "fullName": "Profesör Doktor Muhsin Akbaba",
-    "titlePrefix": "Dr.",
+    "fullName": "Muhsin Akbaba",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -30403,8 +30403,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muhsin-eraslan-acibadem",
-    "fullName": "Profesör Doktor Muhsin Eraslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Muhsin Eraslan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -30424,8 +30424,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mujdat-kara-acibadem",
-    "fullName": "Doçent Doktor Müjdat Kara",
-    "titlePrefix": "Dr.",
+    "fullName": "Müjdat Kara",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "endokrinoloji",
       "ic-hastaliklari"
@@ -30467,8 +30467,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mujgan-alikasifoglu-acibadem",
-    "fullName": "Profesör Doktor Müjgan Alikaşifoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Müjgan Alikaşifoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -30509,8 +30509,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mujgan-tek-acibadem",
-    "fullName": "Doçent Doktor Müjgan Tek",
-    "titlePrefix": "Dr.",
+    "fullName": "Müjgan Tek",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -30654,8 +30654,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murad-guliyev-acibadem",
-    "fullName": "Doçent Doktor Murad Gulıyev",
-    "titlePrefix": "Dr.",
+    "fullName": "Murad Gulıyev",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -30675,8 +30675,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-aksu-acibadem",
-    "fullName": "Profesör Doktor Murat Aksu",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Aksu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -30738,8 +30738,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-bastopcu-acibadem",
-    "fullName": "Doçent Doktor Murat Baştopcu",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Baştopcu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -30760,8 +30760,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-bozkurt-acibadem",
-    "fullName": "Profesör Doktor Murat Bozkurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Bozkurt",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -30844,8 +30844,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-gonenc-acibadem",
-    "fullName": "Profesör Doktor Murat Gönenç",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Gönenç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -30886,8 +30886,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-karaman-acibadem",
-    "fullName": "Profesör Doktor Murat Karaman",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Karaman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -30907,8 +30907,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-kemal-atahan-acibadem",
-    "fullName": "Profesör Doktor Murat Kemal Atahan",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Kemal Atahan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -30928,8 +30928,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-kilic-acibadem",
-    "fullName": "Profesör Doktor Murat Kılıç",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Kılıç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -30949,8 +30949,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-kiraz-acibadem",
-    "fullName": "Doçent Doktor Murat Kiraz",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Kiraz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -30970,8 +30970,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-mert-erkan-acibadem",
-    "fullName": "Profesör Doktor Mert Erkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Mert Erkan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -31074,8 +31074,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-samli-acibadem",
-    "fullName": "Profesör Doktor Murat Şamlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Şamlı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -31116,8 +31116,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-saruc-acibadem",
-    "fullName": "Profesör Doktor Murat Saruç",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Saruç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -31158,8 +31158,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-saylik-acibadem",
-    "fullName": "Doçent Doktor Murat Saylık",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Saylık",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji",
       "cocuk-cerrahisi"
@@ -31199,8 +31199,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-sezer-2-acibadem",
-    "fullName": "Doçent Doktor Murat Sezer",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Sezer",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -31220,8 +31220,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-sezer-acibadem",
-    "fullName": "Profesör Doktor Murat Sezer",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Sezer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -31241,8 +31241,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-sungur-acibadem",
-    "fullName": "Profesör Doktor Murat Sungur",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Sungur",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -31262,8 +31262,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-toprak-acibadem",
-    "fullName": "Profesör Doktor Murat Toprak",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Toprak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -31304,8 +31304,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-tumuklu-acibadem",
-    "fullName": "Doçent Doktor Murat Tümüklü",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Tümüklü",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -31325,8 +31325,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-turfan-acibadem",
-    "fullName": "Profesör Doktor Murat Turfan",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Turfan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -31346,8 +31346,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-urkan-acibadem",
-    "fullName": "Doçent Doktor Murat Urkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Urkan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -31367,8 +31367,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-yassa-acibadem",
-    "fullName": "Doçent Doktor Murat Yassa",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Yassa",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -31388,8 +31388,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-yayla-acibadem",
-    "fullName": "Profesör Doktor Murat Yayla",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Yayla",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -31410,8 +31410,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "murat-yildar-acibadem",
-    "fullName": "Doçent Doktor Murat Yıldar",
-    "titlePrefix": "Dr.",
+    "fullName": "Murat Yıldar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -31471,8 +31471,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muslime-akbaba-acibadem",
-    "fullName": "Profesör Doktor Müslime Akbaba",
-    "titlePrefix": "Dr.",
+    "fullName": "Müslime Akbaba",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -31534,8 +31534,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-aykut-kural-acibadem",
-    "fullName": "Doçent Doktor Mustafa Aykut Kural",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Aykut Kural",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -31555,8 +31555,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-aytek-simsek-acibadem",
-    "fullName": "Doçent Doktor Mustafa Aytek Şimşek",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Aytek Şimşek",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -31576,8 +31576,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-bilal-tuna-acibadem",
-    "fullName": "Doçent Doktor Mustafa Bilal Tuna",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Bilal Tuna",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -31660,8 +31660,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-cetiner-acibadem",
-    "fullName": "Profesör Doktor Mustafa Çetiner",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Çetiner",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -31681,8 +31681,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-corum-acibadem",
-    "fullName": "Doçent Doktor Mustafa Çorum",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Çorum",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -31766,8 +31766,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-emir-tavsanli-acibadem",
-    "fullName": "Doçent Doktor Mustafa Emir Tavşanlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Emir Tavşanlı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -31850,8 +31850,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-hakan-dinckal-acibadem",
-    "fullName": "Profesör Doktor Mustafa Hakan Dinçkal",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Hakan Dinçkal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -31871,8 +31871,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-herdem-acibadem",
-    "fullName": "Profesör Doktor Mustafa Herdem",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Herdem",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji",
       "cocuk-cerrahisi"
@@ -31914,8 +31914,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-kaplangoray-acibadem",
-    "fullName": "Doçent Doktor Mustafa Kaplangöray",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Kaplangöray",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -31956,8 +31956,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-karahan-acibadem",
-    "fullName": "Profesör Doktor Mustafa Karahan",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Karahan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -31998,8 +31998,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-kemal-batur-acibadem",
-    "fullName": "Profesör Doktor Mustafa Kemal Batur",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Kemal Batur",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -32040,8 +32040,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-koray-lenk-acibadem",
-    "fullName": "Profesör Doktor Mustafa Koray Lenk",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Koray Lenk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -32061,7 +32061,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-mert-okumus-acibadem",
-    "fullName": "Mustafa Mert Okumuş (m)",
+    "fullName": "Mustafa Mert Okumuş",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
@@ -32101,8 +32101,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-ozbayrak-acibadem",
-    "fullName": "Doçent Doktor Mustafa Özbayrak",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Özbayrak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -32143,8 +32143,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-ozturk-acibadem",
-    "fullName": "Profesör Doktor Mustafa Öztürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Öztürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -32164,8 +32164,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-parildar-acibadem",
-    "fullName": "Profesör Doktor Mustafa Parıldar",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Parıldar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -32185,8 +32185,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-seckin-acibadem",
-    "fullName": "Doçent Doktor Mustafa Seçkin",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Seçkin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -32290,8 +32290,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-seyhan-acibadem",
-    "fullName": "Profesör Doktor Mustafa Seyhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Seyhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -32311,8 +32311,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-sofikerim-acibadem",
-    "fullName": "Profesör Doktor Mustafa Sofikerim",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Sofikerim",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -32416,8 +32416,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-tas-acibadem",
-    "fullName": "Doçent Doktor Mustafa Taş",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Taş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -32458,8 +32458,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-ugur-altug-acibadem",
-    "fullName": "Profesör Doktor Mustafa Uğur Altuğ",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Uğur Altuğ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -32542,8 +32542,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mustafa-zungur-acibadem",
-    "fullName": "Doçent Doktor Mustafa Zungur",
-    "titlePrefix": "Dr.",
+    "fullName": "Mustafa Zungur",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -32584,8 +32584,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "mutlu-keskin-acibadem",
-    "fullName": "Doçent Doktor Mutlu Keskin",
-    "titlePrefix": "Dr.",
+    "fullName": "Mutlu Keskin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -32647,8 +32647,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muzaffer-cetinguc-acibadem",
-    "fullName": "Profesör Doktor Muzaffer Çetingüç",
-    "titlePrefix": "Dr.",
+    "fullName": "Muzaffer Çetingüç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "psikiyatri"
     ],
@@ -32668,8 +32668,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muzaffer-metintas-acibadem",
-    "fullName": "Profesör Doktor Muzaffer Metintaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Muzaffer Metintaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -32689,8 +32689,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "muzaffer-olcay-cizmeli-acibadem",
-    "fullName": "Profesör Doktor Muzaffer Olcay Çizmeli",
-    "titlePrefix": "Dr.",
+    "fullName": "Muzaffer Olcay Çizmeli",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -32752,8 +32752,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nadin-gemrekoglu-acibadem",
-    "fullName": "Diş Hekimi Nadin Gemrekoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Nadin Gemrekoğlu",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -32773,8 +32773,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nadir-kaya-acibadem",
-    "fullName": "Profesör Doktor Nadir Kaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Nadir Kaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -32794,7 +32794,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nadire-sevda-idil-acibadem",
-    "fullName": "Nadire Sevda İdil (m)",
+    "fullName": "Nadire Sevda İdil",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
@@ -32815,8 +32815,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nadiye-koroglu-acibadem",
-    "fullName": "Profesör Doktor Nadiye Köroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Nadiye Köroğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -32836,8 +32836,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nail-suat-unver-acibadem",
-    "fullName": "Profesör Doktor Nail Suat Ünver",
-    "titlePrefix": "Dr.",
+    "fullName": "Nail Suat Ünver",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "nefroloji"
@@ -32921,8 +32921,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "namik-demir-acibadem",
-    "fullName": "Profesör Doktor Namık Demir",
-    "titlePrefix": "Dr.",
+    "fullName": "Namık Demir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -32942,8 +32942,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "namik-sahin-acibadem",
-    "fullName": "Profesör Doktor Namık Şahin",
-    "titlePrefix": "Dr.",
+    "fullName": "Namık Şahin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -33005,8 +33005,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nazan-bengudeniz-erda-acibadem",
-    "fullName": "Profesör Doktor Nazan Bengüdeniz Erda",
-    "titlePrefix": "Dr.",
+    "fullName": "Nazan Bengüdeniz Erda",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -33110,8 +33110,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "necdet-saglam-acibadem",
-    "fullName": "Profesör Doktor Necdet Sağlam",
-    "titlePrefix": "Dr.",
+    "fullName": "Necdet Sağlam",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -33215,8 +33215,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "necmettin-pamir-acibadem",
-    "fullName": "Profesör Doktor Necmettin Pamir",
-    "titlePrefix": "Dr.",
+    "fullName": "Necmettin Pamir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -33257,8 +33257,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nefise-cagla-tarhan-acibadem",
-    "fullName": "Profesör Doktor Nefise Çağla Tarhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Nefise Çağla Tarhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -33278,8 +33278,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nefise-nazli-yenigul-acibadem",
-    "fullName": "Doçent Doktor Nefise Nazlı Yenigül",
-    "titlePrefix": "Dr.",
+    "fullName": "Nefise Nazlı Yenigül",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -33299,8 +33299,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nehir-erdal-acibadem",
-    "fullName": "Diş Hekimi Nehir Erdal",
-    "titlePrefix": "Dr.",
+    "fullName": "Nehir Erdal",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -33320,8 +33320,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nejdet-karsiyakali-acibadem",
-    "fullName": "Doçent Doktor Nejdet Karşıyakalı",
-    "titlePrefix": "Dr.",
+    "fullName": "Nejdet Karşıyakalı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -33383,8 +33383,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nergiz-huseyinoglu-acibadem",
-    "fullName": "Profesör Doktor Nergiz Hüseyinoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Nergiz Hüseyinoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -33425,8 +33425,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nesliar-eser-kutsal-acibadem",
-    "fullName": "Profesör Doktor Nesliar Eser Kutsal",
-    "titlePrefix": "Dr.",
+    "fullName": "Nesliar Eser Kutsal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -33467,8 +33467,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "neslihan-kurtulmus-acibadem",
-    "fullName": "Profesör Doktor Neslihan Kurtulmuş",
-    "titlePrefix": "Dr.",
+    "fullName": "Neslihan Kurtulmuş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -33589,7 +33589,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nevin-sariguzel-acibadem",
-    "fullName": "Nevin Sarıgüzel (m)",
+    "fullName": "Nevin Sarıgüzel",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
@@ -33695,8 +33695,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nezih-ziroglu-acibadem",
-    "fullName": "Doçent Doktor Nezih Ziroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Nezih Ziroğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -33716,8 +33716,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nezihe-seden-kucucuk-acibadem",
-    "fullName": "Profesör Doktor Nezihe Seden Küçücük",
-    "titlePrefix": "Dr.",
+    "fullName": "Nezihe Seden Küçücük",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -33758,8 +33758,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nicel-tasdemir-acibadem",
-    "fullName": "Doçent Doktor Nicel Taşdemir",
-    "titlePrefix": "Dr.",
+    "fullName": "Nicel Taşdemir",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -33861,8 +33861,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nigar-baykan-acibadem",
-    "fullName": "Profesör Doktor Nigar Baykan",
-    "titlePrefix": "Dr.",
+    "fullName": "Nigar Baykan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -33945,8 +33945,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nihat-yavuz-acibadem",
-    "fullName": "Profesör Doktor Nihat Yavuz",
-    "titlePrefix": "Dr.",
+    "fullName": "Nihat Yavuz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -34071,8 +34071,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nilufer-aykac-acibadem",
-    "fullName": "Doçent Doktor Nilüfer Aykaç",
-    "titlePrefix": "Dr.",
+    "fullName": "Nilüfer Aykaç",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -34113,7 +34113,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nilufer-yildirim-acibadem",
-    "fullName": "Nilüfer Yıldırım (m)",
+    "fullName": "Nilüfer Yıldırım",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
@@ -34197,8 +34197,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nur-aydinli-acibadem",
-    "fullName": "Profesör Doktor Nur Aydınlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Nur Aydınlı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -34219,8 +34219,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nur-dilek-bakan-acibadem",
-    "fullName": "Profesör Doktor Nur Dilek Bakan",
-    "titlePrefix": "Dr.",
+    "fullName": "Nur Dilek Bakan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -34261,8 +34261,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nuran-bese-acibadem",
-    "fullName": "Profesör Doktor Nuran Beşe",
-    "titlePrefix": "Dr.",
+    "fullName": "Nuran Beşe",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -34324,8 +34324,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nurcan-kizilcik-acibadem",
-    "fullName": "Doçent Doktor Nurcan Kızılcık",
-    "titlePrefix": "Dr.",
+    "fullName": "Nurcan Kızılcık",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -34345,7 +34345,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nurcan-ozturk-yumuk-acibadem",
-    "fullName": "Nurcan Öztürk Yumuk (m)",
+    "fullName": "Nurcan Öztürk Yumuk",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -34366,8 +34366,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nurdan-tozun-acibadem",
-    "fullName": "Profesör Doktor Ayşe Nurdan Tözün",
-    "titlePrefix": "Dr.",
+    "fullName": "Ayşe Nurdan Tözün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "gastroenteroloji"
@@ -34430,8 +34430,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nuri-peker-acibadem",
-    "fullName": "Doçent Doktor Nuri Peker",
-    "titlePrefix": "Dr.",
+    "fullName": "Nuri Peker",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -34533,8 +34533,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "nurzen-sezgin-acibadem",
-    "fullName": "Profesör Doktor Nurzen Sezgin",
-    "titlePrefix": "Dr.",
+    "fullName": "Nurzen Sezgin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -34592,8 +34592,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "oguz-durakbasa-acibadem",
-    "fullName": "Doçent Doktor Oğuz Durakbaşa (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Oğuz Durakbaşa",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -34613,8 +34613,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "oguz-kaan-unal-acibadem",
-    "fullName": "Doçent Doktor Oğuz Kaan Ünal",
-    "titlePrefix": "Dr.",
+    "fullName": "Oğuz Kaan Ünal",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -34634,7 +34634,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "oguzhan-gurdogan-acibadem",
-    "fullName": "Psikolog Oğuzhan Gürdoğan (m)",
+    "fullName": "Psikolog Oğuzhan Gürdoğan",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "psikoloji"
@@ -34676,8 +34676,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "oguzhan-karatepe-acibadem",
-    "fullName": "Profesör Doktor Oğuzhan Karatepe",
-    "titlePrefix": "Dr.",
+    "fullName": "Oğuzhan Karatepe",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -34718,8 +34718,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "okan-gultekin-acibadem",
-    "fullName": "Diş Hekimi Okan Gültekin",
-    "titlePrefix": "Dr.",
+    "fullName": "Okan Gültekin",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -34739,8 +34739,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "okan-kuzhan-acibadem",
-    "fullName": "Profesör Doktor Okan Kuzhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Okan Kuzhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -34823,8 +34823,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "omar-yusef-kudsi-acibadem",
-    "fullName": "Doçent Doktor Omar Yusef Kudsı",
-    "titlePrefix": "Dr.",
+    "fullName": "Omar Yusef Kudsı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -34886,8 +34886,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "omer-faruk-taser-acibadem",
-    "fullName": "Profesör Doktor Ömer Faruk Taşer",
-    "titlePrefix": "Dr.",
+    "fullName": "Ömer Faruk Taşer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -34907,8 +34907,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "omer-fatih-olmez-acibadem",
-    "fullName": "Profesör Doktor Ömer Fatih Ölmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Ömer Fatih Ölmez",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -34949,8 +34949,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "omer-oge-acibadem",
-    "fullName": "Profesör Doktor Ömer Öge",
-    "titlePrefix": "Dr.",
+    "fullName": "Ömer Öge",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -34970,8 +34970,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "omer-yalcin-acibadem",
-    "fullName": "Profesör Doktor Ömer Yalçın",
-    "titlePrefix": "Dr.",
+    "fullName": "Ömer Yalçın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -35051,8 +35051,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "onder-doksoz-acibadem",
-    "fullName": "Doçent Doktor Önder Doksöz",
-    "titlePrefix": "Dr.",
+    "fullName": "Önder Doksöz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -35071,8 +35071,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "onder-us-acibadem",
-    "fullName": "Profesör Doktor Önder Us",
-    "titlePrefix": "Dr.",
+    "fullName": "Önder Us",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -35092,8 +35092,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "oner-gulcan-acibadem",
-    "fullName": "Profesör Doktor Öner Gülcan",
-    "titlePrefix": "Dr.",
+    "fullName": "Öner Gülcan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -35113,8 +35113,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "onur-dulgeroglu-acibadem",
-    "fullName": "Doçent Doktor Onur Dülgeroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Onur Dülgeroğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -35177,8 +35177,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "onur-tasar-acibadem",
-    "fullName": "Doçent Doktor Onur Taşar",
-    "titlePrefix": "Dr.",
+    "fullName": "Onur Taşar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -35198,8 +35198,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "onur-tunali-acibadem",
-    "fullName": "Doçent Doktor Onur Tunalı",
-    "titlePrefix": "Dr.",
+    "fullName": "Onur Tunalı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -35219,8 +35219,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "onur-yaman-acibadem",
-    "fullName": "Profesör Doktor Onur Yaman (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Onur Yaman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -35261,8 +35261,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "orhan-baransu-acibadem",
-    "fullName": "Profesör Doktor Orhan Baransu",
-    "titlePrefix": "Dr.",
+    "fullName": "Orhan Baransu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -35282,8 +35282,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "orhan-cinar-acibadem",
-    "fullName": "Profesör Doktor Orhan Çınar",
-    "titlePrefix": "Dr.",
+    "fullName": "Orhan Çınar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "acil-tip"
     ],
@@ -35303,8 +35303,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "orhan-demircan-acibadem",
-    "fullName": "Profesör Doktor Orhan Demircan",
-    "titlePrefix": "Dr.",
+    "fullName": "Orhan Demircan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -35366,8 +35366,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "osman-bilgin-timuralp-acibadem",
-    "fullName": "Profesör Doktor Osman Bilgin Timuralp",
-    "titlePrefix": "Dr.",
+    "fullName": "Osman Bilgin Timuralp",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -35450,8 +35450,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "osman-guven-acibadem",
-    "fullName": "Profesör Doktor Osman Güven",
-    "titlePrefix": "Dr.",
+    "fullName": "Osman Güven",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji",
       "cocuk-cerrahisi"
@@ -35514,8 +35514,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "osman-serhat-guner-acibadem",
-    "fullName": "Doçent Doktor Osman Serhat Güner",
-    "titlePrefix": "Dr.",
+    "fullName": "Osman Serhat Güner",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -35554,7 +35554,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "oya-yesim-hacimustafaoglu-utkan-acibadem",
-    "fullName": "Oya Yeşim Hacımustafaoğlu Utkan (m)",
+    "fullName": "Oya Yeşim Hacımustafaoğlu Utkan",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "dermatoloji"
@@ -35575,8 +35575,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "oya-yonal-acibadem",
-    "fullName": "Profesör Doktor Oya Yönal",
-    "titlePrefix": "Dr.",
+    "fullName": "Oya Yönal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -35701,8 +35701,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozden-sila-ulus-buturak-acibadem",
-    "fullName": "Doçent Doktor Özden Sıla Ulus Buturak",
-    "titlePrefix": "Dr.",
+    "fullName": "Özden Sıla Ulus Buturak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -35764,8 +35764,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozge-akgun-acibadem",
-    "fullName": "Diş Hekimi Özge Akgün",
-    "titlePrefix": "Dr.",
+    "fullName": "Özge Akgün",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -35785,8 +35785,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozge-begum-comba-acibadem",
-    "fullName": "Doçent Doktor Özge Begüm Comba",
-    "titlePrefix": "Dr.",
+    "fullName": "Özge Begüm Comba",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -35825,8 +35825,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozge-ceren-seker-acibadem",
-    "fullName": "Diş Hekimi Özge Ceren Şeker",
-    "titlePrefix": "Dr.",
+    "fullName": "Özge Ceren Şeker",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -35846,8 +35846,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozge-gumusay-acibadem",
-    "fullName": "Profesör Doktor Özge Gümüşay",
-    "titlePrefix": "Dr.",
+    "fullName": "Özge Gümüşay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -35951,8 +35951,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozge-vural-topuz-acibadem",
-    "fullName": "Doçent Doktor Özge Vural Topuz",
-    "titlePrefix": "Dr.",
+    "fullName": "Özge Vural Topuz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -35970,8 +35970,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozgen-isik-acibadem",
-    "fullName": "Profesör Doktor Özgen Işık",
-    "titlePrefix": "Dr.",
+    "fullName": "Özgen Işık",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -35991,8 +35991,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozguc-takmaz-acibadem",
-    "fullName": "Profesör Doktor Özgüç Takmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Özgüç Takmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -36012,8 +36012,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozgul-altintas-acibadem",
-    "fullName": "Profesör Doktor Özgül Altıntaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Özgül Altıntaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -36138,8 +36138,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozgur-cetik-acibadem",
-    "fullName": "Profesör Doktor Özgür Çetik",
-    "titlePrefix": "Dr.",
+    "fullName": "Özgür Çetik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji",
       "cocuk-cerrahisi"
@@ -36160,8 +36160,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozgur-firat-acibadem",
-    "fullName": "Profesör Doktor Özgür Fırat",
-    "titlePrefix": "Dr.",
+    "fullName": "Özgür Fırat",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -36223,8 +36223,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozgur-timurkaynak-acibadem",
-    "fullName": "Doçent Doktor Özgür Timurkaynak",
-    "titlePrefix": "Dr.",
+    "fullName": "Özgür Timurkaynak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -36244,8 +36244,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozgur-yagmur-acibadem",
-    "fullName": "Profesör Doktor Özgür Yağmur",
-    "titlePrefix": "Dr.",
+    "fullName": "Özgür Yağmur",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -36286,8 +36286,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozkan-kanat-acibadem",
-    "fullName": "Profesör Doktor Özkan Kanat",
-    "titlePrefix": "Dr.",
+    "fullName": "Özkan Kanat",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -36349,8 +36349,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-akgun-dogan-acibadem",
-    "fullName": "Doçent Doktor Özlem Akgün Doğan (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Akgün Doğan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -36431,8 +36431,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-aydin-acibadem",
-    "fullName": "Profesör Doktor Özlem Aydın",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Aydın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -36450,8 +36450,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-aydog-acibadem",
-    "fullName": "Profesör Doktor Özlem Aydoğ",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Aydoğ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -36492,8 +36492,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-barutcu-acibadem",
-    "fullName": "Profesör Doktor Özlem Barutçu",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Barutçu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -36555,8 +36555,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-celik-acibadem",
-    "fullName": "Profesör Doktor Özlem Çelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Çelik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -36576,8 +36576,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-dicle-acibadem",
-    "fullName": "Profesör Doktor Özlem Dicle",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Dicle",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -36597,8 +36597,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-er-acibadem",
-    "fullName": "Profesör Doktor Özlem Er",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Er",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -36660,8 +36660,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-karabudak-abuaf-acibadem",
-    "fullName": "Doçent Doktor Özlem Karabudak Abuaf",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Karabudak Abuaf",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -36702,8 +36702,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-ozgur-gursoy-acibadem",
-    "fullName": "Doçent Doktor Özlem Özgür Gürsoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Özgür Gürsoy",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -36744,8 +36744,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-pata-acibadem",
-    "fullName": "Profesör Doktor Özlem Pata",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Pata",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -36765,8 +36765,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-sahin-acibadem",
-    "fullName": "Profesör Doktor Özlem Şahin",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Şahin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -36786,8 +36786,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozlem-sonmez-acibadem",
-    "fullName": "Profesör Doktor Özlem Sönmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Özlem Sönmez",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji",
       "ic-hastaliklari"
@@ -36851,8 +36851,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ozmen-ozturk-acibadem",
-    "fullName": "Profesör Doktor Özmen Öztürk",
-    "titlePrefix": "Dr.",
+    "fullName": "Özmen Öztürk",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -36996,8 +36996,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "pelin-dogan-acibadem",
-    "fullName": "Profesör Doktor Pelin Doğan",
-    "titlePrefix": "Dr.",
+    "fullName": "Pelin Doğan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -37017,8 +37017,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "pelin-dulgeroglu-karamik-acibadem",
-    "fullName": "Diş Hekimi Pelin Dülgeroğlu Karamık",
-    "titlePrefix": "Dr.",
+    "fullName": "Pelin Dülgeroğlu Karamık",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -37143,8 +37143,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "pinar-kahraman-koytak-acibadem",
-    "fullName": "Doçent Doktor Pınar Kahraman Koytak",
-    "titlePrefix": "Dr.",
+    "fullName": "Pınar Kahraman Koytak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -37204,8 +37204,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "pinar-yalinay-dikmen-acibadem",
-    "fullName": "Profesör Doktor Pınar Yalınay Dikmen",
-    "titlePrefix": "Dr.",
+    "fullName": "Pınar Yalınay Dikmen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -37225,8 +37225,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "poyzan-bozkurt-acibadem",
-    "fullName": "Doçent Doktor Poyzan Bozkurt",
-    "titlePrefix": "Dr.",
+    "fullName": "Poyzan Bozkurt",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -37246,8 +37246,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "pulat-akin-sabanci-acibadem",
-    "fullName": "Profesör Doktor Akın Sabancı",
-    "titlePrefix": "Dr.",
+    "fullName": "Akın Sabancı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -37268,7 +37268,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "r-sirin-atlig-acibadem",
-    "fullName": "R.şirin Atlığ",
+    "fullName": "R. şirin Atlığ",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
@@ -37289,7 +37289,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "rabia-aybala-uslu-acibadem",
-    "fullName": "Rabia Aybala Uslu (m)",
+    "fullName": "Rabia Aybala Uslu",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
@@ -37394,8 +37394,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ramazan-yavuz-akman-acibadem",
-    "fullName": "Profesör Doktor Ramazan Yavuz Akman",
-    "titlePrefix": "Dr.",
+    "fullName": "Ramazan Yavuz Akman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -37436,8 +37436,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "rana-karayalcin-acibadem",
-    "fullName": "Profesör Doktor Rana Karayalçın",
-    "titlePrefix": "Dr.",
+    "fullName": "Rana Karayalçın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -37520,8 +37520,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "recep-kurnaz-acibadem",
-    "fullName": "Profesör Doktor Recep Kurnaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Recep Kurnaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -37625,8 +37625,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "refik-erdim-acibadem",
-    "fullName": "Profesör Doktor Refik Erdim",
-    "titlePrefix": "Dr.",
+    "fullName": "Refik Erdim",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -37646,8 +37646,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "reha-baran-acibadem",
-    "fullName": "Profesör Doktor Reha Baran",
-    "titlePrefix": "Dr.",
+    "fullName": "Reha Baran",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -37688,8 +37688,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "remzi-caylak-acibadem",
-    "fullName": "Doçent Doktor Remzi Çaylak",
-    "titlePrefix": "Dr.",
+    "fullName": "Remzi Çaylak",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -37730,8 +37730,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "remzi-tozun-acibadem",
-    "fullName": "Profesör Doktor Remzi Tözün",
-    "titlePrefix": "Dr.",
+    "fullName": "Remzi Tözün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -37812,8 +37812,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "resul-arisoy-acibadem",
-    "fullName": "Profesör Doktor Resul Arısoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Resul Arısoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -37833,8 +37833,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "reyhan-celiker-acibadem",
-    "fullName": "Profesör Doktor Reyhan Çeliker",
-    "titlePrefix": "Dr.",
+    "fullName": "Reyhan Çeliker",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -37896,8 +37896,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "rezan-topaloglu-acibadem",
-    "fullName": "Profesör Doktor Rezan Topaloğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Rezan Topaloğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -37999,8 +37999,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "riza-dundar-acibadem",
-    "fullName": "Profesör Doktor Rıza Dundar",
-    "titlePrefix": "Dr.",
+    "fullName": "Rıza Dundar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -38020,8 +38020,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "riza-gurhan-isil-acibadem",
-    "fullName": "Doçent Doktor Rıza Gürhan Işıl",
-    "titlePrefix": "Dr.",
+    "fullName": "Rıza Gürhan Işıl",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -38041,8 +38041,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "riza-turkoz-acibadem",
-    "fullName": "Profesör Doktor Rıza Türköz",
-    "titlePrefix": "Dr.",
+    "fullName": "Rıza Türköz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -38062,7 +38062,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "rkerem-temel-acibadem",
-    "fullName": "R.kerem Temel",
+    "fullName": "R. kerem Temel",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "kardiyoloji"
@@ -38104,8 +38104,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "rustu-serter-acibadem",
-    "fullName": "Profesör Doktor Rüştü Serter",
-    "titlePrefix": "Dr.",
+    "fullName": "Rüştü Serter",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -38146,8 +38146,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "s-sami-karti-acibadem",
-    "fullName": "Profesör Doktor S. Sami Kartı",
-    "titlePrefix": "Dr.",
+    "fullName": "S. Sami Kartı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -38188,8 +38188,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sabahattin-kaymakoglu-acibadem",
-    "fullName": "Profesör Doktor Sabahattin Kaymakoğlu (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Sabahattin Kaymakoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -38209,8 +38209,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sabahattin-umman-acibadem",
-    "fullName": "Profesör Doktor Sabahattin Umman (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Sabahattin Umman",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -38251,8 +38251,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sabri-berkem-okten-acibadem",
-    "fullName": "Doçent Doktor Sabri Berkem Ökten",
-    "titlePrefix": "Dr.",
+    "fullName": "Sabri Berkem Ökten",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -38333,8 +38333,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "safa-gursoy-acibadem",
-    "fullName": "Profesör Doktor Safa Gürsoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Safa Gürsoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -38375,8 +38375,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "safak-kiziltas-acibadem",
-    "fullName": "Profesör Doktor Şafak Kızıltaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Şafak Kızıltaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -38396,8 +38396,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "safak-yildirim-disli-acibadem",
-    "fullName": "Doçent Doktor Şafak Yıldırım Dişli",
-    "titlePrefix": "Dr.",
+    "fullName": "Şafak Yıldırım Dişli",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -38417,8 +38417,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "safak-yilmaz-baran-acibadem",
-    "fullName": "Doçent Doktor Şafak Yılmaz Baran",
-    "titlePrefix": "Dr.",
+    "fullName": "Şafak Yılmaz Baran",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -38480,8 +38480,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sahin-senay-acibadem",
-    "fullName": "Profesör Doktor Şahin Şenay",
-    "titlePrefix": "Dr.",
+    "fullName": "Şahin Şenay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -38502,8 +38502,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sahin-zeteroglu-acibadem",
-    "fullName": "Profesör Doktor Şahin Zeteroğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Şahin Zeteroğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -38523,8 +38523,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "saim-sag-acibadem",
-    "fullName": "Doçent Doktor Saim Sağ",
-    "titlePrefix": "Dr.",
+    "fullName": "Saim Sağ",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -38544,8 +38544,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "saime-paydas-acibadem",
-    "fullName": "Profesör Doktor Saime Paydaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Saime Paydaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "nefroloji"
@@ -38566,7 +38566,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sait-ilker-uslu-acibadem",
-    "fullName": "Sait İlker Uslu (m)",
+    "fullName": "Sait İlker Uslu",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
@@ -38670,8 +38670,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "salih-marangoz-acibadem",
-    "fullName": "Profesör Doktor Salih Marangoz",
-    "titlePrefix": "Dr.",
+    "fullName": "Salih Marangoz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -38692,8 +38692,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "salih-serdar-erturan-acibadem",
-    "fullName": "Profesör Doktor Salih Serdar Erturan",
-    "titlePrefix": "Dr.",
+    "fullName": "Salih Serdar Erturan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -38713,8 +38713,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "salim-basol-tekin-acibadem",
-    "fullName": "Profesör Doktor Salim Başol Tekin",
-    "titlePrefix": "Dr.",
+    "fullName": "Salim Başol Tekin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji",
       "medikal-onkoloji"
@@ -38735,8 +38735,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "samet-yardimci-acibadem",
-    "fullName": "Profesör Doktor Samet Yardımcı",
-    "titlePrefix": "Dr.",
+    "fullName": "Samet Yardımcı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -38924,8 +38924,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "saygin-abali-acibadem",
-    "fullName": "Doçent Doktor Saygın Abalı",
-    "titlePrefix": "Dr.",
+    "fullName": "Saygın Abalı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -38944,8 +38944,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sebahat-nacar-dogan-acibadem",
-    "fullName": "Doçent Doktor Sebahat Nacar Doğan",
-    "titlePrefix": "Dr.",
+    "fullName": "Sebahat Nacar Doğan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -39029,8 +39029,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "seckin-satilmis-acibadem",
-    "fullName": "Doçent Doktor Seçkin Satılmış",
-    "titlePrefix": "Dr.",
+    "fullName": "Seçkin Satılmış",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -39090,7 +39090,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "seda-aras-gurcan-acibadem",
-    "fullName": "Seda Aras Gürcan (m)",
+    "fullName": "Seda Aras Gürcan",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
@@ -39233,8 +39233,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sedef-sahin-acibadem",
-    "fullName": "Profesör Doktor Sedef Şahin",
-    "titlePrefix": "Dr.",
+    "fullName": "Sedef Şahin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -39254,8 +39254,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "seden-erten-celik-acibadem",
-    "fullName": "Doçent Doktor Seden Erten Çelik",
-    "titlePrefix": "Dr.",
+    "fullName": "Seden Erten Çelik",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -39296,8 +39296,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sefa-muezzinoglu-acibadem",
-    "fullName": "Profesör Doktor Sefa Müezzinoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Sefa Müezzinoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -39338,8 +39338,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "seher-tanrikulu-acibadem",
-    "fullName": "Doçent Doktor Seher Tanrıkulu",
-    "titlePrefix": "Dr.",
+    "fullName": "Seher Tanrıkulu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -39399,8 +39399,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selami-cakmak-acibadem",
-    "fullName": "Profesör Doktor Selami Çakmak",
-    "titlePrefix": "Dr.",
+    "fullName": "Selami Çakmak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -39462,8 +39462,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selcuk-gormez-acibadem",
-    "fullName": "Doçent Doktor Selçuk Görmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Selçuk Görmez",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -39483,8 +39483,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selcuk-keskin-acibadem",
-    "fullName": "Doçent Doktor Selçuk Keskin",
-    "titlePrefix": "Dr.",
+    "fullName": "Selçuk Keskin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -39504,8 +39504,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selcuk-palaoglu-acibadem",
-    "fullName": "Profesör Doktor Selçuk Palaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Selçuk Palaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -39525,8 +39525,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selcuk-sizmaz-acibadem",
-    "fullName": "Profesör Doktor Selçuk Sızmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Selçuk Sızmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -39546,8 +39546,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selda-ozcirpici-acibadem",
-    "fullName": "Profesör Doktor Selda Özçırpıcı",
-    "titlePrefix": "Dr.",
+    "fullName": "Selda Özçırpıcı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -39589,8 +39589,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selen-kanar-acibadem",
-    "fullName": "Doçent Doktor Selen Kanar",
-    "titlePrefix": "Dr.",
+    "fullName": "Selen Kanar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -39610,8 +39610,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selim-aksoyek-acibadem",
-    "fullName": "Profesör Doktor Selim Aksöyek",
-    "titlePrefix": "Dr.",
+    "fullName": "Selim Aksöyek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi"
     ],
@@ -39631,8 +39631,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selim-aydin-acibadem",
-    "fullName": "Doçent Doktor Selim Aydın",
-    "titlePrefix": "Dr.",
+    "fullName": "Selim Aydın",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -39675,8 +39675,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selim-ergun-acibadem",
-    "fullName": "Doçent Doktor Selim Ergün",
-    "titlePrefix": "Dr.",
+    "fullName": "Selim Ergün",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -39757,8 +39757,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selin-ozaltin-acibadem",
-    "fullName": "Doçent Doktor Selin Özaltın",
-    "titlePrefix": "Dr.",
+    "fullName": "Selin Özaltın",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -39820,7 +39820,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "selina-gumus-acibadem",
-    "fullName": "D.k.t. Selina Gümüş",
+    "fullName": "D. k.t. Selina Gümüş",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -39860,8 +39860,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sema-aydogdu-acibadem",
-    "fullName": "Profesör Doktor Sema Aydoğdu",
-    "titlePrefix": "Dr.",
+    "fullName": "Sema Aydoğdu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -39881,8 +39881,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sema-aylan-gelen-acibadem",
-    "fullName": "Doçent Doktor Sema Aylan Gelen",
-    "titlePrefix": "Dr.",
+    "fullName": "Sema Aylan Gelen",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -40068,8 +40068,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "semiha-urvay-acibadem",
-    "fullName": "Doçent Doktor Semiha Urvay",
-    "titlePrefix": "Dr.",
+    "fullName": "Semiha Urvay",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -40089,8 +40089,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "semra-akkaya-turhan-acibadem",
-    "fullName": "Profesör Doktor Semra Akkaya Turhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Semra Akkaya Turhan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -40255,8 +40255,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sena-sert-sekerci-acibadem",
-    "fullName": "Doçent Doktor Sena Sert Şekerci",
-    "titlePrefix": "Dr.",
+    "fullName": "Sena Sert Şekerci",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -40445,8 +40445,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "senol-polat-acibadem",
-    "fullName": "Profesör Doktor Şenol Polat",
-    "titlePrefix": "Dr.",
+    "fullName": "Şenol Polat",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -40466,8 +40466,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serap-aktas-yildirim-acibadem",
-    "fullName": "Doçent Doktor Serap Aktaş Yıldırım",
-    "titlePrefix": "Dr.",
+    "fullName": "Serap Aktaş Yıldırım",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -40508,8 +40508,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serap-gencer-acibadem",
-    "fullName": "Profesör Doktor Serap Gençer",
-    "titlePrefix": "Dr.",
+    "fullName": "Serap Gençer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -40529,7 +40529,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serap-gulseni-acibadem",
-    "fullName": "Serap Gülşeni (m)",
+    "fullName": "Serap Gülşeni",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -40548,8 +40548,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serap-sahin-onder-acibadem",
-    "fullName": "Doçent Doktor Serap Şahin Önder",
-    "titlePrefix": "Dr.",
+    "fullName": "Serap Şahin Önder",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -40569,8 +40569,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serap-semiz-acibadem",
-    "fullName": "Profesör Doktor Serap Semiz",
-    "titlePrefix": "Dr.",
+    "fullName": "Serap Semiz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -40589,8 +40589,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serap-utas-acibadem",
-    "fullName": "Profesör Doktor Serap Utaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Serap Utaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -40611,8 +40611,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serap-yucel-2-acibadem",
-    "fullName": "Doçent Doktor Serap Yücel",
-    "titlePrefix": "Dr.",
+    "fullName": "Serap Yücel",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
     ],
@@ -40674,8 +40674,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sercan-gode-acibadem",
-    "fullName": "Doçent Doktor Sercan Göde",
-    "titlePrefix": "Dr.",
+    "fullName": "Sercan Göde",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -40695,8 +40695,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serdar-baylancicek-acibadem",
-    "fullName": "Doçent Doktor Serdar Baylançiçek",
-    "titlePrefix": "Dr.",
+    "fullName": "Serdar Baylançiçek",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -40716,8 +40716,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serdar-beken-acibadem",
-    "fullName": "Profesör Doktor Serdar Beken",
-    "titlePrefix": "Dr.",
+    "fullName": "Serdar Beken",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -40819,8 +40819,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serdar-ozgen-acibadem",
-    "fullName": "Profesör Doktor Serdar Özgen",
-    "titlePrefix": "Dr.",
+    "fullName": "Serdar Özgen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -40840,8 +40840,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serdar-yalcin-acibadem",
-    "fullName": "Doçent Doktor Serdar Yalçın",
-    "titlePrefix": "Dr.",
+    "fullName": "Serdar Yalçın",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -40882,8 +40882,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serhat-celikel-acibadem",
-    "fullName": "Profesör Doktor Serhat Çelikel",
-    "titlePrefix": "Dr.",
+    "fullName": "Serhat Çelikel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -40967,8 +40967,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serkan-erkanli-acibadem",
-    "fullName": "Profesör Doktor Serkan Erkanlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Serkan Erkanlı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -41009,8 +41009,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serkan-sener-acibadem",
-    "fullName": "Profesör Doktor Serkan Şener",
-    "titlePrefix": "Dr.",
+    "fullName": "Serkan Şener",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "acil-tip"
     ],
@@ -41030,8 +41030,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "serkan-surucu-acibadem",
-    "fullName": "Doçent Doktor Serkan Sürücü",
-    "titlePrefix": "Dr.",
+    "fullName": "Serkan Sürücü",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -41156,8 +41156,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sertac-arslan-acibadem",
-    "fullName": "Profesör Doktor Sertaç Arslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Sertaç Arslan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -41177,8 +41177,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sertac-islekel-acibadem",
-    "fullName": "Profesör Doktor Sertaç İşlekel",
-    "titlePrefix": "Dr.",
+    "fullName": "Sertaç İşlekel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -41362,8 +41362,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sevgi-bilgen-acibadem",
-    "fullName": "Profesör Doktor Sevgi Bilgen",
-    "titlePrefix": "Dr.",
+    "fullName": "Sevgi Bilgen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -41404,8 +41404,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sevgi-sahin-acibadem",
-    "fullName": "Profesör Doktor Sevgi Şahin",
-    "titlePrefix": "Dr.",
+    "fullName": "Sevgi Şahin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "nefroloji"
     ],
@@ -41446,8 +41446,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sevgi-topal-acibadem",
-    "fullName": "Doçent Doktor Sevgi Topal",
-    "titlePrefix": "Dr.",
+    "fullName": "Sevgi Topal",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -41570,8 +41570,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sevket-tolga-tombul-acibadem",
-    "fullName": "Doçent Doktor Şevket Tolga Tombul",
-    "titlePrefix": "Dr.",
+    "fullName": "Şevket Tolga Tombul",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -41716,8 +41716,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "seyit-ali-gumustas-acibadem",
-    "fullName": "Profesör Doktor Seyit Ali Gümüştaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Seyit Ali Gümüştaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -41780,8 +41780,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sezgin-sarban-acibadem",
-    "fullName": "Profesör Doktor Sezgin Sarban",
-    "titlePrefix": "Dr.",
+    "fullName": "Sezgin Sarban",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -41801,8 +41801,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "shabana-canbolat-acibadem",
-    "fullName": "Diş Hekimi Shabana Canbolat",
-    "titlePrefix": "Dr.",
+    "fullName": "Shabana Canbolat",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -41883,8 +41883,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sibel-aka-acibadem",
-    "fullName": "Doçent Doktor Sibel Aka",
-    "titlePrefix": "Dr.",
+    "fullName": "Sibel Aka",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -41904,8 +41904,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sibel-akozer-acibadem",
-    "fullName": "Profesör Doktor Sibel Kahraman Aközer",
-    "titlePrefix": "Dr.",
+    "fullName": "Sibel Kahraman Aközer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -41967,8 +41967,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sibel-pinar-acibadem",
-    "fullName": "Diş Hekimi Sibel Ertekin",
-    "titlePrefix": "Dr.",
+    "fullName": "Sibel Ertekin",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -41988,8 +41988,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sibel-yildirim-acibadem",
-    "fullName": "Doçent Doktor Sibel Yıldırım Moral",
-    "titlePrefix": "Dr.",
+    "fullName": "Sibel Yıldırım Moral",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -42009,8 +42009,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sila-basa-acibadem",
-    "fullName": "Diş Hekimi Sıla Başa",
-    "titlePrefix": "Dr.",
+    "fullName": "Sıla Başa",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -42051,8 +42051,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "simay-akara-acibadem",
-    "fullName": "Profesör Doktor Simay A.kara",
-    "titlePrefix": "Dr.",
+    "fullName": "Simay A. kara",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -42135,8 +42135,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sinan-dagdelen-acibadem",
-    "fullName": "Profesör Doktor Sinan Dağdelen",
-    "titlePrefix": "Dr.",
+    "fullName": "Sinan Dağdelen",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -42156,8 +42156,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sinan-ersin-acibadem",
-    "fullName": "Profesör Doktor M. Sinan Ersin",
-    "titlePrefix": "Dr.",
+    "fullName": "M. Sinan Ersin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -42177,8 +42177,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sinan-karaoglu-acibadem",
-    "fullName": "Profesör Doktor Sinan Karaoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Sinan Karaoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -42198,8 +42198,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sinan-kirim-acibadem",
-    "fullName": "Doçent Doktor Sinan Kırım (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Sinan Kırım",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -42219,8 +42219,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sinan-yavuz-acibadem",
-    "fullName": "Profesör Doktor Sinan Yavuz",
-    "titlePrefix": "Dr.",
+    "fullName": "Sinan Yavuz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "medikal-onkoloji"
@@ -42281,7 +42281,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sinem-keskin-kayalar-acibadem",
-    "fullName": "Sinem Keskin Kayalar (m)",
+    "fullName": "Sinem Keskin Kayalar",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -42323,8 +42323,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "siret-ratip-acibadem",
-    "fullName": "Profesör Doktor Siret Ratip",
-    "titlePrefix": "Dr.",
+    "fullName": "Siret Ratip",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -42468,8 +42468,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "solmaz-balci-akar-acibadem",
-    "fullName": "Profesör Doktor Solmaz Balcı Akar",
-    "titlePrefix": "Dr.",
+    "fullName": "Solmaz Balcı Akar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -42489,7 +42489,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "soner-dileklen-acibadem",
-    "fullName": "Soner Dileklen (m)",
+    "fullName": "Soner Dileklen",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
@@ -42510,8 +42510,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "soner-solmaz-acibadem",
-    "fullName": "Profesör Doktor Soner Solmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Soner Solmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "hematoloji"
     ],
@@ -42531,8 +42531,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "songul-meltem-can-acibadem",
-    "fullName": "Doçent Doktor Songül Meltem Can",
-    "titlePrefix": "Dr.",
+    "fullName": "Songül Meltem Can",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -42552,8 +42552,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "songul-ozdemir-egilmez-acibadem",
-    "fullName": "Diş Hekimi Songül Özdemir Eğilmez",
-    "titlePrefix": "Dr.",
+    "fullName": "Songül Özdemir Eğilmez",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -42594,8 +42594,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "stolga-aydog-acibadem",
-    "fullName": "Profesör Doktor S.tolga Aydoğ",
-    "titlePrefix": "Dr.",
+    "fullName": "S. tolga Aydoğ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -42615,8 +42615,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suat-bilici-acibadem",
-    "fullName": "Doçent Doktor Suat Bilici",
-    "titlePrefix": "Dr.",
+    "fullName": "Suat Bilici",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -42699,8 +42699,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suda-tekin-acibadem",
-    "fullName": "Profesör Doktor Süda Tekin",
-    "titlePrefix": "Dr.",
+    "fullName": "Süda Tekin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -42741,8 +42741,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suha-goksel-acibadem",
-    "fullName": "Profesör Doktor Süha Göksel",
-    "titlePrefix": "Dr.",
+    "fullName": "Süha Göksel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -42802,8 +42802,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sukru-aktan-acibadem",
-    "fullName": "Profesör Doktor Şükrü Aktan",
-    "titlePrefix": "Dr.",
+    "fullName": "Şükrü Aktan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -42823,8 +42823,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sukru-yazar-acibadem",
-    "fullName": "Profesör Doktor Şükrü Yazar",
-    "titlePrefix": "Dr.",
+    "fullName": "Şükrü Yazar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
     ],
@@ -42865,8 +42865,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sule-arslan-acibadem",
-    "fullName": "Profesör Doktor Şule Arslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Şule Arslan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -42886,8 +42886,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sule-goncu-ayhan-acibadem",
-    "fullName": "Doçent Doktor Şule Göncü Ayhan",
-    "titlePrefix": "Dr.",
+    "fullName": "Şule Göncü Ayhan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -42928,7 +42928,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "sule-turgut-balci-acibadem",
-    "fullName": "Şule Turgut (m)",
+    "fullName": "Şule Turgut",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -42968,8 +42968,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suleyman-cansun-demir-acibadem",
-    "fullName": "Profesör Doktor Süleyman Cansun Demir",
-    "titlePrefix": "Dr.",
+    "fullName": "Süleyman Cansun Demir",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -42989,8 +42989,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suleyman-cetinkunar-acibadem",
-    "fullName": "Profesör Doktor Süleyman Çetinkünar",
-    "titlePrefix": "Dr.",
+    "fullName": "Süleyman Çetinkünar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -43010,8 +43010,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suleyman-ozyalcin-acibadem",
-    "fullName": "Profesör Doktor Süleyman Özyalçın",
-    "titlePrefix": "Dr.",
+    "fullName": "Süleyman Özyalçın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -43029,8 +43029,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suleyman-sahin-acibadem",
-    "fullName": "Doçent Doktor Süleyman Şahin",
-    "titlePrefix": "Dr.",
+    "fullName": "Süleyman Şahin",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -43107,8 +43107,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "suna-yapali-acibadem",
-    "fullName": "Doçent Doktor Suna Yapalı",
-    "titlePrefix": "Dr.",
+    "fullName": "Suna Yapalı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -43317,8 +43317,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "taner-arpaci-acibadem",
-    "fullName": "Doçent Doktor Taner Arpacı",
-    "titlePrefix": "Dr.",
+    "fullName": "Taner Arpacı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -43359,8 +43359,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "taner-gunes-acibadem",
-    "fullName": "Profesör Doktor Taner Güneş",
-    "titlePrefix": "Dr.",
+    "fullName": "Taner Güneş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -43380,8 +43380,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "taner-korkmaz-acibadem",
-    "fullName": "Profesör Doktor Taner Korkmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Taner Korkmaz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -43401,8 +43401,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tansel-erol-acibadem",
-    "fullName": "Profesör Doktor Tansel Erol",
-    "titlePrefix": "Dr.",
+    "fullName": "Tansel Erol",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -43422,8 +43422,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tansel-turkoglu-acibadem",
-    "fullName": "Doçent Doktor Tansel Türkoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Tansel Türkoğlu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -43485,8 +43485,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tansu-karaahmet-acibadem",
-    "fullName": "Profesör Doktor Tansu Karaahmet",
-    "titlePrefix": "Dr.",
+    "fullName": "Tansu Karaahmet",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
     ],
@@ -43506,8 +43506,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tansu-kucuk-acibadem",
-    "fullName": "Profesör Doktor Tansu Küçük",
-    "titlePrefix": "Dr.",
+    "fullName": "Tansu Küçük",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -43527,8 +43527,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tarcan-topcuoglu-acibadem",
-    "fullName": "Diş Hekimi Tarcan Topçuoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Tarcan Topçuoğlu",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -43609,8 +43609,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tarik-yagci-acibadem",
-    "fullName": "Doçent Doktor Tarık Yağcı",
-    "titlePrefix": "Dr.",
+    "fullName": "Tarık Yağcı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -43651,8 +43651,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tarik-zafer-nursal-acibadem",
-    "fullName": "Profesör Doktor Tarık Zafer Nursal",
-    "titlePrefix": "Dr.",
+    "fullName": "Tarık Zafer Nursal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -43714,8 +43714,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tayfun-karahasanoglu-acibadem",
-    "fullName": "Profesör Doktor Tayfun Karahasanoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Tayfun Karahasanoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -43735,8 +43735,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tayfun-yoldas-acibadem",
-    "fullName": "Doçent Doktor Tayfun Yoldaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Tayfun Yoldaş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -43777,8 +43777,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tayyar-sarioglu-acibadem",
-    "fullName": "Profesör Doktor Tayyar Sarıoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Tayyar Sarıoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -43798,8 +43798,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tekin-kerem-ulku-acibadem",
-    "fullName": "Doçent Doktor Tekin Kerem Ülkü",
-    "titlePrefix": "Dr.",
+    "fullName": "Tekin Kerem Ülkü",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -43861,8 +43861,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tevfik-fikret-cermik-acibadem",
-    "fullName": "Profesör Doktor Tevfik Fikret Çermik",
-    "titlePrefix": "Dr.",
+    "fullName": "Tevfik Fikret Çermik",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -43880,8 +43880,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tevfik-rifki-evrenkaya-acibadem",
-    "fullName": "Profesör Doktor Tevfik Rıfkı Evrenkaya",
-    "titlePrefix": "Dr.",
+    "fullName": "Tevfik Rıfkı Evrenkaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "nefroloji"
@@ -43944,8 +43944,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tolga-ergin-acibadem",
-    "fullName": "Profesör Doktor Tolga Ergin",
-    "titlePrefix": "Dr.",
+    "fullName": "Tolga Ergin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -43986,8 +43986,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tolga-tuzuner-acibadem",
-    "fullName": "Profesör Doktor Tolga Tüzüner",
-    "titlePrefix": "Dr.",
+    "fullName": "Tolga Tüzüner",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji",
       "cocuk-cerrahisi"
@@ -44029,8 +44029,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tonguc-utku-yilmaz-acibadem",
-    "fullName": "Doçent Doktor Tonguç Utku Yılmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Tonguç Utku Yılmaz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -44111,8 +44111,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tufan-bilgin-acibadem",
-    "fullName": "Profesör Doktor Tufan Bilgin",
-    "titlePrefix": "Dr.",
+    "fullName": "Tufan Bilgin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -44214,8 +44214,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tugbay-tug-acibadem",
-    "fullName": "Profesör Doktor Tuğbay Tuğ",
-    "titlePrefix": "Dr.",
+    "fullName": "Tuğbay Tuğ",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -44256,8 +44256,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tugce-apaydin-acibadem",
-    "fullName": "Doçent Doktor Tuğçe Apaydın (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Tuğçe Apaydın",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
     ],
@@ -44361,7 +44361,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tugce-kiraz-acibadem",
-    "fullName": "D.k.t. Tuğçe Kiraz",
+    "fullName": "D. k.t. Tuğçe Kiraz",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -44401,7 +44401,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tulay-aslan-yayla-acibadem",
-    "fullName": "Tülay Aslan Yayla (m)",
+    "fullName": "Tülay Aslan Yayla",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
@@ -44443,8 +44443,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tulin-sevim-acibadem",
-    "fullName": "Profesör Doktor Tülin Sevim",
-    "titlePrefix": "Dr.",
+    "fullName": "Tülin Sevim",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari"
     ],
@@ -44464,8 +44464,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tuluhan-yunus-emre-acibadem",
-    "fullName": "Profesör Doktor Tuluhan Yunus Emre",
-    "titlePrefix": "Dr.",
+    "fullName": "Tuluhan Yunus Emre",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -44485,8 +44485,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tuna-bilecik-acibadem",
-    "fullName": "Doçent Doktor Tuna Bilecik",
-    "titlePrefix": "Dr.",
+    "fullName": "Tuna Bilecik",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -44548,8 +44548,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tunay-erden-acibadem",
-    "fullName": "Doçent Doktor Tunay Erden",
-    "titlePrefix": "Dr.",
+    "fullName": "Tunay Erden",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -44569,8 +44569,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tunc-ovali-acibadem",
-    "fullName": "Profesör Doktor Tunç Ovalı",
-    "titlePrefix": "Dr.",
+    "fullName": "Tunç Ovalı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -44590,8 +44590,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "tunc-ozdemir-acibadem",
-    "fullName": "Doçent Doktor Tunç Özdemir",
-    "titlePrefix": "Dr.",
+    "fullName": "Tunç Özdemir",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-cerrahisi"
     ],
@@ -44717,8 +44717,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "turgay-celikel-acibadem",
-    "fullName": "Profesör Doktor Turgay Çelikel",
-    "titlePrefix": "Dr.",
+    "fullName": "Turgay Çelikel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gogus-hastaliklari",
       "ic-hastaliklari"
@@ -44760,8 +44760,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "turgut-aydin-acibadem",
-    "fullName": "Profesör Doktor Turgut Aydın",
-    "titlePrefix": "Dr.",
+    "fullName": "Turgut Aydın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -44781,7 +44781,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "turgut-furkan-kuybulu-acibadem",
-    "fullName": "Turgut Furkan Kuybulu (m)",
+    "fullName": "Turgut Furkan Kuybulu",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
@@ -44802,8 +44802,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "turkan-ozturk-topcu-acibadem",
-    "fullName": "Profesör Doktor Türkan Öztürk Topcu",
-    "titlePrefix": "Dr.",
+    "fullName": "Türkan Öztürk Topcu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -44908,8 +44908,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "turkmen-bahadir-arikan-acibadem",
-    "fullName": "Doçent Doktor Türkmen Bahadır Arıkan",
-    "titlePrefix": "Dr.",
+    "fullName": "Türkmen Bahadır Arıkan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -44950,8 +44950,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "uemrah-altiparmak-acibadem",
-    "fullName": "Profesör Doktor U.emrah Altıparmak",
-    "titlePrefix": "Dr.",
+    "fullName": "U. emrah Altıparmak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
     ],
@@ -44971,8 +44971,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ufuk-aydinli-acibadem",
-    "fullName": "Profesör Doktor Ufuk Aydınlı",
-    "titlePrefix": "Dr.",
+    "fullName": "Ufuk Aydınlı",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -44992,7 +44992,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ufuk-bulent-dilek-acibadem",
-    "fullName": "Ufuk Bülent Dilek (m)",
+    "fullName": "Ufuk Bülent Dilek",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
@@ -45013,8 +45013,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ufuk-demirkilic-acibadem",
-    "fullName": "Profesör Doktor Ufuk Demirkılıç",
-    "titlePrefix": "Dr.",
+    "fullName": "Ufuk Demirkılıç",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
     ],
@@ -45034,8 +45034,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ufuk-kemal-gulsoy-acibadem",
-    "fullName": "Profesör Doktor Ufuk Kemal Gülsoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Ufuk Kemal Gülsoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -45055,8 +45055,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ufuk-topuz-acibadem",
-    "fullName": "Profesör Doktor Ufuk Topuz",
-    "titlePrefix": "Dr.",
+    "fullName": "Ufuk Topuz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -45076,8 +45076,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ugur-cinar-acibadem",
-    "fullName": "Profesör Doktor Uğur Çınar",
-    "titlePrefix": "Dr.",
+    "fullName": "Uğur Çınar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -45097,8 +45097,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ugur-isik-acibadem",
-    "fullName": "Profesör Doktor Uğur Işık",
-    "titlePrefix": "Dr.",
+    "fullName": "Uğur Işık",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -45203,8 +45203,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ugur-ozbek-acibadem",
-    "fullName": "Profesör Doktor Uğur Özbek",
-    "titlePrefix": "Dr.",
+    "fullName": "Uğur Özbek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -45307,8 +45307,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ulkem-cakir-acibadem",
-    "fullName": "Profesör Doktor Ülkem Çakır",
-    "titlePrefix": "Dr.",
+    "fullName": "Ülkem Çakır",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "nefroloji"
     ],
@@ -45328,8 +45328,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ulku-noyan-acibadem",
-    "fullName": "Profesör Doktor Ülkü Noyan",
-    "titlePrefix": "Dr.",
+    "fullName": "Ülkü Noyan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -45370,8 +45370,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ulku-tuncer-acibadem",
-    "fullName": "Profesör Doktor Ülkü Tuncer",
-    "titlePrefix": "Dr.",
+    "fullName": "Ülkü Tuncer",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -45434,8 +45434,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "umit-ince-acibadem",
-    "fullName": "Profesör Doktor Ümit İnce",
-    "titlePrefix": "Dr.",
+    "fullName": "Ümit İnce",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -45495,8 +45495,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "umut-akgun-acibadem",
-    "fullName": "Profesör Doktor Umut Akgün",
-    "titlePrefix": "Dr.",
+    "fullName": "Umut Akgün",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -45516,8 +45516,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "umut-disel-acibadem",
-    "fullName": "Doçent Doktor Umut Dişel",
-    "titlePrefix": "Dr.",
+    "fullName": "Umut Dişel",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "medikal-onkoloji"
@@ -45538,8 +45538,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "umut-kara-acibadem",
-    "fullName": "Doçent Doktor Umut Kara",
-    "titlePrefix": "Dr.",
+    "fullName": "Umut Kara",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -45580,8 +45580,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "umut-yavuz-acibadem",
-    "fullName": "Profesör Doktor Umut Yavuz",
-    "titlePrefix": "Dr.",
+    "fullName": "Umut Yavuz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -45643,8 +45643,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "urun-ozer-acibadem",
-    "fullName": "Doçent Doktor Ürün Özer Ağırbaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Ürün Özer Ağırbaş",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "psikiyatri"
     ],
@@ -45749,8 +45749,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "uygur-er-acibadem",
-    "fullName": "Profesör Doktor Uygur Er",
-    "titlePrefix": "Dr.",
+    "fullName": "Uygur Er",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -45791,8 +45791,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "v-melih-kara-acibadem",
-    "fullName": "Profesör Doktor V. Melih Kara",
-    "titlePrefix": "Dr.",
+    "fullName": "V. Melih Kara",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji",
       "genel-cerrahi"
@@ -45813,8 +45813,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "vahit-emre-ozden-acibadem",
-    "fullName": "Profesör Doktor Vahit Emre Özden",
-    "titlePrefix": "Dr.",
+    "fullName": "Vahit Emre Özden",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -45876,8 +45876,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "veli-yalcin-acibadem",
-    "fullName": "Profesör Doktor Veli Yalçın",
-    "titlePrefix": "Dr.",
+    "fullName": "Veli Yalçın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "uroloji"
     ],
@@ -45981,8 +45981,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "vildan-ertekin-acibadem",
-    "fullName": "Profesör Doktor Vildan Ertekin",
-    "titlePrefix": "Dr.",
+    "fullName": "Vildan Ertekin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -46065,8 +46065,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "volkan-noyan-acibadem",
-    "fullName": "Profesör Doktor Volkan Noyan",
-    "titlePrefix": "Dr.",
+    "fullName": "Volkan Noyan",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
     ],
@@ -46086,8 +46086,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "volkan-ozben-acibadem",
-    "fullName": "Profesör Doktor Volkan Özben",
-    "titlePrefix": "Dr.",
+    "fullName": "Volkan Özben",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -46332,8 +46332,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yaman-sarpel-acibadem",
-    "fullName": "Profesör Doktor Yaman Sarpel",
-    "titlePrefix": "Dr.",
+    "fullName": "Yaman Sarpel",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
     ],
@@ -46353,8 +46353,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yaman-tokat-acibadem",
-    "fullName": "Profesör Doktor Yaman Tokat",
-    "titlePrefix": "Dr.",
+    "fullName": "Yaman Tokat",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -46374,7 +46374,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yaren-ceceloglu-acibadem",
-    "fullName": "D.k.t. Yaren Ceceloğlu",
+    "fullName": "D. k.t. Yaren Ceceloğlu",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -46434,8 +46434,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasar-bayri-acibadem",
-    "fullName": "Doçent Doktor Yaşar Bayri",
-    "titlePrefix": "Dr.",
+    "fullName": "Yaşar Bayri",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -46455,8 +46455,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasar-colak-acibadem",
-    "fullName": "Profesör Doktor Yaşar Çolak",
-    "titlePrefix": "Dr.",
+    "fullName": "Yaşar Çolak",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -46476,8 +46476,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasar-unlu-acibadem",
-    "fullName": "Profesör Doktor Yaşar Ünlü",
-    "titlePrefix": "Dr.",
+    "fullName": "Yaşar Ünlü",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -46497,8 +46497,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasemin-alanay-acibadem",
-    "fullName": "Profesör Doktor Yasemin Alanay",
-    "titlePrefix": "Dr.",
+    "fullName": "Yasemin Alanay",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -46537,7 +46537,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasemin-dilek-soysal-acibadem",
-    "fullName": "Yasemin Dilek Soysal (m)",
+    "fullName": "Yasemin Dilek Soysal",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
@@ -46558,8 +46558,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasemin-ersoy-acibadem",
-    "fullName": "Profesör Doktor Yasemin Ersoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Yasemin Ersoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
     ],
@@ -46579,8 +46579,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasemin-koyuncu-acibadem",
-    "fullName": "Doçent Doktor Yasemin Koyuncu",
-    "titlePrefix": "Dr.",
+    "fullName": "Yasemin Koyuncu",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dermatoloji"
     ],
@@ -46621,8 +46621,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yasemin-senyurek-acibadem",
-    "fullName": "Profesör Doktor Yasemin Şenyürek",
-    "titlePrefix": "Dr.",
+    "fullName": "Yasemin Şenyürek",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -46684,8 +46684,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yavuz-atar-acibadem",
-    "fullName": "Profesör Doktor Yavuz Atar",
-    "titlePrefix": "Dr.",
+    "fullName": "Yavuz Atar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -46705,8 +46705,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yavuz-baykal-acibadem",
-    "fullName": "Profesör Doktor Yavuz Baykal",
-    "titlePrefix": "Dr.",
+    "fullName": "Yavuz Baykal",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -46789,8 +46789,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yeliz-cavusoglu-acibadem",
-    "fullName": "Doçent Doktor Yeliz Çavuşoğlu Yüce",
-    "titlePrefix": "Dr.",
+    "fullName": "Yeliz Çavuşoğlu Yüce",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -46852,8 +46852,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yesim-cimen-acibadem",
-    "fullName": "Doçent Doktor Yeşim Çimen",
-    "titlePrefix": "Dr.",
+    "fullName": "Yeşim Çimen",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -46873,8 +46873,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yesim-eralp-acibadem",
-    "fullName": "Profesör Doktor Yeşim Eralp",
-    "titlePrefix": "Dr.",
+    "fullName": "Yeşim Eralp",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -46894,8 +46894,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yesim-saglican-acibadem",
-    "fullName": "Doçent Doktor Yeşim Sağlıcan",
-    "titlePrefix": "Dr.",
+    "fullName": "Yeşim Sağlıcan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
     "clinicSlugs": [
@@ -46934,8 +46934,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yetkin-zeki-yilmaz-acibadem",
-    "fullName": "Doçent Doktor Yetkin Zeki Yılmaz",
-    "titlePrefix": "Dr.",
+    "fullName": "Yetkin Zeki Yılmaz",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -46998,8 +46998,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yildiz-okuturlar-acibadem",
-    "fullName": "Profesör Doktor Yıldız Okuturlar",
-    "titlePrefix": "Dr.",
+    "fullName": "Yıldız Okuturlar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -47019,8 +47019,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yilmaz-buyukuncu-acibadem",
-    "fullName": "Profesör Doktor Yılmaz Büyükuncu",
-    "titlePrefix": "Dr.",
+    "fullName": "Yılmaz Büyükuncu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -47061,8 +47061,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yuksel-erdal-acibadem",
-    "fullName": "Doçent Doktor Yüksel Erdal",
-    "titlePrefix": "Dr.",
+    "fullName": "Yüksel Erdal",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "noroloji"
     ],
@@ -47082,8 +47082,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yuksel-ersoy-acibadem",
-    "fullName": "Profesör Doktor Yüksel Ersoy",
-    "titlePrefix": "Dr.",
+    "fullName": "Yüksel Ersoy",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -47103,8 +47103,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yunus-aydin-acibadem",
-    "fullName": "Profesör Doktor Yunus Aydın",
-    "titlePrefix": "Dr.",
+    "fullName": "Yunus Aydın",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -47145,8 +47145,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yunus-donder-acibadem",
-    "fullName": "Doçent Doktor Yunus Dönder",
-    "titlePrefix": "Dr.",
+    "fullName": "Yunus Dönder",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "genel-cerrahi"
     ],
@@ -47208,8 +47208,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yurtkuran-sadikoglu-acibadem",
-    "fullName": "Profesör Doktor Yurtkuran Sadıkoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Yurtkuran Sadıkoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyoloji"
     ],
@@ -47398,8 +47398,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yusuf-karakas-acibadem",
-    "fullName": "Profesör Doktor Yusuf Karakaş",
-    "titlePrefix": "Dr.",
+    "fullName": "Yusuf Karakaş",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
     ],
@@ -47440,8 +47440,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yusuf-serdar-sakin-acibadem",
-    "fullName": "Profesör Doktor Yusuf Serdar Sakin",
-    "titlePrefix": "Dr.",
+    "fullName": "Yusuf Serdar Sakin",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -47461,8 +47461,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "yusufhan-suoglu-acibadem",
-    "fullName": "Profesör Doktor Yusufhan Süoğlu",
-    "titlePrefix": "Dr.",
+    "fullName": "Yusufhan Süoğlu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -47544,8 +47544,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zehra-serpil-ustalar-acibadem",
-    "fullName": "Profesör Doktor Zehra Serpil Ustalar",
-    "titlePrefix": "Dr.",
+    "fullName": "Zehra Serpil Ustalar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "anesteziyoloji-ve-reanimasyon"
     ],
@@ -47628,8 +47628,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zerrin-boyaci-acibadem",
-    "fullName": "Doçent Doktor Zerrin Boyacı",
-    "titlePrefix": "Dr.",
+    "fullName": "Zerrin Boyacı",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -47794,7 +47794,7 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zeynep-ezgi-akan-acibadem",
-    "fullName": "Zeynep Ezgi Akan (m)",
+    "fullName": "Zeynep Ezgi Akan",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "dis-hekimligi"
@@ -47857,8 +47857,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zeynep-guven-acibadem",
-    "fullName": "Profesör Doktor Zeynep Güven",
-    "titlePrefix": "Dr.",
+    "fullName": "Zeynep Güven",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
     ],
@@ -47878,8 +47878,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zeynep-karaali-acibadem",
-    "fullName": "Profesör Doktor Zeynep Karaali",
-    "titlePrefix": "Dr.",
+    "fullName": "Zeynep Karaali",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
     ],
@@ -47899,8 +47899,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zeynep-kavi-acibadem",
-    "fullName": "Diş Hekimi Zeynep Kavi",
-    "titlePrefix": "Dr.",
+    "fullName": "Zeynep Kavi",
+    "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
     ],
@@ -47941,8 +47941,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zeynep-selen-aslan-acibadem",
-    "fullName": "Doçent Doktor Zeynep Selen Aslan",
-    "titlePrefix": "Dr.",
+    "fullName": "Zeynep Selen Aslan",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -48005,8 +48005,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zeynep-yezdan-firat-acibadem",
-    "fullName": "Profesör Doktor Zeynep Yezdan Fırat",
-    "titlePrefix": "Dr.",
+    "fullName": "Zeynep Yezdan Fırat",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
     ],
@@ -48026,8 +48026,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "ziya-akar-acibadem",
-    "fullName": "Profesör Doktor Ziya Akar",
-    "titlePrefix": "Dr.",
+    "fullName": "Ziya Akar",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
     ],
@@ -48047,8 +48047,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zubeyde-gunduz-acibadem",
-    "fullName": "Profesör Doktor Zübeyde Gündüz",
-    "titlePrefix": "Dr.",
+    "fullName": "Zübeyde Gündüz",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
     ],
@@ -48089,8 +48089,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zuhal-atan-ucar-acibadem",
-    "fullName": "Doçent Doktor Zuhal Atan Uçar",
-    "titlePrefix": "Dr.",
+    "fullName": "Zuhal Atan Uçar",
+    "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "nefroloji",
       "ic-hastaliklari"
@@ -48151,8 +48151,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zuleyha-akkan-cetinkaya-acibadem",
-    "fullName": "Profesör Doktor Züleyha Akkan Çetinkaya (m)",
-    "titlePrefix": "Dr.",
+    "fullName": "Züleyha Akkan Çetinkaya",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
     ],
@@ -48172,8 +48172,8 @@ export const doctorsAcibadem: DoctorSummary[] = [
   },
   {
     "slug": "zuleyha-calikusu-acibadem",
-    "fullName": "Profesör Doktor Züleyha Çalıkuşu",
-    "titlePrefix": "Dr.",
+    "fullName": "Züleyha Çalıkuşu",
+    "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari",
       "medikal-onkoloji"

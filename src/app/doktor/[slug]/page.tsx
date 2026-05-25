@@ -23,8 +23,11 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import {
   ALPHABETICAL_DISCLAIMER,
   MEDICAL_INFO_DISCLAIMER,
-  doctorTitle,
 } from "@/lib/seo/title";
+import {
+  doctorTitleVariant,
+  doctorDescriptionVariant,
+} from "@/lib/seo/doctor-description";
 import {
   breadcrumb,
   jsonLdScript,
@@ -55,19 +58,22 @@ export async function generateMetadata({
   if (!doctor) return {};
 
   const sp = findSpecialty(doctor.specialtySlugs[0])?.name ?? "Hekim";
-  const city = findCity(doctor.citySlug)?.name ?? "Türkiye";
-  const clinic = doctor.clinicSlugs[0]
+  const cityName = findCity(doctor.citySlug)?.name ?? "Türkiye";
+  const clinicName = doctor.clinicSlugs[0]
     ? findClinic(doctor.clinicSlugs[0])?.name
     : undefined;
+  const procedureNames = doctor.procedureSlugs
+    .map((s) => findProcedure(s)?.name)
+    .filter((n): n is string => Boolean(n));
+  const districtName = doctor.districtSlug
+    ? doctor.districtSlug.charAt(0).toLocaleUpperCase("tr-TR") +
+      doctor.districtSlug.slice(1).replace(/-/g, " ")
+    : undefined;
 
+  const args = { doctor, specialtyName: sp, cityName, districtName, clinicName, procedureNames };
   return buildMetadata({
-    title: doctorTitle({
-      fullName: doctor.fullName,
-      titlePrefix: doctor.titlePrefix,
-      specialty: sp,
-      city,
-    }),
-    description: `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} · ${sp} uzmanı · ${city}${clinic ? ` · ${clinic}` : ""}. TTB sicil doğrulamalı bilgilendirme amaçlı profil.`,
+    title: doctorTitleVariant(args),
+    description: doctorDescriptionVariant(args),
     path: `/doktor/${slug}`,
   });
 }

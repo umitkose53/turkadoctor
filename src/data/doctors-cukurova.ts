@@ -558,7 +558,7 @@ export const doctorsCukurova: DoctorSummary[] = [
   },
   {
     "slug": "mungan-cu-tip",
-    "fullName": "H.neslihan Önenli Mungan",
+    "fullName": "H. neslihan Önenli Mungan",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"

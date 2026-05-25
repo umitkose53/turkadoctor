@@ -1912,7 +1912,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12235-asiye-yildiz-medicana",
-    "fullName": "Asiye Yıldız ",
+    "fullName": "Asiye Yıldız",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "dermatoloji"
@@ -2015,7 +2015,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12316-onder-kaplan-medicana",
-    "fullName": "Önder Kaplan ",
+    "fullName": "Önder Kaplan",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
@@ -2120,7 +2120,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "1235-yunus-ozturk-medicana",
-    "fullName": "Yunus Öztürk ",
+    "fullName": "Yunus Öztürk",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -2139,7 +2139,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "1240-ozgur-ince-medicana",
-    "fullName": "Özgür İnce ",
+    "fullName": "Özgür İnce",
     "titlePrefix": "Dr. Öğr. Üyesi",
     "specialtySlugs": [
       "gogus-hastaliklari"
@@ -2425,7 +2425,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12639-basak-mutlu-medicana",
-    "fullName": "Başak Mutlu ",
+    "fullName": "Başak Mutlu",
     "titlePrefix": "Klinik Psikolog",
     "specialtySlugs": [
       "psikoloji"
@@ -2467,7 +2467,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12642-veysel-cigerli-medicana",
-    "fullName": "Veysel Ciğerli ",
+    "fullName": "Veysel Ciğerli",
     "titlePrefix": "Dyt.",
     "specialtySlugs": [
       "diyetisyen"
@@ -2549,7 +2549,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12704-selma-akdeniz-oskay-medicana",
-    "fullName": "Selma Akdeniz Oskay ",
+    "fullName": "Selma Akdeniz Oskay",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
@@ -2984,7 +2984,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12793-mehmet-hamidi-medicana",
-    "fullName": "Mehmet  Hamidi ",
+    "fullName": "Mehmet Hamidi",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
@@ -3211,7 +3211,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12854-engin-bozkurt-medicana",
-    "fullName": "Engin  Bozkurt ",
+    "fullName": "Engin Bozkurt",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
@@ -3442,7 +3442,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "12962-meryem-gul-erden-hocaoglu-medicana",
-    "fullName": "Meryem Gül Erden Hocaoğlu  ",
+    "fullName": "Meryem Gül Erden Hocaoğlu",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
@@ -3841,7 +3841,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "15055-erdal-dilekci-medicana",
-    "fullName": "Erdal Dilekçi ",
+    "fullName": "Erdal Dilekçi",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
@@ -3988,7 +3988,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "15353-mehmet-emin-demir-medicana",
-    "fullName": "Mehmet Emin Demir ",
+    "fullName": "Mehmet Emin Demir",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "nefroloji"
@@ -4030,7 +4030,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "15367-selda-kahraman-medicana",
-    "fullName": "Selda Kahraman ",
+    "fullName": "Selda Kahraman",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "hematoloji"
@@ -4093,7 +4093,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "15463-ahmet-yanik-medicana",
-    "fullName": "Ahmet Yanık ",
+    "fullName": "Ahmet Yanık",
     "titlePrefix": "Dr. Öğr. Üyesi",
     "specialtySlugs": [
       "kardiyoloji"
@@ -4219,7 +4219,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "15559-mazhar-unsal-medicana",
-    "fullName": "Mazhar Ünsal ",
+    "fullName": "Mazhar Ünsal",
     "titlePrefix": "Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
@@ -4595,7 +4595,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "15742-emel-atar-medicana",
-    "fullName": "Emel Atar ",
+    "fullName": "Emel Atar",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "fizik-tedavi"
@@ -4805,7 +4805,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "15928-tulay-sener-ozvatan-medicana",
-    "fullName": "Tülay Şener Özvatan ",
+    "fullName": "Tülay Şener Özvatan",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "enfeksiyon-hastaliklari"
@@ -5158,7 +5158,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "16184-ali-dalgic-medicana",
-    "fullName": "Ali Dalgıç ",
+    "fullName": "Ali Dalgıç",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "beyin-ve-sinir-cerrahisi"
@@ -5839,7 +5839,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "16622-ozge-yendur-medicana",
-    "fullName": "Özge Yendur ",
+    "fullName": "Özge Yendur",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
@@ -5942,7 +5942,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "16665-enver-ferruh-inan-medicana",
-    "fullName": "Enver Ferruh  İnan",
+    "fullName": "Enver Ferruh İnan",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kbb"
@@ -6125,7 +6125,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17737-seyit-ahmet-uslu-medicana",
-    "fullName": "Seyit  Ahmet Uslu",
+    "fullName": "Seyit Ahmet Uslu",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
@@ -6146,7 +6146,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17764-hasan-kucuksahin-medicana",
-    "fullName": "Hasan Küçükşahin ",
+    "fullName": "Hasan Küçükşahin",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
@@ -6333,7 +6333,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17821-onder-cinar-medicana",
-    "fullName": "Önder Çinar ",
+    "fullName": "Önder Çinar",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "uroloji"
@@ -6457,7 +6457,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17893-habip-binici-medicana",
-    "fullName": "Habip Binici ",
+    "fullName": "Habip Binici",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kbb"
@@ -6583,7 +6583,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17915-umut-can-urun-medicana",
-    "fullName": "Umut Can Urun ",
+    "fullName": "Umut Can Urun",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "acil-tip"
@@ -6684,7 +6684,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17933-yunus-turgay-erten-medicana",
-    "fullName": "Yunus Turgay Erten ",
+    "fullName": "Yunus Turgay Erten",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
@@ -6810,7 +6810,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17987-sidika-onver-medicana",
-    "fullName": "Sıdıka Önver ",
+    "fullName": "Sıdıka Önver",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "acil-tip"
@@ -6873,7 +6873,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17992-ozlem-sezgin-mericliler-medicana",
-    "fullName": "Özlem Sezgin Meriçliler ",
+    "fullName": "Özlem Sezgin Meriçliler",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "endokrinoloji"
@@ -6894,7 +6894,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "17994-ramazan-donmez-medicana",
-    "fullName": "Ramazan Dönmez ",
+    "fullName": "Ramazan Dönmez",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -6934,7 +6934,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18001-mehmet-salih-akbel-medicana",
-    "fullName": "Mehmet Salih Akbel ",
+    "fullName": "Mehmet Salih Akbel",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "acil-tip"
@@ -7081,7 +7081,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18041-yavuz-furuncuoglu-medicana",
-    "fullName": "Yavuz Furuncuoğlu ",
+    "fullName": "Yavuz Furuncuoğlu",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
@@ -7415,7 +7415,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18142-pinar-gokcen-medicana",
-    "fullName": "Pınar Gökçen ",
+    "fullName": "Pınar Gökçen",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
@@ -7686,7 +7686,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18225-brian-roy-ives-medicana",
-    "fullName": "Brian Roy Ives ",
+    "fullName": "Brian Roy Ives",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -7705,7 +7705,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18232-buket-taneri-medicana",
-    "fullName": "Buket Taneri ",
+    "fullName": "Buket Taneri",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
@@ -7789,7 +7789,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18257-emel-can-medicana",
-    "fullName": "Emel Can ",
+    "fullName": "Emel Can",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "cocuk-hastaliklari"
@@ -8062,7 +8062,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18337-cihan-buyukavsar-medicana",
-    "fullName": "Cihan Büyükavşar ",
+    "fullName": "Cihan Büyükavşar",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
@@ -8188,7 +8188,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18430-tamer-tepedelen-medicana",
-    "fullName": "Tamer Tepedelen ",
+    "fullName": "Tamer Tepedelen",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
@@ -8333,7 +8333,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18649-cemal-ayhan-medicana",
-    "fullName": "Cemal Ayhan ",
+    "fullName": "Cemal Ayhan",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kbb"
@@ -8354,7 +8354,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18661-umut-demir-medicana",
-    "fullName": "Umut Demir ",
+    "fullName": "Umut Demir",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
@@ -8684,7 +8684,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18784-baris-kirat-medicana",
-    "fullName": "Barış Kırat ",
+    "fullName": "Barış Kırat",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -9433,7 +9433,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "18968-ilknur-altayli-ener-medicana",
-    "fullName": "ilknur Altaylı Ener ",
+    "fullName": "ilknur Altaylı Ener",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "noroloji"
@@ -10032,7 +10032,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "19079-esra-arik-medicana",
-    "fullName": "Esra Arık ",
+    "fullName": "Esra Arık",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
@@ -10053,7 +10053,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "19082-alper-aksoy-medicana",
-    "fullName": "Alper Aksoy ",
+    "fullName": "Alper Aksoy",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
@@ -10156,7 +10156,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "19092-gulseren-bilen-yurdakul-medicana",
-    "fullName": "Gülseren Bilen Yurdakul ",
+    "fullName": "Gülseren Bilen Yurdakul",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -10831,7 +10831,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "19218-arif-mesud-kaya-medicana",
-    "fullName": "Arif Mesud KAYA ",
+    "fullName": "Arif Mesud KAYA",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "acil-tip"
@@ -10871,7 +10871,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "19242-irem-kucukyildiz-medicana",
-    "fullName": "İrem Alyazıcı  Küçükyıldız",
+    "fullName": "İrem Alyazıcı Küçükyıldız",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
@@ -11100,7 +11100,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "19289-hilal-dost-medicana",
-    "fullName": "Hilal Dost ",
+    "fullName": "Hilal Dost",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "psikiyatri"
@@ -11268,7 +11268,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "19370-betul-bostan-medicana",
-    "fullName": "Betül Bostan ",
+    "fullName": "Betül Bostan",
     "titlePrefix": "Uzm. Dt.",
     "specialtySlugs": [
       "dis-hekimligi"
@@ -11373,7 +11373,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "20368-sevde-nur-mert-medicana",
-    "fullName": "Sevde Nur Mert ",
+    "fullName": "Sevde Nur Mert",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
@@ -11455,7 +11455,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "20397-mehme-batu-ertan-medicana",
-    "fullName": "Mehmet Batu Ertan ",
+    "fullName": "Mehmet Batu Ertan",
     "titlePrefix": "Dr. Öğr. Üyesi",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
@@ -11537,7 +11537,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "20406-omer-oz-medicana",
-    "fullName": "Ömer Öz ",
+    "fullName": "Ömer Öz",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "psikiyatri"
@@ -11724,7 +11724,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "20448-ahmet-demirhan-dal-medicana",
-    "fullName": "Ahmet Demirhan Dal ",
+    "fullName": "Ahmet Demirhan Dal",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "estetik-cerrahi"
@@ -11997,7 +11997,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "20557-ayse-tokdemir-dogan-medicana",
-    "fullName": "Ayşe Tokdemir Doğan ",
+    "fullName": "Ayşe Tokdemir Doğan",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -12121,7 +12121,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "20589-abdurrahman-demirci-medicana",
-    "fullName": "Abdurrahman Demirci ",
+    "fullName": "Abdurrahman Demirci",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -12346,7 +12346,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "20934-irem-durna-medicana",
-    "fullName": "İrem Durna ",
+    "fullName": "İrem Durna",
     "titlePrefix": "Psikolog",
     "specialtySlugs": [
       "psikoloji"
@@ -12535,7 +12535,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "21014-tezcan-peker-medicana",
-    "fullName": "Tezcan Peker ",
+    "fullName": "Tezcan Peker",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
@@ -13079,7 +13079,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "21851-semahat-burcu-sel-medicana",
-    "fullName": "Semahat Burcu Sel ",
+    "fullName": "Semahat Burcu Sel",
     "titlePrefix": "Dyt.",
     "specialtySlugs": [
       "diyetisyen"
@@ -23146,7 +23146,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3895-sefa-guliter-medicana",
-    "fullName": "Sefa Güliter ",
+    "fullName": "Sefa Güliter",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "gastroenteroloji"
@@ -23167,7 +23167,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3900-hakki-serkan-sahin-medicana",
-    "fullName": "Hakkı Serkan Şahin ",
+    "fullName": "Hakkı Serkan Şahin",
     "titlePrefix": "Dr. Öğr. Üyesi",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
@@ -23188,7 +23188,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3911-turhan-pekiner-medicana",
-    "fullName": "Turhan Pekiner ",
+    "fullName": "Turhan Pekiner",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23207,7 +23207,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3919-a-bedri-ozer-medicana",
-    "fullName": "A.Bedri Özer ",
+    "fullName": "A.Bedri Özer",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "kbb"
@@ -23228,7 +23228,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3958-salim-ersozlu-medicana",
-    "fullName": "Salim Ersözlü ",
+    "fullName": "Salim Ersözlü",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "ortopedi-ve-travmatoloji"
@@ -23249,7 +23249,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3963-aydin-kelkit-medicana",
-    "fullName": "Aydın Kelkit ",
+    "fullName": "Aydın Kelkit",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "dermatoloji"
@@ -23270,7 +23270,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3983-gulcan-erk-medicana",
-    "fullName": "Gülcan Erk ",
+    "fullName": "Gülcan Erk",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23289,7 +23289,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3984-hulya-sabuncuoglu-medicana",
-    "fullName": "Hülya Sabuncuoğlu ",
+    "fullName": "Hülya Sabuncuoğlu",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23308,7 +23308,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3985-mehmet-kenan-erk-medicana",
-    "fullName": "Mehmet Kenan Erk ",
+    "fullName": "Mehmet Kenan Erk",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23327,7 +23327,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "3988-esra-elmali-medicana",
-    "fullName": "Esra Elmalı ",
+    "fullName": "Esra Elmalı",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23346,7 +23346,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4002-nalan-can-medicana",
-    "fullName": "Nalan Can ",
+    "fullName": "Nalan Can",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23386,7 +23386,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4010-kaan-oysul-medicana",
-    "fullName": "Kaan Oysul ",
+    "fullName": "Kaan Oysul",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
@@ -23407,7 +23407,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4014-hakan-ulubay-medicana",
-    "fullName": "Hakan Ulubay ",
+    "fullName": "Hakan Ulubay",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "radyoloji"
@@ -23428,7 +23428,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4025-seyit-nizamettin-caglar-medicana",
-    "fullName": "Seyit Nizamettin Çağlar ",
+    "fullName": "Seyit Nizamettin Çağlar",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23447,7 +23447,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4032-leyla-ercan-medicana",
-    "fullName": "Leyla Ercan ",
+    "fullName": "Leyla Ercan",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kadin-hastaliklari-ve-dogum"
@@ -23487,7 +23487,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4043-ismail-sener-demiroluk-medicana",
-    "fullName": "İsmail Şener Demiroluk ",
+    "fullName": "İsmail Şener Demiroluk",
     "titlePrefix": "Doç. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23506,7 +23506,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4066-ilhan-dalyanci-medicana",
-    "fullName": "İlhan Dalyancı ",
+    "fullName": "İlhan Dalyancı",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23525,7 +23525,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4101-elif-unuvar-medicana",
-    "fullName": "Elif Ünüvar ",
+    "fullName": "Elif Ünüvar",
     "titlePrefix": "Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23586,7 +23586,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4133-mehmet-oguz-gumuser-medicana",
-    "fullName": "Mehmet Oğuz Gümüşer ",
+    "fullName": "Mehmet Oğuz Gümüşer",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "acil-tip"
@@ -23607,7 +23607,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4135-ismail-erdogu-medicana",
-    "fullName": "İsmail Erdoğu ",
+    "fullName": "İsmail Erdoğu",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
@@ -23628,7 +23628,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4167-javid-yusifli-medicana",
-    "fullName": "Javid Yusıflı ",
+    "fullName": "Javid Yusıflı",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "acil-tip"
@@ -23649,7 +23649,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4168-kursad-ergun-medicana",
-    "fullName": "Kürşad Ergün ",
+    "fullName": "Kürşad Ergün",
     "titlePrefix": "Dr.",
     "specialtySlugs": [
       "acil-tip"
@@ -23670,7 +23670,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4178-necdet-caliker-medicana",
-    "fullName": "Necdet Çalıker ",
+    "fullName": "Necdet Çalıker",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23689,7 +23689,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4180-turan-yilmaz-medicana",
-    "fullName": "Turan Yılmaz ",
+    "fullName": "Turan Yılmaz",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -23708,7 +23708,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4188-mehmet-ari-medicana",
-    "fullName": "Mehmet Arı ",
+    "fullName": "Mehmet Arı",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "radyoloji"
@@ -23729,7 +23729,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4205-levent-sarac-medicana",
-    "fullName": "Levent Saraç ",
+    "fullName": "Levent Saraç",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "kardiyoloji"
@@ -23750,7 +23750,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4225-cengizhan-zahmacioglu-medicana",
-    "fullName": "Cengizhan Zahmacıoğlu ",
+    "fullName": "Cengizhan Zahmacıoğlu",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "radyoloji"
@@ -23792,7 +23792,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "4234-mustafa-kavurmaci-medicana",
-    "fullName": "Mustafa Kavurmacı ",
+    "fullName": "Mustafa Kavurmacı",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -24337,7 +24337,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "5287-sevda-gurtan-medicana",
-    "fullName": "Sevda Gürtan ",
+    "fullName": "Sevda Gürtan",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -24783,7 +24783,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "5884-adnan-ipcioglu-medicana",
-    "fullName": "Adnan  İpçioğlu",
+    "fullName": "Adnan İpçioğlu",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "goz-hastaliklari"
@@ -25199,7 +25199,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "6285-ahmet-tasdelen-medicana",
-    "fullName": "Ahmet Taşdelen ",
+    "fullName": "Ahmet Taşdelen",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -25260,7 +25260,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "7042-ulku-yildiz-medicana",
-    "fullName": "Ülkü Yıldız ",
+    "fullName": "Ülkü Yıldız",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kalp-ve-damar-cerrahisi"
@@ -25785,7 +25785,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "7696-nilufer-avci-medicana",
-    "fullName": "Nilüfer Avcı ",
+    "fullName": "Nilüfer Avcı",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "medikal-onkoloji"
@@ -25949,7 +25949,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "7806-ibrahim-yildirim-medicana",
-    "fullName": "İbrahim Yıldırım ",
+    "fullName": "İbrahim Yıldırım",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
@@ -26783,7 +26783,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "854-taner-has-medicana",
-    "fullName": "Taner Has ",
+    "fullName": "Taner Has",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [
       "ic-hastaliklari"
@@ -26846,7 +26846,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "8591-ertan-yildirim-medicana",
-    "fullName": "Ertan Yıldırım ",
+    "fullName": "Ertan Yıldırım",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kbb"
@@ -26867,7 +26867,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "8598-idil-ozturk-medicana",
-    "fullName": "İdil Öztürk ",
+    "fullName": "İdil Öztürk",
     "titlePrefix": "Op. Dr.",
     "specialtySlugs": [
       "kbb"
@@ -26888,7 +26888,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "8602-necmettin-konuk-medicana",
-    "fullName": "Necmettin Konuk ",
+    "fullName": "Necmettin Konuk",
     "titlePrefix": "Uzm. Dr.",
     "specialtySlugs": [],
     "procedureSlugs": [],
@@ -27239,7 +27239,7 @@ export const doctorsMedicana: DoctorSummary[] = [
   },
   {
     "slug": "9059-candan-demiroz-abakay-medicana",
-    "fullName": "Candan  Abakay",
+    "fullName": "Candan Abakay",
     "titlePrefix": "Prof. Dr.",
     "specialtySlugs": [
       "radyasyon-onkolojisi"
