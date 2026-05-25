@@ -5,6 +5,35 @@ import type { ClinicSummary } from "./types";
  * Bazı kuruluşlar; kamuya açık bilgi temelinde örnek profil olarak yer alır.
  * Kuruluşlar sahiplenme akışı (claim) ile bilgilerini doğrulayabilir.
  */
+
+/**
+ * Helper: zincir hastane listelerinden ClinicSummary[] üretir.
+ * Hızlı bulk eklenecek hastaneler için varsayılan değerlerle.
+ */
+function buildChainClinics(
+  list: Array<{
+    slug: string;
+    name: string;
+    city: string;
+    district?: string;
+    website?: string;
+    jciCert?: boolean;
+  }>,
+): ClinicSummary[] {
+  return list.map((c) => ({
+    slug: c.slug,
+    name: c.name,
+    type: "ozel_hastane" as const,
+    citySlug: c.city,
+    districtSlug: c.district,
+    website: c.website,
+    jciCert: c.jciCert ?? false,
+    specialties: [],
+    procedures: [],
+    signals: [],
+  }));
+}
+
 export const clinics: ClinicSummary[] = [
   // ────────────── İSTANBUL — ESTETİK / SAÇ EKİM ──────────────
   {
@@ -522,6 +551,64 @@ export const clinics: ClinicSummary[] = [
       { source: "google_places", ratingAvg: 4.4, reviewCount: 1240, visible: true },
     ],
   },
+
+  // ────────────── MEDICANA SAĞLIK GRUBU (17 hastane, 7 il) ──────────────
+  ...buildChainClinics([
+    { slug: "medicana-zincirlikuyu", name: "Medicana Zincirlikuyu Hastanesi", city: "istanbul", district: "besiktas" },
+    { slug: "medicana-atakoy", name: "Medicana Ataköy Hastanesi", city: "istanbul", district: "bakirkoy" },
+    { slug: "medicana-atasehir", name: "Medicana Ataşehir Hastanesi", city: "istanbul", district: "atasehir" },
+    { slug: "medicana-bahcelievler", name: "Medicana Bahçelievler Hastanesi", city: "istanbul", district: "bahcelievler" },
+    { slug: "medicana-beylikduzu", name: "Medicana Beylikdüzü Hastanesi", city: "istanbul", district: "beylikduzu" },
+    { slug: "medicana-camlica", name: "Medicana Çamlıca Hastanesi", city: "istanbul", district: "uskudar" },
+    { slug: "medicana-kadikoy", name: "Medicana Kadıköy Hastanesi", city: "istanbul", district: "kadikoy" },
+    { slug: "medicana-avcilar", name: "Medicana Avcılar Hastanesi", city: "istanbul", district: "avcilar" },
+    { slug: "medicana-airport-medical-center", name: "Medicana Airport Medical Center", city: "istanbul", district: "bakirkoy" },
+    { slug: "medicana-international-istanbul", name: "Medicana International İstanbul Hastanesi", city: "istanbul", district: "bahcelievler" },
+    { slug: "medicana-international-ankara", name: "Medicana International Ankara Hastanesi", city: "ankara", district: "cankaya" },
+    { slug: "medicana-international-izmir", name: "Medicana International İzmir Hastanesi", city: "izmir", district: "konak" },
+    { slug: "medicana-cesme", name: "Medicana Çeşme Hastanesi", city: "izmir", district: "cesme" },
+    { slug: "medicana-bursa", name: "Medicana Bursa Hastanesi", city: "bursa", district: "nilufer" },
+    { slug: "medicana-samsun", name: "Medicana Samsun Hastanesi (International)", city: "samsun", district: "canik" },
+    { slug: "medicana-konya", name: "Medicana Konya Hastanesi", city: "konya", district: "selcuklu" },
+    { slug: "medicana-sivas", name: "Medicana Sivas Hastanesi", city: "sivas", district: "merkez" },
+  ]),
+
+  // ────────────── MEDICAL PARK + LIV + VM ZİNCİRİ (30+ hastane, 12 il) ──────────────
+  ...buildChainClinics([
+    { slug: "medical-park-antalya", name: "Medical Park Antalya Hastanesi", city: "antalya", district: "muratpasa" },
+    { slug: "medical-park-bahcelievler", name: "Medical Park Bahçelievler Hastanesi", city: "istanbul", district: "bahcelievler" },
+    { slug: "medical-park-goztepe", name: "Medical Park Göztepe Hastanesi", city: "istanbul", district: "kadikoy" },
+    { slug: "medical-park-florya", name: "Medical Park Florya Hastanesi", city: "istanbul", district: "bakirkoy" },
+    { slug: "medical-park-gebze", name: "Medical Park Gebze Hastanesi", city: "kocaeli", district: "gebze" },
+    { slug: "medical-park-kocaeli", name: "Medical Park Kocaeli Hastanesi", city: "kocaeli", district: "izmit" },
+    { slug: "medical-park-izmir", name: "Medical Park İzmir Hastanesi", city: "izmir", district: "karsiyaka" },
+    { slug: "medical-park-adana", name: "Medical Park Adana Hastanesi", city: "adana", district: "yuregir" },
+    { slug: "medical-park-bursa", name: "Medical Park Bursa Hastanesi", city: "bursa", district: "nilufer" },
+    { slug: "medical-park-samsun", name: "Medical Park Samsun Hastanesi", city: "samsun", district: "atakum" },
+    { slug: "medical-park-ankara", name: "Medical Park Ankara Hastanesi (genel)", city: "ankara", district: "cankaya" },
+    { slug: "medical-park-ankara-batikent", name: "Medical Park Ankara Batıkent Hastanesi", city: "ankara", district: "yenimahalle" },
+    { slug: "medical-park-ankara-kecioren", name: "Medical Park Ankara Keçiören Hastanesi", city: "ankara", district: "kecioren" },
+    { slug: "medical-park-incek", name: "Medical Park İncek Hastanesi (Ankara)", city: "ankara", district: "golbasi" },
+    { slug: "medical-park-atasehir", name: "Medical Park Ataşehir Hastanesi", city: "istanbul", district: "atasehir" },
+    { slug: "medical-park-istinye-universitesi", name: "İstinye Üniversitesi Medical Park", city: "istanbul", district: "sisli" },
+    { slug: "medical-park-gaziosmanpasa", name: "İstinye Üniversitesi Gaziosmanpaşa Hastanesi", city: "istanbul", district: "gaziosmanpasa" },
+    { slug: "medical-park-istinye-dental", name: "Medical Park İstinye Dental Hospital", city: "istanbul", district: "sariyer" },
+    { slug: "medical-park-tem", name: "Medical Park TEM Hastanesi", city: "istanbul", district: "bahcelievler" },
+    { slug: "medical-park-onkoloji-istanbul", name: "Medical Park İstanbul Onkoloji Hastanesi", city: "istanbul", district: "bahcelievler" },
+    { slug: "medical-park-kosova", name: "Medical Park Kosova Hastanesi", city: "istanbul", district: "kagithane" },
+    { slug: "medical-park-maltepe", name: "Medical Park Maltepe Hastanesi", city: "istanbul", district: "maltepe" },
+    { slug: "medical-park-pendik", name: "Medical Park Pendik Hastanesi", city: "istanbul", district: "pendik" },
+    { slug: "medical-park-ordu", name: "Medical Park Ordu Hastanesi", city: "ordu", district: "altinordu" },
+    { slug: "medical-park-mersin", name: "Medical Park Mersin Hastanesi", city: "mersin", district: "mezitli" },
+    { slug: "medical-park-seyhan", name: "Medical Park Seyhan Hastanesi", city: "adana", district: "seyhan" },
+    { slug: "medical-park-tokat", name: "Medical Park Tokat Hastanesi", city: "tokat", district: "merkez" },
+    { slug: "medical-park-trabzon-karadeniz", name: "Medical Park Karadeniz (Trabzon)", city: "trabzon", district: "ortahisar" },
+    { slug: "medical-park-trabzon-yildizli", name: "Medical Park Yıldızlı (Trabzon)", city: "trabzon", district: "akcaabat" },
+    { slug: "medical-park-istanbul", name: "Medical Park İstanbul (genel)", city: "istanbul", district: "sisli" },
+    { slug: "liv-hospital-bahcesehir", name: "Liv Hospital Bahçeşehir", city: "istanbul", district: "basaksehir" },
+    { slug: "liv-hospital-topkapi", name: "Liv Hospital Topkapı", city: "istanbul", district: "zeytinburnu" },
+    { slug: "vm-medical-park-gebze", name: "VM Medical Park Gebze", city: "kocaeli", district: "gebze" },
+  ]),
 
   // ────────────── ACIBADEM ZİNCİRİ — diğer şubeler ──────────────
   {
