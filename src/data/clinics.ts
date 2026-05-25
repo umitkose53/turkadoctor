@@ -552,6 +552,21 @@ export const clinics: ClinicSummary[] = [
     ],
   },
 
+  // ────────────── MEMORIAL SAĞLIK GRUBU (11 hastane, 6 il) ──────────────
+  // (memorial-sisli zaten yukarıdaki listede mevcut)
+  ...buildChainClinics([
+    { slug: "memorial-bahcelievler", name: "Memorial Bahçelievler Hastanesi", city: "istanbul", district: "bahcelievler", jciCert: true },
+    { slug: "memorial-atasehir", name: "Memorial Ataşehir Hastanesi", city: "istanbul", district: "atasehir", jciCert: true },
+    { slug: "memorial-hizmet", name: "Memorial Hizmet Hastanesi", city: "istanbul", district: "bahcelievler" },
+    { slug: "memorial-goztepe", name: "Memorial Göztepe Hastanesi", city: "istanbul", district: "kadikoy" },
+    { slug: "memorial-antalya", name: "Memorial Antalya Hastanesi", city: "antalya", district: "kepez", jciCert: true },
+    { slug: "memorial-diyarbakir", name: "Memorial Diyarbakır Hastanesi", city: "diyarbakir", district: "yenisehir", jciCert: true },
+    { slug: "memorial-dicle", name: "Memorial Dicle Hastanesi", city: "diyarbakir", district: "kayapinar" },
+    { slug: "memorial-kayseri", name: "Memorial Kayseri Hastanesi", city: "kayseri", district: "kocasinan" },
+    { slug: "memorial-bodrum", name: "Memorial Bodrum Hastanesi", city: "mugla", district: "bodrum" },
+    { slug: "memorial-ankara", name: "Memorial Ankara Hastanesi", city: "ankara", district: "cankaya", jciCert: true },
+  ]),
+
   // ────────────── MEDICANA SAĞLIK GRUBU (17 hastane, 7 il) ──────────────
   ...buildChainClinics([
     { slug: "medicana-zincirlikuyu", name: "Medicana Zincirlikuyu Hastanesi", city: "istanbul", district: "besiktas" },
