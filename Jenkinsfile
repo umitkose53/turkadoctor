@@ -28,7 +28,9 @@ pipeline {
     timeout(time: 30, unit: 'MINUTES')
     timestamps()
     buildDiscarder(logRotator(numToKeepStr: '20'))
-    ansiColor('xterm')
+    // ansiColor opsiyonel — AnsiColor plugin gerektiriyor.
+    // Renkli log istersen Jenkins → Manage Plugins → AnsiColor kur, sonra şu satırı aç:
+    // ansiColor('xterm')
   }
 
   stages {
