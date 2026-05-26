@@ -20,9 +20,42 @@ function hash(s: string): number {
   return Math.abs(h);
 }
 
+/**
+ * Uzun resmi branş adlarının SERP-uygun kısa karşılığı.
+ * "Estetik, Plastik ve Rekonstrüktif Cerrahi" Google title'da kesilir.
+ */
+const SHORT_SPECIALTY: Record<string, string> = {
+  "estetik-cerrahi": "Estetik Cerrahi",
+  "kadin-hastaliklari-ve-dogum": "Kadın Doğum",
+  "ortopedi-ve-travmatoloji": "Ortopedi",
+  "anesteziyoloji-ve-reanimasyon": "Anesteziyoloji",
+  "kalp-ve-damar-cerrahisi": "Kalp Damar Cerrahisi",
+  "beyin-ve-sinir-cerrahisi": "Beyin Cerrahisi",
+  "ic-hastaliklari": "İç Hastalıkları",
+  "cocuk-hastaliklari": "Çocuk Hastalıkları",
+  "kbb": "KBB",
+  "goz-hastaliklari": "Göz Hastalıkları",
+  "gogus-hastaliklari": "Göğüs Hastalıkları",
+  "gogus-cerrahisi": "Göğüs Cerrahisi",
+  "cocuk-cerrahisi": "Çocuk Cerrahisi",
+  "dis-hekimligi": "Diş Hekimliği",
+  "fizik-tedavi": "Fizik Tedavi",
+  "enfeksiyon-hastaliklari": "Enfeksiyon",
+  "medikal-onkoloji": "Onkoloji",
+  "radyasyon-onkolojisi": "Radyasyon Onkolojisi",
+};
+
+function shortSpecialty(slug: string | undefined, fullName: string): string {
+  if (slug && SHORT_SPECIALTY[slug]) return SHORT_SPECIALTY[slug];
+  // Fallback: ilk virgüle veya "ve" kelimesine kadar kes
+  return fullName.split(",")[0].split(" ve ")[0].trim();
+}
+
 type DescArgs = {
   doctor: DoctorSummary;
   specialtyName: string;
+  /** Specialty slug (kısa SERP adına dönüştürmek için). */
+  specialtySlug?: string;
   cityName: string;
   districtName?: string;
   clinicName?: string;
@@ -30,16 +63,23 @@ type DescArgs = {
 };
 
 const TITLE_PATTERNS: Array<(a: DescArgs) => string> = [
-  ({ doctor, specialtyName, cityName }) =>
-    `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} · ${specialtyName}, ${cityName}`,
-  ({ doctor, specialtyName, cityName }) =>
-    `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} – ${cityName} ${specialtyName} Uzmanı`,
-  ({ doctor, specialtyName, cityName, clinicName }) =>
-    clinicName
-      ? `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} | ${specialtyName}, ${clinicName}`
-      : `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} | ${specialtyName} Hekimi, ${cityName}`,
-  ({ doctor, specialtyName, cityName }) =>
-    `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName}: ${cityName} ${specialtyName} Doktoru`,
+  // Title kalıpları SERP-uyumlu kısa branş adı kullanır
+  ({ doctor, specialtySlug, specialtyName, cityName }) => {
+    const sp = shortSpecialty(specialtySlug, specialtyName);
+    return `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} · ${sp}, ${cityName}`;
+  },
+  ({ doctor, specialtySlug, specialtyName, cityName }) => {
+    const sp = shortSpecialty(specialtySlug, specialtyName);
+    return `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} — ${cityName} ${sp}`;
+  },
+  ({ doctor, specialtySlug, specialtyName, cityName }) => {
+    const sp = shortSpecialty(specialtySlug, specialtyName);
+    return `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName} | ${sp} · ${cityName}`;
+  },
+  ({ doctor, specialtySlug, specialtyName, cityName }) => {
+    const sp = shortSpecialty(specialtySlug, specialtyName);
+    return `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName}: ${cityName} ${sp}`;
+  },
 ];
 
 /**

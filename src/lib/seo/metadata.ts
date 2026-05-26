@@ -13,6 +13,23 @@ type BuildMetadataArgs = {
   noindex?: boolean;
 };
 
+// Google SERP genelde 60-70 karakter görüntüler; sonrası `...` ile kesilir.
+// Title + " | TurkaDoctor" (14 char) toplamı bu sınırı geçerse suffix atlanır.
+const SERP_MAX_TITLE_LENGTH = 60;
+const SUFFIX_LENGTH = ` | ${SITE_NAME}`.length;
+
+/**
+ * Title sufix politikası: root layout `title.template = "%s | TurkaDoctor"` ile
+ * her sayfa otomatik suffix alır. Uzun başlıklarda kesilmeyi önlemek için
+ * `title.absolute` döndürerek template'i bypass ediyoruz.
+ */
+function titleField(title: string): Metadata["title"] {
+  if (title.length + SUFFIX_LENGTH > SERP_MAX_TITLE_LENGTH) {
+    return { absolute: title };
+  }
+  return title;
+}
+
 export function buildMetadata({
   title,
   description,
@@ -21,8 +38,11 @@ export function buildMetadata({
   noindex,
 }: BuildMetadataArgs): Metadata {
   const url = path.startsWith("http") ? path : `${SITE_URL}${path}`;
+  const t = titleField(title);
+  // openGraph + twitter title'ında suffix'i otomatik manuel ekleyemeyiz
+  // (Metadata API SiteName separately, root layout zaten siteName ekliyor)
   return {
-    title,
+    title: t,
     description,
     alternates: { canonical: url },
     robots: noindex ? { index: false, follow: true } : undefined,

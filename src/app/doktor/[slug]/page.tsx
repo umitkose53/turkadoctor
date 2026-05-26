@@ -74,7 +74,15 @@ export async function generateMetadata({
       doctor.districtSlug.slice(1).replace(/-/g, " ")
     : undefined;
 
-  const args = { doctor, specialtyName: sp, cityName, districtName, clinicName, procedureNames };
+  const args = {
+    doctor,
+    specialtyName: sp,
+    specialtySlug: doctor.specialtySlugs[0],
+    cityName,
+    districtName,
+    clinicName,
+    procedureNames,
+  };
   return buildMetadata({
     title: doctorTitleVariant(args),
     description: doctorDescriptionVariant(args),
