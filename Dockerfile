@@ -11,7 +11,10 @@ FROM node:${NODE_VERSION} AS deps
 WORKDIR /app
 RUN apk add --no-cache libc6-compat
 COPY package.json package-lock.json* ./
-RUN npm ci --include=dev --no-audit --no-fund
+# npm ci platform-specific optional deps (@emnapi/runtime, @img/sharp-linux-*)
+# yüzünden sync hatası veriyor. npm install lockfile'i deterministik tutar
+# ama eksik Linux binary'lerini kendisi indirir.
+RUN npm install --no-audit --no-fund
 
 # ─────────────────────────────────────────────────────────────
 # Stage 2: build — full kaynak + build
