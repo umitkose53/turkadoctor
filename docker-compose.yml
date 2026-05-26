@@ -1,0 +1,29 @@
+# Lokal test ve tek-makine production için.
+# Ubuntu sunucuda manuel deploy için:
+#   docker compose up -d --build
+#
+# Reverse proxy (Caddy/Nginx) önünden 80/443 → 3000 yönlendirmesi yap.
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NODE_VERSION: 22-alpine
+    image: turkadoctor/web:latest
+    container_name: turkadoctor
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      HOSTNAME: "0.0.0.0"
+      NEXT_TELEMETRY_DISABLED: "1"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
