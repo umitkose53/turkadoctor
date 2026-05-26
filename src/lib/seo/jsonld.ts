@@ -66,12 +66,66 @@ export function alphabeticalItemList(args: {
 // Physician — doktor profil
 // ---------------------------------------------------------------------------
 
+/**
+ * Bizim specialty slug → Schema.org MedicalSpecialty enum.
+ * Google Rich Results: medicalSpecialty alanı **enum URL** olmak zorunda;
+ * "Diş Hekimliği" gibi serbest Türkçe metin geçersiz sayılıyor.
+ *
+ * Liste: https://schema.org/MedicalSpecialty
+ */
+const MEDICAL_SPECIALTY_MAP: Record<string, string> = {
+  "acil-tip": "Emergency",
+  "aile-hekimligi": "PrimaryCare",
+  "anesteziyoloji-ve-reanimasyon": "Anesthesia",
+  "beyin-ve-sinir-cerrahisi": "Neurologic",
+  "cocuk-cerrahisi": "Pediatric",
+  "cocuk-hastaliklari": "Pediatric",
+  "dermatoloji": "Dermatology",
+  "dis-hekimligi": "Dentistry",
+  "diyetisyen": "DietNutrition",
+  "endokrinoloji": "Endocrine",
+  "enfeksiyon-hastaliklari": "Infectious",
+  "estetik-cerrahi": "PlasticSurgery",
+  "fizik-tedavi": "Physiotherapy",
+  "gastroenteroloji": "Gastroenterologic",
+  "genel-cerrahi": "Surgical",
+  "gogus-cerrahisi": "Surgical",
+  "gogus-hastaliklari": "Pulmonary",
+  "goz-hastaliklari": "Optometric",
+  "hematoloji": "Hematologic",
+  "ic-hastaliklari": "PrimaryCare",
+  "kadin-hastaliklari-ve-dogum": "Gynecologic",
+  "kalp-ve-damar-cerrahisi": "Cardiovascular",
+  "kardiyoloji": "Cardiovascular",
+  "kbb": "Otolaryngologic",
+  "medikal-onkoloji": "Oncologic",
+  "nefroloji": "Renal",
+  "noroloji": "Neurologic",
+  "ortodonti": "Dentistry",
+  "ortopedi-ve-travmatoloji": "Musculoskeletal",
+  "psikiyatri": "Psychiatric",
+  "psikoloji": "Psychiatric",
+  "radyasyon-onkolojisi": "Oncologic",
+  "radyoloji": "Radiography",
+  "romatoloji": "Rheumatologic",
+  "sac-ekimi": "PlasticSurgery",
+  "uroloji": "Urologic",
+};
+
+export function specialtyToSchemaEnum(slug: string | undefined): string {
+  if (!slug) return "https://schema.org/PrimaryCare";
+  const enumKey = MEDICAL_SPECIALTY_MAP[slug] ?? "PrimaryCare";
+  return `https://schema.org/${enumKey}`;
+}
+
 export function physicianLd(args: {
   fullName: string;
   titlePrefix?: string | null;
   slug: string;
   photoUrl?: string | null;
   specialty: string;
+  /** Bizim specialty slug — Schema.org enum'a map etmek için. */
+  specialtySlug?: string;
   address?: {
     streetAddress?: string;
     addressLocality?: string;
@@ -96,14 +150,16 @@ export function physicianLd(args: {
   // olarak işaretlenir. Google Local Search ve haritalı rich-snippet için
   // MedicalBusiness daha güçlü; klinik adresi varsa LocalBusiness profilini
   // tetikler.
+  // medicalSpecialty: Schema.org MedicalSpecialty enum URL (Diş Hekimliği →
+  // https://schema.org/Dentistry). Türkçe görünür ad description'da yer alır.
   const ld: JsonLd = {
     "@context": CTX,
     "@type": ["Physician", "MedicalBusiness"],
     "@id": `${SITE_URL}/doktor/${args.slug}#physician`,
     name: fullName,
     url: `${SITE_URL}/doktor/${args.slug}`,
-    medicalSpecialty: args.specialty,
-    inLanguage: "tr-TR",
+    medicalSpecialty: specialtyToSchemaEnum(args.specialtySlug),
+    description: `${args.specialty} alanında hizmet veren hekim`,
     priceRange: "$$",
   };
   if (args.photoUrl) ld.image = args.photoUrl;

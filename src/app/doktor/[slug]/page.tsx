@@ -182,6 +182,7 @@ export default async function DoctorPage({
     slug: doctor.slug,
     photoUrl: doctor.photoUrl,
     specialty: primarySpecialty?.name ?? "Hekim",
+    specialtySlug: primarySpecialty?.slug,
     address: primaryClinic
       ? {
           streetAddress: primaryClinic.address,
