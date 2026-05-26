@@ -49,7 +49,12 @@ export const doctorsAdditional: DoctorSummary[] = [
     memberships: ["TPRECD", "ISAPS"],
     signals: [
       { source: "google_places", ratingAvg: 4.8, reviewCount: 256, visible: true },
-      { source: "trustpilot", ratingAvg: 4.7, reviewCount: 42, visible: true },
+      // Trustpilot: doktor düzeyinde sayı göstermez (mevzuat: yalnız "aktif profil" + link)
+      {
+        source: "trustpilot",
+        sourceUrl: "https://www.trustpilot.com/review/livhospital.com",
+        visible: true,
+      },
     ],
   },
   {
@@ -70,6 +75,17 @@ export const doctorsAdditional: DoctorSummary[] = [
     memberships: ["TPRECD"],
     signals: [
       { source: "google_places", ratingAvg: 4.7, reviewCount: 162, visible: true },
+      {
+        source: "trustpilot",
+        sourceUrl: "https://www.trustpilot.com/review/estethica.com.tr",
+        visible: true,
+      },
+      {
+        source: "whatclinic",
+        sourceUrl:
+          "https://www.whatclinic.com/cosmetic-plastic-surgery/turkey/istanbul-province/istanbul/estethica-atasehir",
+        visible: true,
+      },
     ],
   },
   {
@@ -120,6 +136,17 @@ export const doctorsAdditional: DoctorSummary[] = [
     districtSlug: "atasehir",
     signals: [
       { source: "google_places", ratingAvg: 4.7, reviewCount: 106, visible: true },
+      {
+        source: "trustpilot",
+        sourceUrl: "https://www.trustpilot.com/review/estethica.com.tr",
+        visible: true,
+      },
+      {
+        source: "whatclinic",
+        sourceUrl:
+          "https://www.whatclinic.com/cosmetic-plastic-surgery/turkey/istanbul-province/istanbul/estethica-atasehir",
+        visible: true,
+      },
     ],
   },
   {
@@ -164,6 +191,17 @@ export const doctorsAdditional: DoctorSummary[] = [
     districtSlug: "sisli",
     signals: [
       { source: "google_places", ratingAvg: 4.7, reviewCount: 196, visible: true },
+      {
+        source: "trustpilot",
+        sourceUrl: "https://www.trustpilot.com/review/www.veraclinic.net",
+        visible: true,
+      },
+      {
+        source: "whatclinic",
+        sourceUrl:
+          "https://www.whatclinic.com/hair-loss/turkey/istanbul-province/istanbul/kartal/vera-clinic",
+        visible: true,
+      },
     ],
   },
 
@@ -181,6 +219,17 @@ export const doctorsAdditional: DoctorSummary[] = [
     memberships: ["TDB"],
     signals: [
       { source: "google_places", ratingAvg: 4.8, reviewCount: 224, visible: true },
+      {
+        source: "trustpilot",
+        sourceUrl: "https://www.trustpilot.com/review/estethica.com.tr",
+        visible: true,
+      },
+      {
+        source: "whatclinic",
+        sourceUrl:
+          "https://www.whatclinic.com/cosmetic-plastic-surgery/turkey/istanbul-province/istanbul/estethica-atasehir",
+        visible: true,
+      },
     ],
   },
 
@@ -215,6 +264,11 @@ export const doctorsAdditional: DoctorSummary[] = [
     memberships: ["TJOD"],
     signals: [
       { source: "google_places", ratingAvg: 4.7, reviewCount: 156, visible: true },
+      {
+        source: "trustpilot",
+        sourceUrl: "https://www.trustpilot.com/review/livhospital.com",
+        visible: true,
+      },
     ],
   },
 

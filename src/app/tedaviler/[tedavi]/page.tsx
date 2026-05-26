@@ -13,6 +13,10 @@ import {
   clinicsBySpecialty,
 } from "@/data";
 import { clinicsByProcedure } from "@/data";
+import {
+  dtDoctorsBySpecialty,
+  dtDoctorsByCityAndSpecialty,
+} from "@/data/dt-doctors";
 
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { Badge } from "@/components/ui/badge";
@@ -75,16 +79,21 @@ export default async function ProcedurePage({
 
   const spec = findSpecialty(p.specialtySlug);
 
-  // Bu prosedürü yapan doktorları topla
+  // Bu prosedürü yapan doktorları topla — curated procedure match
   let docs = sortAlphabetical(doctorsByProcedure(p.slug));
 
-  // 10'dan az ise branş dolduran genel listesinden destekle
+  // 10'dan az ise branş dolduran genel listesinden destekle (curated + DT havuzu)
   if (docs.length < 10) {
-    const branchDocs = sortAlphabetical(doctorsBySpecialty(p.specialtySlug));
+    const branchDocs = doctorsBySpecialty(p.specialtySlug);
+    const dtBranchDocs = dtDoctorsBySpecialty(p.specialtySlug);
+    const all = sortAlphabetical([...branchDocs, ...dtBranchDocs]);
     const seen = new Set(docs.map((d) => d.slug));
-    for (const d of branchDocs) {
+    for (const d of all) {
       if (docs.length >= 16) break;
-      if (!seen.has(d.slug)) docs.push(d);
+      if (!seen.has(d.slug)) {
+        docs.push(d);
+        seen.add(d.slug);
+      }
     }
   }
   // Yine de minimum sınırı garanti et — branş bazlı arama yapamayanlar için olduğu kadar göster
@@ -99,12 +108,15 @@ export default async function ProcedurePage({
     }
   }
 
+  // Şehir bazlı sayım: prosedür match + DT havuzunda branş match
+  // (DT doktorları procedureSlugs içermez, branş üzerinden eşleştir)
   const cityBreakdown = cities
     .map((c) => ({
       slug: c.slug,
       name: c.name,
       count:
         doctorsByProcedure(p.slug).filter((d) => d.citySlug === c.slug).length +
+        dtDoctorsByCityAndSpecialty(c.slug, p.specialtySlug).length +
         clinicsByProcedure(p.slug).filter((cl) => cl.citySlug === c.slug)
           .length,
     }))
