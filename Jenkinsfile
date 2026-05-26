@@ -99,77 +99,32 @@ pipeline {
     }
 
     stage('Deploy to Production') {
-      when { branch 'main' }
       steps {
-        withCredentials([
-          sshUserPrivateKey(credentialsId: 'prod-ssh-key',
-                            keyFileVariable: 'SSH_KEY',
-                            usernameVariable: 'SSH_USER'),
-          string(credentialsId: 'prod-host', variable: 'PROD_HOST'),
-        ]) {
-          script {
-            def imageRef = env.REGISTRY?.trim()
-              ? "${env.REGISTRY}/${IMAGE_NAME}:${env.FULL_TAG}"
-              : "${IMAGE_NAME}:${env.FULL_TAG}"
-
-            // Registry varsa pull, yoksa save/load ile transfer
-            if (env.REGISTRY?.trim()) {
-              sh """
-                ssh -i \$SSH_KEY -o StrictHostKeyChecking=no \$SSH_USER@\$PROD_HOST <<'EOF'
-                  set -euo pipefail
-                  docker pull ${imageRef}
-                  docker stop ${CONTAINER_NAME} 2>/dev/null || true
-                  docker rm   ${CONTAINER_NAME} 2>/dev/null || true
-                  docker run -d \\
-                    --name ${CONTAINER_NAME} \\
-                    --restart=unless-stopped \\
-                    -p ${HOST_PORT}:${CONTAINER_PORT} \\
-                    -e NODE_ENV=production \\
-                    -e PORT=${CONTAINER_PORT} \\
-                    ${imageRef}
-                  docker image prune -af --filter "until=168h"
-EOF
-              """
-            } else {
-              sh """
-                docker save ${IMAGE_NAME}:${env.FULL_TAG} | gzip > /tmp/${APP_NAME}-${env.FULL_TAG}.tar.gz
-                scp -i \$SSH_KEY -o StrictHostKeyChecking=no /tmp/${APP_NAME}-${env.FULL_TAG}.tar.gz \$SSH_USER@\$PROD_HOST:/tmp/
-                ssh -i \$SSH_KEY -o StrictHostKeyChecking=no \$SSH_USER@\$PROD_HOST <<EOF
-                  set -euo pipefail
-                  gunzip -c /tmp/${APP_NAME}-${env.FULL_TAG}.tar.gz | docker load
-                  rm /tmp/${APP_NAME}-${env.FULL_TAG}.tar.gz
-                  docker stop ${CONTAINER_NAME} 2>/dev/null || true
-                  docker rm   ${CONTAINER_NAME} 2>/dev/null || true
-                  docker run -d \\
-                    --name ${CONTAINER_NAME} \\
-                    --restart=unless-stopped \\
-                    -p ${HOST_PORT}:${CONTAINER_PORT} \\
-                    -e NODE_ENV=production \\
-                    -e PORT=${CONTAINER_PORT} \\
-                    ${IMAGE_NAME}:${env.FULL_TAG}
-                  docker image prune -af --filter "until=168h"
-EOF
-                rm /tmp/${APP_NAME}-${env.FULL_TAG}.tar.gz
-              """
-            }
-          }
-        }
+        // Aynı sunucuda build + deploy. SSH gereksiz; doğrudan local docker run.
+        sh """
+          docker stop ${CONTAINER_NAME} 2>/dev/null || true
+          docker rm   ${CONTAINER_NAME} 2>/dev/null || true
+          docker run -d \\
+            --name ${CONTAINER_NAME} \\
+            --restart=unless-stopped \\
+            -p ${HOST_PORT}:${CONTAINER_PORT} \\
+            -e NODE_ENV=production \\
+            -e PORT=${CONTAINER_PORT} \\
+            ${IMAGE_NAME}:${env.FULL_TAG}
+          # 7 günden eski dangling/unused image'ları temizle
+          docker image prune -af --filter "until=168h" || true
+        """
       }
     }
 
-    stage('Tag Git Release') {
-      when { branch 'main' }
+    stage('Verify Deploy') {
       steps {
-        withCredentials([usernamePassword(credentialsId: 'bitbucket-creds',
-                                          usernameVariable: 'BB_USER',
-                                          passwordVariable: 'BB_TOKEN')]) {
-          sh """
-            git config user.email "ci@turkadoctor.com"
-            git config user.name  "Jenkins CI"
-            git tag -a "v${env.FULL_TAG}" -m "Auto release v${env.FULL_TAG}"
-            git push "https://\$BB_USER:\$BB_TOKEN@bitbucket.org/petzzshop/turkadoctor.git" "v${env.FULL_TAG}" || true
-          """
-        }
+        // Container ayakta mı, /'ye 200 dönüyor mu?
+        sh """
+          sleep 5
+          docker ps --filter "name=${CONTAINER_NAME}" --format "table {{.Names}}\\t{{.Status}}\\t{{.Ports}}"
+          curl -fsS --max-time 10 http://127.0.0.1:${HOST_PORT}/ > /dev/null && echo "✓ Health OK"
+        """
       }
     }
   }
