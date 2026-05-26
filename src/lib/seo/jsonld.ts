@@ -84,6 +84,12 @@ export function physicianLd(args: {
   ttbSicilNo?: string | null;
   procedureNames?: string[];
   sameAs?: string[];
+  /** E.164 veya yerel format — schema.org `telephone`. */
+  telephone?: string | null;
+  /** Google Maps URL (search ya da place URL). schema.org `hasMap`. */
+  hasMap?: string | null;
+  /** Coordinate — yoksa atla. */
+  geo?: { latitude: number; longitude: number } | null;
 }): JsonLd {
   const fullName = `${args.titlePrefix ?? "Dr."} ${args.fullName}`;
   const ld: JsonLd = {
@@ -101,6 +107,16 @@ export function physicianLd(args: {
       "@type": "PostalAddress",
       addressCountry: "TR",
       ...args.address,
+    };
+  }
+
+  if (args.telephone) ld.telephone = args.telephone;
+  if (args.hasMap) ld.hasMap = args.hasMap;
+  if (args.geo) {
+    ld.geo = {
+      "@type": "GeoCoordinates",
+      latitude: args.geo.latitude,
+      longitude: args.geo.longitude,
     };
   }
 

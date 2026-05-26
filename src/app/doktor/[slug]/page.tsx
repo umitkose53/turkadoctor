@@ -16,8 +16,9 @@ import { findDtDoctor, dtDoctorsByCityAndSpecialty } from "@/data/dt-doctors";
 
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { Badge } from "@/components/ui/badge";
-import { ReviewSignalRow } from "@/components/listing/ReviewSignalRow";
 import { DoctorCard } from "@/components/listing/DoctorCard";
+import { DoctorMap } from "@/components/listing/DoctorMap";
+import { ReviewsCard } from "@/components/listing/ReviewsCard";
 
 import { buildMetadata } from "@/lib/seo/metadata";
 import {
@@ -106,6 +107,20 @@ export default async function DoctorPage({
     .filter((p) => p !== undefined);
   const visibleSignals = doctor.signals.filter((s) => s.visible);
 
+  // Harita için adres ve fallback sorgu
+  const mapAddress = primaryClinic?.address;
+  const mapFallbackQuery = [
+    `${doctor.titlePrefix ?? "Dr."} ${doctor.fullName}`,
+    primaryClinic?.name,
+    city?.name,
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const mapQuery = mapAddress ?? mapFallbackQuery;
+  const mapsSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+    mapQuery,
+  )}`;
+
   // Aynı klinikteki diğer hekimler (max 6) — sadece curated
   const sameClinic = primaryClinic
     ? sortAlphabetical(
@@ -182,6 +197,8 @@ export default async function DoctorPage({
     memberships: doctor.memberships,
     ttbSicilNo: doctor.ttbSicilNo,
     procedureNames: doctorProcedures.map((p) => p.name),
+    telephone: primaryClinic?.phone ?? null,
+    hasMap: mapsSearchUrl,
   });
 
   return (
@@ -316,7 +333,8 @@ export default async function DoctorPage({
         <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-sky-700">
           <li><a href="#hakkinda" className="hover:underline">Hakkında</a></li>
           {doctorProcedures.length > 0 ? <li><a href="#tedaviler" className="hover:underline">Yaptığı tedaviler</a></li> : null}
-          {visibleSignals.length > 0 ? <li><a href="#degerlendirmeler" className="hover:underline">Değerlendirmeler</a></li> : null}
+          {visibleSignals.length > 0 ? <li><a href="#yorumlar" className="hover:underline">Yorumlar</a></li> : null}
+          <li><a href="#harita" className="hover:underline">Harita</a></li>
           {primaryClinic ? <li><a href="#konum" className="hover:underline">Konum</a></li> : null}
           {sameClinic.length > 0 ? <li><a href="#ayniklinik" className="hover:underline">Aynı klinikteki hekimler</a></li> : null}
           {similar.length > 0 ? <li><a href="#benzer" className="hover:underline">Benzer hekimler</a></li> : null}
@@ -433,26 +451,22 @@ export default async function DoctorPage({
         </section>
       ) : null}
 
-      {/* Yorum sinyalleri */}
+      {/* Yorumlar — Google + Trustpilot vb. kart grid */}
       {visibleSignals.length > 0 ? (
-        <section
-          id="degerlendirmeler"
-          className="mt-6 rounded-xl border border-zinc-200 bg-white p-6"
-        >
-          <h2 className="text-xl font-semibold text-zinc-900">
-            Diğer kaynaklarda değerlendirmeler
-          </h2>
-          <p className="mt-1 text-xs text-zinc-500">
-            Aşağıdaki kaynaklar TurkaDoctor puanına dahil değildir; ilgili
-            platformlarda yayınlandığı şekliyle yönlendirme amaçlıdır.
-          </p>
-          <div className="mt-3 space-y-2">
-            {visibleSignals.map((s) => (
-              <ReviewSignalRow key={s.source} signal={s} />
-            ))}
-          </div>
+        <section id="yorumlar" className="mt-6">
+          <ReviewsCard signals={visibleSignals} />
         </section>
       ) : null}
+
+      {/* Harita */}
+      <section id="harita" className="mt-6">
+        <DoctorMap
+          address={mapAddress}
+          fallbackQuery={mapFallbackQuery}
+          clinicName={primaryClinic?.name}
+          phone={primaryClinic?.phone}
+        />
+      </section>
 
       {/* Konum */}
       {primaryClinic ? (
@@ -476,7 +490,13 @@ export default async function DoctorPage({
           ) : null}
           {primaryClinic.phone ? (
             <p className="mt-1 text-sm text-zinc-600">
-              📞 <a href={`tel:${primaryClinic.phone.replace(/\s/g, "")}`} className="hover:underline">{primaryClinic.phone}</a>
+              📞{" "}
+              <a
+                href={`tel:${primaryClinic.phone.replace(/\s/g, "")}`}
+                className="hover:underline"
+              >
+                {primaryClinic.phone}
+              </a>
             </p>
           ) : null}
         </section>
