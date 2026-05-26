@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 import { cities, doctors, clinics } from "@/data";
+import { dtDoctorsByCity } from "@/data/dt-doctors";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { ALPHABETICAL_DISCLAIMER } from "@/lib/seo/title";
@@ -24,6 +25,7 @@ export default function SehirlerPage() {
       ...c,
       count:
         doctors.filter((d) => d.citySlug === c.slug).length +
+        dtDoctorsByCity(c.slug).length +
         clinics.filter((cl) => cl.citySlug === c.slug).length,
     }))
     .sort((a, b) => a.name.localeCompare(b.name, "tr-TR"));

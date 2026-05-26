@@ -28,17 +28,21 @@ export async function generateSitemaps(): Promise<{ id: number }[]> {
   return Array.from({ length: 1 + dtShards }, (_, i) => ({ id: i }));
 }
 
-export default function sitemap({
+export default async function sitemap({
   id,
 }: {
-  id: number;
-}): MetadataRoute.Sitemap {
+  id: Promise<number>;
+}): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
+  // Next.js 16: `id` Promise olarak geliyor (params API uyumluluğu).
+  const resolvedId = await id;
+  const numId =
+    typeof resolvedId === "string" ? parseInt(resolvedId, 10) : resolvedId;
 
-  if (id === 0) return curatedSitemap(now);
+  if (numId === 0) return curatedSitemap(now);
 
   const dtSlugs = allDtDoctorSlugs();
-  const start = (id - 1) * DT_SHARD_SIZE;
+  const start = (numId - 1) * DT_SHARD_SIZE;
   const slice = dtSlugs.slice(start, start + DT_SHARD_SIZE);
   return slice.map((slug) => ({
     url: `${SITE_URL}/doktor/${slug}`,
