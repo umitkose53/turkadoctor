@@ -1,14 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <!-- Background circle -->
-  <circle cx="256" cy="256" r="256" fill="#0c4a6e"/>
-  <!-- Medical cross -->
-  <g transform="translate(256 256)">
-    <rect x="-40" y="-160" width="80" height="320" rx="12" fill="#ffffff"/>
-    <rect x="-160" y="-40" width="320" height="80" rx="12" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c4a6e"/>
+      <stop offset="1" stop-color="#082f49"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcd34d"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield background (güven rozeti) -->
+  <path d="M256 32 L448 96 L448 280 Q448 392 256 480 Q64 392 64 280 L64 96 Z"
+        fill="url(#bg)" stroke="url(#gold)" stroke-width="6"/>
+
+  <!-- Inner shield highlight -->
+  <path d="M256 56 L424 112 L424 276 Q424 376 256 452 Q88 376 88 276 L88 112 Z"
+        fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Medical cross (white, kalın) -->
+  <g transform="translate(256 244)">
+    <rect x="-34" y="-110" width="68" height="220" rx="10" fill="#ffffff"/>
+    <rect x="-110" y="-34" width="220" height="68" rx="10" fill="#ffffff"/>
   </g>
-  <!-- Crescent (Türk medikal kimlik) -->
-  <g transform="translate(256 256)">
-    <circle cx="0" cy="0" r="48" fill="#ef4444"/>
-    <circle cx="14" cy="0" r="40" fill="#0c4a6e"/>
+
+  <!-- Verification checkmark badge (sağ alt) -->
+  <g transform="translate(360 360)">
+    <circle cx="0" cy="0" r="56" fill="url(#gold)"/>
+    <path d="M -24 0 L -8 18 L 26 -18" stroke="#082f49" stroke-width="9"
+          stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
 </svg>

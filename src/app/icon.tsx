@@ -1,8 +1,8 @@
 import { ImageResponse } from "next/og";
 
 /**
- * Favicon — dinamik 32×32 PNG. Next.js metadata API.
- * Adaptif ikonlar için bkz. `icon.svg` (asıl 512×512 vektör).
+ * Favicon 32×32 — TD monogram, kurumsal medical brand.
+ * Mayo Clinic / NHS / WebMD tarzı letter mark estetiği.
  */
 export const size = { width: 32, height: 32 };
 export const contentType = "image/png";
@@ -12,20 +12,20 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 24,
-          background: "#0c4a6e",
           width: "100%",
           height: "100%",
+          background: "linear-gradient(180deg, #0c4a6e 0%, #082f49 100%)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
           color: "white",
-          fontWeight: 700,
-          fontFamily: "system-ui, sans-serif",
-          letterSpacing: "-0.5px",
+          fontSize: 18,
+          fontWeight: 900,
+          fontFamily: "system-ui, -apple-system, sans-serif",
+          letterSpacing: -1,
         }}
       >
-        TD
+        td
       </div>
     ),
     { ...size },
