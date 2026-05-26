@@ -88,11 +88,19 @@ export default async function CityBranchPage({
   const dtDoctors = dtDoctorsByCityAndSpecialty(city.slug, sp.slug);
   const seenSlugs = new Set(curatedDoctors.map((d) => d.slug));
   const dtUniq = dtDoctors.filter((d) => !seenSlugs.has(d.slug));
-  const doctors = sortAlphabetical([...curatedDoctors, ...dtUniq]);
-  const clinics = sortAlphabetical(
+  const allDoctors = sortAlphabetical([...curatedDoctors, ...dtUniq]);
+
+  // K-6 sayfalama — HTML payload'u küçük tutmak için ilk 50 doktor + 50 klinik.
+  // Tüm doktorların URL'leri sitemap'te zaten Google'a tanıtılıyor.
+  const DISPLAY_LIMIT = 50;
+  const doctors = allDoctors.slice(0, DISPLAY_LIMIT);
+  const remainingDoctors = Math.max(0, allDoctors.length - DISPLAY_LIMIT);
+  const allClinics = sortAlphabetical(
     clinicsByCityAndSpecialty(city.slug, sp.slug),
   );
-  const total = doctors.length + clinics.length;
+  const clinics = allClinics.slice(0, DISPLAY_LIMIT);
+  const remainingClinics = Math.max(0, allClinics.length - DISPLAY_LIMIT);
+  const total = allDoctors.length + allClinics.length;
 
   const heading = cityBranchHeading({ city: city.name, branch: sp.name });
   const path = `/${sehir}/${bransh}`;
@@ -181,13 +189,21 @@ export default async function CityBranchPage({
       {doctors.length > 0 ? (
         <section className="mt-8">
           <h2 className="text-lg font-semibold text-zinc-900">
-            Doktorlar ({doctors.length})
+            Doktorlar ({allDoctors.length})
           </h2>
           <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
             {doctors.map((d) => (
               <DoctorCard key={d.slug} doctor={d} />
             ))}
           </div>
+          {remainingDoctors > 0 ? (
+            <div className="mt-4 rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm text-zinc-600">
+              <strong>{remainingDoctors}</strong> doktor daha listede.{" "}
+              {sp.name} branşında {city.name} ilçeleri için daha dar bir arama
+              yapmak isterseniz aşağıdaki ilçe filtresinden faydalanabilirsiniz.
+              Tüm doktorlar arama motorlarında indekslenmektedir.
+            </div>
+          ) : null}
         </section>
       ) : null}
 
@@ -195,13 +211,18 @@ export default async function CityBranchPage({
       {clinics.length > 0 ? (
         <section className="mt-10">
           <h2 className="text-lg font-semibold text-zinc-900">
-            Klinikler ({clinics.length})
+            Klinikler ({allClinics.length})
           </h2>
           <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
             {clinics.map((c) => (
               <ClinicCard key={c.slug} clinic={c} />
             ))}
           </div>
+          {remainingClinics > 0 ? (
+            <div className="mt-4 rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm text-zinc-600">
+              <strong>{remainingClinics}</strong> klinik daha listede.
+            </div>
+          ) : null}
         </section>
       ) : null}
 

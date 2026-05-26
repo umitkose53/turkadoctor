@@ -77,9 +77,16 @@ export default async function BranchHubPage({
   const dtDocs = dtDoctorsBySpecialty(sp.slug);
   const seenSlugs = new Set(curatedDocs.map((d) => d.slug));
   const dtUniq = dtDocs.filter((d) => !seenSlugs.has(d.slug));
-  const docs = sortAlphabetical([...curatedDocs, ...dtUniq]);
-  const cls = sortAlphabetical(clinicsBySpecialty(sp.slug));
-  const total = docs.length + cls.length;
+  const allDocs = sortAlphabetical([...curatedDocs, ...dtUniq]);
+  const allCls = sortAlphabetical(clinicsBySpecialty(sp.slug));
+
+  // K-6 sayfalama — ilk 50 doktor + 50 klinik. Tüm URL'ler sitemap'te.
+  const DISPLAY_LIMIT = 50;
+  const docs = allDocs.slice(0, DISPLAY_LIMIT);
+  const cls = allCls.slice(0, DISPLAY_LIMIT);
+  const remainingDocs = Math.max(0, allDocs.length - DISPLAY_LIMIT);
+  const remainingCls = Math.max(0, allCls.length - DISPLAY_LIMIT);
+  const total = allDocs.length + allCls.length;
 
   const popularProcedures = (sp.popularProcedureSlugs ?? [])
     .map((s) => findProcedure(s))
@@ -340,13 +347,20 @@ export default async function BranchHubPage({
       {docs.length > 0 ? (
         <section id="doktorlar" className="mt-10">
           <h2 className="text-xl font-semibold text-zinc-900">
-            Doktorlar ({docs.length})
+            Doktorlar ({allDocs.length})
           </h2>
           <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
             {docs.map((d) => (
               <DoctorCard key={d.slug} doctor={d} />
             ))}
           </div>
+          {remainingDocs > 0 ? (
+            <div className="mt-4 rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm text-zinc-600">
+              <strong>{remainingDocs}</strong> doktor daha listede. Şehir
+              filtresinden faydalanarak daha dar arama yapabilirsiniz. Tüm
+              doktorlar arama motorlarında indekslenmektedir.
+            </div>
+          ) : null}
         </section>
       ) : null}
 
@@ -354,13 +368,18 @@ export default async function BranchHubPage({
       {cls.length > 0 ? (
         <section id="klinikler" className="mt-10">
           <h2 className="text-xl font-semibold text-zinc-900">
-            Klinikler ({cls.length})
+            Klinikler ({allCls.length})
           </h2>
           <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
             {cls.map((c) => (
               <ClinicCard key={c.slug} clinic={c} />
             ))}
           </div>
+          {remainingCls > 0 ? (
+            <div className="mt-4 rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm text-zinc-600">
+              <strong>{remainingCls}</strong> klinik daha listede.
+            </div>
+          ) : null}
         </section>
       ) : null}
 

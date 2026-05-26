@@ -146,7 +146,7 @@ export default function Home() {
     "@type": "Organization",
     name: SITE_NAME,
     url: SITE_URL,
-    logo: `${SITE_URL}/icon.png`,
+    logo: `${SITE_URL}/icon.svg`,
     description:
       "Türkiye'nin doğrulanmış doktor ve klinik dizini. Estetik cerrahi, saç ekimi, diş, göz ve tüm tıbbi branşlarda bilgilendirme amaçlı listeleme.",
   };
