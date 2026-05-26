@@ -62,9 +62,12 @@ pipeline {
       steps {
         sh """
           docker run --rm -d --name ${CONTAINER_NAME}-smoke -p 13000:3000 ${IMAGE_NAME}:${env.FULL_TAG}
-          sleep 8
-          curl -fsS http://127.0.0.1:13000/ > /dev/null
-          curl -fsS http://127.0.0.1:13000/sitemap.xml > /dev/null
+          sleep 10
+          # Sadece kritik endpoint'leri kontrol et — sitemap shard'lı (/sitemap/0.xml)
+          curl -fsS http://127.0.0.1:13000/         > /dev/null
+          curl -fsS http://127.0.0.1:13000/branslar > /dev/null
+          curl -fsS http://127.0.0.1:13000/sehirler > /dev/null
+          curl -fsS http://127.0.0.1:13000/robots.txt > /dev/null
           docker stop ${CONTAINER_NAME}-smoke || true
         """
       }
