@@ -12,18 +12,16 @@
  */
 
 import type { DoctorSummary } from "./types";
+import { dtDoctorsData } from "./doctors-dt-data";
 
 let _index: Map<string, DoctorSummary> | null = null;
 let _byCity: Map<string, DoctorSummary[]> | null = null;
 let _bySpecialty: Map<string, DoctorSummary[]> | null = null;
-let _list: DoctorSummary[] | null = null;
+let _list: ReadonlyArray<DoctorSummary> | null = null;
 
 function ensureLoaded() {
   if (_index) return;
-  // ESM JSON import (Node ile uyumlu, build-time'da bundle'lanır).
-  // Top-level static import yerine require çünkü sadece data route'larında yüklensin.
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const data = require("./doctors-dt.json") as DoctorSummary[];
+  const data = dtDoctorsData;
   _list = data;
   _index = new Map();
   _byCity = new Map();
