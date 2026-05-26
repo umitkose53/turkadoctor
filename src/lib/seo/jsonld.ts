@@ -152,6 +152,9 @@ export function physicianLd(args: {
   // tetikler.
   // medicalSpecialty: Schema.org MedicalSpecialty enum URL (Diş Hekimliği →
   // https://schema.org/Dentistry). Türkçe görünür ad description'da yer alır.
+  //
+  // Mevzuat: priceRange / fiyat aralığı KOYULMAZ — Sağlık Hizmetlerinde Tanıtım
+  // Yönetmeliği 2023 + AGENTS.md "fiyat reklamı yok" kuralı.
   const ld: JsonLd = {
     "@context": CTX,
     "@type": ["Physician", "MedicalBusiness"],
@@ -160,7 +163,6 @@ export function physicianLd(args: {
     url: `${SITE_URL}/doktor/${args.slug}`,
     medicalSpecialty: specialtyToSchemaEnum(args.specialtySlug),
     description: `${args.specialty} alanında hizmet veren hekim`,
-    priceRange: "$$",
   };
   if (args.photoUrl) ld.image = args.photoUrl;
 
