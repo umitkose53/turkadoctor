@@ -12,7 +12,7 @@
  */
 
 import type { DoctorSummary } from "./types";
-import { dtDoctorsData } from "./doctors-dt-data";
+import dtDoctorsData from "./doctors-dt.json";
 
 let _index: Map<string, DoctorSummary> | null = null;
 let _byCity: Map<string, DoctorSummary[]> | null = null;
@@ -21,7 +21,7 @@ let _list: ReadonlyArray<DoctorSummary> | null = null;
 
 function ensureLoaded() {
   if (_index) return;
-  const data = dtDoctorsData;
+  const data = dtDoctorsData as unknown as ReadonlyArray<DoctorSummary>;
   _list = data;
   _index = new Map();
   _byCity = new Map();
