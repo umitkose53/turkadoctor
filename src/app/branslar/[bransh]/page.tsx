@@ -91,6 +91,7 @@ export default async function BranchHubPage({
       name: c.name,
       count:
         doctorsBySpecialty(sp.slug).filter((d) => d.citySlug === c.slug).length +
+        dtDoctorsBySpecialty(sp.slug).filter((d) => d.citySlug === c.slug).length +
         clinicsBySpecialty(sp.slug).filter((cl) => cl.citySlug === c.slug)
           .length,
     }))

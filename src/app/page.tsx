@@ -5,6 +5,11 @@ import { cities, FEATURED_CITY_SLUGS } from "@/data/cities";
 import { specialties } from "@/data/specialties";
 import { procedures } from "@/data/procedures";
 import { doctors, doctorsByCity, doctorsBySpecialty } from "@/data/doctors";
+import {
+  dtDoctorCount,
+  dtDoctorsByCity,
+  dtDoctorsBySpecialty,
+} from "@/data/dt-doctors";
 import { clinics } from "@/data/clinics";
 
 import { Disclaimer } from "@/components/ui/disclaimer";
@@ -108,6 +113,7 @@ export default function Home() {
       label: c.name,
       count:
         doctorsByCity(c.slug).length +
+        dtDoctorsByCity(c.slug).length +
         clinics.filter((cl) => cl.citySlug === c.slug).length,
       href: `/${c.slug}`,
     }))
@@ -120,13 +126,14 @@ export default function Home() {
       label: s.name.replace(/ \(.+\)$/, "").slice(0, 22),
       count:
         doctorsBySpecialty(s.slug).length +
+        dtDoctorsBySpecialty(s.slug).length +
         clinics.filter((c) => c.specialties.includes(s.slug)).length,
       href: `/branslar/${s.slug}`,
     }))
     .filter((s) => s.count > 0)
     .sort((a, b) => b.count - a.count);
 
-  const totalDoctors = doctors.length;
+  const totalDoctors = doctors.length + dtDoctorCount();
   const totalClinics = clinics.length;
   const totalProcedures = procedures.length;
   const totalCities = cities.length;
