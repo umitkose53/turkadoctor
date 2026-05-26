@@ -4320,6 +4320,3248 @@ Obezite cerrahisi, doğru endikasyonda doğru ekip elinde **yaşam beklentisini 
       },
     ],
   },
+
+  {
+    slug: "tip-2-diyabet-yonetimi-beslenme-ilac",
+    title: "Tip 2 Diyabet Yönetimi: Beslenme, Egzersiz ve İlaç Tedavisi",
+    excerpt:
+      "Tip 2 diyabet tanısı, HbA1c hedefleri, beslenme prensipleri, fiziksel aktivite, ilaç sınıfları (metformin, SGLT2, GLP-1, insülin) ve komplikasyon önleme.",
+    bodyMd: `**Tip 2 diyabet**, insülin direnci ve kademeli beta hücre yetmezliğiyle seyreden kronik bir metabolik hastalıktır. Türkiye'de erişkin nüfusun yaklaşık **%14'ü** tip 2 diyabet ile yaşamaktadır (TURDEP-II). İyi planlı bir yönetim ile **komplikasyonların önemli kısmı önlenebilir** veya geciktirilebilir.
+
+> 📌 Bu yazı, tip 2 diyabet tanılı bireyler ve risk grubundaki kişiler için genel bilgilendirme amaçlıdır. Tedavi planı bireysel olarak hekiminizle birlikte belirlenmelidir. Endokrinoloji ve metabolizma hastalıkları uzmanları için: [endokrinoloji branşı](/branslar/endokrinoloji); birinci basamak takip için [iç hastalıkları](/branslar/ic-hastaliklari) ve [aile hekimliği](/branslar/aile-hekimligi).
+
+## Tip 2 Diyabet Nedir?
+
+Tip 2 diyabet, vücut hücrelerinin insüline yeterli yanıt vermemesi (insülin direnci) ile başlar. Pankreas başlangıçta daha fazla insülin üreterek dengelemeye çalışır; zamanla bu üretim azalır ve kan şekeri yükselir.
+
+- **Genellikle sinsi başlar** — yıllarca belirti vermeyebilir
+- Tanı çoğu zaman rutin tarama veya komplikasyon nedeniyle konur
+- Tip 1 diyabetten farklı olarak, çoğu vakada **insülin tedavisi zorunlu değildir** (en azından başlangıçta)
+
+### Risk faktörleri
+
+- 45 yaş üstü olmak
+- BKİ ≥ 25 kg/m² (özellikle abdominal obezite)
+- Sedanter yaşam tarzı
+- Birinci derece akrabada diyabet
+- Hipertansiyon, dislipidemi
+- Gestasyonel diyabet öyküsü veya PCOS
+- Daha önce prediyabet tanısı
+
+## Belirtiler ve Tanı
+
+Klasik belirtiler — sıklıkla geç dönemde ortaya çıkar:
+
+- Çok su içme (polidipsi)
+- Sık idrara çıkma (poliüri)
+- Açıklanamayan kilo kaybı
+- Yorgunluk
+- Bulanık görme
+- Yavaş iyileşen yaralar
+- Sık tekrarlayan idrar/cilt enfeksiyonları
+
+### Tanı kriterleri (ADA / TEMD)
+
+| Test | Tanı eşiği |
+|---|---|
+| Açlık plazma glukozu (APG) | ≥ 126 mg/dL |
+| 2. saat OGTT (75 g) | ≥ 200 mg/dL |
+| HbA1c | ≥ %6.5 |
+| Rastgele plazma glukozu (semptomatik) | ≥ 200 mg/dL |
+
+> ℹ️ **Bilgi:** Tanı için iki ayrı günde doğrulanmış sonuç gerekir (semptomatik akut hiperglisemi hariç). Sınırda değerler için [tıbbi raporunuzu nasıl okuyacağınız](/blog/tibbi-rapor-nasil-okunur-laboratuvar) hakkında rehberimize bakabilirsiniz.
+
+## HbA1c Hedefi: Bireysel Yaklaşım
+
+Genç, komplikasyonsuz hastalarda hedef genellikle **HbA1c < %7**; ileri yaş, kırılgan veya beklenen yaşam süresi sınırlı hastalarda **< %7.5-%8** kabul edilebilir. Aşırı sıkı kontrol, bazı hastalarda **hipoglisemi riskini artırır**.
+
+> ⚠️ **Önemli:** HbA1c hedefi tek tip değildir. Yaşa, eşlik eden hastalıklara, hipoglisemi öyküsüne göre hekiminiz bireysel bir hedef belirler. Kendi başınıza hedef belirleyip ilaç dozu ayarlamayın.
+
+## Beslenme Prensipleri
+
+Tip 2 diyabette beslenme, tedavinin **temel taşıdır**. Tek bir "diyabet diyeti" yoktur; bireye, kültüre, eşlik eden hastalıklara göre planlanır.
+
+### Genel öneriler
+
+- **Karbonhidrat kalitesi**: tam tahıl, baklagil, sebze ön planda; rafine şeker, beyaz un, şekerli içecek sınırlı
+- **Tabak yöntemi**: tabağın yarısı sebze, çeyreği protein, çeyreği kompleks karbonhidrat
+- **Lif alımı**: günlük ≥ 25-30 g (sebze, meyve, baklagil, tam tahıl)
+- **Protein**: kaliteli kaynaklar (yumurta, balık, tavuk, baklagil, az yağlı süt)
+- **Yağ**: doymamış yağ (zeytinyağı, fındık, ceviz, balık) tercih
+- **Tuz**: günlük < 5 g (özellikle hipertansiyon eşliğinde)
+- **Şekerli içecekleri tamamen kesmek** önemli bir adım
+
+### Akdeniz tipi beslenme
+
+Yapılan büyük çalışmalarda (PREDIMED) Akdeniz tipi beslenmenin tip 2 diyabette kardiyovasküler olayları azalttığı gösterilmiştir.
+
+| Önerilen | Sınırlı |
+|---|---|
+| Sebze, baklagil, tam tahıl | Şekerli içecekler |
+| Balık, kuru yemiş | Beyaz ekmek, makarna |
+| Zeytinyağı | Tatlı, bisküvi, kek |
+| Yumurta, az yağlı süt | İşlenmiş et |
+| Meyve (sınırlı miktarda) | Kızartmalar |
+
+> 💬 **Diyetisyen desteği:** Bireysel beslenme planı için [diyetisyenler](/branslar/diyetisyen) ve [beslenme danışmanlığı](/tedaviler/beslenme-danismanligi) hizmetinden yararlanabilirsiniz. Karbonhidrat sayımı, glisemik indeks ve porsiyon kontrolü konusunda yapılandırılmış eğitim, HbA1c'yi anlamlı düşürebilir.
+
+## Fiziksel Aktivite
+
+Egzersiz, insülin duyarlılığını artırarak doğrudan kan şekerini düşürür.
+
+- **Aerobik**: haftada ≥ 150 dakika orta yoğunlukta (yürüyüş, bisiklet, yüzme)
+- **Direnç egzersizi**: haftada 2-3 gün, büyük kas gruplarına yönelik
+- **Sedanter süreyi** azaltın — her 30 dakikada 2-3 dakika hareket
+- Egzersiz öncesi/sonrası şeker takibi, özellikle insülin veya sülfonilüre kullananlarda
+- Diyabetik nöropati varsa **ayak bakımı + uygun ayakkabı** kritik
+
+> ✅ **Tavsiye:** Aktivite başlamadan önce — özellikle ileri yaş, kardiyovasküler risk faktörü, retinopati veya nöropati varsa — [kardiyoloji](/branslar/kardiyoloji) ve [göz hastalıkları](/branslar/goz-hastaliklari) muayenesi ile uygun aktivite şiddeti belirlenir.
+
+## İlaç Tedavisi: Sınıflar ve Yaklaşım
+
+Tedavi seçimi; HbA1c düzeyi, BKİ, kardiyovasküler/böbrek hastalığı varlığı, hipoglisemi riski ve maliyet gibi faktörlere göre yapılır. **Aşağıdaki sınıflar genel bilgilendirme amaçlıdır; spesifik ilaç / doz hekiminiz tarafından belirlenir.**
+
+### Birinci basamak
+
+- **Metformin** — çoğu hastada başlangıç ilacıdır; insülin direncini azaltır, kilo nötr, hipoglisemi riski düşük
+
+### Kardiyovasküler / böbrek korumalı sınıflar
+
+- **SGLT2 inhibitörleri** — kalp yetmezliği ve kronik böbrek hastalığında ek fayda; idrar yolu enfeksiyonu riski
+- **GLP-1 reseptör agonistleri** — kilo kaybı sağlar; ASKVH'de kanıtlı kardiyovasküler fayda
+
+### Diğer sınıflar
+
+- **DPP-4 inhibitörleri** — kilo nötr, hipoglisemi riski düşük
+- **Sülfonilüreler** — etkili ama hipoglisemi ve kilo artışı riski
+- **Tiazolidindionlar** — sınırlı kullanım
+- **İnsülin** — beta hücre yetmezliği ilerlediğinde veya HbA1c çok yüksekken erken eklenebilir
+
+| Sınıf | Hipoglisemi riski | Kilo etkisi | Ek faydalar |
+|---|---|---|---|
+| Metformin | Düşük | Nötr / hafif düşürür | Birinci basamak |
+| SGLT2 inh. | Düşük | Düşürür | KY, KBH korumalı |
+| GLP-1 ago. | Düşük | Belirgin düşürür | ASKVH'de kardiyovasküler fayda |
+| DPP-4 inh. | Düşük | Nötr | İyi tolere |
+| Sülfonilüreler | Yüksek | Artırır | Düşük maliyet |
+| İnsülin | Yüksek | Artırır | Her aşamada eklenebilir |
+
+> 🚨 **Önemli:** Bu tablo bir tedavi önerisi değildir. Hangi ilacın size uygun olduğu sadece hekim değerlendirmesi sonrası belirlenir. **İlaç değişikliği, doz ayarı ve kombinasyon kararları hekimden bağımsız yapılmamalıdır.**
+
+## Komplikasyonlar ve Önleme
+
+Uzun süreli yüksek kan şekeri çeşitli organ sistemlerini etkiler.
+
+### Mikrovasküler komplikasyonlar
+
+- **Retinopati** — yılda en az 1 kez göz dibi muayenesi şart ([göz hastalıkları](/branslar/goz-hastaliklari))
+- **Nefropati** — yılda en az 1 kez idrarda albumin/kreatinin oranı + eGFR; ilerlemiş vakalarda [nefroloji](/branslar/nefroloji) takibi
+- **Nöropati** — ayak muayenesi, monoflaman testi; nöropatik ağrı için [nöroloji](/branslar/noroloji) konsültasyonu
+
+### Makrovasküler komplikasyonlar
+
+- **Koroner arter hastalığı, inme, periferik arter hastalığı** — diyabet bağımsız kardiyovasküler risk faktörüdür; kan basıncı + lipid + sigara durumu birlikte yönetilmelidir ([kardiyoloji](/branslar/kardiyoloji))
+
+### Diyabetik ayak
+
+- Günlük ayak kontrolü
+- Uygun ayakkabı, çıplak ayak yürümekten kaçınma
+- Nasır/çatlak müdahalesi profesyonel ekiple
+- Açılan herhangi bir yara için **gecikmeden** hekim başvurusu
+
+> ⚠️ **Acil durum:** Şuurun bozulması, derin/hızlı nefes alma, aseton kokulu nefes, şiddetli karın ağrısı ve yüksek şeker — **diyabetik ketoasidoz** olabilir (tip 2 diyabette daha nadirdir ama akut hastalık veya bazı ilaçlarla görülebilir). Hemen acil servise başvurun.
+
+## Yıllık Takip Kontrol Listesi
+
+| Test / muayene | Sıklık |
+|---|---|
+| HbA1c | 3-6 ayda bir |
+| Açlık lipid profili | Yılda 1 (en az) |
+| Böbrek fonksiyon (eGFR, idrarda albümin) | Yılda 1 |
+| Kan basıncı | Her vizitte |
+| Göz dibi muayenesi | Yılda 1 |
+| Ayak muayenesi (monoflaman, nabız) | Yılda 1 (yüksek riskte daha sık) |
+| Diş muayenesi | Yılda 2 |
+| KVH risk değerlendirmesi | Yılda 1 |
+| BKİ + bel çevresi | Her vizitte |
+
+## Yaşam Tarzı Müdahaleleri ve Remisyon
+
+Erken tanı konan, BKİ yüksek bazı hastalarda **belirgin kilo kaybı** (≥ %10-15) ile diyabet remisyonu mümkün olabilir (DiRECT çalışması). Remisyon, tedavi kesimi anlamına gelmez; düzenli takip devam eder.
+
+Obezite eşliğinde dirençli tip 2 diyabette, [obezite cerrahisi](/blog/obezite-cerrahisi-tup-mide-gastrik-bypass) belirli kriterleri karşılayan hastalarda multidisipliner kararla değerlendirilebilir.
+
+## Sık Sorulan Sorular
+
+### Tip 2 diyabet tamamen iyileşir mi?
+
+Tam iyileşmeden çok **remisyondan** söz edilir. Erken evrede, belirgin kilo kaybı ve yaşam tarzı değişiklikleriyle bazı hastalarda HbA1c normal düzeye iner ve ilaç gereksinimi azalır. Ancak yaşam boyu izlem gerekir; rekürrens mümkündür.
+
+### Şeker hastasıysam meyve yiyemez miyim?
+
+Yiyebilirsiniz. Anahtar: **porsiyon ve sıklık**. Bütün meyve (lif içerikli) tercih edilir; meyve suyu ve kuru meyve daha hızlı şeker yükseltir. Diyetisyen rehberliğinde günlük plan kişiselleştirilir.
+
+### Glikoz ölçümünü ne sıklıkla yapmalıyım?
+
+İlaç tedavisine (özellikle insülin / sülfonilüre kullanan) ve klinik duruma göre değişir. Bazı hastalarda günlük çoklu ölçüm gerekirken, sadece oral antidiyabetik kullanan stabil hastalarda haftada birkaç ölçüm yeterli olabilir. Hekiminiz size uygun protokolü belirler.
+
+### Yapay tatlandırıcı güvenli midir?
+
+Onaylı yapay tatlandırıcılar (aspartam, sukraloz, stevia) genel olarak güvenlidir; ancak şekerli içecek alışkanlığını sürdürmemek için tamamen su / şekersiz ayran / bitki çayı tercih edilebilir.
+
+### Diyabet ve aşılar?
+
+Tip 2 diyabette **yıllık grip aşısı**, **pnömokok aşısı** ve önerilen dönemlerde **COVID-19 aşı güncellemeleri** önerilir. Akut enfeksiyonlar kan şekerini ciddi yükseltebilir; aşılar hem korur hem de yatış riskini azaltır.
+
+### Diyabette stres yönetimi neden önemli?
+
+Kronik stres, kortizol üzerinden kan şekerini yükseltebilir ve yeme alışkanlıklarını bozar. Egzersiz, uyku düzeni, gerekirse [psikolojik destek](/tedaviler/psikolojik-destek) ya da [psikoloji](/branslar/psikoloji) / [psikiyatri](/branslar/psikiyatri) konsültasyonu yararlı olabilir.
+
+---
+
+Tip 2 diyabet, doğru yönetimle iyi kontrol altında tutulabilen kronik bir hastalıktır. Bu yazıda yer alan bilgiler genel niteliklidir; **bireysel tedavi planınız için hekiminize danışın**.`,
+    heroImageAlt: "Tip 2 diyabet yönetimi: beslenme, egzersiz, ilaç",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["beslenme-danismanligi", "psikolojik-destek"],
+    relatedSpecialtySlugs: ["endokrinoloji", "ic-hastaliklari", "aile-hekimligi", "kardiyoloji", "diyetisyen"],
+    sources: [
+      {
+        title: "Standards of Care in Diabetes — 2025",
+        publisher: "American Diabetes Association (ADA)",
+        url: "https://diabetesjournals.org/care",
+      },
+      {
+        title: "Type 2 Diabetes in Adults: Management (NG28)",
+        publisher: "NICE — National Institute for Health and Care Excellence",
+        url: "https://www.nice.org.uk/guidance/ng28",
+      },
+      {
+        title: "ADA/EASD Consensus Report — Management of Hyperglycemia in Type 2 Diabetes",
+        publisher: "Diabetologia / ADA-EASD",
+      },
+      {
+        title: "Türkiye Diyabet Tanı ve Tedavi Rehberi",
+        publisher: "Türkiye Endokrinoloji ve Metabolizma Derneği (TEMD)",
+      },
+      {
+        title: "Primary Care Lifestyle Intervention in Type 2 Diabetes Remission (DiRECT)",
+        publisher: "The Lancet (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29221645/",
+      },
+      {
+        title: "PREDIMED — Mediterranean Diet and Cardiovascular Events",
+        publisher: "New England Journal of Medicine (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29897866/",
+      },
+    ],
+  },
+
+  {
+    slug: "hipertansiyon-yuksek-tansiyon-kontrol",
+    title: "Hipertansiyon (Yüksek Tansiyon): Kontrol ve Tedavi Rehberi",
+    excerpt:
+      "Hipertansiyon tanısı, evde tansiyon ölçümü, yaşam tarzı değişiklikleri, ilaç sınıfları (ACE inhibitörü, ARB, kalsiyum kanal blokeri, diüretik) ve hedef organ koruması.",
+    bodyMd: `**Hipertansiyon (yüksek tansiyon)**, dünyada en yaygın önlenebilir ölüm nedenlerinden biridir. Türkiye'de erişkinlerin yaklaşık **üçte birinde** mevcuttur (PatenT çalışmaları) ve önemli bir kısmı tanı almamış veya kontrolsüzdür. İyi yönetildiğinde **inme, kalp krizi, böbrek yetmezliği, kalp yetmezliği** gibi komplikasyonların önemli kısmı önlenebilir.
+
+> 📌 Bu yazı, tansiyon takibi yapan ve hipertansiyon ile yaşayan bireyler için genel bilgilendirme amaçlıdır. Bireysel tedavi planınız için [kardiyoloji](/branslar/kardiyoloji), [iç hastalıkları](/branslar/ic-hastaliklari) veya [aile hekimliği](/branslar/aile-hekimligi) uzmanlarına başvurun.
+
+## Tansiyon Nedir, Neden Önemli?
+
+Tansiyon (kan basıncı), kalbin kasılması (sistolik) ve gevşemesi (diyastolik) sırasında damarlara uyguladığı basınçtır. **mmHg** birimi ile iki rakam olarak ifade edilir: örn. 130/80 mmHg.
+
+Yüksek tansiyon yıllarca **belirti vermeyebilir** ("sessiz katil"); bu nedenle taramadan geçirilmek kritiktir.
+
+### Tansiyon kategorileri (ESH/ESC 2023, AHA/ACC eşik kavramları)
+
+| Kategori (ofis ölçümü) | Sistolik | Diyastolik |
+|---|---|---|
+| Optimal | < 120 | < 80 |
+| Normal | 120-129 | 80-84 |
+| Yüksek-normal | 130-139 | 85-89 |
+| Evre 1 hipertansiyon | 140-159 | 90-99 |
+| Evre 2 hipertansiyon | 160-179 | 100-109 |
+| Evre 3 hipertansiyon | ≥ 180 | ≥ 110 |
+
+> ℹ️ **Not:** Eşikler kılavuza göre farklılık gösterebilir (AHA/ACC ≥ 130/80, ESH/ESC ≥ 140/90 hipertansiyon olarak tanımlar). Önemli olan kişisel kardiyovasküler risk profilinizdir; hedefi hekiminiz belirler.
+
+## Tanı: Sadece Bir Ölçüm Yetmez
+
+Tanı için **farklı günlerde tekrarlanan** ölçümler gerekir. Tek bir yüksek ölçümle hipertansiyon tanısı konmaz.
+
+### Önerilen tanı yöntemleri
+
+- **Ev tansiyonu takibi (EBPM)** — sabah ve akşam, 7 gün
+- **Ambulatuvar tansiyon monitörizasyonu (ABPM)** — 24 saatlik kayıt
+- Ofis ölçümleri — standart yöntemle, 5 dk dinlenmiş, doğru kafla
+
+> 💡 **İpucu:** "Beyaz önlük hipertansiyonu" (sadece klinikte yüksek) ve "maskeli hipertansiyon" (sadece dışarıda yüksek) ABPM/EBPM ile ortaya çıkar. **Ev ölçümleri tanı ve takipte altın standarda yakın hale gelmiştir.**
+
+### Doğru ev ölçümü tekniği
+
+1. Ölçümden **30 dakika önce** sigara, kahve, egzersiz, ağır yemek yok
+2. Tuvalete gidin, **5 dk** sessiz oturun
+3. **Sırtınız desteklenmiş**, ayaklar yere düz
+4. Kol **kalp seviyesinde**, masaya destekli
+5. Kaf uygun boyutta (üst kolu çevreleyen)
+6. Sabah (ilaç almadan önce) + akşam, **her seansta 2 ölçüm** (1 dk arayla)
+7. **7 gün** kayıt; ilk gün hariç tutulup ortalama alınır
+
+## İkincil Hipertansiyon: Kimde Şüphelenilir?
+
+Hipertansiyon vakalarının çoğu **primer (esansiyel)** — net bir sebep bulunmaz. **İkincil hipertansiyon** araştırması şu durumlarda gerekir:
+
+- 30 yaş altı genç başlangıç
+- Çoklu ilaca dirençli kontrol
+- Aniden kötüleşen kontrol
+- Hipokalemi, böbrek bozukluğu eşliği
+- Üfürüm, abdominal kitle bulguları
+- Tipik olmayan organ tutulumu
+
+İkincil nedenler: böbrek arter darlığı, primer hiperaldosteronizm, feokromasitoma, obstrüktif uyku apnesi, tiroid bozukluğu, ilaçlar (NSAİİ, kortikosteroid, doğum kontrol hapı), [endokrinoloji](/branslar/endokrinoloji) ile [nefroloji](/branslar/nefroloji) konsültasyonu yararlı olabilir.
+
+> 🚨 **Acil:** Sistolik > 180 veya diyastolik > 120 mmHg + göğüs ağrısı, nefes darlığı, görme bozukluğu, şiddetli baş ağrısı, konuşma bozukluğu, vücudun bir yarısında zayıflık → **acil servise başvurun**. "Hipertansif acil" olabilir; inme veya kalp olayı belirtisi olabilir.
+
+## Yaşam Tarzı Müdahaleleri (DASH ve ESH önerileri)
+
+Yaşam tarzı değişiklikleri, **her hastada birinci basamaktır** ve ilaçların etkinliğini artırır.
+
+| Müdahale | Beklenen sistolik düşüş (mmHg) |
+|---|---|
+| Tuz kısıtlama (< 5 g/gün) | 4-8 |
+| DASH tipi beslenme | 8-14 |
+| Kilo verme (10 kg) | 5-20 |
+| Düzenli aerobik egzersiz (haftada ≥150 dk) | 4-9 |
+| Alkol kısıtlama | 2-4 |
+| Sigara bırakma | KVH riski belirgin düşer (tansiyon ölçümünden bağımsız) |
+
+### DASH (Dietary Approaches to Stop Hypertension)
+
+- Sebze, meyve, tam tahıl ön planda
+- Az yağlı süt ürünleri
+- Kuru yemiş, baklagil
+- Doymuş yağ, kırmızı et, şekerli içecek sınırlı
+- **Tuz < 5 g/gün** (bir çay kaşığı tuz ≈ 5 g)
+
+> ✅ **Tavsiye:** Tuzu azaltmanın en kolay yolu **işlenmiş gıdaları azaltmaktır** (ekmek, salam-sosis, hazır çorba, turşu, peynir, cips). Yemek pişirirken eklediğiniz tuzdan çok daha fazlasını işlenmiş gıdalardan alıyor olabilirsiniz. [Diyetisyen](/branslar/diyetisyen) desteği ile [beslenme danışmanlığı](/tedaviler/beslenme-danismanligi) somut bir plan sağlar.
+
+### Egzersiz
+
+- Aerobik: yürüyüş, koşu, bisiklet, yüzme — **haftada ≥ 150 dk** orta yoğunlukta
+- Direnç egzersizi: haftada 2-3 gün
+- Daha önce sedanter olanlarda dereceli başlangıç + hekim onayı
+
+### Sigara ve alkol
+
+- Sigara **tansiyonu doğrudan ölçek değiştirmese de** kardiyovasküler riski belirgin artırır → tam bırakma önerilir
+- Alkol kısıtlanmalı; aşırı alımı tansiyonu yükseltir
+
+## İlaç Tedavisi: Sınıflar
+
+İlaç başlama kararı; tansiyon evresi, kardiyovasküler risk, eşlik eden hastalıklar, hedef organ hasarı varlığına göre verilir. **Çoğu hastada erken kombinasyon tedavisi önerilir.**
+
+**Tedavi sınıfları (genel bilgi):**
+
+- **ACE inhibitörleri** — diyabet, kalp yetmezliği, KBH eşliğinde tercih sebebi; kuru öksürük yan etkisi
+- **ARB (anjiyotensin reseptör blokeri)** — ACE inhibitörü tolere edilemeyen hastalarda alternatif
+- **Kalsiyum kanal blokerleri** — yaşlı ve siyah ırk popülasyonunda etkili; bacak ödemi yan etkisi
+- **Tiazid diüretikler** — birinci basamak; ucuz, etkili; hipokalemi, ürik asit yüksekliği takip
+- **Beta blokerler** — koroner arter hastalığı, kalp yetmezliği, aritmi eşliğinde; izole hipertansiyonda birinci basamak değil
+- **Mineralokortikoid reseptör antagonistleri (spironolakton vb.)** — dirençli hipertansiyonda eklenir
+
+| Sınıf | Tercih edilen durum | Dikkat |
+|---|---|---|
+| ACE inh. / ARB | Diyabet, KBH, KY | Hamilelikte kontrendike |
+| Kalsiyum k. blokeri | Yaşlı, izole sistolik HT | Bacak ödemi |
+| Tiazid diüretik | Birinci basamak | K⁺, Na⁺, ürik asit |
+| Beta bloker | KAH, KY, aritmi | Astımda dikkat |
+| MR antagonisti | Dirençli HT | Hiperkalemi |
+
+> 🚨 **Önemli:** Yukarıdaki sınıf bilgisi tedavi önerisi değildir. Hangi ilacın sizin için uygun olduğunu sadece hekiminiz belirler. **Tansiyon ilacını kendi başınıza kesmeyin, doz değiştirmeyin veya başkasının ilacını kullanmayın.** Ani kesim rebound hipertansiyona yol açabilir.
+
+## Tedavi Hedefi
+
+Genel hedefi çoğu hasta için **< 130/80 mmHg** (tolere edilebilirse), 80 yaş üstünde **< 140/90 mmHg** kabul edilir. Hedef bireysel olarak belirlenir; çok düşük tansiyon, özellikle yaşlılarda **düşme ve senkop** riskini artırabilir.
+
+## Hedef Organ Hasarı Taraması
+
+Tanı sırasında ve yıllık takipte değerlendirilir:
+
+- **Kalp** — EKG, ekokardiyografi (sol ventrikül hipertrofisi); [kardiyoloji](/branslar/kardiyoloji) takibi
+- **Böbrek** — eGFR, idrarda albümin/kreatinin oranı
+- **Göz** — göz dibi muayenesi (hipertansif retinopati); [göz hastalıkları](/branslar/goz-hastaliklari) konsültasyonu
+- **Damar** — karotis Doppler, ABI (ankle-brachial index)
+- **Beyin** — inme öyküsü, BT/MR (endikasyonda); [nöroloji](/branslar/noroloji) konsültasyonu
+
+## Hipertansiyon ve Eşlik Eden Hastalıklar
+
+Hipertansiyon nadiren tek başınadır. Sıkça birlikte görülen durumlar:
+
+- **Tip 2 diyabet** — birlikte yönetim önemli; detaylar için [Tip 2 diyabet yönetimi](/blog/tip-2-diyabet-yonetimi-beslenme-ilac) rehberimize bakabilirsiniz
+- Dislipidemi
+- Obezite, metabolik sendrom
+- Obstrüktif uyku apnesi
+- Kronik böbrek hastalığı
+- Atriyal fibrilasyon
+
+## Hamilelik ve Hipertansiyon
+
+Hamilelikte tansiyon yönetimi farklı kurallara tabidir. **ACE inhibitörü, ARB ve bazı diüretikler hamilelikte kontrendikedir**. Preeklampsi taraması ve hamilelik dönemi hipertansiyonu için [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) uzmanı takibi şarttır.
+
+## Sık Sorulan Sorular
+
+### Tansiyonu nasıl ölçmeliyim, hangi cihaz?
+
+**Üst kol** tipi otomatik osilometrik cihazlar tercih edilir; bilek tipi cihazlar daha az güvenilirdir. Cihaz, validasyonu olan modellerden olmalı (uluslararası protokole göre onaylı). Yılda bir cihaz kalibrasyonu önerilir.
+
+### Tansiyon ilacını ne zaman alırım, sabah mı akşam mı?
+
+Hekiminizin önerisine bağlıdır. Çoğu hastada **sabah** önerilir; bazı çalışmalar gece dozunun avantajını araştırmıştır ancak büyük randomize çalışmalar net üstünlük göstermemiştir. Önemli olan **her gün aynı saatte** almaktır.
+
+### Tansiyon ilacımı bırakabilir miyim?
+
+Yaşam tarzı değişiklikleriyle bazı hastalarda doz azaltılabilir veya nadiren kesilebilir; ancak bu kararı **hekiminiz değerlendirme ile** verir. **Kendi başınıza ilaç kesmek tehlikelidir**; rebound hipertansiyon ve organ hasarı riski vardır.
+
+### Tansiyon ilacı cinsel işlevimi etkiler mi?
+
+Bazı ilaç sınıfları (özellikle eski beta blokerler, tiazid diüretikler) erektil disfonksiyona katkıda bulunabilir. Hekiminize bildirdiğiniz takdirde sınıf değişikliği veya doz ayarı ile çoğu vakada düzelir.
+
+### Tansiyonum normalse ilacı bırakabilir miyim?
+
+Tansiyonunuzun normal olması, **ilaç sayesinde** kontrol altında olduğunu gösterir. İlaç kesilirse büyük olasılıkla tansiyon tekrar yükselir. Kesim kararı sadece hekimle birlikte verilir.
+
+### Tuz tamamen kesilmeli mi?
+
+Hayır. Vücut belli bir miktar sodyuma ihtiyaç duyar. Hedef "kesme" değil **azaltma** (günlük < 5 g, KY'de daha az). İşlenmiş gıdaları azaltmak en etkili yöntemdir.
+
+### "Düşük tansiyon" ilaca rağmen olur mu?
+
+Evet, özellikle yaşlı hastalarda doz fazla ise ortostatik hipotansiyon olabilir (ayağa kalkınca baş dönmesi, düşme). Bu durumda hekim doz ayarı yapar.
+
+---
+
+Hipertansiyon yönetimi **ömür boyu süren bir süreçtir**; iyi yönetildiğinde inme, kalp ve böbrek komplikasyonlarının önemli kısmı önlenebilir. Bu yazı genel bilgilendirme amaçlıdır; **bireysel tedavi planınız için hekiminize danışın**.`,
+    heroImageAlt: "Hipertansiyon kontrol: ev tansiyon ölçümü ve yaşam tarzı",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["beslenme-danismanligi", "psikolojik-destek"],
+    relatedSpecialtySlugs: ["kardiyoloji", "ic-hastaliklari", "aile-hekimligi", "nefroloji", "endokrinoloji"],
+    sources: [
+      {
+        title: "2023 ESH Guidelines for the Management of Arterial Hypertension",
+        publisher: "European Society of Hypertension (ESH) / Journal of Hypertension",
+        url: "https://www.eshonline.org",
+      },
+      {
+        title: "2017 ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults",
+        publisher: "American Heart Association (AHA) / American College of Cardiology (ACC)",
+        url: "https://www.heart.org",
+      },
+      {
+        title: "Hypertension in Adults: Diagnosis and Management (NG136)",
+        publisher: "NICE — National Institute for Health and Care Excellence",
+        url: "https://www.nice.org.uk/guidance/ng136",
+      },
+      {
+        title: "PatenT 2 — Türkiye'de Hipertansiyon Prevalansı",
+        publisher: "Türk Hipertansiyon ve Böbrek Hastalıkları Derneği",
+      },
+      {
+        title: "DASH Eating Plan and Sodium Reduction",
+        publisher: "National Heart, Lung, and Blood Institute (NHLBI / NIH)",
+        url: "https://www.nhlbi.nih.gov/education/dash-eating-plan",
+      },
+      {
+        title: "SPRINT — A Randomized Trial of Intensive versus Standard Blood-Pressure Control",
+        publisher: "New England Journal of Medicine (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/26551272/",
+      },
+    ],
+  },
+
+  {
+    slug: "migren-tedavi-yontemleri-onleme",
+    title: "Migren Tedavi Yöntemleri ve Önleyici Yaklaşımlar",
+    excerpt:
+      "Migren tanı kriterleri (IHS), akut atak ve önleyici tedavi sınıfları (triptanlar, gepantlar, beta bloker, topiramat, CGRP antikorları), tetikleyici yönetimi ve günlük baş ağrısı.",
+    bodyMd: `**Migren**, tek başına baş ağrısı değil; ataklar halinde gelen, sıklıkla zonklayıcı, ışık-ses hassasiyeti, bulantı/kusmayla seyreden bir **nörolojik hastalıktır**. Dünyada yaklaşık her 7 kişiden 1'inde görülür; kadınlarda 3 kat daha sık. Etkili önleme ve akut tedavi seçenekleri son 10 yılda belirgin gelişti.
+
+> 📌 Bu yazı, baş ağrısı ile yaşayan ve migren tanısı düşünülen bireyler için genel bilgilendirme amaçlıdır. Bireysel tanı ve tedavi için [nöroloji](/branslar/noroloji) uzmanına başvurun. Birinci basamakta tanı ve sevk için [aile hekimliği](/branslar/aile-hekimligi) ilk adım olabilir.
+
+## Migren Nedir?
+
+Migren, **vasküler değil nörovasküler** mekanizmaya bağlı tekrarlayan baş ağrısı sendromudur. Trigeminovasküler sistem, kortikal yayılan depresyon ve CGRP (calcitonin gene-related peptide) ön planda rol oynar.
+
+### Tipler
+
+- **Aurasız migren** — en sık
+- **Auralı migren** — atak öncesi görsel/duyusal nörolojik belirtiler (ışık çakmaları, zigzag, his kaybı)
+- **Kronik migren** — ayda ≥ 15 gün baş ağrısı (≥ 8 günü migren niteliğinde), 3 aydan uzun
+- **Menstrüel migren** — adet döngüsü ile sıkı ilişkili
+
+## Tanı: IHS Kriterleri (ICHD-3)
+
+### Aurasız migren (özet)
+
+A. En az 5 atak
+B. Atak süresi tedavisiz 4-72 saat
+C. Aşağıdakilerden en az ikisi:
+- Tek taraflı
+- Zonklayıcı
+- Orta-şiddetli
+- Fiziksel aktiviteyle artar
+
+D. Atak sırasında aşağıdakilerden en az biri:
+- Bulantı/kusma
+- Fotofobi + fonofobi
+
+E. Başka tanıyla daha iyi açıklanmıyor
+
+> ⚠️ **Kırmızı bayraklar — acil değerlendirme gerektirir:**
+> - "Hayatımın en şiddetli baş ağrısı" (ani başlangıç)
+> - 50 yaş üstünde yeni başlayan baş ağrısı
+> - Ateş, ense sertliği, kilo kaybı eşliği
+> - Fokal nörolojik bulgu (zayıflık, görme kaybı, konuşma bozukluğu)
+> - Bilinç değişikliği, nöbet
+> - Gebelik, kanser öyküsü, immün baskılanma eşliğinde yeni baş ağrısı
+>
+> Bu durumlarda **acil servise** başvurmak ve görüntüleme yapılması gerekebilir. [Beyin ve sinir cerrahisi](/branslar/beyin-ve-sinir-cerrahisi) ve [acil tıp](/branslar/acil-tip) sevki düşünülür.
+
+## Atak Tetikleyicileri
+
+Tetikleyiciler bireyseldir. Genel olarak bilinen tetikleyiciler:
+
+- **Uyku düzensizliği** — hem az hem fazla uyku
+- **Açlık / öğün atlama**
+- **Dehidratasyon**
+- **Stres** ve stres sonrası gevşeme dönemi
+- **Hormonal değişiklikler** (menstrüel siklus, gebelik, menopoz)
+- **Bazı gıdalar** (yaşlandırılmış peynir, işlenmiş et, alkol — özellikle kırmızı şarap)
+- **Kafein** — hem fazla alım hem ani kesim
+- **Hava değişiklikleri**, parlak ışık, güçlü kokular
+- **Ekran maruziyeti**, kötü uyku ergonomisi
+
+> 💡 **Baş ağrısı günlüğü:** 4-8 hafta tutulan günlük (atak günü, süre, şiddet, eşlik eden belirtiler, olası tetikleyici, kullanılan ilaç, etki) tetikleyici keşfinde ve tedavi yanıtı izleminde **çok değerlidir**. Birçok ücretsiz uygulama mevcuttur.
+
+## Akut (Atak) Tedavisi
+
+Hedef: atağı **erken, etkili ve minimum yan etkiyle** durdurmak. Atak başlar başlamaz tedavi en etkilidir.
+
+### İlaç sınıfları
+
+- **Basit analjezikler / NSAİİ'ler** — hafif-orta atak için
+- **Triptanlar** — orta-şiddetli atakta birinci basamak; bazı kardiyovasküler durumlarda kontrendike
+- **Gepantlar (CGRP reseptör antagonistleri)** — yeni nesil; triptan kontrendike olanlarda veya yanıtsızlıkta seçenek
+- **Ditanlar** — serotonin 1F agonisti; kardiyovasküler risk düşük profili
+- **Bulantı önleyici** — eşlik eden bulantı için ek tedavi
+- **Acil servis tedavisi** — uzayan, kontrol edilemeyen atak için (parenteral seçenekler)
+
+> 🚨 **İlaç aşırı kullanım baş ağrısı (MOH):** Akut analjezikleri ayda **≥ 10-15 gün** kullanmak, **dirençli günlük baş ağrısına** dönüşebilir. Atak ilacını ayda 8-10 günden fazla almak gerekiyorsa, önleyici tedavi tartışılmalıdır.
+
+| Şiddet | Tipik yaklaşım |
+|---|---|
+| Hafif | NSAİİ, bol sıvı, sessiz/karanlık ortam |
+| Orta-şiddetli | Triptan / gepant ± bulantı önleyici |
+| Çok şiddetli / uzayan | Acil servis değerlendirmesi |
+
+> ⚠️ **Spesifik ilaç seçimi**, yan etki profili ve eşlik eden hastalıklara göre **hekiminiz** tarafından belirlenir. Yukarıdaki sınıf bilgisi yalnız genel referans niteliğindedir.
+
+## Önleyici (Profilaktik) Tedavi
+
+Aşağıdaki durumlarda önleyici tedavi tartışılır:
+
+- Ayda **≥ 4 atak** veya iş gücü kaybı yaratan ataklar
+- Akut tedaviye yetersiz yanıt veya kontrendikasyon
+- İlaç aşırı kullanım baş ağrısı riski
+- Hemiplejik migren, beyin sapı auralı migren gibi özel formlar
+
+### Sınıflar (genel)
+
+- **Beta blokerler** — propranolol gibi; astım ve bazı kalp durumlarında dikkat
+- **Antiepileptikler** — topiramat, valproat (kadında doğurganlık çağında valproat kullanılmaz)
+- **Antidepresanlar** — amitriptilin (trisiklik), venlafaksin
+- **Kalsiyum kanal blokerleri** — flunarizin
+- **CGRP monoklonal antikorları** — erenumab, fremanezumab, galkanezumab, eptinezumab; yüksek atak yükünde belirgin azaltma sağlar
+- **Anti-CGRP gepantlar (önleyici)** — atogepant, rimegepant
+- **Botulinum toksin (kronik migren)** — IHS kriterlerini karşılayan kronik migrende; bilgi için [botoks etki süresi](/blog/botoks-etki-suresi-yenileme) yazımızda kozmetik kullanımdan farkına değinilmiştir, terapötik uygulama farklı doz/protokoldür
+
+| Sınıf | Avantaj | Uyarı |
+|---|---|---|
+| Beta bloker | Hipertansiyon, anksiyete eşliğinde uygun | Astım, bradikardi |
+| Topiramat | Etkili, kilo kaybı | Bilişsel yan etki, böbrek taşı, gebelik riski |
+| Amitriptilin | Uyku, gerilim tipi baş ağrısı eşliği | Ağız kuruluğu, kilo artışı |
+| CGRP monoklonal antikor | Yüksek atak yükünde belirgin etki | Yüksek maliyet |
+| Botulinum (kronik migren) | Kronik migrende ek seçenek | Spesifik enjeksiyon protokolü |
+
+> 🚨 **Önemli:** İlaç seçimi; yaş, eşlik eden hastalıklar (hipertansiyon, depresyon, obezite, epilepsi), gebelik planı, yan etki profili ve maliyet gibi çoklu faktörlere göre **hekiminiz** tarafından bireyselleştirilir. **Kendi başınıza önleyici ilaç başlamayın.**
+
+## İlaç Dışı Yaklaşımlar
+
+Kanıt düzeyleri değişmekle birlikte yararlı olabilen yöntemler:
+
+- **Düzenli aerobik egzersiz** — haftada ≥ 150 dk
+- **Uyku hijyeni** — düzenli yat-kalk saatleri, 7-9 saat uyku
+- **Stres yönetimi** — bilişsel davranışçı terapi (BDT), nefes egzersizleri; [psikoloji](/branslar/psikoloji) desteği
+- **Biofeedback, gevşeme teknikleri**
+- **Akupunktur** — bazı çalışmalarda yararlı bulunmuştur
+- **Nutrasötikler** — magnezyum, riboflavin (B2), koenzim Q10 — hekim onayıyla kullanılabilir
+- **Nöromodülasyon cihazları** — transkutanöz supraorbital stimülasyon, sfenopalatin ganglion bloku gibi seçenekler özel merkezlerde
+- **Manuel terapi / [fizik tedavi](/branslar/fizik-tedavi)** — boyun kaynaklı tetikleyicilerde yararlı olabilir
+
+## Kadınlarda Migren ve Hormon
+
+- Adet öncesi/menstrüel dönem ataklar sık
+- Gebelikte birçok kadında frekans azalır (özellikle 2-3. trimester)
+- Bazı kombine oral kontraseptifler, **aura eşliğinde** migrende kontrendike (inme riski)
+- Menopoz geçişinde değişken seyir
+
+Gebelik planlıyorsanız veya hamileyseniz **tedavi sınıfı yeniden değerlendirilir** ([kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) ile koordineli).
+
+## Çocukluk ve Adolesan Migreni
+
+[Çocuk hastalıkları](/branslar/cocuk-hastaliklari) ve pediatrik nöroloji takibi ile yönetilir. Tetikleyici yönetimi ve davranışsal müdahaleler ön plandadır. Akut atak için bazı NSAİİ ve seçili triptanlar belirli yaş üstünde kullanılabilir; ilaç seçimi mutlaka hekimle yapılır.
+
+## Sık Sorulan Sorular
+
+### Her baş ağrısı migren midir?
+
+Hayır. Gerilim tipi baş ağrısı, küme baş ağrısı, sinüzit, servikojenik baş ağrısı, ilaç aşırı kullanım baş ağrısı, sekonder sebepler (tümör, kanama, menenjit) ayırıcı tanıda yer alır. Ayırıcı tanı [nöroloji](/branslar/noroloji) uzmanı ile yapılır.
+
+### Görüntüleme (MR / BT) gerekli mi?
+
+Tipik migrende rutin görüntüleme **gerekli değildir**. Kırmızı bayrak varlığında, atipik özellikte veya muayenede patolojik bulguda görüntüleme planlanır. [Radyoloji](/branslar/radyoloji) yorumu klinikle birlikte değerlendirilir.
+
+### Migren kalıtsal mı?
+
+Genetik yatkınlık güçlüdür. Birinci derece akrabada migren öyküsü olan bireylerde sıklık belirgin yüksektir. Bazı nadir migren formları (familyal hemiplejik migren) tek gen kalıtımı gösterir.
+
+### Migren beyne zarar verir mi?
+
+Tipik migren, kalıcı yapısal beyin hasarı yapmaz. Ancak **auralı migren** inme riskini hafifçe artırabilir; özellikle sigara + oral kontraseptif birlikteliğinde risk belirgindir. Bu nedenle yaşam tarzı düzenlemesi önemlidir.
+
+### "Doğal" yöntemler migreni iyileştirir mi?
+
+Magnezyum, riboflavin (B2), koenzim Q10 gibi takviyelerin önleyici etki gösterebileceğine dair kanıtlar vardır; ancak etki ilaçlara göre kısıtlıdır. Tek başına bitkisel ürünlere güvenmek yerine **hekiminizle bütüncül planlama** önerilir.
+
+### Migrenli bir kadın gebelik planlıyorsa ne yapmalı?
+
+Tedavi sınıfları yeniden değerlendirilir; bazı önleyici ilaçlar gebelikte kontrendikedir (örn. valproat, topiramat). Gebelik öncesi [nöroloji](/branslar/noroloji) ve [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) ile birlikte plan yapılması güvenliği artırır.
+
+### Migrenim kötüleşti, ne zaman yeniden hekime giderim?
+
+Atak sıklığı/şiddeti artıyorsa, akut ilaçlara yanıt azalıyorsa, ayda 8-10 günden fazla atak ilacı gerekiyorsa, yeni nörolojik belirti varsa **bekletmeden** kontrol önerilir.
+
+---
+
+Migren, etkili tedavisi olan kronik bir nörolojik hastalıktır. Doğru tanı, tetikleyici yönetimi ve uygun ilaç seçimi ile birçok hasta için yaşam kalitesi belirgin iyileştirilebilir. Bu yazı genel bilgilendirme amaçlıdır; **bireysel tanı ve tedavi planı için hekiminize danışın**.`,
+    heroImageAlt: "Migren atağı ve önleyici tedavi yaklaşımı",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["psikolojik-destek", "botoks"],
+    relatedSpecialtySlugs: ["noroloji", "aile-hekimligi", "ic-hastaliklari", "psikiyatri", "fizik-tedavi"],
+    sources: [
+      {
+        title: "International Classification of Headache Disorders, 3rd edition (ICHD-3)",
+        publisher: "International Headache Society (IHS)",
+        url: "https://ichd-3.org",
+      },
+      {
+        title: "Headaches in Over 12s: Diagnosis and Management (CG150)",
+        publisher: "NICE — National Institute for Health and Care Excellence",
+        url: "https://www.nice.org.uk/guidance/cg150",
+      },
+      {
+        title: "American Headache Society Consensus Statement — Acute and Preventive Migraine Treatment",
+        publisher: "American Headache Society (AHS) / Headache",
+        url: "https://americanheadachesociety.org",
+      },
+      {
+        title: "European Headache Federation Guideline on the Use of Monoclonal Antibodies Targeting the CGRP Pathway for Migraine Prevention",
+        publisher: "European Headache Federation / Journal of Headache and Pain (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/35690723/",
+      },
+      {
+        title: "Global, Regional, and National Burden of Migraine — GBD Study",
+        publisher: "The Lancet Neurology (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/30353868/",
+      },
+      {
+        title: "Migren Tanı ve Tedavi Kılavuzu",
+        publisher: "Türk Nöroloji Derneği — Baş Ağrısı Çalışma Grubu",
+      },
+    ],
+  },
+
+  {
+    slug: "reflu-gerd-belirtileri-tedavi",
+    title: "Reflü (GERD): Belirtileri, Yaşam Tarzı Değişiklikleri ve Tedavi",
+    excerpt:
+      "Gastroözofageal reflü hastalığı (GERD) belirtileri, alarm bulguları, endoskopi endikasyonları, yaşam tarzı önerileri, PPI / H2 reseptör blokerleri ve cerrahi seçenekler.",
+    bodyMd: `**Gastroözofageal reflü hastalığı (GERD)**, mide içeriğinin yemek borusuna geri kaçarak rahatsızlık ve/veya doku hasarı yarattığı kronik bir hastalıktır. Toplumun yaklaşık **%15-20'sini** etkiler. Çoğu hasta yaşam tarzı değişiklikleri + ilaç tedavisi ile etkin kontrol sağlar; küçük bir grupta cerrahi gerekir.
+
+> 📌 Bu yazı, reflü belirtileri olan bireyler için genel bilgilendirme amaçlıdır. Tanı ve tedavi planı için [gastroenteroloji](/branslar/gastroenteroloji), [iç hastalıkları](/branslar/ic-hastaliklari) veya [aile hekimliği](/branslar/aile-hekimligi) uzmanına başvurun.
+
+## Reflü Nedir, Neden Olur?
+
+Yemek borusu ile mide arasında bulunan **alt özofageal sfinkter (LES)** normalde tek yönlü kapak gibi çalışır. LES gevşekliği, basınç dengesizliği veya hiatus hernisi (mide fıtığı) varlığında asit içerik yemek borusuna geri kaçar ve mukozada irritasyon yapar.
+
+### Yatkınlık yaratan faktörler
+
+- **Obezite** (özellikle abdominal)
+- **Hamilelik**
+- **Hiatus hernisi**
+- **Sigara**
+- **Bazı ilaçlar** — kalsiyum kanal blokerleri, nitratlar, antikolinerjikler, bisfosfonatlar, bazı NSAİİ
+- Yatmadan önce yeme alışkanlığı
+- Yağlı / acılı / çok büyük öğünler
+- Alkol, kafein
+
+## Tipik ve Atipik Belirtiler
+
+### Tipik
+
+- **Pirozis (göğüste yanma)** — özellikle yemek sonrası, yatınca artar
+- **Regürjitasyon** — ağıza ekşi/acı içerik gelmesi
+- Boğazda yanma, ağızda ekşi tat
+
+### Atipik / ekstra-özofageal belirtiler
+
+- Kronik öksürük (özellikle gece/sabah)
+- Boğazda yumru hissi (globus)
+- Ses kısıklığı, larenjit
+- Astım atakları, **astım kontrolünde kötüleşme**
+- Diş minesi aşınması
+- Göğüs ağrısı (**kardiyak ağrıdan ayırt etmek kritik**)
+
+> 🚨 **Acil:** Göğüs ağrısı varsa, özellikle eforla artan, çene/kola yayılan, terleme/nefes darlığı eşliğinde → öncelikle **kalp kaynağı dışlanmalıdır** ([kardiyoloji](/branslar/kardiyoloji) / [acil tıp](/branslar/acil-tip)). Reflüye atfetmeden önce EKG ve gerekli incelemeler yapılır.
+
+## Alarm Bulguları — Endoskopi Endikasyonu
+
+Aşağıdaki bulgular varsa "kronik reflü" olarak değerlendirip ilaç başlatmak yerine **doğrudan üst gastrointestinal endoskopi** önerilir:
+
+- **Yutma güçlüğü (disfaji)** veya yutarken ağrı (odinofaji)
+- **İstemsiz kilo kaybı**
+- **Gastrointestinal kanama** belirtisi (siyah dışkı, kanlı kusma, anemi)
+- 50-55 yaş üstü **yeni başlayan** belirtiler
+- Demir eksikliği anemisi
+- Mide kanseri aile öyküsü
+- Tekrarlayan kusma
+- Karında ele gelen kitle
+
+> ⚠️ **Önemli:** Alarm bulguları **mide veya yemek borusu kanseri**, peptik ülser ya da Barrett özofagusu gibi ciddi tanılar yönünden taranmayı gerektirir. Bekletmeden hekime başvurmak hayati önemdedir.
+
+## Tanı
+
+- **Klinik tanı** — tipik belirtiler + alarm bulgusu yokluğunda PPI deneme tedavisi sıklıkla yeterlidir
+- **Üst GIS endoskopi** — alarm bulgusu, tedaviye yanıtsızlık veya yüksek riskli grup
+- **24 saatlik pH-impedans monitörizasyonu** — atipik belirtilerde veya cerrahi planında objektif kanıt için
+- **Özofageal manometri** — cerrahi öncesi motilite değerlendirmesi
+- **Helicobacter pylori taraması** — ülser, dispepsi eşliğinde
+
+## Yaşam Tarzı Değişiklikleri
+
+Yaşam tarzı düzenlemeleri **birinci basamak**tır ve ilaç dozunu azaltabilir.
+
+| Öneri | Açıklama |
+|---|---|
+| Kilo verme | BKİ > 25 ise ≥ %5-10 kayıp belirtileri azaltır |
+| Yatış pozisyonu | Yatak başını 15-20 cm yükselt (yastık değil, bloklar) |
+| Yemek sonrası bekleme | Yatmadan **en az 3 saat** önce yeme |
+| Porsiyon | Küçük, sık öğünler |
+| Tetikleyiciler | Yağlı/kızartma, acılı, çikolata, nane, kafein, alkol, gazlı içecek — bireysel deneyin |
+| Sigara | Tam bırakma (LES gevşemesini azaltır) |
+| Sıkı kıyafet | Bel sıkan giysi kaçınılır |
+| Sol yanına yatış | Sağ yanına göre semptomları azaltır |
+
+> ✅ **Tavsiye:** Kilo verme tek başına en güçlü kanıt düzeyine sahip non-farmakolojik müdahaledir. Obezitesi olan reflü hastalarında **%5-10 kilo kaybı** semptomlarda belirgin iyileşme sağlayabilir. [Diyetisyen](/branslar/diyetisyen) eşliğinde [beslenme danışmanlığı](/tedaviler/beslenme-danismanligi) bireysel plan oluşturmak için yararlıdır.
+
+## İlaç Tedavisi: Sınıflar
+
+Aşağıdaki sınıflar genel bilgi amaçlıdır. **Spesifik ilaç, doz ve süre hekiminiz tarafından belirlenir.**
+
+- **Antasitler** — hızlı ama kısa süreli rahatlama; sık ihtiyaç yoğun reflüyü gösterir
+- **Aljinatlar** — mide içeriği üzerinde köpük tabaka oluşturarak fiziksel bariyer; postprandiyal etki
+- **H2 reseptör blokerleri** — orta etkili asit baskılama; gece atakları için ek seçenek
+- **Proton pompa inhibitörleri (PPI)** — en güçlü asit baskılayıcılar; **GERD'de standart tedavi**
+- **Potasyum-rekabetli asit blokerler (P-CAB)** — yeni nesil; bazı dirençli vakalarda alternatif
+- **Prokinetik ajanlar** — sınırlı yer; bazı hareket bozukluklarında ek
+
+| Sınıf | Etki başlangıcı | Tipik kullanım |
+|---|---|---|
+| Antasit | Dakikalar | Hafif, aralıklı yanma |
+| Aljinat | Dakikalar | Postprandiyal regürjitasyon |
+| H2 bloker | 30-60 dk | Hafif-orta belirti, gece atakları |
+| PPI | 1-4 gün (tam etki) | Orta-şiddetli GERD, erozif özofajit |
+| P-CAB | Hızlı | Dirençli vakalar, özel durumlar |
+
+### PPI kullanımında dikkat edilecekler
+
+- **Yemekten 30-60 dk önce** (kahvaltıdan önce) alınması etkinliği artırır
+- Çoğu hastada 4-8 hafta deneme yeterli
+- Uzun süreli kullanımda nadiren B12, magnezyum, kalsiyum eksiklikleri, kemik kırığı riski tartışılır → uzun süre kullanımda hekim takibi ve periyodik gözden geçirme önerilir
+- **Ani kesim "asit rebound"** yaratabilir; kademeli azaltma tercih edilir
+- PPI tedavisine yanıtsızlık → tanıyı sorgula, ek tetkik (endoskopi, pH izlemi)
+
+> 🚨 **Önemli:** PPI'ler reçetesiz satılan bazı muadillerine rağmen **uzun süreli kullanım hekim takibinde** olmalıdır. Kendi başınıza aylarca / yıllarca tetkiksiz kullanmak alarm bulgularını maskeleyebilir ve ciddi tanıları (Barrett özofagusu, kanser) geciktirebilir.
+
+## Cerrahi ve Endoskopik Tedaviler
+
+Yaşam tarzı + maksimum medikal tedaviye rağmen kontrol sağlanamayan, ilaca uyumsuzluk yaşayan veya büyük hiatus hernisi olan seçili hastalarda tedavi seçenekleri:
+
+- **Laparoskopik fundoplikasyon (Nissen vb.)** — mide üst kısmının özofagus alt ucu çevresine sarılması; altın standart cerrahi
+- **Hiatus hernisi onarımı** — sıklıkla fundoplikasyon ile birlikte
+- **LINX (manyetik sfinkter)** — seçili hastalarda alternatif
+- **Endoskopik tedaviler** — sınırlı endikasyonlarda
+
+Cerrahi kararı, **manometri + pH izlemi + endoskopi** sonuçları ışığında multidisipliner verilir ([genel cerrahi](/branslar/genel-cerrahi) konsültasyonu). Obezite eşliğinde dirençli GERD'de [obezite cerrahisi](/blog/obezite-cerrahisi-tup-mide-gastrik-bypass) (özellikle gastrik bypass) değerlendirilebilir; sleeve gastrektomi reflüyü kötüleştirebilir.
+
+## Barrett Özofagusu ve Kanser Riski
+
+Uzun süreli ve kontrolsüz reflü, **Barrett özofagusu** gelişimine zemin hazırlayabilir; bu durum yemek borusu adenokarsinomu riskini artırır. Barrett saptanan hastalarda periyodik endoskopik takip önerilir. Bu nedenle özellikle 50 yaş üstü, uzun süreli reflü öyküsü olan, sigara/obezite eşliğindeki hastalarda **bir kez endoskopik değerlendirme** yapılması yararlıdır.
+
+> ℹ️ **Bilgi:** Reflü yıllarca tedavi edilmediğinde gelişen darlık (striktür), Barrett ve nadiren kanser riskleri vardır. Kronik belirtiyi "alıştık" diye taşımak yerine düzenli hekim takibi önemlidir.
+
+## Gebelikte Reflü
+
+Hamilelikte hormonsal (progesteron LES gevşetir) ve mekanik (büyüyen rahim) nedenlerle reflü çok yaygındır. Çoğunlukla doğum sonrası geriler. Tedavi seçenekleri gebelikte kademeli olarak yaşam tarzı → antasit/aljinat → H2 bloker → PPI şeklinde, **hekim onayı ile** ilerler ([kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) ile koordineli).
+
+## Çocuklarda Reflü
+
+Bebeklerde fizyolojik reflü sıktır ve büyük çoğunluğu 12-18 ayda geriler. Büyüme gecikmesi, beslenmeyi reddetme, tekrarlayan kusma, solunum belirtileri olan vakalarda [çocuk hastalıkları](/branslar/cocuk-hastaliklari) değerlendirmesi gerekir.
+
+## Sık Sorulan Sorular
+
+### Reflü tamamen geçer mi?
+
+GERD genellikle kronik bir hastalıktır; yaşam tarzı değişiklikleri + ilaç ile **kontrol altında tutulur**. Bazı hastalar belirgin kilo kaybı, sigara bırakma ve diyet düzenlemesi sonrası ilaçsız idare edebilir; büyük kısımda ilaç gereksinimi sürer.
+
+### PPI'yi ömür boyu mu alacağım?
+
+Mutlak değil. Erozif özofajit veya Barrett gibi durumlarda uzun süreli tedavi gerekirken, hafif vakalarda **en düşük etkili doz / aralıklı kullanım** mümkündür. Hekiminizle düzenli olarak ihtiyacı gözden geçirin.
+
+### Endoskopi her hastaya gerekli mi?
+
+Hayır. Tipik belirtiler, alarm bulgusu yokluğu ve 50 yaş altında **doğrudan PPI denemesi** uygundur. Alarm bulgusu, tedaviye yanıtsızlık veya yüksek riskli gruplarda endoskopi önerilir.
+
+### Reflü kalp ağrısı gibi olur mu?
+
+Evet, retrosternal yanma ve ağrı kardiyak ağrıya benzeyebilir. Bu nedenle özellikle ilk değerlendirmede ve risk faktörü olan bireylerde **kalp kaynağının dışlanması** önceliklidir.
+
+### Hangi yiyecekler reflüyü tetikler?
+
+Genel listede yağlı/kızartma, çikolata, nane, kafein, gazlı içecek, asitli meyve, domates, soğan, sarımsak, baharatlı yemekler yer alır. **Tetikleyiciler bireyseldir**; günlük tutarak kişisel listenizi çıkarmak en etkili yöntemdir.
+
+### Antasitleri çok sık alıyorum, zarar verir mi?
+
+Sık antasit gereksinimi **kontrol altında olmayan reflü**yü gösterir. Uzun süreli, kontrolsüz antasit kullanımı bazı tuz birikimi ve elektrolit yan etkileri yapabilir. Sık ihtiyaç varsa hekimle değerlendirme ve uzun etkili tedaviye geçiş düşünülmelidir.
+
+### Reflü astımı tetikler mi?
+
+Bazı astım hastalarında reflü, gece öksürük ve astım kontrolünde kötüleşmeye katkıda bulunabilir. [Göğüs hastalıkları](/branslar/gogus-hastaliklari) ve gastroenteroloji koordinasyonu yararlıdır.
+
+---
+
+GERD, doğru tanı ve aşamalı tedavi ile yaşam kalitesini belirgin iyileştiren bir hastalıktır. Alarm bulgularını ihmal etmek, uzun süreli kendi kendine tedavi ve geç başvuru ciddi komplikasyonlara yol açabilir. Bu yazı genel bilgilendirme amaçlıdır; **bireysel tanı ve tedavi planınız için hekiminize danışın**.`,
+    heroImageAlt: "Reflü (GERD) belirtileri ve yaşam tarzı önerileri",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["beslenme-danismanligi"],
+    relatedSpecialtySlugs: ["gastroenteroloji", "ic-hastaliklari", "aile-hekimligi", "genel-cerrahi", "kbb"],
+    sources: [
+      {
+        title: "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease",
+        publisher: "American College of Gastroenterology (ACG) / Am J Gastroenterol",
+        url: "https://gi.org/guideline/diagnosis-and-management-of-gastroesophageal-reflux-disease/",
+      },
+      {
+        title: "Gastro-oesophageal Reflux Disease and Dyspepsia in Adults: Investigation and Management (CG184)",
+        publisher: "NICE — National Institute for Health and Care Excellence",
+        url: "https://www.nice.org.uk/guidance/cg184",
+      },
+      {
+        title: "Modern Diagnosis of GERD: The Lyon Consensus",
+        publisher: "Gut (BMJ) — PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29437910/",
+      },
+      {
+        title: "Global Prevalence of, and Risk Factors for, Gastro-oesophageal Reflux Symptoms",
+        publisher: "Gut (BMJ) — PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29382770/",
+      },
+      {
+        title: "Türkiye Gastroenteroloji Vakfı / Türk Gastroenteroloji Derneği — Reflü Hasta Bilgilendirme",
+        publisher: "Türk Gastroenteroloji Derneği",
+      },
+      {
+        title: "Long-term Use of Proton Pump Inhibitors: Updated Review",
+        publisher: "Gastroenterology / PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/28780076/",
+      },
+    ],
+  },
+
+  // ═════════════════════════════════════════════════════════════════════════
+  // 2026-05-26 batch — 4 yeni kadın sağlığı + üreme yazısı
+  // ═════════════════════════════════════════════════════════════════════════
+
+  {
+    slug: "pcos-polikistik-over-belirtileri-tedavi",
+    title: "PCOS (Polikistik Over Sendromu): Belirtiler, Tanı ve Tedavi Yaklaşımları",
+    excerpt:
+      "Polikistik over sendromu üreme çağındaki kadınların %8-13'ünü etkileyen sık bir endokrin bozukluktur. Belirtiler, Rotterdam kriterleri ve yaşam tarzı + medikal tedavi seçenekleri.",
+    bodyMd: `**Polikistik over sendromu (PCOS)**, üreme çağındaki kadınlarda en sık görülen endokrin bozukluklardan biridir. Adet düzensizliği, androjen fazlalığı bulguları (hirsutizm, akne) ve ultrasonografide polikistik over görünümü ile karakterizedir. Bu yazı, PCOS'un belirtilerini, tanı kriterlerini, eşlik eden metabolik sorunları ve mevcut tedavi yaklaşımlarını tarafsız bir gözle özetler.
+
+> 📌 Bu rehber [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) ve [endokrinoloji](/branslar/endokrinoloji) branşları kapsamındaki PCOS değerlendirmesi içindir. Bireysel tanı ve tedavi için **mutlaka hekiminize danışın**.
+
+## PCOS Nedir?
+
+Polikistik over sendromu, **üreme çağındaki kadınların yaklaşık %8-13'ünü** etkileyen heterojen bir endokrin-metabolik bozukluktur. Bazı kaynaklara göre tanı kriterlerine ve popülasyona göre prevalans %5 ile %20 arasında değişmektedir. PCOS yalnızca jinekolojik bir sorun değil; **insülin direnci, tip 2 diyabet, dislipidemi, kardiyovasküler risk ve psikososyal yük** içeren bir sistemik tablodur.
+
+İsmindeki "kistik" kelimesi yanıltıcıdır: PCOS'taki yapılar **gerçek kist değil**, gelişimini tamamlayamamış antral foliküllerdir.
+
+> ⚠️ **Önemli kavram:** Ultrasonografide "polikistik over görünümü" bulunan her kadın PCOS hastası değildir. Tanı için **klinik ve laboratuvar bulguların** bir araya getirilmesi gerekir. Tek başına USG bulgusu **PCOS demek değildir**.
+
+## Belirtiler
+
+PCOS belirtileri kişiden kişiye geniş bir yelpazede dağılır. Aynı tanı altındaki iki kadının klinik tablosu çok farklı olabilir.
+
+### Adet düzensizlikleri
+
+- **Oligo-amenore** — Yılda 9'dan az adet, ya da 35 günden uzun siklus
+- **Anovulasyon** — Yumurtlamanın olmaması (infertilitenin temel mekanizması)
+- **Sık veya uzun süreli kanama** — Endometriumun korumasız östrojen etkisi altında kalması
+
+### Androjen fazlalığı bulguları
+
+- **Hirsutizm** — Yüz, çene, göğüs, karın orta hat, sırt gibi alanlarda kalın, koyu tüylenme (Ferriman-Gallwey skoru ≥ 8)
+- **Akne** — Özellikle erişkin dönemde inatçı, çene ve sırt yerleşimli
+- **Androjenik alopesi** — Saç çizgisi geriye doğru çekilme, tepe seyrelmesi
+- **Cilt değişiklikleri** — Akantozis nigrikans (boyun, koltuk altı kıvrımında koyulaşma — insülin direnci işareti)
+
+### Metabolik bulgular
+
+- **Kilo alma eğilimi**, abdominal yağlanma (her PCOS'lu kadın kilolu değildir; "yağsız PCOS" da vardır)
+- **İnsülin direnci** — kadınların yaklaşık %50-70'inde
+- **Tip 2 diyabet** ve **gestasyonel diyabet** riski artmış
+- **Dislipidemi** — yüksek trigliserid, düşük HDL
+
+### Diğer
+
+- **İnfertilite** — anovulasyona bağlı
+- **Uyku apnesi** riski artmış
+- **Depresyon ve anksiyete** sıklığı genel popülasyona göre yüksek
+- **Endometrium kanseri** riski (korumasız östrojen etkisi nedeniyle)
+
+> 💡 **Spektrum hastalığı:** PCOS bazı kadınlarda yalnız hafif adet düzensizliği olarak ortaya çıkarken bazılarında ciddi infertilite, belirgin hirsutizm ve metabolik sendrom tablosu yapabilir. Bu nedenle tedavi **bireye özel** planlanır.
+
+## Tanı Kriterleri (Rotterdam)
+
+PCOS tanısı **klinik bir tanıdır**; tek başına kanıtlayan bir test yoktur. En yaygın kullanılan **Rotterdam Konsensüs (2003)** kriterleri şu üç bulgudan **en az ikisinin** varlığını gerektirir:
+
+1. **Oligo- veya anovulasyon** (adet düzensizliği / yumurtlama yokluğu)
+2. **Klinik ve/veya biyokimyasal hiperandrojenizm** (hirsutizm, akne ve/veya yüksek serbest testosteron / serbest androjen indeksi)
+3. **Polikistik over morfolojisi (PCOM)** — USG'de bir overde ≥ 20 folikül (2-9 mm) veya over hacmi ≥ 10 cm³ (2018 ESHRE/ASRM güncellenmiş eşikler)
+
+### Tanı için ekartasyon (dışlama) şart
+
+PCOS bir **dışlama tanısı** içerir; benzer klinik tablo yapabilen aşağıdaki nedenler önce dışlanmalıdır:
+
+- **Tiroid disfonksiyonu** (TSH testi)
+- **Hiperprolaktinemi** (prolaktin)
+- **Geç başlayan konjenital adrenal hiperplazi** (17-OH progesteron)
+- **Cushing sendromu** (klinik şüpheye göre)
+- **Androjen üreten tümörler** (hızlı başlayan virilizasyon varsa)
+- **Hipotalamik amenore** (özellikle düşük BKİ + aşırı egzersiz öyküsünde)
+
+| Bulgu | Test |
+|---|---|
+| Anovulasyon | Siklus 21. gün progesteron, anti-müllerian hormon (AMH) |
+| Androjen fazlalığı | Total testosteron, serbest testosteron, SHBG, DHEA-S |
+| Tiroid | TSH, gerekirse fT4 |
+| Prolaktin | Serum prolaktin |
+| 17-OH progesteron | Foliküler fazda (siklus 2-5. gün) |
+| Metabolik | Açlık glukoz, HbA1c, oral glukoz tolerans testi (OGTT), lipit profili |
+| USG | Transvajinal pelvik USG (adolesanlarda transabdominal) |
+
+> ⚠️ **Adolesan tanısı:** Ergenlik döneminin ilk 2-3 yılında düzensiz adetler, akne ve folikül sayısı **fizyolojik olabilir**. Bu yaş grubunda PCOS tanısı **çok dikkatli konulmalı** ve gerekirse erişkin değerlendirmesine ertelenmelidir. Aşırı tanı, gereksiz tedavi ve psikososyal etiketleme riski oluşturur.
+
+## Eşlik Eden Sağlık Riskleri
+
+PCOS'un yönetiminde adet düzensizliğinden çok daha geniş bir resme bakılır.
+
+### Metabolik
+
+- **İnsülin direnci ve tip 2 diyabet** — 35-40 yaşa kadar diyabet riski genel popülasyona göre belirgin yüksek
+- **Gestasyonel diyabet** — gebelikte tarama önemli
+- **Metabolik sendrom** — hipertansiyon, dislipidemi, abdominal obezite kümelenmesi
+- **Karaciğer yağlanması (NAFLD/MASLD)**
+
+### Üreme
+
+- **İnfertilite** — anovulatuar infertilitenin en sık nedenlerinden
+- **Erken gebelik kaybı** riski artabilir
+- **Gestasyonel diyabet, preeklampsi, preterm doğum** riski
+
+### Onkolojik
+
+- **Endometrium hiperplazisi ve kanseri** — korumasız östrojen etkisi nedeniyle
+- **Düzenli aralıklarla çekilme kanaması** koruyucu önemde
+
+### Ruh sağlığı
+
+- Depresyon, anksiyete ve yeme bozukluğu sıklığı yüksek
+- Estetik kaygılar (akne, hirsutizm, kilo) önemli psikososyal yük yaratır
+
+> 🚨 **Düzenli takip şart:** PCOS yalnız bir "adet sorunu" olarak ele alınmamalı; **yaşam boyu metabolik ve onkolojik tarama** programı planlanmalıdır.
+
+## Tedavi Yaklaşımları
+
+PCOS'un nedensel bir tedavisi yoktur; tedavi **semptom ve risk yönetimi** odaklıdır. Hedef şikayete göre belirlenir: gebelik isteyen mi, adet düzeni mi, hirsutizm mi, metabolik kontrol mü?
+
+### Yaşam tarzı — temel taşı
+
+PCOS yönetiminin **birinci basamak** tedavisi yaşam tarzıdır. Kilolu/obez kadınlarda **vücut ağırlığının %5-10'unun verilmesi** bile çoğu zaman siklusların düzelmesi, ovülasyonun geri dönmesi ve insülin direncinin azalmasıyla sonuçlanır.
+
+- **Diyet** — düşük glisemik yükle, mediterranean tipte, dengeli karbonhidrat. Belirli bir "PCOS diyeti" yok; sürdürülebilirlik kritik
+- **Düzenli egzersiz** — haftada en az 150 dakika orta yoğunlukta aerobik + 2 gün direnç
+- **Uyku** — 7-9 saat düzenli uyku, uyku apnesi taraması (yüksek BKİ veya horlama varsa)
+- **Sigara/alkol** kısıtlama
+
+[Beslenme danışmanlığı](/tedaviler/beslenme-danismanligi) ve [diyetisyen](/branslar/diyetisyen) desteği bireysel program için faydalıdır.
+
+### Adet düzeni ve endometrium koruma
+
+- **Kombine oral kontraseptifler (KOK)** — Adet düzeni, endometrium koruma, androjenik belirtilerde fayda. Tromboemboli riski olanlarda alternatif planlanır
+- **Progestin (siklik)** — Östrojen kullanmak istemeyenlerde periyodik çekilme kanaması sağlar
+- **Levonorgestrel salgılayan rahim içi araç (LNG-RİA)** — Endometrium koruma için seçenek
+
+### Hiperandrojenizm tedavisi
+
+- **Kombine oral kontraseptifler** — SHBG'yi artırarak serbest androjen düşürür
+- **Anti-androjen ilaçlar** (spironolakton vb.) — Gebelik planlanmıyorsa, doğum kontrolü ile birlikte kullanılır
+- **Topikal tedavi** — Yüz tüylerinde topikal ilaç seçeneği bazı ülkelerde mevcut
+- **Kozmetik yaklaşımlar** — [Lazer epilasyon](/tedaviler/lazer-epilasyon) hirsutizmde uzun vadeli rahatlama sağlar; ancak hormonal tedavi olmadan tüy çıkışı devam edebilir
+
+### İnsülin direnci ve metabolik yönetim
+
+- **Metformin** — özellikle bozulmuş glukoz toleransı, diyabet veya belirgin insülin direnci varsa; bazı vakalarda ovülasyona da katkı yapar
+- **GLP-1 reseptör agonistleri** — obezite + tip 2 diyabet tablolarında gündeme gelebilir (gebelik düşünenlerde hekim ile değerlendirilir)
+- **Statin** — dislipidemi yönetiminde, kardiyovasküler risk hesabına göre
+
+### Gebelik isteyen hastalarda ovülasyon indüksiyonu
+
+- **Letrozol** — Birinci basamak ovülasyon indüksiyonu olarak güncel kılavuzlarda öne çıkmaktadır
+- **Klomifen sitrat** — Geleneksel seçenek
+- **Gonadotropinler** — Yanıtsız vakalarda, dikkatli takiple
+- **Laparoskopik over drilling** — Belirli vakalarda
+- **[Tüp bebek (IVF)](/tedaviler/tup-bebek)** — Diğer yöntemlere yanıt yoksa veya eşlik eden faktör varsa; süreç için [IVF rehberimize](/blog/tup-bebek-ivf-sureci-asamalar) bakınız
+
+> 💡 **Bilgilendirme:** PCOS'lu kadınlarda ovülasyon indüksiyonu süresince **çoğul gebelik ve ovaryan hiperstimülasyon sendromu (OHSS) riski** vardır. Tedavi mutlaka deneyimli ekip tarafından, sıkı takip altında yürütülür.
+
+### Ruh sağlığı
+
+- Düzenli tarama (depresyon, anksiyete, yeme bozukluğu)
+- [Psikolojik destek](/tedaviler/psikolojik-destek) ve gerekirse [psikiyatri](/branslar/psikiyatri) yönlendirmesi
+
+## Takip Şeması
+
+| Konu | Sıklık |
+|---|---|
+| Genel jinekolojik değerlendirme | Yılda 1 |
+| Adet kaydı, kilo, kan basıncı | Her muayenede |
+| HbA1c veya OGTT | 3-5 yılda bir (risk faktörü varsa daha sık) |
+| Lipit profili | 2-3 yılda bir |
+| Endometrium değerlendirmesi (USG, gerekirse biyopsi) | Uzamış amenore + risk faktörü varsa |
+| Ruh sağlığı taraması | Yılda 1 |
+| Gebelik planı varsa preconception danışmanlığı | Plan öncesi |
+
+[Hamilelik öncesi check-up listesi](/blog/hamilelik-oncesi-check-up-listesi) yazısı, PCOS'lu kadınlarda gebelik öncesi optimal hazırlık için ek bilgi içerir.
+
+## PCOS ve Gebelik
+
+PCOS'lu kadınların önemli bir kısmı uygun tedavi ile gebelik elde eder. Ancak:
+
+- **Gestasyonel diyabet** taraması erken yapılmalı (24-28. hafta standart, risk varsa daha erken)
+- **Gebelikte hipertansiyon** ve preeklampsi takibi
+- **Preterm doğum** riski artmıştır
+- Tiroid, glukoz ve kilo takibi düzenli sürer
+- **Folik asit takviyesi** (gebelikten önceki en az 1 ay, ilk trimester boyunca)
+
+## Sık Sorulan Sorular
+
+### PCOS tamamen geçer mi?
+
+PCOS **kronik bir endokrin bozukluk** olarak kabul edilir. Belirtiler menopoz sonrası hafifleyebilir ama metabolik riskler devam eder. Yaşam tarzı ve tedavi ile semptomların büyük kısmı kontrol altına alınabilir.
+
+### Polikistik over varsa kesin PCOS muyum?
+
+Hayır. Ultrasonografide polikistik over görünümü tek başına tanı **koymaz**. Rotterdam kriterlerinden en az ikisinin varlığı ve diğer hastalıkların dışlanması gerekir. Üreme çağındaki sağlıklı kadınların önemli bir kısmında PCO görünümü olabilir.
+
+### Hamile kalabilir miyim?
+
+Çoğu PCOS'lu kadın, ovülasyon indüksiyonu veya yaşam tarzı + medikal tedavi ile gebelik elde eder. Yanıt vermeyen vakalarda [tüp bebek (IVF)](/tedaviler/tup-bebek) bir seçenektir. Tanı tek başına infertilite anlamına gelmez.
+
+### Doğum kontrol hapı kullanmam zararlı mı?
+
+Kombine oral kontraseptifler PCOS yönetiminde sık kullanılan bir seçenektir. Tromboz riski, sigara kullanımı, migren, hipertansiyon gibi durumlara göre uygun olup olmadığı **hekim tarafından** değerlendirilir.
+
+### Metformin kullanmak gerekli mi?
+
+Metformin her PCOS'lu hastada **rutin** verilmez. Bozulmuş glukoz toleransı, tip 2 diyabet, belirgin insülin direnci veya gebelik planlanan bazı vakalarda kullanılır. Karar bireyseldir.
+
+### Lazer epilasyon hirsutizmi tedavi eder mi?
+
+[Lazer epilasyon](/tedaviler/lazer-epilasyon) görünen tüylerde uzun süreli azalma sağlar; ancak androjen fazlalığı devam ediyorsa yeni tüy çıkışı olabilir. Hormonal tedavi ile birlikte daha kalıcı sonuç alınır.
+
+### "Yağsız PCOS" var mı?
+
+Evet. PCOS'lu kadınların önemli bir kısmı normal kilodadır. Bu grupta da insülin direnci, hirsutizm ve adet düzensizliği görülebilir; tedavi prensipleri benzerdir.
+
+---
+
+PCOS yaşam boyu izlenmesi gereken bir endokrin-metabolik tablodur. Erken tanı, yaşam tarzı düzenlemesi ve uygun medikal yönetimle hem üreme hem metabolik komplikasyonlar belirgin azaltılabilir. Bu yazı genel bilgilendirme niteliğindedir; bireysel tanı ve tedavi için **mutlaka uzman hekiminize başvurunuz**.`,
+    heroImageAlt: "PCOS polikistik over sendromu",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["tup-bebek", "lazer-epilasyon", "beslenme-danismanligi", "psikolojik-destek"],
+    relatedSpecialtySlugs: ["kadin-hastaliklari-ve-dogum", "endokrinoloji", "diyetisyen", "psikiyatri"],
+    sources: [
+      {
+        title: "International Evidence-based Guideline for the Assessment and Management of PCOS (2023)",
+        publisher: "ESHRE / Monash University / ASRM",
+        url: "https://www.eshre.eu",
+      },
+      {
+        title: "Polycystic Ovary Syndrome (Green-top Guideline)",
+        publisher: "Royal College of Obstetricians and Gynaecologists (RCOG)",
+        url: "https://www.rcog.org.uk",
+      },
+      {
+        title: "ACOG Practice Bulletin — Polycystic Ovary Syndrome",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org",
+      },
+      {
+        title: "Polikistik Over Sendromu Tanı ve Tedavi Klinik Rehberi",
+        publisher: "Türkiye Jinekoloji ve Obstetrik Derneği (TJOD)",
+      },
+      {
+        title: "PCOS — Long-term Health Consequences (Review)",
+        publisher: "Endocrine Reviews (NIH PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+      {
+        title: "NICE Clinical Knowledge Summaries — Polycystic Ovary Syndrome",
+        publisher: "National Institute for Health and Care Excellence (NICE)",
+        url: "https://cks.nice.org.uk",
+      },
+    ],
+  },
+
+  {
+    slug: "endometriozis-nedir-tani-tedavi",
+    title: "Endometriozis: Belirtileri, Tanısı ve Tedavi Seçenekleri",
+    excerpt:
+      "Endometriozis üreme çağındaki kadınların yaklaşık %10'unu etkileyen kronik bir hastalıktır. Belirtiler, evreleme, medikal ve cerrahi tedavi yaklaşımları üzerine kapsamlı rehber.",
+    bodyMd: `**Endometriozis**, rahim iç tabakasını oluşturan endometrium benzeri dokunun rahim dışında yer alması ve bunun kronik inflamasyon, ağrı ve infertiliteye yol açması ile karakterize bir hastalıktır. Üreme çağındaki kadınların yaklaşık **%10'unu**, kronik pelvik ağrısı olanların **%50'sini** etkilediği bildirilmektedir. Bu yazı endometriozisin belirtilerini, tanı sürecini ve mevcut tedavi yaklaşımlarını tarafsız bir biçimde özetler.
+
+> 📌 Bu rehber [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) ve gerektiğinde [genel cerrahi](/branslar/genel-cerrahi), [üroloji](/branslar/uroloji), [gastroenteroloji](/branslar/gastroenteroloji) iş birliği gerektirebilen multidisipliner bir alandır. Bireysel değerlendirme için **uzman hekiminize başvurunuz**.
+
+## Endometriozis Nedir?
+
+Endometrium benzeri dokunun **rahim dışında** (yumurtalıklar, fallop tüpleri, peritoneum, bağırsak, mesane, nadiren akciğer ve diyaframa kadar) yerleşmesi durumudur. Bu dokular adet sikluslarında hormonların etkisiyle kanama yapar; ancak vücut dışına atılım yolu olmadığı için **kronik inflamasyon, yapışıklık ve fibrozis** gelişir.
+
+### Yaygın yerleşim yerleri
+
+- **Yumurtalıklar** — "endometrioma" (çikolata kisti) olarak adlandırılır
+- **Pelvis peritoneumu** — yüzeyel implantlar
+- **Uterosakral bağlar**, Douglas çıkmazı
+- **Rektovajinal septum** — derin infiltratif endometriozis (DIE)
+- **Bağırsak, mesane, üreter** — derin yerleşimli formlar
+- **Cerrahi skar** (sezaryen sonrası nadir) ve aşırı nadir uzak organlar
+
+### Adenomyozis nedir?
+
+Adenomyozis, endometrium dokusunun **rahim duvarının kas tabakasına (myometrium)** girmesidir. Endometriozisten ayrı bir tablodur ancak sıklıkla birlikte bulunabilir. Tedavi prensipleri kısmen benzerdir.
+
+## Belirtiler
+
+Endometriozis belirtileri kişiden kişiye geniş yelpazede dağılır. Bazı kadınlar belirtisizken, bazılarında ciddi yaşam kalitesi etkilenmesi görülür. **Hastalığın yaygınlığı ile şikâyetlerin şiddeti arasında her zaman korelasyon yoktur**; yüzeyel implantı olan bir hastada şiddetli ağrı olabilirken büyük endometrioma asemptomatik kalabilir.
+
+### Tipik belirtiler
+
+- **Dismenore (ağrılı adet)** — Adet ağrısı yaşa rağmen şiddetlenir, ağrı kesicilerle yeterince geçmez
+- **Kronik pelvik ağrı** — Adet dışı dönemlerde de süren
+- **Disparoni** — Cinsel ilişki sırasında derin ağrı
+- **Disuri** — Adet zamanında idrar yaparken ağrı, sıkışma
+- **Diskezi** — Adet zamanında defekasyon ağrısı, kabızlık veya ishal
+- **İnfertilite** — Endometriozisli kadınların önemli kısmında üreme güçlüğü görülür
+- **Adet düzensizliği veya ara kanama**
+- **Yorgunluk** — kronik
+- **Bel, bacak ağrısı** — adet dönemlerinde
+
+> ⚠️ **Geç tanı sorunu:** Endometriozis dünya genelinde **ortalama 7-10 yıl** gecikmeyle tanı alır. "Adet ağrısı normaldir" yanılgısı, hastaların yıllarca tedavisiz kalmasına neden olur. **Yaşam kalitesini etkileyen adet ağrısı normalleştirilmemelidir.**
+
+## Risk Faktörleri
+
+- Aile öyküsü (1. derece akrabada riskin 5-7 kat artması)
+- Erken menarş (12 yaş öncesi)
+- Geç menopoz
+- Hiç doğum yapmamış olmak
+- Adet siklusunun kısa olması (< 27 gün)
+- Uzun süreli, ağır adet kanaması
+- Düşük BKİ
+
+## Tanı Süreci
+
+Endometriozisin **altın standart tanısı** halen laparoskopik görünüm + histopatolojik doğrulamadır. Ancak son yıllarda **klinik şüphe + görüntüleme** ile tedaviye başlama yaklaşımı yaygınlaşmıştır.
+
+### Klinik değerlendirme
+
+- Detaylı **ağrı öyküsü** (siklik mi? lokalizasyon, şiddet, eşlik eden semptomlar)
+- Adet ve cinsel öykü
+- Üreme planı
+- Aile öyküsü
+- Pelvik muayene — uterosakral hassasiyet, retrovert uterus, Douglas çıkmazında nodülarite
+
+### Görüntüleme
+
+- **Transvajinal ultrasonografi (USG)** — Endometrioma ve derin infiltratif lezyonları deneyimli sonografçı saptayabilir
+- **MR** — Derin infiltratif endometriozis, bağırsak/mesane yerleşimli odakların değerlendirilmesinde özellikle değerli
+- **CA-125** — Spesifik değil; bazı hastalarda yükselebilir ama tanıda tek başına kullanılmaz
+
+| Bulgu | Görüntüleme yöntemi |
+|---|---|
+| Endometrioma (çikolata kisti) | Transvajinal USG, MR |
+| Derin infiltratif endometriozis | MR, deneyimli USG |
+| Bağırsak tutulumu | MR + gerektiğinde kolonoskopi |
+| Üreter / mesane tutulumu | MR, ürolojik değerlendirme |
+| Peritoneal yüzeyel implantlar | Laparoskopi (görüntülemede sıklıkla negatif) |
+
+### Laparoskopi
+
+- Tanı + tedavi aynı anda yapılabilir
+- Histopatolojik doğrulama altın standart
+- Cerrahın deneyimi sonuçta belirleyici (deneyimli endometriozis cerrahı tercih edilir)
+- Evreleme genellikle laparoskopi sırasında yapılır
+
+> 💡 **Tedaviye başlamak için her zaman cerrahi şart değil:** Tipik semptomlar + klinik şüphe varsa **medikal tedavi denemesi** uygun olabilir. Yanıt vermez veya endometrioma/DIE şüphesi varsa görüntüleme ve gerekirse cerrahi gündeme gelir.
+
+## Evreleme
+
+En yaygın kullanılan sistem **ASRM (American Society for Reproductive Medicine)**:
+
+- **Evre I (Minimal)** — Yüzeyel az sayıda implant
+- **Evre II (Hafif)** — Yüzeyel + birkaç derin implant
+- **Evre III (Orta)** — Çoklu derin implant, küçük endometrioma, hafif yapışıklık
+- **Evre IV (Şiddetli)** — Büyük endometrioma, derin infiltratif lezyonlar, ileri yapışıklık
+
+> ⚠️ **Önemli:** Evre, **ağrı şiddeti** ile her zaman örtüşmez. Evre I bir hasta şiddetli ağrı çekerken evre IV bir hasta belirti vermeyebilir. Bu yüzden tedavi planı evre ile birlikte **hastanın şikayet ve hedeflerine** göre yapılır.
+
+## Tedavi Yaklaşımları
+
+Tedavi hedefleri:
+
+1. **Ağrı kontrolü**
+2. **Üreme hedefi** (varsa)
+3. **Hastalığın ilerlemesinin yavaşlatılması**
+4. **Yaşam kalitesinin iyileştirilmesi**
+
+Yaklaşım **bireye özel** planlanır.
+
+### Medikal tedavi
+
+#### Ağrı kontrolü (semptomatik)
+
+- **NSAID** (nonsteroid antiinflamatuar ilaç) — adet ağrısının ilk basamağı
+- **Parasetamol** ek seçenek
+- **Düşük doz oral opioid** çok seçici durumlarda (kronik kullanımdan kaçınılır)
+
+#### Hormonal tedaviler
+
+Endometriozis dokusu östrojen-bağımlıdır; hormonal supresyon ana medikal yaklaşımdır.
+
+- **Kombine oral kontraseptifler (KOK)** — Sürekli (placebo haftası atlanarak) veya siklik kullanım
+- **Progestinler** (oral, depo, implant) — Etkin ve genellikle iyi tolere edilir
+- **Levonorgestrel salgılayan rahim içi araç (LNG-RİA)** — Özellikle adenomyozis ve endometriozisli hastalarda fayda gösterir
+- **GnRH analogları** (agonist veya antagonist) — Şiddetli vakalarda, ekleme tedavisi (add-back) ile kullanılır. Uzun süreli kullanımda kemik yoğunluğu izlenmelidir
+- **Aromataz inhibitörleri** — Refrakter vakalarda dikkatli kullanılır
+
+#### Tedavi süresi ve takip
+
+Hormonal tedavi belirti yönetimi ve hastalığın ilerlemesini azaltmak için **uzun süreli planlanır**. Yan etki profili, kemik sağlığı, üreme planı düzenli değerlendirilir.
+
+### Cerrahi tedavi
+
+#### Konservatif (üreme koruyucu)
+
+- **Laparoskopik eksizyon** (kesip çıkarma) genellikle tercih edilen yöntem
+- **Endometrioma için stripping (kistektomi)** — over rezervi kaybını minimize etmek için titiz teknik
+- **Derin infiltratif lezyonların eksizyonu** — multidisipliner (jinekoloji + genel cerrahi + üroloji) ekip gerektirebilir
+
+#### Definitif
+
+- **Histerektomi** ± bilateral salpingo-ooferektomi — yalnızca yaş, üreme tamamlanması ve hasta tercihi uygun olduğunda; tek başına garantili "kür" sağlamaz, ekstrauterin odaklar persiste edebilir
+
+### Yardımcı üreme
+
+İnfertilite öne çıkan şikayetse, cerrahi karar kadar **[tüp bebek (IVF)](/tedaviler/tup-bebek)** alternatifi de değerlendirilir. Süreç için [IVF rehberimiz](/blog/tup-bebek-ivf-sureci-asamalar) detay sunar.
+
+> 💡 **Cerrahi mi medikal mi?** Karar; yaş, üreme planı, lezyon yaygınlığı, semptom şiddeti, önceki cerrahiler, over rezervi (AMH) ve hastanın tercihine göre verilir. **Tek doğru yol yoktur**; deneyimli ekiple birlikte karar verilir.
+
+### Tamamlayıcı yaklaşımlar
+
+Tek başına tedavi olarak yeterli olmayan ancak destekleyici olabilen yaklaşımlar:
+
+- **Pelvik fizyoterapi** — özellikle pelvik taban kas spazmı eşlikçi ise
+- **Beslenme** — anti-inflamatuar beslenme paterni bireysel olarak fayda sağlayabilir
+- **Ağrı yönetimi klinikleri**, davranışsal terapiler ([psikolojik destek](/tedaviler/psikolojik-destek))
+- **Akupunktur**, yoga — bireysel rahatlama amacıyla
+
+> 🚨 **Mucize tedavi yok:** İnternet ve sosyal medyada "endometriozisi tamamen iyileştiren" ürünler/diyetler/kürler yer alabilir. Bilimsel kanıt değeri sınırlıdır; **standart tedavinin yerine geçmez**.
+
+## Endometriozis ve Gebelik
+
+- Endometriozis tek başına gebelik için engel değildir
+- Doğal yolla gebelik için sürenin **hemen değil zamanında değerlendirilmesi** önemlidir (yaşa göre)
+- IVF endometriozisli kadınlarda yaygın bir seçenektir
+- Gebelik dönemi endometriozis için **geçici bir "tedavi" değildir**; semptomlar gebelik sonrası genellikle döner
+
+[Hamilelik öncesi check-up listesi](/blog/hamilelik-oncesi-check-up-listesi) endometriozisli kadınlarda preconception değerlendirme için ek bilgi içerir.
+
+## Yaşam Kalitesi ve Ruh Sağlığı
+
+Endometriozis kronik bir hastalıktır ve **yaşam kalitesi**, **iş gücü**, **cinsel sağlık**, **ruh sağlığı** üzerinde önemli etki yaratabilir. Multidisipliner yaklaşım:
+
+- [Psikolojik destek](/tedaviler/psikolojik-destek) ve gerekirse [psikiyatri](/branslar/psikiyatri) yönlendirmesi
+- Hasta grupları ve eğitim kaynakları
+- İş yerinde uyum (esnek çalışma, ağrı yönetimi)
+- Aile ve eşle iletişim
+
+## Sık Sorulan Sorular
+
+### Şiddetli adet ağrısı çekiyorum, endometriozis olabilir miyim?
+
+Olabilir. Yaşam kalitesini etkileyen, ağrı kesicilerle geçmeyen adet ağrısı için [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) uzmanına başvurmanız önerilir.
+
+### Endometriozis kanser midir?
+
+Hayır. Endometriozis kanser değildir; ancak bazı endometrioma vakalarında **çok düşük oranda** malign dönüşüm bildirilmiştir. Düzenli takip önemlidir.
+
+### Tedavi olmazsam ne olur?
+
+Belirtilerin progresyonu, kronik ağrı, yapışıklık, infertilite, organ tutulumunun (bağırsak, üreter) ilerlemesi gibi sonuçlar görülebilir. Yine de bazı hafif vakalar yıllarca stabil seyredebilir.
+
+### Hamile kalırsam endometriozis iyileşir mi?
+
+Gebelik döneminde semptomlar **geçici olarak** hafifler ancak hastalık ortadan kalkmaz. Doğum sonrası belirtiler sıklıkla geri döner. Gebelik tek başına bir tedavi olarak önerilmez.
+
+### Çikolata kisti ameliyat edilmeli mi?
+
+Kistin boyutu, üreme planı, semptomlar, over rezervi ve hastanın tercihine göre karar verilir. Cerrahi over rezervini etkileyebilir; **deneyimli ekiple birlikte** karar verilmelidir.
+
+### Menopozdan sonra endometriozis geçer mi?
+
+Menopozda östrojen düştüğü için semptomlar **çoğu hastada hafifler** ancak hormon replasman tedavisi veya yağ dokusu kaynaklı östrojen ile reaktivasyon olabilir. Daha önce endometriozis tanılı menopoz sonrası hastalar takip altında olmalıdır.
+
+### Endometriozis kalıtsal mıdır?
+
+Genetik yatkınlık vardır; birinci derece akrabada endometriozis öyküsü, kişide riski belirgin artırır.
+
+---
+
+Endometriozis kronik, multifaktöriyel ve bireyselleşmiş yaklaşım gerektiren bir hastalıktır. Erken tanı, doğru evreleme ve hasta tercihlerine göre planlanmış tedavi ile yaşam kalitesi belirgin iyileştirilebilir. Bu yazı genel bilgilendirme niteliğindedir; bireysel karar için **mutlaka deneyimli bir ekibe başvurunuz**.`,
+    heroImageAlt: "Endometriozis tanı ve tedavi",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["tup-bebek", "psikolojik-destek", "beslenme-danismanligi"],
+    relatedSpecialtySlugs: ["kadin-hastaliklari-ve-dogum", "genel-cerrahi", "uroloji", "gastroenteroloji", "psikiyatri"],
+    sources: [
+      {
+        title: "ESHRE Guideline on Endometriosis (2022)",
+        publisher: "European Society of Human Reproduction and Embryology",
+        url: "https://www.eshre.eu",
+      },
+      {
+        title: "Endometriosis: Diagnosis and Management (NG73)",
+        publisher: "National Institute for Health and Care Excellence (NICE)",
+        url: "https://www.nice.org.uk/guidance/ng73",
+      },
+      {
+        title: "ACOG Practice Bulletin — Management of Endometriosis",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org",
+      },
+      {
+        title: "Endometriosis (Patient Information)",
+        publisher: "Royal College of Obstetricians and Gynaecologists (RCOG)",
+        url: "https://www.rcog.org.uk",
+      },
+      {
+        title: "Endometriozis Tanı ve Tedavi Klinik Rehberi",
+        publisher: "Türkiye Jinekoloji ve Obstetrik Derneği (TJOD)",
+      },
+      {
+        title: "Endometriosis — Pathogenesis and Management Review",
+        publisher: "The Lancet (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+    ],
+  },
+
+  {
+    slug: "tup-bebek-ivf-sureci-asamalar",
+    title: "Tüp Bebek (IVF) Süreci: Aşama Aşama Kapsamlı Rehber",
+    excerpt:
+      "Tüp bebek tedavisi öncesi değerlendirmeden embriyo transferine ve gebelik testine kadar IVF sürecinin her aşaması — Türkiye mevzuatı ve hasta hakları çerçevesinde.",
+    bodyMd: `**Tüp bebek (in vitro fertilizasyon, IVF)**, yumurta ve spermin laboratuvar ortamında birleştirilip oluşan embriyonun rahime transfer edildiği yardımcı üreme yöntemidir. Türkiye'de, Sağlık Bakanlığı tarafından izinli üreme merkezlerinde, yönetmeliklere uygun olarak uygulanır. Bu rehber, IVF sürecinin tüm aşamalarını, hasta deneyimi açısından beklenenleri ve sık merak edilen konuları tarafsız biçimde özetler.
+
+> 📌 Bu rehber [tüp bebek (IVF) prosedürü](/tedaviler/tup-bebek) ile [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) ve [üroloji](/branslar/uroloji) (erkek faktörü) iş birliği gerektiren süreç içindir. Bireysel tedavi planı için **mutlaka izinli üreme merkezindeki uzman ekibe başvurunuz**.
+
+## IVF Kimler İçin Önerilir?
+
+İnfertilite tanısı genellikle **korumasız ilişkiye rağmen 12 ay (35 yaş üstünde 6 ay) gebelik elde edilememesi** durumunda konur. IVF çoğunlukla diğer yardımcı üreme yöntemlerine yanıt alınamayan veya doğrudan endikasyonu olan vakalarda kullanılır.
+
+### Tipik endikasyonlar
+
+- **Tüp tıkanıklığı** veya çıkarılmış fallop tüpleri
+- **İleri endometriozis** (cerrahi/medikal tedaviye rağmen)
+- **Yumurta rezervi düşüklüğü**, ileri anne yaşı
+- **Erkek faktörü infertilite** — düşük sperm sayısı/hareketi/morfolojisi
+- **Açıklanamayan infertilite** — diğer yöntemlere yanıt yok
+- **[PCOS](/blog/pcos-polikistik-over-belirtileri-tedavi)** — ovülasyon indüksiyonuna yanıt yetersiz
+- **Tekrarlayan başarısız aşılama (IUI)** denemeleri
+- **Genetik hastalık taşıyıcılığı** — preimplantasyon genetik test (PGT) ile birlikte
+- **Onkofertilite** — kanser tedavisi öncesi yumurta/embriyo dondurma
+
+### Türkiye'de mevzuat çerçevesi
+
+T.C. Sağlık Bakanlığı yönetmeliği gereği Türkiye'de IVF:
+
+- Yalnızca **resmi nikâhlı evli çiftler** arasında uygulanır
+- Yalnızca **çiftin kendi gametleriyle** (yumurta + sperm) yapılır
+- **Donör (verici) gamet veya taşıyıcı annelik yasal değildir**
+- Yalnızca **izinli üreme merkezlerinde** uygulanır
+
+> ⚠️ **Önemli:** Yurt dışında uygulanan donör gamet veya taşıyıcı annelik prosedürleri Türkiye yasalarına aykırıdır. Konuyla ilgili **hukuki sonuçların** önceden değerlendirilmesi gerekir.
+
+## Aşama 1: Hazırlık ve Değerlendirme
+
+IVF sürecine girmeden önce **çift olarak detaylı değerlendirme** yapılır.
+
+### Kadında değerlendirme
+
+- Detaylı öykü ve fizik muayene
+- **Yumurta rezervi testleri** — AMH, siklus 2-3. gün FSH/LH/estradiol, antral folikül sayısı (AFC)
+- **Hormonal panel** — tiroid, prolaktin
+- **Pelvik USG**
+- **HSG (histerosalpingografi)** veya **histeroskopi** — uterin kavite ve tüp değerlendirmesi
+- **Bulaşıcı hastalık taraması** (HBV, HCV, HIV, sifiliz)
+- Genel sağlık ve gebelik öncesi optimizasyon ([hamilelik öncesi check-up](/blog/hamilelik-oncesi-check-up-listesi))
+
+### Erkekte değerlendirme
+
+- Detaylı öykü ve fizik muayene
+- **Sperm analizi (spermiogram)** — sayı, hareket, morfoloji
+- Tekrarlanan spermiogram (genelde 2-3 hafta arayla)
+- Gerekirse **hormonal panel** (testosteron, FSH, LH, prolaktin)
+- **Bulaşıcı hastalık taraması**
+- Şiddetli oligo/azospermi vakalarında **genetik test** (karyotip, Y kromozom mikrodelesyon, kistik fibroz taşıyıcılığı)
+- [Üroloji](/branslar/uroloji) konsültasyonu
+
+### Konsültasyon ve onam
+
+- Çiftin **birlikte bilgilendirilmesi** yasal zorunluluktur
+- **Yazılı bilgilendirilmiş onam** — riskler, başarı oranları, alternatif tedaviler, embriyo durumu için açık ifade
+- Maddi-yasal süreç bilgilendirmesi
+- Psikolojik destek alma seçeneğinin sunulması ([psikolojik destek](/tedaviler/psikolojik-destek))
+
+## Aşama 2: Yumurta Stimülasyonu (Kontrollü Ovaryan Stimülasyon)
+
+Amaç, doğal siklusta seçilen tek bir folikül yerine **birden fazla matür folikül** geliştirmektir.
+
+### Protokoller
+
+- **Antagonist protokol** — günümüzde en yaygın; daha kısa, OHSS riski daha düşük
+- **Long agonist protokol** — bazı vakalarda tercih edilir
+- **Short / flare protokol** — düşük yanıtlı hastalarda
+- **Hafif (mild) stimülasyon** — düşük doz, seçilmiş hastalarda
+
+### Süreç
+
+| Gün | Olay |
+|---|---|
+| Siklus 2-3. günü | Bazal USG + kan testleri, stimülasyon başlangıcı |
+| 5-12. gün | Günlük cilt altı enjeksiyonlar (FSH ± LH) |
+| Düzenli aralıklar | Foliküler izlem USG + estradiol kontrolü |
+| Foliküller olgunlaştığında | "Trigger" enjeksiyonu (hCG veya GnRH agonist) |
+| Trigger'dan 34-36 saat sonra | **Yumurta toplama (OPU)** |
+
+### Yan etkiler ve riskler
+
+- Enjeksiyon bölgesinde ağrı/ekimoz
+- Şişkinlik, baş ağrısı, ruh hali değişimi
+- **Ovaryan hiperstimülasyon sendromu (OHSS)** — özellikle yüksek yanıtta; deneyimli ekiple risk azaltılır
+- Nadir cerrahi komplikasyon (yumurta toplama sırasında)
+
+> 💡 **Hasta deneyimi:** Stimülasyon dönemi ortalama 10-12 gündür. Günlük enjeksiyon evde yapılır; kliniklerde eğitim verilir. **Randevulara zamanında gelmek** dozun titrasyonu için kritiktir.
+
+## Aşama 3: Yumurta Toplama (OPU)
+
+- **Hafif sedasyon veya genel anestezi** altında yapılır
+- **Transvajinal USG** rehberliğinde özel iğne ile foliküller aspire edilir
+- Süre 15-30 dakika
+- Aynı gün taburculuk genellikle mümkün
+- Hafif kramplar, lekelenme normal
+- Aynı gün eşten **sperm örneği** alınır (özel durumlarda mikro-TESE prosedürü ile testiküler sperm)
+
+### Toplanan yumurta sayısı
+
+Bu sayı yaşa, rezerve ve protokole göre değişir; **kalite > sayı** önemli prensiptir. Çok yüksek sayı OHSS riski artırır, çok düşük sayı yeterli embriyo oluşumunu zorlaştırır.
+
+## Aşama 4: Laboratuvarda Döllenme
+
+### Döllenme yöntemleri
+
+- **Klasik IVF** — yumurta ve spermin aynı ortamda bırakılması, doğal döllenme
+- **ICSI (intrasitoplazmik sperm enjeksiyonu)** — tek spermin yumurta içine mikroenjeksiyonu; erkek faktöründe, önceki başarısızlıklarda, dondurulmuş yumurtalarda tercih edilir
+
+### Embriyo gelişimi
+
+| Gün | Aşama |
+|---|---|
+| Gün 0 | Yumurta toplama, döllenme |
+| Gün 1 | Döllenme kontrolü (2 pronükleus görülmesi) |
+| Gün 2-3 | Klivaj evresi (4-8 hücreli embriyo) |
+| Gün 5-6 | **Blastokist** aşaması — en yaygın transfer günü |
+
+### Preimplantasyon genetik test (PGT)
+
+Bazı endikasyonlarda blastokist evresinde embriyodan biyopsi alınarak genetik tarama yapılır:
+
+- **PGT-A** — anöploidi taraması (ileri anne yaşı, tekrarlayan başarısızlık, tekrarlayan düşük)
+- **PGT-M** — bilinen monogenik hastalık taşıyıcılığı
+- **PGT-SR** — yapısal kromozom anormallikleri
+
+Türkiye'de PGT belirli endikasyonlarda Sağlık Bakanlığı izinli merkezlerde uygulanır.
+
+> ⚠️ **PGT'nin sınırları:** PGT, embriyoda saptanabilen kromozomal ve belirli genetik hastalıkları tarar; her hastalığı veya gebelik komplikasyonunu önlemez. Endikasyon ve sınırları çift ile ayrıntılı görüşülür.
+
+## Aşama 5: Embriyo Transferi
+
+### Taze veya dondurulmuş transfer?
+
+- **Taze transfer** — aynı siklusta toplama sonrası 3. veya 5. günde
+- **Dondurulmuş embriyo transferi (FET)** — yüksek OHSS riski, PGT planı, endometrium kalınlığı yetersizliği gibi durumlarda tüm embriyolar dondurulur, sonraki siklusta transfer yapılır
+
+### Transfer süreci
+
+- Anestezi gerekmez (genelde)
+- USG eşliğinde ince bir kateterle embriyo uterin kaviteye yerleştirilir
+- 15-30 dakika sürer
+- Kısa süreli dinlenme sonrası taburculuk
+- Aşırı yatak istirahatine **gerek yok** — bilimsel olarak fayda göstermiyor; günlük yaşam normalde sürdürülür
+
+### Embriyo sayısı
+
+Türkiye'de güncel mevzuat çerçevesinde **genellikle tek embriyo transferi (eSET)** önerilir; özel durumlarda iki embriyo transferi yönetmelik sınırları içinde uygulanabilir. Çoğul gebelik anne ve bebek için ciddi riskler taşır.
+
+## Aşama 6: Luteal Faz ve Gebelik Testi
+
+Transferden sonra **luteal faz desteği** verilir (progesteron, bazen estradiol). 10-14 gün sonra **kan testi (beta-hCG)** ile gebelik kontrolü yapılır.
+
+### Olası sonuçlar
+
+- **Pozitif beta-hCG** — Klinik gebelik için 2-3 hafta sonra USG; yine deneyimli ekiple takip
+- **Negatif beta-hCG** — Sikluslar arası bekleme, ekiple bir sonraki adım planlaması
+- **Biyokimyasal gebelik** — beta-hCG pozitif ama klinik gebelik gelişmiyor
+- **Erken gebelik kaybı** — istatistiksel olarak her gebelikte risk var; IVF gebeliklerinde de gözlenir
+
+## Başarı Oranları
+
+> 🚨 **Garanti yok:** Hiçbir merkez "kesin başarı" garantisi vermez. Başarı yaşa, yumurta rezervine, sperm kalitesine, embriyo kalitesine, uterus durumuna, yaşam tarzına ve şansa bağlıdır. Birden fazla siklus gerekebilir.
+
+Genel olarak, **anne yaşının** en kritik faktör olduğu kabul edilir; rezerv ve sperm kalitesi de etkilidir. Spesifik oran ifadeleri yanıltıcı olabileceği için merkez **size özgü** beklenti aralığını sunmalıdır.
+
+## Yan Etkiler ve Riskler
+
+### Tedaviyle ilişkili
+
+- **OHSS** — orta/şiddetli formlar nadir ama önemli; özellikle PCOS'lu hastalarda risk yüksek
+- **Yumurta toplama komplikasyonları** — kanama, enfeksiyon, organ yaralanması (nadir)
+- **Çoğul gebelik** — eSET ile büyük ölçüde azaltılır
+- **Ektopik gebelik** riski az artmıştır
+- **Duygusal stres**, anksiyete, depresyon
+
+### Gebelik döneminde
+
+- IVF gebeliklerinde **gestasyonel diyabet, hipertansiyon, preterm doğum, düşük doğum ağırlığı** riskinde küçük artış bildirilmiştir; ancak çoğunlukla altta yatan infertilite nedenine bağlıdır
+
+## Hekim ve Merkez Seçim Kriterleri
+
+- **Sağlık Bakanlığı izinli** üreme merkezi olması (yasal zorunluluk)
+- Yıllık vaka sayısı, ekibin deneyimi
+- Embriyoloji laboratuvarı kalite standartları (sertifikasyon)
+- Multidisipliner ekip (jinekolog, embriyolog, ürolog, psikolog, hemşire)
+- Şeffaf bilgilendirme, yazılı sözleşme
+- Sonuçların **bireyselleştirilmiş** sunumu
+
+> 👉 [Kadın hastalıkları ve doğum uzmanlarını](/branslar/kadin-hastaliklari-ve-dogum) ve gerekirse [üroloji uzmanlarını](/branslar/uroloji) inceleyerek ekibi karşılaştırabilirsiniz.
+
+## Psikolojik Destek
+
+IVF süreci duygusal olarak zorlayıcıdır. Birçok merkez sürecin parçası olarak [psikolojik destek](/tedaviler/psikolojik-destek) sunar. [Psikiyatri](/branslar/psikiyatri) konsültasyonu uyku, kaygı veya depresyonun belirginleştiği durumlarda gündeme gelebilir.
+
+## Sık Sorulan Sorular
+
+### Kaç deneme gerekir?
+
+Çiftten çifte değişir; tek seferde sonuç alabilen de var, birden fazla siklus gerekebilen de. Yaş, rezerv ve neden belirleyicidir. Ekibinizle **size özgü plan** konuşulur.
+
+### Yaş başarıyı etkiler mi?
+
+Evet. Anne yaşı IVF başarısındaki en önemli faktörlerden biridir. 35 yaş sonrası rezerv ve yumurta kalitesi düşer; 40 yaş sonrası başarı belirgin azalır.
+
+### Türkiye'de donör veya taşıyıcı annelik mümkün mü?
+
+Hayır. Türkiye'de yalnızca **çiftin kendi gametleriyle** ve **taşıyıcı annelik olmadan** IVF uygulanır. Yurt dışı uygulamaların **hukuki sonuçları** önceden değerlendirilmelidir.
+
+### Embriyo dondurulabilir mi? Ne kadar süre saklanır?
+
+Evet, kalan kaliteli embriyolar dondurulabilir. Saklama süresi ve sonraki kullanım koşulları yönetmelikle düzenlenir; sözleşmenizdeki maddeleri dikkatle okuyun.
+
+### Yatak istirahati gerek mi?
+
+Hayır. Bilimsel kanıt yatak istirahatinin başarıyı artırmadığını gösteriyor. Aşırı fiziksel zorlanma dışında günlük hayata devam edilebilir.
+
+### Beslenme ve yaşam tarzı IVF başarısını etkiler mi?
+
+Sigara, alkol, aşırı kafein ve obezitenin olumsuz etkisi vardır. Dengeli beslenme, folik asit takviyesi, BKİ optimizasyonu önerilir.
+
+### Başarısız sikluslardan sonra ne yapmalı?
+
+Ekiple birlikte **sikluslar arası değerlendirme** yapılır: stimülasyon yanıtı, embriyo kalitesi, endometrium, immunolojik faktörler. Plan revize edilir.
+
+### IVF ile doğan çocuklarda risk farkı var mı?
+
+Çoğu çalışma IVF ile doğan çocukların genel sağlık göstergelerinin doğal yolla doğanlarla benzer olduğunu, bazı nadir gebelik komplikasyonlarında küçük artış olabileceğini gösteriyor. Bireysel risk hekiminizle değerlendirilir.
+
+---
+
+Tüp bebek tedavisi tıbbi, hukuki ve duygusal yönleriyle dikkatli planlama gerektiren çok aşamalı bir süreçtir. Türkiye'de yalnızca izinli merkezlerde, evli çiftlerin kendi gametleriyle uygulanır. Bu yazı genel bilgilendirme niteliğindedir; bireysel değerlendirme ve süreç planlaması için **mutlaka izinli üreme merkezindeki uzman ekibe başvurunuz**.`,
+    heroImageAlt: "Tüp bebek IVF süreci aşamalar",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["tup-bebek", "psikolojik-destek", "beslenme-danismanligi"],
+    relatedSpecialtySlugs: ["kadin-hastaliklari-ve-dogum", "uroloji", "endokrinoloji", "psikiyatri"],
+    sources: [
+      {
+        title: "Üremeye Yardımcı Tedavi Uygulamaları ve Üremeye Yardımcı Tedavi Merkezleri Hakkında Yönetmelik",
+        publisher: "T.C. Sağlık Bakanlığı",
+      },
+      {
+        title: "IVF Patient Information",
+        publisher: "European Society of Human Reproduction and Embryology (ESHRE)",
+        url: "https://www.eshre.eu",
+      },
+      {
+        title: "ACOG Committee Opinion — Assisted Reproductive Technology",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org",
+      },
+      {
+        title: "Fertility: Assessment and Treatment for People with Fertility Problems (CG156)",
+        publisher: "National Institute for Health and Care Excellence (NICE)",
+        url: "https://www.nice.org.uk",
+      },
+      {
+        title: "Tüp Bebek Tedavisi Klinik Rehberi",
+        publisher: "Türkiye Jinekoloji ve Obstetrik Derneği (TJOD)",
+      },
+      {
+        title: "In Vitro Fertilization — Review",
+        publisher: "New England Journal of Medicine (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+    ],
+  },
+
+  {
+    slug: "hamilelik-oncesi-check-up-listesi",
+    title: "Hamilelik Öncesi Check-up: Eşler İçin Önerilen Testler",
+    excerpt:
+      "Sağlıklı bir gebelik için önerilen preconception testler — kadın ve erkek için kan tahlilleri, aşılar, kronik hastalık değerlendirmesi ve yaşam tarzı önerileri.",
+    bodyMd: `**Hamilelik öncesi (preconception) bakım**, gebelik planlayan çiftlerin sağlıklı bir gebelik şansını artırmak için yapılan kapsamlı değerlendirmedir. Dünya Sağlık Örgütü ve uluslararası kılavuzlar, gebelik planlanmadan **en az 3 ay önce** preconception danışmanlık önerir. Bu rehber, eşler için önerilen testleri, aşıları, kronik hastalık değerlendirmesini ve yaşam tarzı önerilerini tarafsız biçimde özetler.
+
+> 📌 Bu yazı [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum), [aile hekimligi](/branslar/aile-hekimligi), [iç hastalıkları](/branslar/ic-hastaliklari) ve gerektiğinde [üroloji](/branslar/uroloji), [endokrinoloji](/branslar/endokrinoloji) ile [çocuk hastalıkları](/branslar/cocuk-hastaliklari) (genetik danışmanlık) iş birliği içeren preconception bakım için bilgilendirmedir. Bireysel test seçimi için **hekiminize danışın**.
+
+## Preconception Bakım Neden Önemli?
+
+Gebeliğin ilk haftaları (özellikle 1-8. hafta) **organogenez** dönemidir; bebeğin temel organ sistemleri bu dönemde gelişir. Çoğu kadın bu dönemde gebeliğinin farkında bile değildir. Bu nedenle gebelik öğrenildiğinde değil, **planlandığında** sağlık optimizasyonu yapılmalıdır.
+
+### Hedefler
+
+- Kronik hastalıkların gebelik öncesi optimize edilmesi (diyabet, hipertansiyon, tiroid hastalığı vb.)
+- Gebelikte kullanılması güvensiz **ilaçların değiştirilmesi**
+- Bulaşıcı hastalıklar açısından **bağışıklık taraması ve aşılama**
+- Genetik taşıyıcılık taraması (uygunsa)
+- **Folik asit takviyesinin** zamanında başlatılması
+- Yaşam tarzı düzenlemesi (sigara, alkol, kilo, beslenme, egzersiz)
+- Mental sağlık ve sosyal hazırlık
+
+> 💡 **Erken başlamak önemli:** Folik asit gebelikten **en az 1 ay önce** başlanmalıdır. Tiroid disfonksiyonu, diyabet veya yüksek tansiyon gibi durumlar gebelik öncesi 3-6 ay düzenlenir.
+
+## Kadın İçin Önerilen Testler
+
+### Temel kan tahlilleri
+
+| Test | Neden |
+|---|---|
+| **Tam kan sayımı (hemogram)** | Anemi taraması — özellikle demir eksikliği |
+| **Kan grubu ve Rh** | Rh uyuşmazlığı planlaması |
+| **Açlık glukoz ve HbA1c** | Gizli diyabet, prediyabet taraması |
+| **TSH** | Tiroid disfonksiyonu (anne ve bebek için kritik) |
+| **Karaciğer, böbrek paneli** | Kronik hastalık taraması |
+| **Lipit profili** | Kardiyovasküler değerlendirme |
+| **Ferritin** | Demir depo değerlendirmesi |
+| **B12, folat, D vitamini** | Eksiklik taraması |
+
+### Bulaşıcı hastalık taraması
+
+- **Hepatit B (HBsAg, anti-HBs)** — bağışıklık değerlendirmesi
+- **Hepatit C (anti-HCV)**
+- **HIV**
+- **Sifiliz (VDRL/RPR)**
+- **Kızamıkçık (Rubella) IgG** — bağışıklık değerlendirmesi (aşı kararı için kritik)
+- **Suçiçeği (Varisella) IgG** — bağışıklık değerlendirmesi
+- **Toksoplazma IgG ve IgM** — daha önce karşılaşma durumu
+- **CMV IgG** — bilgilendirme amaçlı bazı protokollerde
+
+### Jinekolojik değerlendirme
+
+- Pelvik muayene
+- **Servikal kanser taraması** (Pap test ± HPV — yaşa göre)
+- **Pelvik USG** — uterus ve over değerlendirmesi
+- Endometriozis, [PCOS](/blog/pcos-polikistik-over-belirtileri-tedavi), miyom, polip taraması
+- Önceki gebelik öyküsünün gözden geçirilmesi (düşük, preterm, gestasyonel diyabet vb.)
+
+### Ek değerlendirmeler (bireysel)
+
+- **Adet ve siklus kayıt** — düzensizlik varsa yumurta rezervi testleri (AMH, FSH)
+- **35 yaş üstü** kadınlarda yumurta rezervi değerlendirmesi
+- **Ağız diş sağlığı** taraması ([diş hekimliği](/branslar/dis-hekimligi)) — gebelikte diş tedavileri kısıtlı
+- **Göz muayenesi** — özellikle diyabetik hastalarda
+- Önceki gebelik kaybı varsa **immunolojik ve genetik panel** (uygunsa)
+
+## Erkek İçin Önerilen Testler
+
+Preconception değerlendirmesi yalnız kadına özgü değildir. Erkek faktörü infertilitenin **çiftlerin %40-50'sinde** yer aldığı bilinir.
+
+### Genel sağlık
+
+- **Hemogram, biyokimya, lipit, glukoz**
+- **Hepatit B, C, HIV, sifiliz** taraması
+- **Tiroid fonksiyon testi** (klinik şüphe varsa)
+- Kronik hastalık (diyabet, hipertansiyon) taraması
+
+### Üremeye yönelik
+
+- **Spermiogram** — özellikle 12 ay deneme sonrası gebelik elde edilemediyse veya öykü öneriyorsa
+- Klinik gerekçeyle hormonal panel (testosteron, FSH, LH, prolaktin)
+- Genetik test gerekirse (şiddetli oligo/azospermi vakalarında — karyotip, Y mikrodelesyon, CFTR taşıyıcılığı)
+- Varikosel veya başka ürolojik bulgu varsa [üroloji](/branslar/uroloji) konsültasyonu
+
+### Yaşam tarzı
+
+- **Sigara, alkol, anabolik steroid, madde kullanımı** — sperm kalitesini doğrudan etkiler
+- **Mesleki maruziyetler** — kimyasal, ısı, radyasyon
+- **Obezite** — hormonal etkiler ve sperm kalitesi
+- Stres, uyku düzeni
+
+> 💡 **Bilgilendirme:** Sperm üretim siklusu ortalama 72-90 gündür. Yaşam tarzı değişiklikleri sperm kalitesine yansıması için **en az 3 ay** önce başlatılmalıdır.
+
+## Aşılar
+
+Gebelikten **önce tamamlanması** önerilen aşılar vardır; bazı aşılar gebelikte uygulanamaz (canlı viral aşılar).
+
+### Gebelik öncesi önerilenler
+
+- **MMR (kızamık-kızamıkçık-kabakulak)** — bağışıklık yoksa; aşıdan sonra **1 ay** gebe kalınmaması önerilir
+- **Suçiçeği (Varisella)** — bağışıklık yoksa; aşıdan sonra **1 ay** gebe kalınmaması
+- **Hepatit B** — bağışıklık yoksa
+- **HPV** — yaş grubu uyuyorsa
+- **İnfluenza (mevsimsel grip)** — yıllık (gebelikte de güvenli, ama planlama döneminde de uygun)
+- **Tdap (tetanos-difteri-boğmaca)** — özellikle 27-36. gebelik haftası için planlanır ancak preconception dönemde son tetanos durumu netleştirilir
+- **COVID-19** — güncel ulusal kılavuza göre
+
+### Eşin de aşı durumu
+
+Suçiçeği, kızamıkçık, hepatit B ve influenza açısından eşin bağışıklığı da değerlendirilir (gebenin maruziyetini azaltmak için).
+
+| Aşı | Gebelikte güvenli mi? | Açıklama |
+|---|---|---|
+| MMR | Hayır (canlı) | Gebelikten 1 ay önce tamamlanmalı |
+| Varisella | Hayır (canlı) | Gebelikten 1 ay önce |
+| HPV | Önerilmez (veri sınırlı) | Gebelik öncesi tamamlanmalı |
+| İnfluenza (inaktive) | Evet | Her trimesterde uygun |
+| Tdap | Evet | 27-36. hafta önerilir |
+| Hepatit B | Evet (gerekirse) | Risk değerlendirmesine göre |
+| COVID-19 | Evet (mRNA) | Güncel kılavuz |
+
+> ⚠️ **Canlı aşı sonrası:** Canlı zayıflatılmış viral aşılardan (MMR, suçiçeği, sarı humma) sonra **en az 1 ay** gebelik önerilmez. Aşı planı buna göre yapılır.
+
+## Kronik Hastalık Değerlendirmesi
+
+### Diyabet
+
+- **HbA1c optimal hedefe** ulaşmadan gebe kalmama önerilir; çünkü ilk trimester yüksek glukozu fetal anomali riskini artırır
+- **Tip 2 diyabette** ilaç tedavisi gözden geçirilir; bazı oral antidiyabetikler insüline geçişle değiştirilir
+- Gözlerin (diyabetik retinopati), böbreklerin (mikroalbümin), kardiyovasküler durumun değerlendirilmesi
+
+### Hipertansiyon
+
+- Kan basıncı kontrolü gebelik öncesi optimize edilir
+- **Gebelikte kullanımı sakıncalı ilaçlar** (örn. belirli antihipertansifler) gebelik öncesi değiştirilir
+- Preeklampsi riski açısından bilgilendirme
+
+### Tiroid hastalığı
+
+- TSH gebelik için **hedef aralıkta** olmalı (genelde 0.1-2.5 mIU/L civarında, üçüncü trimestere kadar revize edilir)
+- Hipotiroidi tedavisindeki ilaç dozları gebelik öncesi gözden geçirilir
+- Hipertiroidi tedavisinin **gebelikte uygun olan ilaca** geçişi planlanır
+
+### Epilepsi, depresyon ve nörolojik hastalıklar
+
+- Bazı antiepileptik ve psikotrop ilaçlar fetal anomali riskini artırabilir
+- İlaç değişimi **uzman hekim** kararıyla, gebelikten önce yapılır
+- Tedavi kesilmesi nüks riski taşır — risk-fayda hekimle değerlendirilir
+- [Psikiyatri](/branslar/psikiyatri) ve gerekirse [psikolojik destek](/tedaviler/psikolojik-destek) iş birliği
+
+### Otoimmün hastalıklar
+
+- Lupus, romatoid artrit, antifosfolipid sendromu gibi durumlar gebelik öncesi **remisyona alınmalıdır**
+- İlaçların gebelik uyumluluğu kontrol edilir
+- [Romatoloji](/branslar/romatoloji) iş birliği
+
+### Trombofili / önceki tromboz öyküsü
+
+- Önceki venöz trombozu, ailesel trombofilisi olan hastalarda gebelik öncesi değerlendirme
+- Antikoagülan tedavi gerekiyorsa gebelik döneminde uygun ilaca (sıklıkla LMWH) geçiş planlanır
+
+### Önceki gebelik kayıpları
+
+- Tekrarlayan düşük öyküsü varsa **anatomik (USG, histeroskopi), endokrin (tiroid, glukoz, prolaktin), genetik (karyotip), immunolojik (antifosfolipid antikorlar) ve trombofili** değerlendirmesi düşünülür
+
+## Genetik Taşıyıcılık Taraması
+
+Türkiye'de bazı genetik hastalıklar görece sık görülür. Risk grubu veya akraba evliliği durumunda genetik danışmanlık ve taşıyıcılık taraması önerilir.
+
+- **Talasemi taşıyıcılığı** — Türkiye'de sık (özellikle Akdeniz, Ege, Marmara bölgeleri)
+- **Orak hücreli anemi** (bazı bölgelerde)
+- **Kistik fibroz** — taşıyıcılık taraması (risk grubuna göre)
+- **SMA (spinal müsküler atrofi)** — taşıyıcılık taraması (uygunsa)
+- **Akraba evliliği** — geniş gen paneli taraması düşünülebilir
+- Ailede bilinen genetik hastalık varsa — hedeflenmiş tarama
+
+## Yaşam Tarzı Önerileri
+
+### Folik asit
+
+- Gebelik planlanıyorsa **400-800 mcg/gün** folik asit, **gebelikten en az 1 ay önce** başlanmalı ve ilk trimester boyunca sürdürülmelidir
+- **Yüksek doz (4 mg/gün)** — önceki nöral tüp defektli gebelik, bazı antiepileptik ilaç kullanımı, BKİ yüksekliği veya bazı kronik hastalıklarda hekim önerisiyle
+
+### Beslenme
+
+- Dengeli, **akdeniz tipi** anti-inflamatuar beslenme paterni
+- **Yeterli protein**, demir, kalsiyum, omega-3 alımı
+- **Pastörize olmayan süt ürünleri, çiğ et, çiğ deniz ürünleri** kısıtlama (toksoplazma, listeria riski)
+- **Cıva yüksek balıklar** sınırlı tüketim
+- **Aşırı A vitamini** içeren takviyelerden kaçınma (teratojenik risk)
+- [Beslenme danışmanlığı](/tedaviler/beslenme-danismanligi) ve [diyetisyen](/branslar/diyetisyen) iş birliği
+
+### Kilo (BKİ)
+
+- Düşük (BKİ <18.5) ve yüksek BKİ (≥30) gebelik komplikasyon riskini artırır
+- **Sağlıklı BKİ aralığına yaklaşma** gebelik öncesi hedeftir
+- Hızlı diyet veya cerrahi kilo verme sonrası **en az 12-18 ay** beklenmesi önerilir
+
+### Sigara, alkol, madde
+
+- **Sigara** — düşük doğum ağırlığı, preterm doğum, ani bebek ölümü sendromu riski. Gebelik öncesi bırakılmalı
+- **Alkol** — gebelik döneminde **güvenli eşik yoktur**; planlanan gebelik öncesi azaltma/kesme önerilir
+- **Madde kullanımı** — fetal etkiler ciddi; uzman desteği ile bırakma
+
+### Kafein
+
+- Genel öneri **gebelikte 200 mg/gün altında** kafein. Planlama döneminde alışkanlık değerlendirilir.
+
+### Egzersiz
+
+- Düzenli orta yoğunlukta egzersiz (haftada 150 dakika) gebelik öncesi optimize edilir
+- Yüksek temaslı veya yüksek düşme riskli aktivitelerin gebelikte uyarlanması planlanır
+
+### Çevresel maruziyetler
+
+- **Kimyasal, ağır metaller, radyasyon** maruziyetinin gözden geçirilmesi
+- **Ev kedisi** sahipleri için toksoplazma önlemleri (kedi tuvaleti temizliğinden kaçınma vb.)
+- Pestisit, çözücü maruziyeti olan mesleki ortamlarda koruyucu önlemler
+
+### İlaçlar ve takviyeler
+
+- Reçeteli, reçetesiz tüm ilaçların listesi hekimle gözden geçirilir
+- **Teratojenik ilaçlar** (örn. izotretinoin, valproik asit, varfarin, ACE inhibitörleri, ARB'ler, bazı kemoterapötikler) gebelik öncesi değiştirilir/kesilir
+- Bitkisel takviyeler de değerlendirilir — bazılarının gebelik etkileri bilinmiyor
+
+## Ağız Diş Sağlığı
+
+- Gebelikte diş tedavileri kısıtlıdır; **gebelik öncesi diş kontrolü** önemlidir
+- Diş eti hastalığı (periodontitis) preterm doğum riskiyle ilişkili bildirilmiştir
+- [Diş hekimliği](/branslar/dis-hekimligi) kontrolü ve gerekirse [zirkonyum/E-Max kaplama gibi estetik işlemler](/blog/zirkonyum-emax-metal-destekli-dis-kaplama) gebelik öncesi tamamlanır
+
+## Ruh Sağlığı ve Sosyal Hazırlık
+
+- Depresyon, anksiyete, yeme bozukluğu taraması
+- [Psikolojik destek](/tedaviler/psikolojik-destek) ihtiyacı varsa zamanında başlama
+- İlişki dinamikleri, sosyal destek, ekonomik planlama
+- İş hayatı, doğum izni, çocuk bakım planı
+
+## Önerilen Test Takvimi
+
+| Zaman | Yapılması önerilen |
+|---|---|
+| 6 ay önce | Yaşam tarzı (sigara/alkol bırakma), kilo optimizasyonu, kronik hastalık değerlendirmesi |
+| 3-6 ay önce | Aşı durumu kontrol + canlı aşıların tamamlanması, ilaç gözden geçirme |
+| 3 ay önce | Genel sağlık check-up, bulaşıcı hastalık taraması, diş kontrolü |
+| 1-3 ay önce | **Folik asit** başlama, son hormonal/jinekolojik değerlendirme |
+| Plan aşaması | Adet siklusu kayıt, gerekirse [üroloji](/branslar/uroloji) konsültasyonu |
+
+## Ne Zaman Üreme Uzmanına Başvurmalı?
+
+- **35 yaş altı** çiftler için: korumasız ilişkiye rağmen **12 ay** gebelik elde edilememesi
+- **35 yaş üstü** çiftler için: **6 ay**
+- Daha erken başvuru endikasyonları:
+  - Bilinen tüp tıkanıklığı veya pelvik cerrahi öyküsü
+  - İleri endometriozis
+  - [PCOS](/blog/pcos-polikistik-over-belirtileri-tedavi) ve belirgin anovulasyon
+  - Düşük yumurta rezervi (yaşa rağmen)
+  - Erkek faktörü bilinen kötü sperm parametreleri
+  - Tekrarlayan gebelik kaybı
+  - Genetik hastalık taşıyıcılığı
+
+Gerekli durumlarda [tüp bebek (IVF) süreci](/blog/tup-bebek-ivf-sureci-asamalar) gündeme gelebilir.
+
+## Sık Sorulan Sorular
+
+### Tüm bu testleri yapmadan gebe kalırsam ne olur?
+
+Çoğu sağlıklı çift preconception kapsamlı testler yapmadan da sağlıklı bir gebelik yaşayabilir. Ancak preconception değerlendirme, **önlenebilir** sorunları öne çıkarır ve fetal komplikasyon riskini azaltır. Plan varsa yapılması önerilir.
+
+### Folik asit ne zaman başlanmalı?
+
+Gebelik planlamasından **en az 1 ay önce**. Beklenmedik gebelik olasılığı yüksekse, üreme çağındaki bazı kadınlar düzenli folik asit takviyesi kullanır.
+
+### Kronik hastalığım var, gebe kalmamalı mıyım?
+
+Pek çok kronik hastalık (diyabet, hipertansiyon, lupus vb.) uygun planlama ve takiple sağlıklı gebelik ile uyumludur. **Hastalığa özgü uzman ekibiyle** birlikte planlama yapılmalıdır.
+
+### Erkek partnerim de muayene olmalı mı?
+
+Evet. Çiftlerin **%40-50'sinde** erkek faktörü vardır. Yaşam tarzı, kronik hastalıklar, ilaçlar ve gerektiğinde spermiogram değerlendirilir.
+
+### Hangi aşıları gebelik öncesi mutlaka tamamlamalıyım?
+
+Bağışıklık yoksa **MMR**, **suçiçeği** ve **hepatit B** ilk akla gelenlerdir. Bu canlı viral aşılar gebelikte uygulanamaz; aşı sonrası **1 ay** gebelik önerilmez.
+
+### Kafein ve alkolü tamamen mi kesmeliyim?
+
+Alkol açısından gebelikte **güvenli eşik yoktur**; plan döneminde azaltma/kesme önerilir. Kafein için orta düzeyde tüketim (gebelikte günlük ~200 mg altı) kabul edilir.
+
+### Cerrahi geçirmem gerekirse?
+
+Planlı cerrahi gebelik öncesi tamamlanır. Acil olmadıkça gebelikte elektif cerrahiden kaçınılır.
+
+### Önceki düşüğüm vardı, nasıl bir test gerekiyor?
+
+Tekrarlayan düşük (genelde 2+ ardışık erken kayıp) varsa endokrin, anatomik, genetik, immunolojik ve trombofili değerlendirmesi düşünülebilir.
+
+---
+
+Hamilelik öncesi check-up, sağlıklı bir gebeliğin **önemli temel taşıdır**. Eşler birlikte, en az gebelikten 3 ay önce kapsamlı değerlendirme yaptırmalıdır. Bu yazı genel bilgilendirme niteliğindedir; bireysel test seçimi için **mutlaka hekiminize başvurunuz**.`,
+    heroImageAlt: "Hamilelik öncesi check-up testler",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["tup-bebek", "beslenme-danismanligi", "psikolojik-destek"],
+    relatedSpecialtySlugs: ["kadin-hastaliklari-ve-dogum", "aile-hekimligi", "ic-hastaliklari", "endokrinoloji", "uroloji"],
+    sources: [
+      {
+        title: "Preconception Care — Recommendations",
+        publisher: "Centers for Disease Control and Prevention (CDC)",
+        url: "https://www.cdc.gov/preconception",
+      },
+      {
+        title: "Pre-pregnancy Care",
+        publisher: "American College of Obstetricians and Gynecologists (ACOG)",
+        url: "https://www.acog.org",
+      },
+      {
+        title: "Pre-conception — Advice and Management",
+        publisher: "NICE Clinical Knowledge Summaries",
+        url: "https://cks.nice.org.uk",
+      },
+      {
+        title: "Preconception Care to Improve Maternal and Newborn Outcomes",
+        publisher: "World Health Organization (WHO)",
+        url: "https://www.who.int",
+      },
+      {
+        title: "Gebelik Öncesi Bakım Klinik Rehberi",
+        publisher: "Türkiye Jinekoloji ve Obstetrik Derneği (TJOD)",
+      },
+      {
+        title: "Preconception Health and Risk Assessment — Review",
+        publisher: "American Family Physician / PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+    ],
+  },
+
+  {
+    slug: "mezoterapi-nedir-cesitleri-cilt-sac",
+    title: "Mezoterapi Nedir? Cilt, Saç ve Vücut İçin Çeşitleri ve Süreç",
+    excerpt:
+      "Mezoterapi; cilt, saç ve vücut için kullanılan mikro enjeksiyon yöntemi. Türleri, içerikleri, beklenen etkiler, seans planlaması ve riskler tarafsız anlatımla.",
+    bodyMd: `[Mezoterapi](/tedaviler/mezoterapi), 1950'lerde Fransa'da Dr. Michel Pistor tarafından geliştirilen ve bugün dünya genelinde estetik tıbbın en sık uygulanan **non-invaziv enjeksiyon yöntemlerinden** biridir. Temel mantık basittir: aktif maddeleri (vitaminler, mineraller, amino asitler, hyaluronik asit, peptidler, büyüme faktörleri) **çok ince iğnelerle cildin yüzeysel-orta katmanına** mikro dozlarda yerleştirmek. Sistemik dolaşıma girmeden, doğrudan hedef bölgeye etkir. Bu yazı, mezoterapinin farklı uygulama alanlarını, içerik kombinasyonlarını, seans planlamasını ve dikkat edilmesi gereken noktaları tarafsız biçimde özetler.
+
+> 📌 Bu yazı [dermatoloji](/branslar/dermatoloji) ve [estetik, plastik ve rekonstrüktif cerrahi](/branslar/estetik-cerrahi) branşları kapsamındaki **non-invaziv estetik uygulamalar** içindir. [Botoks ve dolgu karşılaştırması](/blog/botoks-dolgu-fark-kombinasyon) ile birlikte bütünsel bir cilt yenileme planı oluşturulabilir.
+
+## Mezoterapi Nedir?
+
+Mezoterapi, **mezoderm tabakasına** (cildin orta katmanı, dermis) yapılan çoklu mikro enjeksiyonlardır. Geleneksel intramusküler veya intravenöz enjeksiyondan farkı:
+
+- **Yüzeysel-orta cilt katmanına** uygulanır (0.5-4 mm derinlik)
+- **Düşük doz**, ama doğrudan hedefe ulaşır
+- Sistemik dolaşıma minimal geçiş
+- **Çoklu nokta** enjeksiyon — etki alanı bölgesel
+- İğne (mezo igne, dermapen, mezoroller) veya iğnesiz cihaz ile uygulanabilir
+
+> 💡 **Temel mantık:** Geleneksel cilt bakımında kremler stratum korneum bariyerini aşmakta zorlanır; mezoterapi bu bariyeri **mekanik olarak geçerek** aktif maddeleri ihtiyaç duyulan derinliğe ulaştırır.
+
+## Mezoterapi Çeşitleri
+
+Mezoterapi tek bir uygulama değil, **hedef bölge ve içerik kombinasyonuna göre farklılaşan bir tedavi ailesidir**.
+
+### Cilt mezoterapisi (mezolifting)
+
+Yüz, boyun, dekolte ve el sırtına uygulanır. Hedef: cilt yenileme, parlaklık, nem, ince çizgi azaltma.
+
+İçerik genellikle:
+
+- **Hyaluronik asit** (non-cross-linked, düşük molekül ağırlıklı) — nemlendirme
+- **Vitaminler** (B, C, E grubu) — antioksidan etki
+- **Amino asitler** (glisin, prolin, lizin) — kollajen sentez desteği
+- **Mineraller** (çinko, bakır, magnezyum) — enzimatik kofaktörler
+- **Koenzim Q10, glutatyon** — antioksidan
+- **Peptidler** — sinyal molekülleri
+
+### Saç mezoterapisi
+
+Saç derisine uygulanır. Hedef: telojen efluviyum, androgenetik alopeside destekleyici tedavi, post-saç ekimi destekleyici.
+
+İçerik genellikle:
+
+- **Biotin (B7)** — saç teli yapısı
+- **Dexpantenol (B5)** — saç folikül beslenmesi
+- **Minoksidil benzeri vasküler etkili moleküller**
+- **Pirizinden türevler** (saç folikül beslenmesi)
+- **Aminoasit kompleksi**
+
+> ⚠️ **Önemli ayrım:** Saç mezoterapisi tek başına **androgenetik alopesiyi tersine çevirmez**. [Saç ekimi](/tedaviler/sac-ekimi) gerektiren ileri vakalar için destekleyici, erken evre dökülmelerde ise birincil tedavinin parçası olabilir. Karar [dermatoloji](/branslar/dermatoloji) uzmanının değerlendirmesine bağlıdır.
+
+### Vücut mezoterapisi (lipolitik mezoterapi)
+
+Bölgesel yağlanma, sellülit ve cilt sıkılığı için karın, bacak iç-dış, basen, bel bölgesine uygulanır.
+
+İçerik genellikle:
+
+- **Fosfatidilkolin / deoksikolik asit** (yağ hücresi membranı destabilizasyonu)
+- **L-karnitin** (yağ metabolizması)
+- **Kafein** (lipoliz uyarımı, vasküler etki)
+- **Sentella asiatica** (mikrosirkülasyon)
+- **Artichoke ekstresi** (drenaj)
+
+> 📌 **Lipolitik mezoterapi obezite tedavisi değildir.** Genel kilo verme için değil, **bölgesel kontur düzeltme** için kullanılır. Obezite varsa öncelikle [diyetisyen](/branslar/diyetisyen) ve [endokrinoloji](/branslar/endokrinoloji) değerlendirmesi gerekir; ileri vakalarda [obezite cerrahisi](/blog/obezite-cerrahisi-tup-mide-gastrik-bypass) konuşulur.
+
+### Spesifik amaçlar
+
+| Endikasyon | Tipik içerik | Uygulama bölgesi |
+|---|---|---|
+| Cilt yenileme | HA + vitamin + amino asit | Yüz, boyun, dekolte, el sırtı |
+| Saç dökülmesi destek | Biotin, dexpantenol, peptid | Saçlı deri |
+| Sellülit | Kafein, sentella, L-karnitin | Bacak, basen |
+| Bölgesel yağ | Fosfatidilkolin, deoksikolik asit | Karın, bel, çene altı |
+| Pigmentasyon | Glutatyon, traneksamik asit, C vit. | Yüz, dekolte |
+| Akne sonrası cilt | Antioksidan + peptid karışımı | Yüz |
+| Skar yumuşatma | HA + vitamin C + peptid | Lokalize |
+
+## Uygulama Süreci
+
+Tipik bir mezoterapi seansı:
+
+1. **Konsültasyon** — hedef, beklenti, kontrendikasyonların değerlendirilmesi
+2. **Cilt temizliği ve dezenfeksiyon**
+3. **Topikal anestezik krem** (genellikle 20-30 dakika bekletilir)
+4. **Enjeksiyon** — manuel veya elektronik mezogun (dermapen) ile
+5. Bölge serumla sakinleştirilir; soğuk uygulama yapılabilir
+6. Uygulama süresi 20-45 dakika (bölge büyüklüğüne göre)
+
+> 💡 **Konfor için ipucu:** Anestezik krem süresi uzun tutulduğunda enjeksiyon hissi belirgin azalır. Elektronik mezogun manuel enjeksiyona göre genellikle daha tutarlı derinlik sağlar ve daha az ağrılı kabul edilir.
+
+## Seans Planlaması
+
+Mezoterapi **tek seansla sonuç vermez**; kümülatif etki yöntemidir.
+
+### Yüz cilt yenileme
+
+- Başlangıç: **3-6 seans**, haftada bir veya 15 günde bir
+- Sonrasında idame: 2-3 ayda bir tek seans
+- İlk fark ediliş: 2-3. seans sonrası
+
+### Saç mezoterapisi
+
+- Başlangıç: **4-8 seans**, haftada bir veya 15 günde bir
+- İdame: aylık veya 2 ayda bir
+- İlk fark ediliş: 3-4 ay (saç döngüsüne bağlı)
+
+### Vücut/sellülit
+
+- Başlangıç: **6-10 seans**, haftada bir
+- İdame: 1-2 ayda bir
+- İlk fark ediliş: 4-5. seans sonrası
+
+> 📌 **Gerçekçi beklenti:** Mezoterapi cerrahi sonuç vermez. İçerikten bağımsız olarak, etki ölçütü "cilt kalitesinde iyileşme", "saç dökülme oranında azalma", "bölgesel kontur düzelme" gibi **kademeli sonuçlardır**. Garanti edilen sonuç yoktur.
+
+## Etki Mekanizması
+
+Mezoterapinin etkileri birden fazla mekanizma ile açıklanır:
+
+- **Mikrohasar uyarımı:** İğneler dermiste mikrohasar yaratır → fibroblast aktivasyonu → yeni kollajen ve elastin
+- **Doğrudan biyoaktif madde dağıtımı:** İçerik hedef katmana yerleştirilir → lokal yüksek konsantrasyon
+- **Vasküler uyarım:** Mikrosirkülasyon artar → besin ve oksijen ulaşımı düzelir
+- **Hidrasyon:** Hyaluronik asit doğrudan dermiste su tutar
+- **Antioksidan:** C vit., glutatyon, koenzim Q10 — serbest radikal hasarını azaltır
+
+## Mezoterapi vs Diğer Uygulamalar
+
+| Konu | Mezoterapi | [Dolgu](/tedaviler/dolgu) | [PRP](/tedaviler/prp) | [HIFU](/tedaviler/hifu) |
+|---|---|---|---|---|
+| Yöntem | Mikro enjeksiyon (çoklu nokta) | Tek nokta jel yerleşimi | Kendi kanından plazma enjeksiyonu | Odaklanmış ultrason |
+| Etki katmanı | Dermis (orta cilt) | Dermis altı (subdermis) | Dermis | Derin (SMAS dahil) |
+| Birincil etki | Cilt kalite + besleme | Hacim ekleme | Otologik biyolojik uyarım | Kollajen sıkılaştırma |
+| Etki süresi | Seans bağımlı kümülatif | 6-18 ay | 6-12 ay | 12-18 ay |
+| Anestezi | Topikal | Topikal + bazı bölgelerde lokal | Topikal | Topikal |
+| İyileşme | Yok / minimal | 1-2 gün ödem | 1-2 gün ödem | 1-2 gün |
+| Bütçe | Görece düşük seans bazlı | Yüksek ürün bazlı | Orta | Yüksek tek seans |
+
+> 💡 **Kombinasyon yaklaşımı:** Mezoterapi sıklıkla diğer estetik uygulamaların **destekleyicisi** olarak planlanır — örneğin [HIFU](/tedaviler/hifu) sonrası cilt besleme için, ya da [botoks](/tedaviler/botoks) ile birlikte cilt kalitesini de iyileştirmek için. Karar bireysel anatomik değerlendirmeye bağlıdır.
+
+## Risk ve Komplikasyonlar
+
+Mezoterapi göreceli güvenli kabul edilir; ancak risksiz değildir.
+
+### Sık görülen geçici yan etkiler
+
+- Enjeksiyon noktalarında kızarıklık (24-48 saat)
+- Hafif ödem
+- Minor morluk (özellikle ince damarlı hastalarda)
+- Yanma/karıncalanma (15-30 dakika)
+- Geçici hassasiyet
+
+### Nadir komplikasyonlar
+
+- **Lokal enfeksiyon** — steril olmayan koşullarda
+- **Alerjik reaksiyon** — içerik bileşenlerine karşı
+- **Granülom** — özellikle yetkisiz ürün/kalitesiz karışım kullanımında
+- **Pigmentasyon değişikliği** — koyu tenlilerde nadir
+- **Skar** — yanlış derinlik veya enfeksiyon sonrası
+- **Vasküler hasar** — nadir; özellikle iyi vasküler haritalanmamış bölgelerde
+
+> 🚨 **Önemli güvenlik uyarısı:** Türkiye'de mezoterapi ürünlerinin bir kısmı **tıbbi ürün olarak ruhsatlı**, bir kısmı kozmetik kategoride yer alır. Bazı ürünler ise **yetkisiz / kayıtsız** dolaşımdadır. Mezoterapi seansından önce **kullanılacak ürünün kutusunu, ruhsat bilgisini ve son kullanma tarihini** sormak hakkınızdır. Yetkisiz ürünler granülom ve alerjik reaksiyon riskini ciddi artırır.
+
+## Kontrendikasyonlar
+
+Aşağıdaki durumlarda mezoterapi önerilmez veya ertelenir:
+
+- Hamilelik ve emzirme dönemi
+- Aktif enjeksiyon bölgesi enfeksiyonu (herpes, akne nodülü, dermatit)
+- Kontrolsüz diyabet
+- Kanama bozuklukları, antikoagülan kullanımı (kontrollü)
+- Aktif otoimmün hastalık (lupus, vaskülit) — değerlendirme gerekir
+- Onkolojik tedavi alımı
+- Kortikosteroid yoğun kullanım dönemi
+- Bilinen mezoterapi içeriğine alerji
+- Keloid skar yatkınlığı (özellikle yüksek riskli alanlarda)
+
+> 📌 **Çocuklarda ve adölesanlarda mezoterapi:** Estetik amaçlı mezoterapi 18 yaş altı için **endike değildir**. Spesifik dermatolojik endikasyonlar (skar tedavisi gibi) ancak [dermatoloji](/branslar/dermatoloji) uzmanı kararıyla planlanır.
+
+## Uygulayıcı Seçimi
+
+Mezoterapi Türkiye'de yalnızca hekim tarafından uygulanabilir. Doğru uygulayıcıda aranacaklar:
+
+- **Tıp doktoru** — tercihen [dermatoloji](/branslar/dermatoloji) veya [estetik cerrahi](/branslar/estetik-cerrahi) uzmanı
+- TTB sicil numarası doğrulanabilir
+- Kullanılan ürünlerin **Sağlık Bakanlığı kayıtlı** olması
+- Hijyenik enjeksiyon koşulları (tek kullanımlık iğne, steril alan)
+- Yazılı bilgilendirilmiş onam
+- Acil müdahale ekipmanı (alerjik reaksiyon için)
+
+> 👉 Estetik uygulayıcı seçim kriterleri hakkında detay: [Estetik cerrahide TPRECD/ISAPS sertifikalarının anlamı](/blog/tprecd-isaps-sertifika-anlami).
+
+## Uygulama Sonrası Bakım
+
+İlk 24 saatte dikkat edilecekler:
+
+- Enjeksiyon bölgesini ovuşturmamak
+- Makyaj **12 saat ertelemek**
+- Aşırı sıcak (sauna, hamam) ve aşırı soğuktan kaçınmak
+- Güneşten 48 saat kaçınmak, SPF 50+ kullanmak
+- Ağır spor 24 saat ertelemek
+- Alkol 24 saat sınırlı
+- Yüz masajı 1 hafta ertelemek
+
+İlk hafta:
+
+- Yüksek SPF güneş koruyucu (cilt yenileme protokollerinde 2-4 hafta sıkı koruma)
+- Aktif içerikli kozmetiklerden (retinol, AHA/BHA yüksek konsantrasyon) ilk 5-7 gün kaçınmak
+- Bol su tüketmek
+
+## Sık Sorulan Sorular
+
+### Mezoterapi acı verir mi?
+
+Topikal anestezik krem uygulandığında konfor seviyesi yüksektir. Yine de mikro enjeksiyon hissi tamamen kaybolmaz; özellikle alın, dudak çevresi, saçlı deri gibi hassas alanlarda hafif rahatsızlık olur. Çoğu hasta tolere edilebilir bulur.
+
+### İlk seanstan sonra fark görür müyüm?
+
+Yüz cilt mezoterapisinde **anlık parlaklık ve canlılık** ilk 24-72 saatte fark edilir; kalıcı yapısal etkiler için **3-6 seans** gerekir. Saç ve vücut mezoterapisinde ilk gözle görünür etki **3-4 seans** sonradır.
+
+### Kaç seans yapmalıyım?
+
+Bölge ve hedefe göre değişir: yüz cilt yenileme 3-6 seans, saç 4-8 seans, vücut/sellülit 6-10 seans. İdame için 2-3 ayda bir tek seans önerilir. **Garantili sonuç olmadığı için** sabit "X seans yeterli" söylemi yanıltıcıdır.
+
+### Mezoterapi sonrası işe dönebilir miyim?
+
+Evet. Çoğu vakada aynı gün veya ertesi gün sosyal hayata dönülebilir. Bazı hastalarda 24-48 saat kızarıklık ve ufak puan biçiminde noktalar görülebilir; bu doğal kabul edilir.
+
+### Hangi mezoterapi içeriği daha iyi?
+
+"En iyi" tek bir karışım yoktur. **Hedef** ve **cilt tipi** seçimi belirler. Cilt yenileme için HA + vitamin/amino asit kombinasyonu yaygın; saç için biotin + peptid karışımları; vücut için lipolitik karışımlar. Hekim cilt analizine göre bireysel karışım önerir.
+
+### Mezoterapi sonrası alkol kullanabilir miyim?
+
+İlk 24 saat alkol tüketmemeniz önerilir. Alkol vazodilatasyon yaparak şişlik ve morluk ihtimalini artırabilir.
+
+### Hamilelik döneminde mezoterapi yaptırılabilir mi?
+
+Hayır. Yeterli güvenlik verisi olmadığı için hamilelik ve emzirme döneminde mezoterapi **kontrendikedir**.
+
+---
+
+Mezoterapi, doğru hekim elinde doğru endikasyonda **non-invaziv estetik tıbbın temel araçlarından biridir**. Ancak tek başına bir mucize değildir; gerçekçi beklenti, kümülatif yaklaşım ve kaliteli ürün seçimi başarı için kritik bileşenlerdir. Bireysel uygulama kararınız için [dermatoloji](/branslar/dermatoloji) veya [estetik cerrahi](/branslar/estetik-cerrahi) uzmanına başvurunuz.`,
+    heroImageAlt: "Mezoterapi uygulaması",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["mezoterapi", "prp", "hidrafacial", "hifu", "fraksiyonel-lazer"],
+    relatedSpecialtySlugs: ["dermatoloji", "estetik-cerrahi"],
+    sources: [
+      {
+        title: "Mesotherapy — Practice Standards",
+        publisher: "American Academy of Dermatology (AAD)",
+        url: "https://www.aad.org",
+      },
+      {
+        title: "Mesotherapy: A Review of Clinical Applications",
+        publisher: "Journal of Cosmetic Dermatology (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+      {
+        title: "Non-Invasive Aesthetic Procedures — Patient Information",
+        publisher: "International Society of Aesthetic Plastic Surgery (ISAPS)",
+        url: "https://www.isaps.org",
+      },
+      {
+        title: "Mezoterapi Uygulamaları Klinik Yaklaşımı",
+        publisher: "Türk Dermatoloji Derneği (TDD)",
+      },
+      {
+        title: "Aesthetic Procedure Safety Guidelines",
+        publisher: "British Association of Dermatologists (BAD)",
+        url: "https://www.bad.org.uk",
+      },
+    ],
+  },
+
+  {
+    slug: "lazer-epilasyon-sureci-kac-seans",
+    title: "Lazer Epilasyon Süreci: Kaç Seans, Hangi Cihaz, Kimler İçin Uygun?",
+    excerpt:
+      "Lazer epilasyon teknolojileri (Alexandrite, Diyot, Nd:YAG), cilt-kıl tipi uyumu, seans planlaması, beklenen sonuçlar ve güvenlik kuralları üzerine kapsamlı rehber.",
+    bodyMd: `[Lazer epilasyon](/tedaviler/lazer-epilasyon), istenmeyen kılların **uzun süreli azaltılması** için kullanılan ve günümüzde dünya genelinde en sık uygulanan dermatolojik kozmetik prosedürlerden biridir. "Kalıcı epilasyon" tabiri yaygın olsa da bilimsel literatürde doğru tanım **"uzun süreli kıl azaltma" (long-term hair reduction)** şeklindedir. Bu yazı; teknoloji türlerini, cilt-kıl uyumunu, seans planlamasını, gerçekçi beklentileri ve güvenlik kurallarını tarafsız biçimde ele alır.
+
+> 📌 Bu yazı [dermatoloji](/branslar/dermatoloji) branşı kapsamındaki **non-invaziv kıl azaltma uygulamaları** içindir. Hormon kaynaklı kıllanma (hirsutizm) için lazer epilasyon tek başına yeterli değildir; [endokrinoloji](/branslar/endokrinoloji) ve [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) konsültasyonu da gerekebilir.
+
+## Lazer Epilasyon Nasıl Çalışır?
+
+Lazer epilasyonun temel prensibi **seçici fototermoliz**tir. Cihaz, belirli bir dalga boyundaki ışığı kıl folikülünün **melanin** pigmentine yöneltir. Melanin enerjiyi soğurur, ısıya dönüştürür ve kıl folikülünü hedefe yönelik olarak hasara uğratır.
+
+Etkili sonuç için üç koşul gerekir:
+
+- **Kıl folikülünde yeterli melanin** olması (koyu kıllarda yüksek)
+- **Cilt pigmentinin lazer hedefiyle çelişmemesi** (cilt rengine göre cihaz seçimi)
+- **Aktif büyüme fazındaki (anajen) kıl** olması — bu nedenle çoklu seans şarttır
+
+> 💡 **Kıl döngüsü:** Kıl folikülleri **anajen** (aktif büyüme), **katajen** (geçiş) ve **telojen** (dinlenme) fazlarında bulunur. Lazer yalnız **anajen** fazda etkilidir ve aynı anda yalnız foliküllerin yaklaşık %15-30'u bu fazdadır. Bu yüzden 4-8 hafta arayla çoklu seans gerekir.
+
+## Lazer Cihaz Tipleri
+
+Üç ana cihaz tipi günümüzde standartdır.
+
+### Alexandrite (755 nm)
+
+- **En sık tercih:** Açık-orta tenli (Fitzpatrick I-III) ve koyu kıllı hastalar
+- Hızlı uygulama (büyük spot boyutu)
+- İnce ve açık kıllarda bile makul etki
+- **Riski:** Koyu tenlilerde (Fitzpatrick IV-VI) yanık ve pigmentasyon riski yüksek
+- Geleneksel olarak "yüz, kol, bacak, koltuk altı, basen" gibi geniş alanlarda tercih edilir
+
+### Diyot (810 / 940 nm)
+
+- Geniş cilt tipi yelpazesi (Fitzpatrick I-V)
+- Yaz aylarında bronzlaşmış ciltlerde Alexandrite'dan daha güvenli
+- "Tarama" tipi soğutmalı başlıklarla daha az ağrı, hızlı uygulama
+- **Sıkça hizmette gördüğümüz altın standart**; çoğu modern lazer epilasyon cihazı diyot teknolojisi kullanır
+- Bazı cihazlar diyot + Alexandrite kombinasyonu sunar
+
+### Nd:YAG (1064 nm)
+
+- **Koyu tenliler (Fitzpatrick IV-VI) için altın standart**
+- Daha derin penetrasyon — kalın kökler için etkili
+- Vücut bölgelerinde (özellikle erkek sırt, göğüs) güçlü etki
+- Bronzlaşmış ciltlerde diğer cihazlara göre daha güvenli
+- **Daha ağrılı** — uygulama sırasında konforu artırmak için iyi soğutma şart
+
+### IPL (Yoğun Atımlı Işık) — Lazer Değildir
+
+IPL, lazerle aynı değildir; **geniş bantta polikromatik ışık** kullanır. Lazer kadar selektif değildir, sonuç kıvamı daha değişkendir, koyu tenlilerde riski yüksektir. Profesyonel klinik kullanımı azalmıştır. Ev tipi IPL cihazları lazerden ayrıdır ve yalnızca **çok sınırlı kıl-cilt tipi kombinasyonlarında** makul sonuç verir.
+
+| Cihaz | Dalga boyu | Uygun cilt tipi (Fitzpatrick) | İnce/açık kıl etkisi | Konfor |
+|---|---|---|---|---|
+| Alexandrite | 755 nm | I-III | İyi | Orta |
+| Diyot | 810/940 nm | I-V | İyi (modern modeller) | Yüksek (soğutmalı) |
+| Nd:YAG | 1064 nm | IV-VI | Düşük (kalın koyu kıl için) | Düşük-orta |
+| IPL | 500-1200 nm bant | I-III (sınırlı) | Değişken | Orta |
+
+> 💡 **Cihaz değil, hekim seçimi kritik:** Aynı cihaz farklı parametreler (atım süresi, enerji, soğutma) ile farklı sonuç verir. **Cihaz markası değil, uygulayıcı deneyimi** birincil belirleyicidir.
+
+## Fitzpatrick Cilt Tipi Sistemi
+
+| Tip | Tanım | Güneş tepkisi |
+|---|---|---|
+| I | Çok açık ten, kızıl/sarı saç | Daima yanar, hiç bronzlaşmaz |
+| II | Açık ten | Kolayca yanar, az bronzlaşır |
+| III | Açık-orta ten | Bazen yanar, kademeli bronzlaşır |
+| IV | Orta-koyu ten (zeytin) | Nadiren yanar, kolay bronzlaşır |
+| V | Koyu kahve ten | Çok nadiren yanar, koyu bronzlaşır |
+| VI | Çok koyu/siyah ten | Hiç yanmaz |
+
+Türkiye'de tipik dağılım: II-V arası geniş skala. Aynı kişinin yüzü ve vücudu farklı tipte olabilir; uygulama bölgesine göre değerlendirilmelidir.
+
+## Kimler İçin Uygundur?
+
+Lazer epilasyon adayı:
+
+- **18 yaş üzeri** (hormonal denge tamamlanmış, ailelerden onay durumunda 16+ tartışmalı)
+- Sağlık durumu uygun, aktif cilt hastalığı olmayan
+- Kıl rengi koyu (siyah, koyu kahve) — açık ten + koyu kıl ideal kombinasyon
+- Gerçekçi beklenti: **kıl azaltma** hedefi, "kalıcı sıfırlama" değil
+
+### Uygun olmayan veya dikkatli yaklaşılması gereken durumlar
+
+- **Hamilelik ve emzirme dönemi** — yeterli güvenlik verisi yok
+- **Aktif bronzluk** veya solaryum geçmişi (son 2-4 hafta) — yanık ve hipopigmentasyon riski
+- **Uygulama bölgesinde aktif enfeksiyon** (herpes, akne nodülü, dermatit, ekzema)
+- **Açık veya beyaz kıl** (melanin az/yok — lazer etkisi minimal)
+- **Çok kızıl/sarı ince kıl** (etki düşük)
+- **Aktif izotretinoin** (Roaccutane gibi) kullanımı — minimum 6 ay ara
+- **Foto-duyarlı ilaçlar** (bazı antibiyotikler, tetrasiklinler, retinoidler)
+- **Aktif keloid** veya yara iyileşme bozukluğu
+- **Aktif vitiligo, lupus, fotodermatoz** — değerlendirme şart
+- **Bölgede taze dövme** — dövme alanı lazerden mutlaka korunur
+- **Onkolojik tedavi** dönemi
+
+> ⚠️ **Hormonal kıllanma uyarısı:** Polikistik over sendromu (PCOS), tiroid bozukluğu, kortizol fazlalığı, geç ortaya çıkan kıllanma — bunlar **hormonal hirsutizm** belirtisi olabilir. Lazer epilasyon tek başına yeterli olmayabilir; altta yatan hormonal nedenin [endokrinoloji](/branslar/endokrinoloji) tarafından değerlendirilmesi gerekir. Hormonal sorun tedavi edilmeden lazer yapılırsa kıl tekrar çıkabilir.
+
+## Seans Planlaması ve Aralık
+
+Lazer epilasyon **çoklu seans gerektirir**. Tek seansla sonuç beklemek yanıltıcıdır.
+
+### Standart seans sayısı
+
+- **Yüz:** 8-12 seans (hormonal etki sürekli)
+- **Koltuk altı:** 6-8 seans
+- **Bacak (genel):** 6-8 seans
+- **Basen / kasık:** 8-10 seans
+- **Sırt / göğüs (erkek):** 8-12 seans
+- **Kol:** 6-8 seans
+
+> 📌 **Neden bu kadar seans?** Foliküllerin yalnız bir kısmı aynı anda anajen fazdadır. Her seans **o sırada anajen olan folikülleri** etkiler. Tüm folikülleri yakalamak için çoklu seans şarttır.
+
+### Seans aralığı
+
+- **Yüz:** 4-6 hafta
+- **Koltuk altı, basen:** 5-7 hafta
+- **Bacak, kol:** 6-8 hafta
+- **Sırt, göğüs:** 8-10 hafta
+
+Aralığın uzaması seans verimini düşürmez; aralık çok kısalırsa **henüz yüzeye çıkmamış foliküller atlanır**.
+
+### Sonuçlar ne zaman görünür?
+
+- 2-3 seans sonra kıl yoğunluğu **belirgin azalır**, kıllar incelir
+- 6-8 seans sonra çoğu hastada **%70-90 azalma** beklenir
+- Hormonal aktif bölgelerde (yüz, basen) yıllık idame seansları gerekebilir
+- **Garantili sıfırlama yoktur** — herkes farklı yanıt verir
+
+| Hafta | Kıl döngüsü olayları |
+|---|---|
+| Seans hemen sonrası | Bazı kıllar çıkmış görünür, bazıları folikülde kalır |
+| 1-3. hafta | "Phantom hair" — yanmış kıllar yüzeye atılır (epilasyon değil, dökülme) |
+| 3-6. hafta | Yeni kıllar yüzeye çıkmaya başlar (önceki seans etkisiz folikülleri) |
+| 6-8. hafta | Bir sonraki seans için optimal pencere |
+
+> 💡 **"Phantom hair" yanılgısı:** Seanstan 1-3 hafta sonra kıl çıkıyor gibi görünmesi yeni kıl değil; **lazerle yanmış kılın yüzeye atılmasıdır**. Bu işaret seansın etkili olduğunu gösterir. Pansuman gerektirmez.
+
+## Uygulama Süreci
+
+Tipik bir lazer epilasyon seansı:
+
+1. **Konsültasyon** ve test atımı (ilk seansta küçük alanda toleransın değerlendirmesi)
+2. Uygulama bölgesinin **traş edilmesi** (seansın 1 gün öncesi veya seans başında — kökü kalır, yüzeyel kısmı tıraşlanır)
+3. Cildin temizlenip dezenfekte edilmesi
+4. Koruyucu **gözlük** (uygulayıcı ve hasta için zorunlu)
+5. **Soğutma** (kontak soğutmalı başlık veya kriyojen sprey)
+6. Atımların uygulanması — bölgeye göre 5-45 dakika
+7. Soğutma jeli veya nemlendirici uygulama
+8. Güneş koruyucu (SPF 50+)
+
+> 💡 **Ağrı yönetimi:** Modern soğutmalı cihazlarda ağrı tolere edilebilir düzeydedir. Kıl yoğunluğu fazla bölgelerde (basen, koltuk altı erkek sırt) ilk seans daha rahatsız hissedilir; sonraki seanslarda kıl azaldığı için konfor artar. Topikal anestezik krem (lidokain) seçilen vakalarda kullanılabilir.
+
+## Risk ve Komplikasyonlar
+
+Lazer epilasyon doğru parametrelerle güvenli kabul edilir; ancak risksiz değildir.
+
+### Sık görülen geçici yan etkiler
+
+- **Perifolliküler eritem** (kıl folikülü çevresinde kızarıklık) — 12-72 saat
+- **Hafif ödem** — özellikle yüz bölgesinde
+- **Foliküler papüller** — geçici (1-3 gün)
+- Yanma hissi (24 saat)
+
+### Nadir ama önemli komplikasyonlar
+
+- **Yüzeyel yanık** — yanlış parametre veya bronzlaşmış ciltte
+- **Hipopigmentasyon** (cilt rengi açılması) — koyu tenlilerde
+- **Hiperpigmentasyon** (cilt rengi koyulaşması) — özellikle güneş koruma yetersizliğinde
+- **Foliküler indüksiyon (paradoksal hipertrikoz)** — ender; özellikle yüz/boyun bölgesinde tüy artışı
+- **Skar oluşumu** — çok nadir; yanlış parametre veya enfeksiyon sonrası
+- **Herpes simpleks reaktivasyonu** — yüz/dudak bölgesinde geçmiş herpes öyküsünde
+- **Akut akne alevlenmesi** — folliküler okluzyon mekanizması ile
+
+> 🚨 **Yanık şikayetinde:** Lazer epilasyon sonrası 24 saatte ağrılı kızarıklık geçmiyor, su toplanması (bül), açık yara oluşuyor veya iz kalıyorsa **uygulayıcı klinik ve [dermatoloji](/branslar/dermatoloji) uzmanına başvurun**. Yanıkların erken müdahale ile iz kalmadan iyileşme şansı yüksektir.
+
+## Lazer Sonrası Bakım
+
+İlk 24-48 saat:
+
+- Aşırı sıcak su, sauna, hamamdan kaçınmak
+- Bölgeyi ovuşturmamak, kabuk varsa **kazımamak**
+- Bol nemlendirme (aloe vera, panthenol içerikli kremler)
+- Uygulama bölgesinde makyaj 24 saat ertelenir (yüz lazeri sonrası)
+
+İlk 4 hafta:
+
+- **SPF 50+ güneş koruyucu** her gün uygulama (çıplak güneşe sürekli maruziyetten kaçınma)
+- Solaryum kesinlikle yok
+- Bronzlaştırıcı krem kullanmamak
+- Tüy alma yöntemi olarak **yalnızca traş** kullanılabilir; ağda, epilasyon, lazer arası dönemde tüy çekme **kontrendike** (folikülü çıkarır, lazer etkisini bozar)
+
+> 📌 **Önemli kural:** Lazer seansları arası dönemde **tüy alma için yalnız traş veya kıl kesme** kullanılır. Ağda, sir, cımbız, epilatör folikülü tamamen çıkardığı için **bir sonraki lazer seansının verimini düşürür** ve hatta yararsız kılar.
+
+## Lazer Epilasyon vs Diğer Yöntemler
+
+| Yöntem | Etki süresi | Konfor | Cilt riski |
+|---|---|---|---|
+| Traş | 1-3 gün | Yüksek | Yok / batık tüy |
+| Ağda | 3-5 hafta | Düşük | Folikülit, iritasyon |
+| Cımbız / sir | 4-6 hafta | Çok düşük | Folikülit, batık |
+| Tüy giderici krem | 1-2 hafta | Orta | Alerjik reaksiyon |
+| Elektroliz | Folikül bazlı kalıcı | Düşük | Skar, hiperpigmentasyon |
+| Lazer epilasyon | Uzun süreli azaltma (yıllar) | Orta-yüksek | Yanık, pigmentasyon (yanlış kullanımda) |
+
+> 💡 **Elektroliz vs lazer:** Elektroliz **tek folikül bazında kalıcı epilasyon** sağlar; ancak çok yavaş ve ağrılıdır. Açık/beyaz kıl için lazerle sonuç alınamayan vakalarda tamamlayıcı olarak kullanılabilir.
+
+## Uygulayıcı Seçimi
+
+Türkiye'de tıbbi lazer cihazları yalnızca hekim gözetiminde uygulanabilir. Çoğu klinikte uygulamayı **lazer eğitimi almış sağlık personeli** yapar, hekim parametre ve değerlendirmeden sorumludur. Doğru klinikte aranacaklar:
+
+- **Tıp doktoru gözetiminde** çalışan klinik ([dermatoloji](/branslar/dermatoloji) uzmanı tercih)
+- Sağlık Bakanlığı ruhsatlı cihaz
+- İlk seansta **test atımı** yapılması
+- Yazılı bilgilendirilmiş onam
+- Bireysel parametre dosyası (her seansın enerji, atım, spot kaydı)
+- Hijyenik koşullar (tek kullanımlık örtü, temiz başlık)
+- Acil durum protokolü
+
+## Sık Sorulan Sorular
+
+### Lazer epilasyon "kalıcı" mı?
+
+Bilimsel tanımı "**uzun süreli kıl azaltma**". Çoğu hastada 6-8 seans sonrası %70-90 azalma ile yıllarca süren etki sağlanır. Hormonal aktif bölgelerde (yüz, basen) zamanla yeniden çıkış olabilir; yıllık idame seansları planlanır. "%100 ömür boyu sıfırlama" iddiası bilimsel temelden uzaktır.
+
+### Yaz aylarında lazer yapılır mı?
+
+Yapılabilir, ancak güneşe maruz kalan ve bronzlaşmış cilt yanık ve pigmentasyon riskini ciddi artırır. **Sonbahar-kış-ilkbahar** dönemi tercih edilir. Yaz seansı planlanıyorsa hekim parametreleri düşürür ve **SPF 50+ koruma şart**tır. Solaryum kesinlikle yasak.
+
+### Hamilelik döneminde lazer yaptırabilir miyim?
+
+Lazerin doğrudan zararlı olduğuna dair veri olmasa da yeterli güvenlik çalışması yapılmamıştır. Hamileliğin geçici hormonal etkileri zaten kıllanmayı artırır; doğum sonrası 3-6 ay beklemek mantıklı. Standart yaklaşım: **hamilelik ve emzirme döneminde yapılmaz**.
+
+### Erkek sakal bölgesi için lazer yapılır mı?
+
+Yapılır ama dikkatli olmak gerekir — yüz folikülü hassastır ve sakal tamamen kaybedilince geri dönüş yoktur. Sakal şekillendirme amaçlı seçici lazer (alt boyun çizgisi düzeltme, yanak konturu) yaygın. Yüz tamamı için lazer kararı dikkatlice verilmelidir.
+
+### Açık ve beyaz kıl için lazer ne kadar etkilidir?
+
+**Çok sınırlı**. Lazer melanin pigmentini hedefler; melanin az veya yoksa enerji folikül hasarı yaratamaz. Açık/beyaz kıl için **elektroliz** veya bazı yeni teknolojiler (foto-melanin uyaranlar) düşünülebilir.
+
+### Lazer kanser yapar mı?
+
+Hayır. Lazer epilasyonda kullanılan ışık **non-iyonizandır** (DNA hasarı yaratmaz); ultraviyole veya x-ışını değildir. Mevcut bilimsel kanıt lazer epilasyonun kanser riski yarattığını göstermez. Ancak melanositlere yakın çalışıldığı için **mol/şüpheli leke alanları** önceden [dermatoloji](/branslar/dermatoloji) tarafından kontrol edilmeli ve gerekirse lazer öncesinde değerlendirilmelidir.
+
+### Dövmeli alanda lazer yapılabilir mi?
+
+Hayır. Dövme alanı lazerden mutlaka korunur (örtülür); dövme pigmenti lazer enerjisini soğurarak **yanık, doku hasarı ve dövme bozulmasına** yol açar. Dövme yakınındaki bölgeler özel ekipmanla şekillendirilebilir.
+
+---
+
+Lazer epilasyon, doğru cihaz-cilt-kıl eşleşmesinde ve deneyimli uygulayıcı elinde yıllarca süren kıl azaltma sağlar. Ancak tek seansla sonuç alınmayan, gerçekçi beklenti gerektiren bir tedavi sürecidir. Bireysel uygunluk değerlendirmesi için [dermatoloji](/branslar/dermatoloji) uzmanına başvurunuz. Hormonal kıllanma şüphesi varsa [endokrinoloji](/branslar/endokrinoloji) konsültasyonu öncelik kazanır.`,
+    heroImageAlt: "Lazer epilasyon süreci",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["lazer-epilasyon", "fraksiyonel-lazer", "mezoterapi", "akne-tedavisi"],
+    relatedSpecialtySlugs: ["dermatoloji", "endokrinoloji"],
+    sources: [
+      {
+        title: "Laser Hair Removal — Patient Information",
+        publisher: "American Academy of Dermatology (AAD)",
+        url: "https://www.aad.org/public/cosmetic/hair-removal",
+      },
+      {
+        title: "Laser and IPL Hair Removal — Clinical Review",
+        publisher: "British Association of Dermatologists (BAD)",
+        url: "https://www.bad.org.uk",
+      },
+      {
+        title: "Hair Removal Methods — Evidence Synthesis",
+        publisher: "American Society for Dermatologic Surgery (ASDS)",
+        url: "https://www.asds.net",
+      },
+      {
+        title: "Long-Term Outcomes of Laser Hair Removal",
+        publisher: "Journal of the American Academy of Dermatology (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+      {
+        title: "Hirsutizm ve Lazer Epilasyon Klinik Yaklaşımı",
+        publisher: "Türk Dermatoloji Derneği (TDD)",
+      },
+      {
+        title: "Cosmetic Procedures: Laser Hair Removal",
+        publisher: "NHS UK",
+        url: "https://www.nhs.uk/conditions/cosmetic-procedures/laser-hair-removal/",
+      },
+    ],
+  },
+
+  {
+    slug: "akne-tedavisi-adim-adim-rehber",
+    title: "Akne (Sivilce) Tedavisi: Adım Adım Bilimsel Rehber",
+    excerpt:
+      "Aknenin patofizyolojisi, ağırlık derecesine göre tedavi basamakları, topikal ve sistemik seçenekler, izleme ve skar yönetimi üzerine kapsamlı bir rehber.",
+    bodyMd: `[Akne (akne vulgaris)](/tedaviler/akne-tedavisi), dünya genelinde en sık görülen kronik inflamatuvar cilt hastalığıdır. Adölesan dönemde başlasa da yetişkinlik döneminde devam edebilen, doğru yönetilmediğinde **kalıcı skar ve psikolojik etkilere** yol açan bir tıbbi durumdur. Bu yazı; akneyi sadece "kozmetik bir sorun" olarak değil **tedavi edilebilir bir tıbbi durum** olarak ele alır ve uluslararası klavuzlara (AAD, NICE, EADV) uygun tedavi basamaklarını özetler.
+
+> 📌 Bu yazı [dermatoloji](/branslar/dermatoloji) branşı kapsamındaki akne yönetimi içindir. Kalıcı skar geliştiğinde [fraksiyonel lazer](/tedaviler/fraksiyonel-lazer), [mezoterapi](/tedaviler/mezoterapi) ve [kimyasal peeling](/tedaviler/kimyasal-peeling) gibi tamamlayıcı uygulamalar gündeme gelir; karar [dermatoloji](/branslar/dermatoloji) uzmanına aittir.
+
+## Akne Nedir? Patofizyoloji
+
+Akne, **pilosebase ünitenin** (kıl folikülü + yağ bezi) kronik inflamatuvar hastalığıdır. Dört ana mekanizma rol oynar:
+
+1. **Aşırı sebum üretimi** — androjen hormonların yağ bezini uyarması
+2. **Foliküler hiperkeratinizasyon** — folikül duvarındaki keratinositlerin anormal birikimi
+3. **Cutibacterium acnes proliferasyonu** — sebum dolu folikülde bakteri çoğalması
+4. **İnflamasyon** — bakteriyel uyarana karşı immün yanıt
+
+Bu dört faktörün hangisi baskınsa, tedavi de o yöne yöneltilir. **Aknenin nedeni tek başına "hijyensizlik" veya "yağlı yemek" değildir** — bu yaygın mitler tıbbi gerçekleri yansıtmaz.
+
+> 💡 **Mit yıkımı:** Akne **hijyen eksikliği** nedeniyle çıkmaz. Aşırı yıkama (günde 3+ kez sabunlama, agresif fırçalama) **akneyi kötüleştirir** çünkü cilt bariyerini hasara uğratır. Akneli cilt günde 1-2 kez nazik temizlik gerektirir.
+
+## Akne Tipleri
+
+| Tip | Klinik görünüm |
+|---|---|
+| Komedon (kapalı/beyaz) | Cilt altında, kapalı, beyazımsı |
+| Komedon (açık/siyah) | Açık, melanin oksidasyonu nedeniyle siyah görünüm |
+| Papül | Küçük, kırmızı, hassas |
+| Püstül | Tepesinde irinli (sarımsı/beyaz) |
+| Nodül | Derin, sert, ağrılı |
+| Kist | Derin, irinli sıvı içerikli, ağrılı |
+| Konglobat akne | Birleşmiş nodüller, derin abse |
+| Hormonal akne | Tipik dağılım: çene, çene altı, boyun (özellikle yetişkin kadın) |
+
+Tedavi planı **tipe + ağırlık derecesine + yaygınlığa + skar riskine** göre belirlenir.
+
+## Akne Şiddet Sınıflandırması
+
+| Şiddet | Klinik |
+|---|---|
+| Hafif | Az sayıda komedon, az papül; nodül/kist yok |
+| Orta | Daha çok papül + bazı püstül; bazı nodül |
+| Şiddetli | Çok sayıda nodül + kist; geniş yayılım; skar riski yüksek |
+
+> ⚠️ **Skar uyarısı:** Nodülokistik akne ve şiddetli akne formları **kalıcı skar bırakma** potansiyeli yüksektir. Bu vakalarda erken ve etkili tedavi (sistemik dahil) gerekir; "kendiliğinden geçmesini beklemek" skarın artmasına yol açar.
+
+## Tedavi Basamakları
+
+Uluslararası klavuzlar (AAD 2024, NICE 2025, EADV 2024) akne tedavisinde **kademeli yaklaşım** önerir.
+
+### Basamak 1 — Hafif komedonal akne
+
+**Birinci tercih:** Topikal retinoid (adapalen, tretinoin, tazaroten)
+
+- Hücre döngüsünü düzenler, komedon oluşumunu engeller
+- Akşam temiz cilde, **bezelye tanesi kadar** uygulama
+- İlk 4-6 hafta cilt kuruluğu, soyulma — "retinoid uyumu" dönemi
+- **Hamilelik döneminde tretinoin ve tazaroten kontrendikedir**; adapalen sınırlı veriyle daha güvenli
+
+**İkinci tercih veya kombinasyon:** Benzoil peroksit (BPO)
+
+- Anti-bakteriyel etki
+- %2.5-5 başlangıç, %10'a kadar yükseltilebilir
+- Çamaşırı ve havluyu beyazlatır — dikkat
+- Topikal retinoid + BPO yaygın kombinasyon
+
+### Basamak 2 — Hafif-orta inflamatuvar akne
+
+**Önceki basamağa ek:**
+
+- **Topikal antibiyotik** (klindamisin, eritromisin) — yalnız BPO ile kombine kullanılır (direnç riski azaltmak için)
+- Topikal **azelaik asit** — özellikle hassas ciltlerde alternatif
+- Topikal **niasinamid, salisilik asit** — destekleyici
+
+> 💡 **Topikal antibiyotik kuralı:** Tek başına topikal antibiyotik **kullanılmaz**; her zaman BPO veya retinoid ile kombine edilir. Aksi halde **C. acnes direnci** gelişir ve tedavi etkisizleşir.
+
+### Basamak 3 — Orta-şiddetli inflamatuvar akne
+
+**Önceki basamaklara ek:** Sistemik (oral) tedavi
+
+- **Oral antibiyotik** (doksisiklin, minosiklin, sülfametoksazol-trimetoprim) — 3 ay sınırı standart
+- Yalnız topikal retinoid + BPO ile birlikte kullanılır (direnç önleme)
+- 3 ay sonunda etki yetersizse **basamak 4'e geçilir**
+
+### Basamak 4 — Şiddetli, nodülokistik veya skar bırakan akne
+
+**Birinci tercih:** Oral izotretinoin (Roaccutane® ve jenerikleri)
+
+- **Tek tedavi olarak akneyi kalıcı remisyona sokabilen** ilaç
+- Doz genellikle 0.5-1 mg/kg/gün, kümülatif hedef doz 120-150 mg/kg
+- Süre 6-9 ay (vakaya göre)
+- **Çok güçlü teratojenik** — hamilelikte kesinlikle kontrendike, kadınlarda etkili doğum kontrolü şart
+- Aylık kan testi takibi (karaciğer enzimleri, lipid profili)
+- Cilt kuruluğu, dudak çatlağı, foto-duyarlılık beklenir
+- Ruh hali değişiklikleri açısından izlem gerekir
+
+> 🚨 **İzotretinoin ve hamilelik:** İzotretinoin **şiddetli teratojen**dir (ciddi doğumsal kusurlara yol açar). Kadın hastalarda **tedaviden 1 ay önce, tedavi boyunca ve tedavi bittikten 1 ay sonra** etkili doğum kontrolü zorunludur. Türkiye'de yalnız [dermatoloji](/branslar/dermatoloji) uzmanı reçete edebilir; aylık değerlendirme ile takip yapılır.
+
+### Basamak 5 — Hormonal akne (kadın)
+
+Özellikle çene ve çene altı yerleşimli, yetişkin kadında inatçı:
+
+- **Spironolakton** (off-label androjen antagonisti) — etkili seçenek
+- **Oral kontraseptif** (etinilestradiol + drospirenon/siproteron asetat) — hormonal regülasyon
+- Endokrinoloji konsültasyonu: PCOS, hiperandrojenizm taraması ([endokrinoloji](/branslar/endokrinoloji) veya [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum))
+
+> 💡 **Yetişkin kadın aknesinde dikkat:** Aniden başlayan veya kötüleşen yetişkin akne; **PCOS, tiroid, hipofiz adenomu, konjenital adrenal hiperplazi** gibi altta yatan endokrin nedenlerin habercisi olabilir. Hormon paneli istenmesi standart yaklaşımdır.
+
+## Aktif Madde Tablosu
+
+| Aktif madde | Uygulama | Birincil etki |
+|---|---|---|
+| Adapalen 0.1-0.3% | Topikal akşam | Retinoid, komedon önleme |
+| Tretinoin 0.025-0.1% | Topikal akşam | Retinoid, hücre döngüsü |
+| Benzoil peroksit 2.5-10% | Topikal sabah/akşam | Anti-bakteriyel |
+| Klindamisin 1% | Topikal (sadece BPO/retinoid ile) | Anti-bakteriyel |
+| Azelaik asit 15-20% | Topikal sabah/akşam | Anti-inflamatuvar, anti-bakteriyel, pigmentasyon |
+| Salisilik asit 0.5-2% | Topikal | Komedolitik |
+| Doksisiklin 50-100 mg | Oral, 3 ay sınır | Sistemik anti-bakteriyel, anti-inflamatuvar |
+| Minosiklin 50-100 mg | Oral, 3 ay sınır | Sistemik anti-bakteriyel |
+| İzotretinoin 0.5-1 mg/kg | Oral, 6-9 ay | Sebum azaltma, kalıcı remisyon |
+| Spironolakton 50-200 mg | Oral (kadın) | Anti-androjen |
+
+## Akne Tedavisinde Sık Yapılan Hatalar
+
+> ⚠️ Aşağıdakiler akneyi **kötüleştiren** yaygın hatalardır:
+
+- **Sivilce sıkmak** — skar ve hiperpigmentasyon riski büyük artar
+- **Agresif yıkama** (günde 3+ kez, scrub, sert fırçalama) — cilt bariyeri hasarı
+- **Yağsız yere "yağlı krem koymama"** — modern non-komedojenik nemlendirici şart
+- **Güneş koruyucu kullanmamak** — UV pigmentasyonu ve skar riskini artırır; **non-komedojenik SPF 30+** gerekli
+- **Topikal antibiyotiği tek başına kullanmak** — direnç gelişimi
+- **Tedaviyi 4-6 hafta sonra "etki yok" diye bırakmak** — topikal etki için **en az 8-12 hafta** gerekir
+- **Birden fazla aktif madde ezbere karıştırmak** — etkileşim ve cilt yanığı
+- **Sosyal medyada görülen "DIY" yöntemler** — limon, diş macunu, sirke vb. ciddi cilt hasarına neden olur
+
+## Akne ve Beslenme
+
+**Bilimsel kanıt durumu:**
+
+- **Yüksek glisemik indeksli diyet** ve **süt ürünleri** (özellikle yağsız süt) bazı çalışmalarda akne ile ilişkili bulunmuş
+- **Çikolata, yağlı yemek, kızartma** ile doğrudan nedensel ilişki **kanıtlanmamıştır** (yaygın mit)
+- Kişiye özel hassasiyet olabilir — bireysel deneme öğretici
+- Beslenme tek başına akneyi tedavi etmez; medikal tedavinin yerini almaz
+
+[Diyetisyen](/branslar/diyetisyen) eşliğinde glisemik indeks-düşük beslenmeye geçmek bazı hastalarda destekleyici olabilir.
+
+## Akne Skar Yönetimi
+
+Aktif akne kontrol altına alındıktan sonra **kalıcı skarların** tedavisi gündeme gelir.
+
+### Skar tipleri
+
+- **Atrofik skar** (cilt çöküntüsü)
+  - **Ice pick** (ince derin)
+  - **Boxcar** (geniş köşeli)
+  - **Rolling** (dalgalı)
+- **Hipertrofik skar** veya **keloid** (özellikle göğüs/sırtta) — cilt yüksekliği
+- **Post-inflamatuvar hiperpigmentasyon (PIH)** — leke (gerçek skar değil, pigment)
+
+### Tedavi seçenekleri
+
+- **Topikal retinoid + uzun süreli SPF** — PIH için temel
+- **[Kimyasal peeling](/tedaviler/kimyasal-peeling)** — yüzeysel skar ve PIH
+- **Mikroniğleme (microneedling) + [PRP](/tedaviler/prp)** — orta derin skar
+- **[Fraksiyonel lazer](/tedaviler/fraksiyonel-lazer)** (ablatif/non-ablatif) — derin skarlar için altın standart
+- **Subsizyon** — derin rolling skarda fibroz bandını kırma
+- **TCA Cross** — ice pick skarda
+- **[Mezoterapi](/tedaviler/mezoterapi)** — destekleyici
+- **Dolgu** — bazı atrofik skarlarda geçici
+
+> 💡 **Skar tedavisinin zamanlaması:** Aktif akne sürerken skar tedavisi yapılmaz — yeni lezyon çıktığı için sonuç kalıcı olmaz. **Önce aktif aknenin durdurulması, sonra 6-12 ay bekleyip skar tedavisinin planlanması** standart yaklaşımdır.
+
+## Akne Tedavisinde Süreç ve Beklenti
+
+| Dönem | Beklenen |
+|---|---|
+| 1-4 hafta | Cilt uyum dönemi; topikal retinoidde kuruluk, soyulma |
+| 4-8 hafta | İlk iyileşme işaretleri (yeni lezyon azalması) |
+| 8-12 hafta | Belirgin iyileşme; tedavi planı revize edilir |
+| 3-6 ay | Stabilizasyon; idame planı |
+| İzotretinoin kürü | 6-9 ay, kalıcı remisyon umulur |
+| İdame | Topikal retinoid + non-komedojenik bakım yıllarca |
+
+> 📌 **Sabır:** Akne tedavisi **maraton, sprint değildir**. İlk haftalarda görsel iyileşme yerine ek lezyon "purging" (mevcut komedon altında bekleyen akne yüzeye çıkması) bile olabilir. 8-12 haftadan önce "etki yok" hükmü vermek erken bir yargıdır.
+
+## Sık Sorulan Sorular
+
+### Akne kendiliğinden geçer mi?
+
+Adölesan akne çoğu vakada 20'li yaşlarda azalır; ancak yetişkin akne %20-40 oranında devam edebilir. **Beklemek skar riskini artırabilir** — orta ve şiddetli formlarda erken tedavi kritik.
+
+### Tedavi ne kadar sürer?
+
+Topikal tedavide minimum 3-6 ay aktif tedavi + uzun süreli idame. İzotretinoin kürü 6-9 ay. Yetişkin hormonal akne yıllarca düşük doz idame gerektirebilir.
+
+### Sivilce sıkmak yardımcı olur mu?
+
+Hayır — **zarar verir**. Sıkma; folikül duvarını içeri patlatarak inflamasyonu artırır, hiperpigmentasyon ve skar riskini büyütür. Aktif lezyona dokunmamak temel kuraldır.
+
+### Hangi kozmetik ürünleri kullanabilirim?
+
+**"Non-komedojenik"** ve **"oil-free"** etiketli, parfümsüz nemlendiriciler. SPF 30+ olarak **mineral filtreli (çinko/titanyum)** veya non-komedojenik kimyasal filtreli güneş koruyucu. Aktif tedavi süresince yeni ürün eklemek yerine **var olanı sadeleştirmek** önerilir.
+
+### İzotretinoinin yan etkileri kalıcı mıdır?
+
+Çoğu yan etki (kuruluk, dudak çatlağı, fotoduyarlılık) **tedavi bitiminde geriler**. Karaciğer ve lipid değerleri kür sonrası normale döner. Ruh hali değişiklikleri açısından izlem yapılır; depresyon veya intihar düşüncesi varsa derhal hekim bilgilendirilir.
+
+### Akne stresle ilgili mi?
+
+Stres aknenin doğrudan nedeni değildir, ancak **mevcut akneyi alevlendirebilir** (HPA-aksi, kortizol). [Psikolojik destek](/tedaviler/psikolojik-destek) ve yaşam tarzı düzenleme uzun vadeli yönetimde yardımcı olur.
+
+### Akne ve PCOS ilişkisi nedir?
+
+PCOS'lu kadınların yaklaşık yarısında akne görülür. Yetişkin kadında inatçı çene-boyun yerleşimli akne **PCOS tanısının ipucu** olabilir; [endokrinoloji](/branslar/endokrinoloji) veya [kadın hastalıkları ve doğum](/branslar/kadin-hastaliklari-ve-dogum) tarafından hormon paneli ve ultrason ile değerlendirme önerilir.
+
+---
+
+Akne, doğru tedavi planlandığında **etkili biçimde kontrol altına alınabilen kronik bir cilt hastalığıdır**. Erken müdahale skarı önler; geç müdahale kalıcı iz bırakabilir. Bireysel tedavi planı için [dermatoloji](/branslar/dermatoloji) uzmanına başvurunuz. Sosyal medya kaynaklı "DIY" yöntemlerden ve onaysız ürünlerden uzak durun.`,
+    heroImageAlt: "Akne tedavisi rehberi",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["akne-tedavisi", "fraksiyonel-lazer", "kimyasal-peeling", "mezoterapi", "prp"],
+    relatedSpecialtySlugs: ["dermatoloji", "endokrinoloji", "kadin-hastaliklari-ve-dogum"],
+    sources: [
+      {
+        title: "Guidelines of Care for the Management of Acne Vulgaris (2024)",
+        publisher: "American Academy of Dermatology (AAD)",
+        url: "https://www.aad.org/member/clinical-quality/guidelines/acne",
+      },
+      {
+        title: "Acne Vulgaris: Management",
+        publisher: "NICE — National Institute for Health and Care Excellence",
+        url: "https://www.nice.org.uk/guidance/ng198",
+      },
+      {
+        title: "European Evidence-Based Guideline for Treatment of Acne",
+        publisher: "European Academy of Dermatology and Venereology (EADV)",
+        url: "https://www.eadv.org",
+      },
+      {
+        title: "Isotretinoin Use and Monitoring — Clinical Review",
+        publisher: "Journal of the American Academy of Dermatology (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+      {
+        title: "Acne Vulgaris Tedavi Klavuzu",
+        publisher: "Türk Dermatoloji Derneği (TDD)",
+      },
+      {
+        title: "Acne Treatment Overview",
+        publisher: "NHS UK",
+        url: "https://www.nhs.uk/conditions/acne/",
+      },
+    ],
+  },
+
+  {
+    slug: "hyaluronik-asit-dolgu-detaylar-kullanim",
+    title: "Hyaluronik Asit Dolgu: Tipler, Kullanım Alanları ve Komplikasyonlar",
+    excerpt:
+      "Hyaluronik asit dolgunun çapraz bağlama farkları, reolojik özellikler, bölgesel kullanım, etki süresi, vasküler komplikasyon ve geri alma süreci üzerine detaylı bir rehber.",
+    bodyMd: `[Hyaluronik asit (HA) dolgu](/tedaviler/dolgu), günümüz estetik tıbbında **enjeksiyonla hacim ekleme veya kontur düzeltmesinin altın standardı** kabul edilir. Doğal olarak vücudun her dokusunda bulunan bir glikozaminoglikan olan hyaluronik asit, **suyu kendisinde tutma kapasitesi** ve **enzimatik olarak geri alınabilme özelliği** sayesinde diğer dolgu tiplerine göre belirgin güvenlik avantajına sahiptir. Bu yazı; HA dolgu ürünlerinin tip ayrımlarını, reolojik özelliklerini, bölgesel kullanım stratejilerini, etki süresini ve **özellikle kritik vasküler komplikasyonların yönetimini** ele alır.
+
+> 📌 Bu yazı [dermatoloji](/branslar/dermatoloji) ve [estetik, plastik ve rekonstrüktif cerrahi](/branslar/estetik-cerrahi) branşları kapsamındaki **enjektabl dolgu uygulamaları** içindir. Botoks ile birlikte planlanan tedavi yaklaşımı için: [Botoks ve dolgu arasındaki fark: hangi tedavi ne zaman?](/blog/botoks-dolgu-fark-kombinasyon).
+
+## Hyaluronik Asit Nedir?
+
+Hyaluronik asit (HA), **glikozaminoglikan** ailesinden bir polisakkarit. Cildin dermis tabakası, eklem sinovyal sıvısı, göz vitreusu ve neredeyse her dokuda doğal olarak bulunur. Cilt yaşlanırken HA içeriği azalır:
+
+- **20 yaş** ciltte yaklaşık 100% HA referans
+- **40 yaş** civarı yaklaşık 50% azalma
+- **60 yaş** üzeri belirgin yapısal kayıp
+
+HA dolgular **biyo-uyumlu** olduğu için (vücutta zaten var olan bir maddenin sentetik formu) alerjik reaksiyon oranı son derece düşüktür.
+
+> 💡 **Neden HA dolgular yaygın?** Üç anahtar özellik: (1) doğal yapı taşı olduğu için yüksek biyo-uyumluluk, (2) hyaluronidaz enzimi ile **geri alınabilir** (kritik güvenlik özelliği), (3) farklı çapraz bağlama dereceleriyle farklı **viskozite ve sertlik** elde edilebilmesi.
+
+## Çapraz Bağlama (Cross-linking) — Neden Önemli?
+
+Saf hyaluronik asit vücuda enjekte edildiğinde **24-48 saat** içinde enzimatik olarak parçalanır. Estetik dolgu olarak kullanılması için **çapraz bağlama** ile dayanıklı hale getirilmesi gerekir.
+
+### Çapraz bağlama ajanı
+
+En yaygın: **BDDE (1,4-butanediol diglycidyl ether)** — modern HA dolgularının büyük çoğunluğunda kullanılır. Çapraz bağlama derecesi ürünün **viskozitesi, kohezyonu, dolma kapasitesi ve süresi**ni belirler.
+
+### Üretim teknolojisi farkları
+
+- **Vycross teknolojisi** (Allergan/Juvederm Vollure, Voluma) — düşük + yüksek molekül ağırlıklı HA karışımı, uzun süre
+- **NASHA teknolojisi** (Galderma/Restylane) — non-animal stabilized HA, dar partikül boyu dağılımı
+- **CPM/XpresHAn** (Restylane Refyne/Defyne) — esnek çapraz bağlama, yüz hareketine uyumlu
+- **Cohesive Polydensified Matrix** (Merz/Belotero) — değişken yoğunluklu matriks, yüzeysel uygulama
+- **Resilient HA (RHA)** (Teoxane) — dinamik bölgelere uyumlu
+
+> 💡 **Marka değil, doğru ürün-bölge eşleşmesi:** "Hangi marka daha iyi" sorusunun cevabı yoktur; **hangi ürünün hangi anatomik bölgeye uygun reoloji** sahip olduğu önemlidir. Aynı markanın farklı ürün hatları farklı bölgeler için tasarlanmıştır.
+
+## Reoloji: Viskozite ve Elastiklik
+
+HA dolguların performansını belirleyen iki temel ölçüm:
+
+### G' (Elastik modül)
+
+Ürünün **şekil koruma kapasitesi**. Yüksek G' ürünler hacim eklediği yerde **kalıcı kontur** verir.
+
+- **Yüksek G':** Elmacık, çene, burun (yapısal destek istenen yerler)
+- **Düşük G':** Dudak, gözaltı, ince dinamik bölgeler
+
+### Kohezyon
+
+Ürünün **bütünlüğünü koruma kapasitesi**. Yüksek kohezyon — ürün enjekte edildiği yerden yayılmaz.
+
+### Viskozite
+
+Ürünün **akıcılığı**. Yüksek viskozite — yoğun ürün, hacim ekleme için ideal; düşük viskozite — ince enjeksiyon, yüzeysel kullanım.
+
+| Hedef | G' | Kohezyon | Viskozite | Tipik kullanım |
+|---|---|---|---|---|
+| Yapısal hacim (elmacık, çene) | Yüksek | Yüksek | Yüksek | Derin subkütan veya supraperiosteal |
+| Orta hacim (nazolabial, marionet) | Orta | Orta | Orta | Derin dermis |
+| İnce çizgi, dudak vermilyon | Düşük | Orta | Düşük-orta | Yüzeysel dermis |
+| Gözaltı çukuru, ince dudak | Çok düşük | Yüksek | Düşük | Profunda planı |
+
+## Bölgesel Kullanım Alanları
+
+### Dudak
+
+- **Düşük-orta G' HA** (örn. Juvederm Volbella, Restylane Kysse)
+- Vermilyon kenarı belirginleştirme, hacim, "lip flip"
+- 0.5-1 ml standart ilk uygulama; aşırı doz kaçınılır
+- Etki süresi 6-12 ay
+
+### Nazolabial oluk
+
+- Orta yoğunluk HA (Juvederm Vollure/Volift, Restylane Defyne)
+- 0.5-1 ml her oluk
+- Etki 9-15 ay
+
+### Elmacık (cheek)
+
+- **Yüksek G' HA** (Juvederm Voluma, Restylane Lyft, Teoxane Ultra Deep)
+- Supraperiosteal plan
+- Bölgesel 1-2 ml; bilateral dengeli
+- Etki 12-24 ay
+
+### Çene konturu / jawline
+
+- Yüksek G' HA
+- Erkek tipik — köşeli, kare; kadın tipik — yuvarlatılmış çene köşesi
+- 2-4 ml total
+- Etki 12-18 ay
+
+### Çene ucu (chin)
+
+- Yüksek G' HA
+- Yüz profili düzeltme (mikrogenya / cene gerileme)
+- 1-2 ml supraperiosteal
+- Etki 12-24 ay
+
+### Burun (sıvı rinoplasti)
+
+- Yüksek G' + yüksek kohezyon HA
+- Burun sırtı düzeltme, ucu kaldırma
+- **EN RİSKLİ BÖLGE** — vasküler oklüzyon riski yüksek (a. dorsalis nasi)
+- Sadece deneyimli uygulayıcı, kanül tercihi
+- 0.3-1 ml total
+- Etki 12-18 ay
+
+### Gözaltı (tear trough)
+
+- Düşük G' + yüksek kohezyon HA (Belotero Balance, Restylane-L)
+- Subortikularis okuli plan
+- 0.5-1 ml her taraf
+- Yüksek hassas bölge — yanlış uygulamada **Tyndall, bombelik**
+- Etki 9-15 ay
+
+### Şakak (temple)
+
+- Yüksek G' veya hidrojel destekli ürün
+- Supraperiosteal plan
+- 1-2 ml her taraf
+- Etki 12-18 ay
+
+> ⚠️ **Yüksek riskli anatomik bölgeler:** Burun sırtı, glabella, gözaltı, nazolabial üst bölge, şakak. Bu alanlarda **vasküler oklüzyon ciddi sonuçlar** (nekroz, hatta görme kaybı) doğurabilir. Bu bölgelere dolgu uygulamasının yalnızca **derin anatomi bilgisine sahip, deneyimli hekim** tarafından yapılması gereklidir.
+
+## Etki Süresi
+
+HA dolguların süresi şu faktörlere bağlıdır:
+
+- **Ürün tipi** (çapraz bağlama yoğunluğu, partikül büyüklüğü)
+- **Bölge** (hareketli alanlar daha hızlı tükenir — dudak < elmacık)
+- **Hastanın yaşam tarzı** (egzersiz, sigara, güneş)
+- **Bireysel metabolizma**
+
+| Bölge | Beklenen süre |
+|---|---|
+| Dudak | 6-12 ay |
+| Nazolabial oluk | 9-15 ay |
+| Marionet çizgisi | 9-15 ay |
+| Elmacık | 12-24 ay |
+| Çene konturu | 12-18 ay |
+| Çene ucu | 12-24 ay |
+| Burun (sıvı rinoplasti) | 12-18 ay |
+| Gözaltı | 9-15 ay |
+| Şakak | 12-18 ay |
+
+> 💡 **"Bittiği gün boş kalmaz":** HA dolgu yavaş yavaş enzimatik olarak çözülür; etkinin azalması tedrici. Ayrıca tekrarlayan dolgu uygulamaları cilt kalitesini ve fibroblast aktivitesini uyarabilir; tam sıfır noktasına dönmek genellikle olmaz.
+
+## Uygulama Süreci
+
+1. **Konsültasyon:** Beklenti, anatomik değerlendirme, kontrendikasyon taraması
+2. **Foto dokümantasyon:** Öncesi-sonrası değerlendirme için
+3. **Cilt temizliği ve dezenfeksiyon**
+4. **Topikal anestezi** (krem 20-30 dk) — bölgeye göre lokal anestezi (özellikle dudakta)
+5. **Enjeksiyon teknik seçimi:**
+   - **İğne** — küçük volüm, hassas yerleştirme
+   - **Kanül** — daha güvenli (vasküler hasar riski daha düşük), daha az morluk
+6. **Yavaş enjeksiyon, düşük basınç** — vasküler oklüzyon önleme
+7. **Aspirasyon testi** (geleneksel, %100 güvence vermez; teknik kalitesi tartışmalı)
+8. Şekil verme (gerekirse hafif masaj — ürüne göre)
+9. Soğuk uygulama (ödem yönetimi)
+
+## Vasküler Komplikasyon — En Kritik Risk
+
+Dolgu uygulamasının **en ciddi komplikasyonu** vasküler oklüzyondur. HA dolgunun yanlışlıkla bir damar içine veya damar yakınına enjekte edilmesi sonucu damar tıkanır → doku oksijensiz kalır → **nekroz (doku ölümü)**.
+
+### Yüksek riskli vasküler bölgeler
+
+- **Burun (a. dorsalis nasi)** — burun ucu nekrozu
+- **Glabella (a. supratrokhlearis)** — alın nekrozu, görme kaybı
+- **Nazolabial bölge (a. angularis)** — yanak/dudak nekrozu, görme kaybı (intra-arteriyel retrograt yayılım)
+- **Gözaltı/orbital bölge** — görme kaybı, oftalmoplejik komplikasyon
+
+### Uyarı bulguları
+
+> 🚨 **Acil müdahale gerektiren işaretler:**
+> - Enjeksiyon sonrası **şiddetli, beklenmeyen ağrı** (mor lokal hassasiyetten farklı)
+> - **Cilt renginin solması** (livedo reticularis), sonra **mor renk değişimi**
+> - **Soğuk** lokal his
+> - **Görme değişikliği** (bulanık görme, körlük) — acil
+> - Kapiller refilin gecikmesi
+> - Ödem, bül
+
+Şüpheli vakada **anında hyaluronidaz** ile çözme yapılmalıdır; geç müdahale doku kaybına yol açar.
+
+### Hyaluronidaz
+
+HA dolgunun antidotudur. Enzim, hyaluronik asit moleküllerini parçalar ve dolguyu **dakikalar içinde çözer**. Her HA dolgu uygulayan klinikte mutlaka bulundurulması ve uygulayıcının enjeksiyon protokolünü bilmesi şarttır.
+
+> ⚠️ **Klinik standartı:** HA dolgu uygulayan her klinikte **hyaluronidaz, acil yönetim protokolü, oksijen, intravenöz erişim** bulundurulmalıdır. Bu olmadan dolgu uygulaması ciddi risk taşır.
+
+## Diğer Komplikasyonlar
+
+### Sık (geçici)
+
+- **Morluk, ödem, hassasiyet** — 3-14 gün
+- **Hafif asimetri** — ilk 2 hafta dengeleniyor; persistante ise düzeltme
+- **Enjeksiyon yerinde kızarıklık**
+
+### Orta sıklıkta
+
+- **Nodül oluşumu** — fokal birikim; masaj veya hyaluronidaz
+- **Tyndall etkisi** — yüzeysel uygulamada mavi renk değişimi
+- **Ürün migrasyonu** — yanlış teknik, fazla doz, masaj travmasıyla
+- **Reaktivasyon** — geçmişte HSV enfeksiyonu olan dudak bölgesinde dolgu sonrası uçuk reaktivasyonu
+
+### Nadir
+
+- **Geç başlangıçlı nodül / inflamatuvar reaksiyon** — haftalar-aylar sonra; bazı viral enfeksiyonlar tetikleyebilir
+- **Granülom** — kalıcı dolgularda daha sık, HA'da nadir
+- **Biofilm** — bakteriyel kontaminasyonla; antibiyotik + hyaluronidaz
+- **Görme kaybı** — en ciddi nadir komplikasyon; intra-arteriyel oklüzyon
+- **Hipersensitivite** — gerçek alerjik reaksiyon; nadir ama olası
+
+## Kontrendikasyonlar
+
+HA dolgu **uygulanmaz** veya **dikkatli değerlendirilir**:
+
+- Hamilelik ve emzirme dönemi
+- Bilinen HA veya BDDE alerjisi
+- Aktif enjeksiyon bölgesi enfeksiyonu (akne nodülü, herpes, dermatit)
+- Otoimmün hastalık aktif fazı (lupus, vaskülit, skleroderma) — değerlendirme
+- Kanama bozuklukları, antikoagülan kullanımı (relatif)
+- Vücut Dismorfik Bozukluğu (BDD) — psikolojik değerlendirme
+- 18 yaş altı (yapısal endikasyon hariç)
+- Yakın zamanda büyük cerrahi (özellikle yüz/dental)
+- Aktif onkolojik tedavi dönemi
+
+## Dolgu Sonrası Bakım
+
+İlk 24 saat:
+
+- Bölgeyi **ovuşturmamak**
+- Aşırı sıcak (sauna, hamam) ve aşırı soğuktan kaçınmak
+- Ağır spor 24 saat ertelemek
+- Alkol 24 saat sınırlı (morluk artırabilir)
+- Dudak dolgusunda yumuşak gıda, hassasiyete dikkat
+- Makyaj 12 saat ertelenebilir
+
+İlk hafta:
+
+- Yüksek SPF 50+ güneş koruyucu
+- Yüz masajı yapmamak (özellikle yüksek-G' ürün enjekte edildiyse)
+- Diş işleminden kaçınmak (özellikle dudak/yanak dolgusunda 1 hafta)
+- Sigara mümkün olduğunca azaltmak (vasküler etkiler)
+
+İlk ay:
+
+- Beklenen final sonuç **2-4 hafta** içinde netleşir (ödem ve mikro şekillenme dönemi)
+- Eksik / asimetrik nokta için **kontrol ziyareti** standartdır
+- Aşırı sıcak (lazer, [HIFU](/tedaviler/hifu)) işlemleri için 2-4 hafta beklenir
+
+## HA Dolgu vs Diğer Dolgular
+
+| Dolgu | Etken madde | Geri alınabilir | Süre | Riskler |
+|---|---|---|---|---|
+| HA dolgu | Hyaluronik asit | **Evet** (hyaluronidaz) | 6-24 ay | Vasküler oklüzyon, nodül |
+| Kalsiyum hidroksilapatit (Radiesse) | CaHA | Hayır | 12-18 ay | Nodül, beyaz renk değişimi |
+| Polilaktik asit (Sculptra) | PLLA | Hayır | 18-24 ay | Geç başlangıçlı nodül |
+| PMMA (Bellafill) | Polimetil metakrilat | Kalıcı, hayır | Kalıcı | Granülom riski |
+| Otolog yağ (yağ enjeksiyonu) | Hastanın kendi yağı | Hayır | Değişken (kalıcı kalan kısım) | Yağ embolisi, asimetrik tutma |
+| Silikon (kalıcı) | Silikon yağı | Hayır | Kalıcı | **Migrasyon, granülom — önerilmez** |
+
+> 🚨 **Kalıcı dolgu uyarısı:** "Kalıcı dolgu", "ömür boyu dolgu", "biyo-jel" gibi pazarlama vaatleriyle satılan kalıcı dolgular **uluslararası uzman dernekleri tarafından önerilmez**. Geri alınamaması, geç dönem granülom riski ve migrasyon yapma potansiyeli nedeniyle modern estetik tıp standardı **geri alınabilir HA dolgudur**.
+
+## Ürün Güvenliği ve Sahtecilik
+
+Türkiye pazarında **sahte veya kaçak HA dolgular** ciddi bir sorundur. Yetkili olmayan ürünler:
+
+- Çapraz bağlama kalitesi denetimsiz
+- Sterilizasyon belirsiz
+- Reolojik özellikleri öngörülemeyen
+- Geç dönem granülom, biofilm, kalıcı yan etki riski yüksek
+
+> 📌 **Hasta hakkı:** Dolgu uygulanmadan önce **ürün kutusunu**, **batch numarasını**, **son kullanma tarihini**, **CE veya FDA onayı** olduğunu sormak ve görmek hakkınızdır. Onaylı bir HA dolgu kutusu üzerinde:
+> - Üretici firma
+> - Ürün adı + batch numarası
+> - Son kullanma tarihi
+> - CE veya FDA işareti
+> - Türkiye'de Sağlık Bakanlığı kaydı bilgisi
+>
+> bulunur. Hekiminizden bu kutuyu görmenizi rica etmek normaldir.
+
+## Uygulayıcı Seçimi
+
+> 🚨 **Türkiye'de hekim olmayan kişilerin dolgu uygulaması yasaktır.** Güzellik salonu, kuaför, estetisyen veya "kursiyer" tarafından yapılan uygulamalar hem yasal hem tıbbi açıdan **ciddi risk** doğurur — özellikle vasküler komplikasyon yönetimi yapılamaz.
+
+Doğru uygulayıcıda aranacaklar:
+
+- **Tıp doktoru** — [dermatoloji](/branslar/dermatoloji), [estetik cerrahi](/branslar/estetik-cerrahi), [KBB](/branslar/kbb) (sıvı rinoplasti için), [göz hastalıkları](/branslar/goz-hastaliklari) uzmanı (gözaltı için)
+- TTB sicil numarası doğrulanabilir
+- Klinikte **hyaluronidaz bulundurma**
+- Acil yönetim protokolü mevcut
+- Yazılı bilgilendirilmiş onam
+- Tıbbi tesis ortamı
+- Onaylı ürün kullanımı + kutu hastaya gösteriliyor
+
+> 👉 Sertifika ve uzmanlık gerçek anlamı için: [Estetik cerrahide TPRECD/ISAPS sertifikalarının anlamı](/blog/tprecd-isaps-sertifika-anlami).
+
+## Sık Sorulan Sorular
+
+### Dolgu sonuçları "kalıcı" mı?
+
+Hayır — HA dolgular **geçici** ve geri alınabilir. Etki süresi bölgeye göre 6-24 ay. Bu güvenlik açısından bir **avantajdır**, dezavantaj değil.
+
+### Birden fazla seans gerekli mi?
+
+İlk seansta hedef hacmin **%70-80'i** uygulanır, **2-4 hafta sonra kontrol** ile eksik kalan ince düzeltmeler yapılır. Bu **iki aşamalı yaklaşım** aşırı dozdan korur.
+
+### Dolgu yaptırdığımı insanlar anlar mı?
+
+Doğru uygulamada doğal sonuç beklenir. **"Şişkin dudak", "şişmiş yanak", "deforme görünüm"** doğru uygulamanın değil, **aşırı doz veya yanlış tekniğin** işaretidir. Modern yaklaşım "az ama doğru" ilkesidir.
+
+### Dolgu sonrası egzersiz yapabilir miyim?
+
+İlk 24-48 saat ağır egzersiz ertelenir (ödem ve dağılım önleme). Hafif yürüyüş ertesi gün serbesttir. Bir hafta sonra normal aktiviteye dönüş.
+
+### Dolgudan memnun kalmazsam ne olur?
+
+HA dolguda **hyaluronidaz enzimi** ile ürün **çözülebilir** — bu HA'nın en güçlü güvenlik özelliğidir. Enzim 24-48 saatte dolguyu pratiken yok eder. Bu işlem klinikte yapılır.
+
+### Dolgu zamanla göç eder mi?
+
+Doğru teknikle, doğru ürünle, doğru bölgeye uygulanmış HA dolgular göç etmez. Yanlış teknikle (yüzeysel yerleşim, yüksek doz), yanlış ürün seçimi (hareketli alana yüksek-G' ürün) veya travma sonrası migrasyon mümkündür. Migrasyon vakası hyaluronidaz ile çözülerek yeniden planlanır.
+
+### Dolgu öncesinde aspirin/ağrı kesici kullanmalı mıyım?
+
+Hayır — tam tersi. Aspirin, ibuprofen, naproksen gibi NSAID ilaçlar ve omega-3, E vitamini, ginkgo gibi besin desteği kanama riskini artırır. **Dolgu öncesi 7-10 gün** bu ilaç ve takviyelerden uzak durmak morluk riskini azaltır (zorunlu kullanım hekim onayı ile yönetilir).
+
+### Hamilelik döneminde dolgu yaptırılabilir mi?
+
+Hayır. Yeterli güvenlik verisi olmadığı için hamilelik ve emzirme döneminde dolgu **kontrendikedir**.
+
+---
+
+Hyaluronik asit dolgu, doğru ürün-bölge-uygulayıcı eşleşmesinde modern estetik tıbbın **güvenlik açısından lider** enjektabl seçeneğidir. Ancak vasküler komplikasyon riski göz ardı edilemez; uygulamanın **tıbbi tesiste, hyaluronidaz bulunduran ve deneyimli hekim tarafından** yapılması hayati önemdedir. Bireysel uygulama kararınız için bir [dermatoloji](/branslar/dermatoloji) veya [estetik cerrahi](/branslar/estetik-cerrahi) uzmanına başvurunuz.`,
+    heroImageAlt: "Hyaluronik asit dolgu detayları",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["dolgu", "botoks", "dudak-estetigi", "mezoterapi", "hifu"],
+    relatedSpecialtySlugs: ["dermatoloji", "estetik-cerrahi"],
+    sources: [
+      {
+        title: "Dermal Filler Do's and Don'ts for Wrinkles, Lines and Lips",
+        publisher: "U.S. Food and Drug Administration (FDA)",
+        url: "https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lines-and-lips",
+      },
+      {
+        title: "Hyaluronic Acid Fillers — Patient Information",
+        publisher: "American Academy of Dermatology (AAD)",
+        url: "https://www.aad.org",
+      },
+      {
+        title: "Vascular Complications in Aesthetic Filler Use — Management Algorithm",
+        publisher: "Journal of the American Academy of Dermatology (PubMed)",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+      },
+      {
+        title: "Aesthetic Procedure Safety: Dermal Fillers",
+        publisher: "International Society of Aesthetic Plastic Surgery (ISAPS)",
+        url: "https://www.isaps.org",
+      },
+      {
+        title: "Dermal Filler Safety Position Statement",
+        publisher: "British Association of Aesthetic Plastic Surgeons (BAAPS)",
+        url: "https://baaps.org.uk",
+      },
+      {
+        title: "Hyaluronidase Use in Filler Complications",
+        publisher: "American Society for Dermatologic Surgery (ASDS)",
+        url: "https://www.asds.net",
+      },
+    ],
+  },
 ];
 
 export function findBlogPost(slug: string): BlogPost | undefined {
