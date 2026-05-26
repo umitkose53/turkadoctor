@@ -39,15 +39,18 @@ import { formatTrDate } from "@/lib/utils";
 type RouteParams = { slug: string };
 
 /**
- * Sadece curated doktorları statik üret. DT havuzundaki ~160K doktor için
- * Next.js'in dynamicParams (default: true) özelliği on-demand SSG yapacak —
- * ilk ziyarette üretilip cache'lenir.
+ * Tüm doktor sayfaları on-demand SSG ile üretilir. Build sırasında statik
+ * prerender YOK — bu Vercel build süresini dramatik kısaltır (~167K + 6770 = 174K
+ * doktor için statik prerender 1+ saat sürerdi).
+ *
+ * `dynamicParams: true` + `revalidate` ile ilk istekte üret + CDN cache.
  */
 export async function generateStaticParams(): Promise<RouteParams[]> {
-  return doctors.map((d) => ({ slug: d.slug }));
+  return [];
 }
 
 export const dynamicParams = true;
+export const revalidate = 86400; // 1 gün — doktor metadata sık değişmez
 
 export async function generateMetadata({
   params,

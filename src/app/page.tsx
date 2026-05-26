@@ -21,6 +21,9 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { ALPHABETICAL_DISCLAIMER, SITE_NAME, SITE_URL } from "@/lib/seo/title";
 import { jsonLdScript } from "@/lib/seo/jsonld";
 
+// CDN cache her saatte bir yenilensin — yeni doktor eklendikçe sayaç güncel
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   ...buildMetadata({
     title: "Estetik, Saç Ekimi, Diş ve Tüm Branşlarda Doktor & Klinik Dizini",
