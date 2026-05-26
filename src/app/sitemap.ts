@@ -7,25 +7,31 @@ import {
   doctors,
   clinics,
 } from "@/data";
+import { blogPosts } from "@/data/blog-posts";
 import { allDtDoctorSlugs } from "@/data/dt-doctors";
 import { SITE_URL } from "@/lib/seo/title";
 
 /**
- * Sharded sitemap (Google 50.000 URL / dosya limiti). Shard 0 = curated içerik
- * (statik sayfalar, şehir, branş, klinik, kombinasyon, curated doktorlar).
- * Shard 1..N = Doctortakvimi havuzundaki ~160K hekim, slug bazlı bölünmüş.
+ * Sharded sitemap (Google 50.000 URL / dosya limiti).
+ *
+ * Shard 0  = curated (statik sayfa, şehir, branş, tedavi, klinik, curated doktor)
+ * Shard 1  = blog yazıları (Google blog için weekly changefreq + priority 0.7)
+ * Shard 2+ = Doctortakvimi havuzundaki ~160K hekim, slug bazlı bölünmüş
  *
  * Next.js her shard'ı `/sitemap/<id>.xml` olarak üretir; `/sitemap.xml` ise
- * sitemapindex.
+ * sitemap index (sitemap-index/route.ts).
  */
 
 const DT_SHARD_SIZE = 40_000;
+const CURATED_SHARD_ID = 0;
+const BLOG_SHARD_ID = 1;
+const DT_SHARDS_START_ID = 2;
 
 export async function generateSitemaps(): Promise<{ id: number }[]> {
   const dtSlugCount = allDtDoctorSlugs().length;
   const dtShards = Math.ceil(dtSlugCount / DT_SHARD_SIZE);
-  // 0 = curated, 1..dtShards = DT
-  return Array.from({ length: 1 + dtShards }, (_, i) => ({ id: i }));
+  // 0 = curated, 1 = blog, 2..2+dtShards = DT
+  return Array.from({ length: DT_SHARDS_START_ID + dtShards }, (_, i) => ({ id: i }));
 }
 
 export default async function sitemap({
@@ -39,10 +45,11 @@ export default async function sitemap({
   const numId =
     typeof resolvedId === "string" ? parseInt(resolvedId, 10) : resolvedId;
 
-  if (numId === 0) return curatedSitemap(now);
+  if (numId === CURATED_SHARD_ID) return curatedSitemap(now);
+  if (numId === BLOG_SHARD_ID) return blogSitemap(now);
 
   const dtSlugs = allDtDoctorSlugs();
-  const start = (numId - 1) * DT_SHARD_SIZE;
+  const start = (numId - DT_SHARDS_START_ID) * DT_SHARD_SIZE;
   const slice = dtSlugs.slice(start, start + DT_SHARD_SIZE);
   return slice.map((slug) => ({
     url: `${SITE_URL}/doktor/${slug}`,
@@ -52,13 +59,32 @@ export default async function sitemap({
   }));
 }
 
+/** Blog sitemap — Google'a blog yazılarını ayrı sinyal olarak tanıtır. */
+function blogSitemap(now: Date): MetadataRoute.Sitemap {
+  const blogIndex: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/blog`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+  ];
+  const posts: MetadataRoute.Sitemap = blogPosts.map((p) => ({
+    url: `${SITE_URL}/blog/${p.slug}`,
+    lastModified: new Date(p.lastReviewedAt ?? p.publishedAt),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+  return [...blogIndex, ...posts];
+}
+
 function curatedSitemap(now: Date): MetadataRoute.Sitemap {
   const staticPaths: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "daily", priority: 1.0 },
     { url: `${SITE_URL}/branslar`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/sehirler`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/tedaviler`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.5 },
+    // /blog ve /blog/[slug] artık shard 1 (blog sitemap) içinde
     { url: `${SITE_URL}/hakkimizda`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/tibbi-danisma-kurulu`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/editoryel-politika`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },

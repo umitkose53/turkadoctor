@@ -10,13 +10,15 @@ import { allDtDoctorSlugs } from "@/data/dt-doctors";
 import { SITE_URL } from "@/lib/seo/title";
 
 const DT_SHARD_SIZE = 40_000;
+// Shard düzeni: 0 = curated, 1 = blog, 2.. = DT
+const NON_DT_SHARDS = 2;
 
 export const revalidate = 86400; // 1 gün
 
 export async function GET() {
   const dtCount = allDtDoctorSlugs().length;
   const dtShards = Math.ceil(dtCount / DT_SHARD_SIZE);
-  const totalShards = 1 + dtShards; // shard 0 = curated, 1..N = DT
+  const totalShards = NON_DT_SHARDS + dtShards;
 
   const now = new Date().toISOString();
 
