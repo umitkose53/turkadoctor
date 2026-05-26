@@ -20,8 +20,7 @@ pipeline {
     CONTAINER_NAME     = "turkadoctor"
     CONTAINER_PORT     = "3000"
     HOST_PORT          = "3000"
-    BUILD_TAG          = "${env.BUILD_NUMBER}"
-    GIT_COMMIT_SHORT   = ""
+    // BUILD_NUMBER, GIT_COMMIT_SHORT script bloğunda set ediliyor
   }
 
   options {
@@ -38,8 +37,9 @@ pipeline {
       steps {
         checkout scm
         script {
-          env.GIT_COMMIT_SHORT = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()
-          env.FULL_TAG = "${BUILD_TAG}-${GIT_COMMIT_SHORT}"
+          def shortSha = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()
+          env.GIT_COMMIT_SHORT = shortSha
+          env.FULL_TAG = "${env.BUILD_NUMBER}-${shortSha}"
           echo "Building tag: ${env.FULL_TAG}"
         }
       }
