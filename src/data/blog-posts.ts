@@ -5,6 +5,14 @@ const AUTHOR = "TurkaDoctor Editör Ekibi";
 const PUBLISHED = "2026-05-25";
 const NEXT_REVIEW = "2026-11-25";
 
+// 2026-05-26 batch — 12 yeni yazı
+const PUBLISHED_2 = "2026-05-26";
+const NEXT_REVIEW_2 = "2027-05-26";
+
+// 2026-05-26 batch — 4 yeni estetik cerrahi yazısı
+const PUBLISHED_NEW = "2026-05-26";
+const NEXT_REVIEW_NEW = "2027-05-26";
+
 /**
  * Blog yazıları. Tıbbi Danışma Kurulu onaylı, kaynaklı, mevzuata uyumlu.
  * E-E-A-T sinyali (yazar + inceleyici + tarih + kaynak) tüm yazılarda zorunlu.
@@ -1077,6 +1085,1138 @@ Hekim ve klinik seçimi tek bir kritere değil, **birden fazla doğrulanabilir g
         title: "American Society of Plastic Surgeons",
         publisher: "ASPS",
         url: "https://www.plasticsurgery.org",
+      },
+    ],
+  },
+
+  {
+    slug: "sac-ekimi-fue-dhi-safir-robotik-karsilastirma",
+    title: "FUE, DHI, Safir ve Robotik Saç Ekim Yöntemleri: Detaylı Karşılaştırma",
+    excerpt:
+      "Türkiye'de en yaygın 4 saç ekim yöntemi — teknik farklar, iyileşme süresi, greft kapasitesi, kim için uygun?",
+    bodyMd: `[Saç ekimi](/tedaviler/sac-ekimi) operasyonunda kullanılan teknik, sonucun doğallığını, iyileşme süresini ve donör alanın korunmasını doğrudan etkiler. Türkiye'de en yaygın olarak uygulanan dört yöntem **FUE (Follicular Unit Extraction)**, **DHI (Direct Hair Implantation)**, **Safir FUE** ve **Robotik FUE**'dir. Bu yazıda her tekniğin nasıl uygulandığını, hangi vakada öne çıktığını ve aday kriterlerini ayrıntılı olarak ele alıyoruz.
+
+> 📌 Bu yazı [saç ekimi branşı](/branslar/sac-ekimi) altındaki teknik seçimlerine yönelik bilgilendirmedir. Operasyon sonrası bakım için: [Saç ekimi sonrası 7-30. gün bakım rehberi](/blog/sac-ekimi-sonrasi-bakim-rehberi).
+
+## Saç Ekiminin Temel Mantığı
+
+Tüm modern saç ekim teknikleri **folliküler ünite transplantasyonu** prensibine dayanır. Saç dökülmesine dirençli donör alandan (ense ve şakaklar) tek tek alınan saç kökleri (greft), seyrelmiş veya kelleşmiş bölgeye (alıcı saha) nakledilir. Teknikler arasındaki farklar; greftin nasıl alındığı, nasıl saklandığı ve alıcı bölgeye nasıl yerleştirildiği aşamalarında ortaya çıkar.
+
+> ℹ️ **Greft nedir?** Bir greft, içinde 1-4 saç teli barındıran küçük bir doku ünitesidir. Saçların doğal kümeleşme yapısı korunarak alındığında, ekilen saçlar doğal görünür.
+
+## FUE (Follicular Unit Extraction)
+
+FUE, günümüzde en yaygın saç ekim tekniğidir. 2000'li yıllarda gelişen mikro-motor sistemleriyle popülerlik kazanmıştır.
+
+### Nasıl uygulanır?
+
+1. Donör alan traş edilir ve lokal anestezi uygulanır
+2. **0.6-1.0 mm çapında özel mikro-punch** uçlarla greftler tek tek çıkarılır
+3. Çıkarılan greftler özel saklama solüsyonunda bekletilir
+4. Alıcı bölgede **çelik veya safir uçla** kanallar açılır
+5. Greftler kanallara penset ile yerleştirilir
+
+### Avantajları
+
+- Skar (dikiş izi) bırakmaz — sadece nokta şeklinde mikro izler
+- İyileşme süresi nispeten kısa (10-14 gün)
+- 3000-4500 greft tek seansta mümkündür (donör kapasitesine bağlı)
+- Sakal/göğüs gibi farklı bölgelerden de greft alınabilir
+
+### Sınırlamaları
+
+- Donör alanın traş edilmesi gerekir (uzun saçlı kadın hastalar için dezavantaj)
+- Cerrahın deneyimi sonucu çok etkiler
+- Çok yüksek greft sayısında donör alan görsel olarak seyrekleşebilir
+
+## DHI (Direct Hair Implantation)
+
+DHI, **Choi Implanter Pen** adı verilen özel bir kalem yardımıyla greftin doğrudan alıcı bölgeye yerleştirildiği tekniktir. Kanal açma ve ekim aşamaları tek adımda birleşir.
+
+### Nasıl uygulanır?
+
+1. Donör alandan FUE ile greftler çıkarılır
+2. Greftler **Choi pen** içine yüklenir
+3. Kalem ile alıcı bölgeye **kanal açma ve yerleştirme aynı anda** yapılır
+4. Açı, derinlik ve yön kalem ucundan kontrol edilir
+
+### Avantajları
+
+- Alıcı bölgede **traş gerekmeyebilir** (unshaven DHI tekniği)
+- Greftin dış ortamda bekleme süresi daha kısa — teorik olarak greft canlılığı korunur
+- Saç çıkış açısı ve yönü hassas kontrol edilir
+- Mevcut saçların seyrek olduğu sıklaştırma vakalarında uygundur
+
+### Sınırlamaları
+
+- Tek seansta nakledilebilecek greft sayısı genellikle daha düşük (2000-3500)
+- Operasyon süresi daha uzun
+- Cerrahın ekip kalitesi sonucu büyük ölçüde belirler
+- Kalem ucu maliyeti operasyon maliyetini etkiler
+
+> 💡 **İpucu:** DHI özellikle [sakal ekimi](/tedaviler/sakal-ekimi) ve [kaş ekimi](/tedaviler/kas-ekimi) gibi yön ve açının kritik olduğu küçük bölgelerde tercih edilir.
+
+## Safir FUE (Sapphire FUE)
+
+Safir FUE, klasik FUE tekniğinin **çelik bistüri yerine safir (yapay kristal) uçlu bisturi** ile kanal açma aşamasında modifiye edilmiş halidir. Greft çıkarma adımı klasik FUE ile aynıdır.
+
+### Avantajları
+
+- Safir uçlar daha **keskin ve pürüzsüz kesi** oluşturur
+- Açılan kanallar daha küçük çaplı olabilir → greftler arasında **daha sık ekim** mümkündür
+- Doku travması teorik olarak daha az
+- Kabuklanma süreci daha hızlı olabilir
+
+### Sınırlamaları
+
+- "Safir" bir teknik değil **bir uç malzemesidir** — temel FUE prensipleri aynıdır
+- Cerrah deneyimi yine en kritik faktör
+- Pazarlama dilinde "üstün teknik" şeklinde abartılı sunulabilir; gerçekte FUE'nin bir varyasyonudur
+
+> ⚠️ **Dikkat:** "Safir FUE en iyi tekniktir" gibi mutlak ifadelere şüpheyle yaklaşın. Hangi tekniğin sizin için uygun olduğu, donör kapasitesi, alıcı saha özellikleri ve cerrahın bu teknikteki deneyimi gibi çok faktörlü bir değerlendirmenin sonucudur.
+
+## Robotik FUE (ARTAS)
+
+ARTAS sistemi, FUE greft çıkarımının **robotik kol ve görüntü işleme** ile yapıldığı teknolojidir. ABD'de FDA onayı 2011'de alınmıştır.
+
+### Nasıl uygulanır?
+
+1. Donör alan haritalanır, sistem her foliküler üniteyi tanımlar
+2. Robotik kol **algoritma ile seçilen greftleri** çıkarır
+3. Kanal açma ve ekim aşamaları manuel veya robotik destekli yapılır
+
+### Avantajları
+
+- Operatör yorgunluğundan bağımsız tutarlı greft çıkarımı
+- Açı ölçümünde insan hatasını azaltır
+- Donör alanda eşit dağılımlı greft seçimi
+
+### Sınırlamaları
+
+- Türkiye'de görece az merkezde mevcut
+- Operasyon maliyeti diğer tekniklere göre yüksektir
+- Yalnız belirli saç tipleri ve cilt renkleri için optimize edilmiştir (koyu saç + açık cilt kontrastı gerekli)
+- Cerrah denetimi mutlaka gereklidir; robot tek başına çalışmaz
+
+## Yöntemlerin Karşılaştırma Tablosu
+
+| Kriter | FUE | DHI | Safir FUE | Robotik FUE |
+|---|---|---|---|---|
+| Greft çıkarma | Mikro-punch | Mikro-punch | Mikro-punch | Robotik kol |
+| Kanal açma | Çelik uç | Choi pen ile birleşik | Safir uç | Manuel/robotik |
+| Tipik seans kapasitesi | 3000-4500 | 2000-3500 | 3000-4500 | 2000-3500 |
+| Alıcı bölge traşı | Genelde gerekir | Gerekmeyebilir | Genelde gerekir | Gerekir |
+| Operasyon süresi | 6-8 saat | 8-10 saat | 6-8 saat | 7-9 saat |
+| İyileşme | 10-14 gün | 10-14 gün | 7-12 gün | 10-14 gün |
+| Cerrah bağımlılığı | Yüksek | Çok yüksek | Yüksek | Orta-yüksek |
+
+> ℹ️ Bu tablo genel referans amaçlıdır. Süreler ve kapasiteler hekime, hasta anatomisine ve donör kalitesine göre değişir.
+
+## Hangi Teknik Sizin İçin Uygun?
+
+Doğru teknik kararı şu faktörlere bağlıdır:
+
+- **Saç dökülme derecesi (Norwood / Ludwig skalası)** — ileri kelleşmede yüksek greft kapasitesi olan teknikler tercih edilir
+- **Donör alan kalitesi** — yoğunluk, esneklik, saç teli kalınlığı
+- **Saç tipi** — düz, dalgalı, kıvırcık (kıvırcık saçlarda greft çıkarımı daha zordur)
+- **Yaş** — ilerleyici dökülme planlamasında uzun vadeli strateji şart
+- **Hastanın yaşam tarzı** — operasyon sonrası dinlenme süresi tolere edebileceği kadar
+- **Cerrahın deneyimi** — bu, teknikten bile önemlidir
+
+> 💬 **Sıklaştırma vakalarında** (mevcut saçların arasına ekim) DHI öne çıkar; mevcut saçların hasar görme riskini azaltır. **İleri kelleşmede** (Norwood 5-7) FUE veya Safir FUE ile yüksek greft kapasiteli planlama daha sık tercih edilir.
+
+## Kimler Saç Ekimi İçin Aday Olmayabilir?
+
+- Saç dökülmesi henüz **stabilize olmamış** genç hastalar (18-22 yaş arası dikkat)
+- **Aktif alopesi areata, sikatrisyel alopesi** gibi inflamatuar saç hastalıkları
+- Donör alanı çok zayıf hastalar (yoğun seyrelme)
+- Kontrolsüz diyabet, kanama bozukluğu, ağır sistemik hastalık
+- Beden Dismorfik Bozukluk (BDD) veya gerçekçi olmayan beklentiler
+- Aktif sigara kullanımı (operasyondan en az 2 hafta önce bırakılmalı)
+
+> ⚠️ Saç dökülmesi devam ettiği sürece sadece ekim yapmak yeterli olmaz. Hekim, [PRP](/tedaviler/prp), finasterid veya minoksidil gibi destekleyici tedavileri de planlamaya dahil edebilir. Tüm bunlar bir [dermatolog](/branslar/dermatoloji) veya saç ekimi uzmanı değerlendirmesi gerektirir.
+
+## Risk ve Komplikasyonlar
+
+Tüm tekniklerde ortak risk profili vardır:
+
+- Donör/alıcı bölgede geçici şişlik, kızarıklık, kabuklanma
+- **Şok dökülmesi** — nakledilen tellerin geçici dökülmesi (3-4. ayda yeniden çıkar)
+- Folikülit (kıl kökü iltihabı) — çoğunlukla tedavi edilebilir
+- Donör alanda görünür seyrelme (yüksek greft sayısında)
+- Düşük greft tutma oranı → revizyon ekim ihtiyacı
+- Çok nadir: skar dokusu, alıcı bölgede kalıcı renk değişikliği
+
+## Hekim Seçim Kriterleri
+
+> 👉 [Saç ekimi yapan doktorları](/branslar/sac-ekimi) incelerken aşağıdaki noktalara dikkat edin:
+
+- **TTB sicil numarası** ve aktif çalışma yetkisi
+- Dermatoloji veya plastik cerrahi uzmanlığı (Türkiye'de ana branşlar)
+- **ISHRS (International Society of Hair Restoration Surgery)** üyeliği
+- Hangi teknikte kaç vaka deneyimi olduğu
+- Sağlık Bakanlığı ruhsatlı klinik
+- Operasyonun **hekim tarafından bizzat yapılması** (sadece teknisyen değil)
+- Yazılı bilgilendirilmiş onam
+- Operasyon sonrası takip programı
+
+Detaylı sertifika ve dernek analizi için: [TPRECD / ISAPS sertifikalarının anlamı](/blog/tprecd-isaps-sertifika-anlami).
+
+## Sık Sorulan Sorular
+
+### Hangi teknik en doğal sonuç verir?
+
+Doğallık tekniğe değil, **cerrahın açı, yön, sıklık ve dağılım planına** bağlıdır. Aynı teknik farklı cerrahlarda çok farklı sonuçlar verebilir.
+
+### DHI mi FUE mi tercih edilmeli?
+
+İkisi de farklı endikasyonlarda öne çıkar. Sıklaştırma + küçük alanlar için DHI; ileri kelleşme + büyük alan için FUE veya Safir FUE değerlendirilir. Karar konsültasyon sonrası verilmelidir.
+
+### Robotik FUE Türkiye'de yaygın mı?
+
+Kısıtlı sayıda merkezde mevcuttur. ARTAS sistemi ABD merkezli geliştirilmiştir; Türkiye'de erişim sınırlıdır. Robotik destek manuel FUE'ye göre dramatik bir avantaj sunmaz; cerrahın deneyimi yine kritiktir.
+
+### Bir seansta kaç greft yapılabilir?
+
+Donör kapasitesi ve hekim kararına göre tipik olarak 2000-4500 greft mümkündür. **5000+ greft** ("mega session") iddialarına şüpheyle yaklaşın — donör alanı tahrip etme riski vardır.
+
+### İkinci operasyon ne zaman yapılabilir?
+
+İlk operasyondan en az **8-12 ay** sonra, sonucun olgunlaştığı görüldükten sonra planlanır. Erken müdahale önceki operasyonu tehlikeye atabilir.
+
+### Safir FUE klasik FUE'den daha iyi mi?
+
+"Daha iyi" yerine "farklı bir uç malzemesi" demek daha doğrudur. Safir uçlar kesi kalitesini artırabilir, ancak temel başarı yine cerrah deneyimi ve doğru aday seçimine bağlıdır.
+
+### Yurt dışından geliyorum, ne kadar kalmalıyım?
+
+Tipik kalış süresi **2-4 gündür**. İlk yıkama klinikte yapılır, ardından dönüş güvenlidir. Detaylı planlama için: [Türkiye'de sağlık turizmi rehberi](/blog/saglik-turizmi-nelere-dikkat).
+
+---
+
+Saç ekimi tekniği kararı; donör kapasitesi, dökülme paterni ve hekim deneyimi temelinde verilmelidir. Hiçbir teknik tek başına başarı garantisi sağlamaz. Bu yazı genel bilgilendirme niteliğindedir; bireysel uygunluk değerlendirmesi için **yüz yüze hekim muayenesi** şarttır.`,
+    heroImageAlt: "Saç ekim yöntemleri karşılaştırma",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["sac-ekimi", "sakal-ekimi", "kas-ekimi", "prp"],
+    relatedSpecialtySlugs: ["sac-ekimi", "dermatoloji", "estetik-cerrahi"],
+    sources: [
+      {
+        title: "Hair Transplantation — Clinical Practice Standards",
+        publisher: "International Society of Hair Restoration Surgery (ISHRS)",
+        url: "https://www.ishrs.org",
+      },
+      {
+        title: "Follicular Unit Extraction: A Review",
+        publisher: "PubMed — Journal of Cutaneous and Aesthetic Surgery",
+        url: "https://pubmed.ncbi.nlm.nih.gov/",
+      },
+      {
+        title: "ARTAS Robotic Hair Restoration System — FDA Clearance",
+        publisher: "U.S. Food and Drug Administration",
+        url: "https://www.fda.gov",
+      },
+      {
+        title: "Hair Loss Treatments Overview",
+        publisher: "NHS UK",
+        url: "https://www.nhs.uk/conditions/hair-loss/",
+      },
+      {
+        title: "Androgenetik Alopesi Klinik Yaklaşımı",
+        publisher: "Türk Dermatoloji Derneği",
+      },
+    ],
+  },
+
+  {
+    slug: "lasik-vs-smile-vs-prk-goz-lazer",
+    title: "LASIK, SMILE ve PRK: Göz Lazer Yöntemleri Karşılaştırma Rehberi",
+    excerpt:
+      "Refraktif cerrahide üç ana yöntem — flap mantığı, iyileşme süresi, hangi diyoptri aralığına uygun, kim için tercih edilir?",
+    bodyMd: `Gözlük veya kontakt lens bağımlılığından kurtulmak isteyen hastalar için refraktif cerrahi günümüzde olgunlaşmış bir alandır. Türkiye'de en sık uygulanan üç yöntem **LASIK**, **SMILE** ve **PRK**'dır. Her birinin avantajı, iyileşme süresi ve aday profili farklıdır. Bu yazıda üç tekniği karşılaştırmalı olarak ele alıyoruz.
+
+> 📌 Bu yazı [göz hastalıkları (oftalmoloji)](/branslar/goz-hastaliklari) branşı kapsamındaki refraktif cerrahi kararı için bilgilendirmedir. Aday kriterleri için: [LASIK için ideal aday kim?](/blog/lasik-aday-kornea-kalinligi).
+
+## Refraktif Cerrahinin Temel Mantığı
+
+Miyopi, hipermetropi ve astigmat gibi kırma kusurları, ışığın **retinaya tam odaklanmadığı** durumlardır. Refraktif cerrahide amaç, **kornea üzerine excimer veya femtosaniye lazer** ile şekil verip ışığın doğru odaklanmasını sağlamaktır.
+
+Üç tekniğin temel farkı; **lazerin korneanın hangi katmanına nasıl uygulandığı**dır.
+
+## LASIK (Laser-Assisted In Situ Keratomileusis)
+
+LASIK, dünya çapında en yaygın refraktif yöntemdir. 1990'lı yıllardan beri uygulanmaktadır.
+
+### Nasıl uygulanır?
+
+1. Femtosaniye lazer ile **kornea ön yüzeyinde ince bir flap (kapak)** oluşturulur
+2. Flap kaldırılır, altındaki stromal dokuya excimer lazer ile şekil verilir
+3. Flap geri kapatılır ve doğal vakumla yerinde tutunur
+
+### Avantajları
+
+- Hızlı iyileşme — 24 saat içinde belirgin görsel iyileşme
+- Ağrı az veya hiç yok (ilk birkaç saat hafif yanma)
+- Geniş diyoptri aralığında uygulanabilir
+- Operasyon ayakta tedavi şeklinde, 10-15 dakika sürer
+
+### Sınırlamaları
+
+- **Flap olması**, dövüş sporu / askeri / kontakt sporlarda travma riski oluşturur
+- Geçici **kuru göz** sık yan etki
+- İnce korneada güvenli değil → ektazi riski
+- Femtosaniye + excimer iki ayrı lazer sistemi gerektirir
+
+> 💡 LASIK için detaylı aday kriterleri ve kornea kalınlığı önemine dair: [LASIK için ideal aday kim? Kornea kalınlığı neden önemli?](/blog/lasik-aday-kornea-kalinligi)
+
+## SMILE (Small Incision Lenticule Extraction)
+
+SMILE, 2011'den sonra yaygınlaşan, **flap oluşturmayan** modern bir tekniktir. Yalnız femtosaniye lazer kullanılır.
+
+### Nasıl uygulanır?
+
+1. Femtosaniye lazer ile **korneanın iç katmanında lentikül (mercek şeklinde disk)** oluşturulur
+2. Korneanın yüzeyinde **2-4 mm'lik küçük kesi** açılır
+3. Lentikül bu küçük kesiden çıkarılır
+4. Kornea yeni şeklini alır
+
+### Avantajları
+
+- **Flap yok** → travma riski LASIK'a göre düşük
+- **Kuru göz daha az** — kornea sinir hasarı minimaldir
+- Sporcu, askeri personel ve travmaya açık meslekler için tercih edilebilir
+- Tek lazer sistemi (genellikle Zeiss VisuMax)
+
+### Sınırlamaları
+
+- Görsel iyileşme **LASIK'a göre 1-2 gün daha yavaş** olabilir
+- **Hipermetropi için sınırlı endikasyon** — geliştirme aşamasında
+- Yüksek astigmat düzeltmede LASIK kadar deneyim birikimi yok
+- Türkiye'de görece az merkezde mevcut, cihaz maliyeti yüksek
+
+> ℹ️ **SMILE özellikle yüksek miyopi (örn. -6 ila -10 D)** ve **kuru göz şikayeti olan hastalarda** öne çıkar. Düşük diyoptri ve hipermetropi vakalarında her merkezde uygun olmayabilir.
+
+## PRK / TransPRK (Photorefractive Keratectomy)
+
+PRK, refraktif cerrahinin **en eski tekniğidir** (1980'ler). Günümüzde özellikle **ince kornealı** ve **flap riski taşıyan** hastalarda tercih edilir.
+
+### Nasıl uygulanır?
+
+1. Korneanın en üst tabakası (**epitel**) mekanik olarak veya excimer lazer ile (TransPRK) çıkarılır
+2. Altındaki stromal dokuya doğrudan lazer uygulanır
+3. **Flap yok** — epitel kendi kendine 3-5 gün içinde yeniden büyür
+4. Bantlı kontakt lens iyileşme sürecinde kullanılır
+
+### Avantajları
+
+- **Flap yok** → travma riski ve flap komplikasyonu tamamen yok
+- **İnce korneada güvenli** uygulama mümkün
+- Uzun vadeli stabilite kanıtlanmış (30+ yıl klinik veri)
+- Maliyeti diğer tekniklere göre daha düşük olabilir
+
+### Sınırlamaları
+
+- **İyileşme süresi en uzun** — 3-7 gün önemli düzeyde rahatsızlık ve sulanma
+- **Görsel iyileşme yavaş** — net görüş 2-4 hafta sürebilir, nihai sonuç 3-6 ay
+- İlk hafta ağrı kesici ve damla protokolü disiplin gerektirir
+- Geçici sis (haze) görme bozukluğu (modern tekniklerle nadir)
+
+## Üç Yöntemin Karşılaştırma Tablosu
+
+| Kriter | LASIK | SMILE | PRK |
+|---|---|---|---|
+| Flap oluşturma | Var | Yok (küçük kesi) | Yok |
+| Kornea katmanı | Yüzeyel (flap altı) | İç katman (lentikül) | Yüzeyel (epitelsiz) |
+| Diyoptri aralığı | Geniş (miyop, hipermetrop, astigmat) | Miyop + astigmat (hipermetrop sınırlı) | Geniş (miyop, hipermetrop, astigmat) |
+| Operasyon süresi | 10-15 dk/göz | 15-20 dk/göz | 10-15 dk/göz |
+| Görsel iyileşme | 24 saat | 1-3 gün | 1-2 hafta |
+| Tam iyileşme | 1-3 ay | 1-3 ay | 3-6 ay |
+| Kuru göz riski | Orta-yüksek | Düşük | Orta |
+| Travma riski | Flap nedeniyle var | Düşük | Çok düşük |
+| Sporcu / askeri | Önerilmez | Uygun | Uygun |
+| İnce kornea | Uygun değil | Sınırlı | Tercih edilebilir |
+
+> ⚠️ Bu tablo genel rehber niteliğindedir. Bireysel uygunluk; kornea kalınlığı, topografi, kuru göz testleri ve diyoptri değeri temelinde **hekim değerlendirmesiyle** belirlenir.
+
+## Hangi Teknik Sizin İçin Uygun?
+
+Karar verirken göz önünde tutulan faktörler:
+
+### LASIK için tipik aday
+
+- Yeterli kornea kalınlığı (genellikle 480+ mikron)
+- Stabil reçete (en az 1 yıl)
+- Kuru göz şikayeti minimal
+- Hızlı iyileşme öncelikli
+- Spor / meslek travma riski düşük
+
+### SMILE için tipik aday
+
+- **Orta-yüksek miyopi** (örn. -3 ila -10 D)
+- Astigmat eşlikli olabilir
+- **Kuru göz şikayetli** veya sporcu
+- Yeterli kornea kalınlığı
+- Hipermetrop ise dikkatli değerlendirme
+
+### PRK için tipik aday
+
+- **İnce kornea**
+- Travma riski yüksek meslek (askeri, dövüş sporu)
+- LASIK'tan **flap riski** nedeniyle vazgeçilen hasta
+- İyileşme süresine tolerans
+- Daha düşük diyoptride ve hipermetropide uygun
+
+> 💬 **Çok yüksek diyoptri** (örn. -10 D üzeri) veya çok ince kornea durumunda refraktif cerrahi yerine **fakik intraoküler lens (ICL)** önerilebilir. Bu, korneayı dokunmadan göz içine kalıcı lens yerleştirme yöntemidir; ayrı bir konsültasyon gerektirir.
+
+## Aday Olmayanlar
+
+> ⚠️ Aşağıdaki durumlarda hiçbir lazer tekniği uygun değildir:
+
+- **Keratokonus** tanısı veya şüphesi (topografide şüphe varsa kesin red)
+- 18 yaş altı, iskelet gelişimi tamamlanmamış
+- Reçetenin son 1 yılda **stabil olmaması**
+- Aktif göz hastalığı (üveit, glokom, ciddi kuru göz)
+- Otoimmün hastalık (lupus, romatoid artrit) — yara iyileşmesini bozar
+- **Hamilelik ve emzirme dönemi** — hormonal değişiklik reçeteyi etkiler
+- Kontrolsüz diyabet
+- Belirli ilaç kullanımı (steroid, immünsüpresif, isotretinoin)
+
+## Risk ve Komplikasyonlar
+
+Modern refraktif cerrahi güvenli kabul edilir, ancak risk içermez değildir:
+
+- **Geçici kuru göz** (en sık yan etki, haftalar-aylar)
+- Gece görüşünde **halo ve glare** (ışık halkası, parlama)
+- Yetersiz düzeltme → gözlük veya tamamlayıcı işlem gerekebilir
+- Aşırı düzeltme
+- **Ektazi** (kornea zayıflaması) — uygun olmayan adayda
+- LASIK'a özgü: flap komplikasyonları (femtosaniye ile çok nadir)
+- PRK'ya özgü: korneal haze (modern tekniklerde nadir)
+- Çok nadir: enfeksiyon
+
+> 🚨 "%100 gözlüksüz hayat", "kesin sonuç" gibi vaatler [Sağlık Hizmetlerinde Tanıtım Yönetmeliği](https://www.kvkk.gov.tr) gereği yasaktır. Bu tür ifadeler veren klinikten uzak durun.
+
+## Operasyon Öncesi Yapılması Gereken Testler
+
+| Test | Amaç |
+|---|---|
+| Pakimetri | Kornea kalınlığı ölçümü |
+| Topografi / Pentacam | Kornea yüzey haritası, ektazi taraması |
+| Schirmer / TBUT | Kuru göz değerlendirmesi |
+| Sikloplejik refraksiyon | Gerçek diyoptri değerinin tespiti |
+| Göz dibi muayenesi | Retina ve diğer patolojiler |
+| Göz içi basıncı | Glokom taraması |
+
+> 💡 Bu testleri **yapmadan** operasyon teklif eden klinikten uzak durun. Test sonuçları yazılı olarak size verilmelidir.
+
+## Hekim ve Cihaz Seçim Kriterleri
+
+- **Göz Hastalıkları (Oftalmoloji) uzmanlığı** + refraktif cerrahi deneyimi
+- TTB sicil numarası aktif
+- Türk Oftalmoloji Derneği (TOD) üyeliği
+- ESCRS (European Society of Cataract & Refractive Surgeons) veya AAO referansı
+- **Cihaz kalitesi:** Zeiss VisuMax (SMILE), WaveLight EX500, Schwind Amaris vb.
+- Sağlık Bakanlığı ruhsatlı klinik
+- Yazılı bilgilendirilmiş onam
+- Operasyon sonrası takip programı (1 gün, 1 hafta, 1 ay, 3 ay, 6 ay)
+
+> 👉 [Göz hastalıkları doktorları listesini](/branslar/goz-hastaliklari) inceleyerek refraktif cerrahi deneyimi olan hekimleri karşılaştırabilirsiniz. Yurt dışından geliyorsanız: [Türkiye'de sağlık turizmi rehberi](/blog/saglik-turizmi-nelere-dikkat).
+
+## Sık Sorulan Sorular
+
+### LASIK mi SMILE mi tercih edilmeli?
+
+Kişisel duruma bağlıdır. Yüksek miyopi + kuru göz şikayeti + sporcu ise SMILE; düşük-orta diyoptri + hızlı iyileşme öncelik ise LASIK öne çıkabilir. Karar topografi ve pakimetri sonuçlarıyla verilir.
+
+### PRK gerçekten ağrılı mı?
+
+İlk 3-5 gün epitel iyileşme süresinde belirgin yanma, sulanma ve ışığa hassasiyet vardır. Bantlı kontakt lens ve reçeteli damlalarla yönetilir. Çoğu hasta 1 hafta içinde rahatlar.
+
+### İki gözü aynı seansta yapmak güvenli mi?
+
+Modern uygulamada üç teknikte de iki göz aynı seansta yapılabilir ve güvenli kabul edilir. PRK'da bazı hekimler iyileşme süresi nedeniyle iki seansa bölmeyi tercih edebilir.
+
+### Hangi teknik en kalıcı sonuç verir?
+
+Üç tekniğin uzun vadeli stabilite verisi benzerdir. **Presbiyopi** (yaşa bağlı yakın görme bozukluğu, genellikle 40+) hiçbir teknikle önlenmez; bu, ayrı bir konudur.
+
+### LASIK sonrası numara geri geliyor mu?
+
+Az sayıda hastada minimal regresyon olabilir. Stabilite tüm tekniklerde benzerdir. Yıllık göz muayenesi önerilir.
+
+### Lazerden sonra göz içi lens (ICL) yapılabilir mi?
+
+Evet, gerekirse. Ancak ICL genellikle **lazer için aday olmayan** yüksek diyoptri veya ince kornealı hastalarda **birinci tercih** olarak değerlendirilir.
+
+### Yurt dışından geliyorum, ne kadar kalmalıyım?
+
+LASIK / SMILE için **2-3 gün** yeterli. PRK için **5-7 gün** önerilir (epitel iyileşmesi tamamlanana kadar). İlk kontrol klinikte yapılmalı.
+
+---
+
+Göz lazer kararı; kornea analizi, kuru göz testi, diyoptri stabilitesi ve cerrah deneyimi temelinde verilmelidir. Hiçbir teknik tek başına başarı garantisi sağlamaz. Bu yazı genel bilgilendirme niteliğindedir; bireysel uygunluk için **göz hastalıkları uzmanı muayenesi** şarttır.`,
+    heroImageAlt: "Göz lazer ameliyatı yöntemleri",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["lasik", "smile"],
+    relatedSpecialtySlugs: ["goz-hastaliklari"],
+    sources: [
+      {
+        title: "Refractive Errors & Refractive Surgery — Preferred Practice Pattern",
+        publisher: "American Academy of Ophthalmology (AAO)",
+        url: "https://www.aao.org",
+      },
+      {
+        title: "FDA's LASIK Program",
+        publisher: "U.S. Food and Drug Administration",
+        url: "https://www.fda.gov/medical-devices/lasik/fdas-lasik-program",
+      },
+      {
+        title: "Small Incision Lenticule Extraction (SMILE): A Systematic Review",
+        publisher: "PubMed — Journal of Refractive Surgery",
+        url: "https://pubmed.ncbi.nlm.nih.gov/",
+      },
+      {
+        title: "Photorefractive Keratectomy: Long-term Outcomes",
+        publisher: "PubMed — Cornea Journal",
+        url: "https://pubmed.ncbi.nlm.nih.gov/",
+      },
+      {
+        title: "Laser Eye Surgery and Lens Surgery",
+        publisher: "NHS UK",
+        url: "https://www.nhs.uk/tests-and-treatments/laser-eye-surgery-and-lens-surgery/",
+      },
+      {
+        title: "Türk Oftalmoloji Derneği",
+        publisher: "TOD",
+      },
+    ],
+  },
+
+  {
+    slug: "zirkonyum-emax-metal-destekli-dis-kaplama",
+    title: "Zirkonyum, E-max ve Metal Destekli Diş Kaplama Farkları",
+    excerpt:
+      "Üç temel diş kaplama malzemesi — yapısal farklar, estetik, dayanıklılık, hangi diş için uygun, ömür beklentisi.",
+    bodyMd: `Diş kaplama (kron), yıpranmış, çürümüş, kırık veya estetik açıdan değişiklik istenen dişlerin **dış yüzeyini kaplayan** restoratif yapılardır. Günümüzde en yaygın üç malzeme **zirkonyum**, **E-max (lityum disilikat)** ve **metal destekli porselen**dir. Hangi malzemenin sizin için uygun olduğu; dişin konumu, ısırma kuvveti, estetik beklenti ve hekim önerisine bağlıdır.
+
+> 📌 Bu yazı [diş hekimliği](/branslar/dis-hekimligi) branşı kapsamındaki kaplama seçimi için bilgilendirmedir. İmplant + kaplama kombinasyonu için: [Diş implantı rehberi](/blog/dis-implanti-surec-rehberi).
+
+## Diş Kaplaması Nedir?
+
+Diş kaplaması, dişin **dış görünür yüzeyini tamamen örten** yapay bir başlıktır. Çürük tedavisi sonrası, kanal tedavisi sonrası, kırık veya aşınmış dişlerde işlev ve estetiği geri kazandırmak için uygulanır.
+
+**Lamine (veneer) ile farkı:** [Lamine diş](/tedaviler/lamine-dis), yalnızca dişin **ön yüzünü kaplar** ve tamamen estetik amaçlıdır. Kaplama (kron) ise dişin tüm yüzeyini sarar ve hem fonksiyonel hem estetik amaçlıdır.
+
+## Zirkonyum Kaplama
+
+[Zirkonyum kaplama](/tedaviler/zirkonyum-kaplama), son 15 yılda diş hekimliğinde en yaygın metalsız restoratif materyallerden biri olmuştur.
+
+### Yapısı
+
+- **Zirkonyum oksit (ZrO2)** seramik altyapı
+- Bilgisayar destekli CAD/CAM tasarımla milimetrik hassasiyetle üretilir
+- Üzeri estetik porselen ile kaplanır (geleneksel) veya **monolitik zirkonyum** (tek parça) olarak şekillendirilir
+
+### Avantajları
+
+- **Metalsiz** — diş eti çekilmesinde "siyah kenar" oluşturmaz
+- Yüksek dayanıklılık — kırılma direnci yüksek
+- Doku uyumu mükemmel — alerjik reaksiyon nadirdir
+- **Arka dişlerde** ısırma kuvvetine dayanıklılığı yüksek
+- Köprü çalışmalarında uygundur
+
+### Sınırlamaları
+
+- Yüksek monolitik formda **ışık geçirgenliği** doğal dişten daha az olabilir
+- Ön dişlerde "daha mat" görünebilir — E-max daha doğal olabilir
+- Karşı dişi aşındırma potansiyeli (yüzey iyi parlatılmazsa)
+- Maliyeti metal-destekli kaplamadan yüksektir
+
+> 💡 **Multilayer zirkonyum** (çok katmanlı), kesme/şekil verme bölgesinde geçişli renk veren yeni nesil malzemedir. Ön dişlerde estetik açıdan daha başarılı sonuç vermektedir.
+
+## E-max (Lityum Disilikat Cam Seramik)
+
+E-max, **lityum disilikat** içeren güçlendirilmiş cam seramik malzemesidir. Estetik diş hekimliğinde özellikle ön dişler için tercih edilir.
+
+### Yapısı
+
+- Tek parça cam seramik
+- CAD/CAM ile veya preslemeli teknikle üretilir
+- Yüksek translüsensi (ışık geçirgenliği)
+
+### Avantajları
+
+- **En doğal görünüm** — doğal diş gibi ışık geçirgenliği
+- Estetik açıdan ön dişlerde tercih sebebi
+- **Metalsiz** — diş eti uyumu yüksek
+- Daha ince hazırlık (preparasyon) yeterli olabilir → daha az sağlam diş dokusu kaybı
+- İyi yapıştırma protokolü ile dayanıklılık iyi
+
+### Sınırlamaları
+
+- Zirkonyuma göre **kırılma direnci daha düşük**
+- **Arka dişlerde** (azı dişleri) tek başına dayanıklılığı sınırlı
+- Geniş köprü çalışmalarında uygun değil (tek diş veya kısa köprü)
+- Bruksizm (diş gıcırdatma) olan hastalarda dikkat
+
+## Metal Destekli Porselen (PFM — Porcelain-Fused-to-Metal)
+
+Diş hekimliğinin **klasik kaplama** yöntemidir. 1960'lardan beri yaygın kullanılır.
+
+### Yapısı
+
+- İç altyapı: metal (krom-kobalt, krom-nikel veya değerli alaşımlar)
+- Dış kaplama: porselen seramik
+
+### Avantajları
+
+- **Uzun klinik geçmiş** — 60+ yıllık veri
+- Yüksek dayanıklılık
+- Geniş köprü çalışmalarında tercih edilir
+- Maliyet düşük olabilir
+
+### Sınırlamaları
+
+- **Diş eti çekilirse "siyah kenar"** (metal görüntüsü) oluşur — özellikle ön dişlerde estetik sorun
+- Işık geçirgenliği yok → daha "ölü" görünüm
+- Nikel içeren alaşımlarda **alerji riski** (özellikle kadınlarda daha sık)
+- Metal alerjisi olan hastalarda kullanılmaz
+
+> ⚠️ Estetik kaygısı yüksek ve ön dişlerde **metal destekli kaplama günümüzde tercih edilmez**. Arka dişlerde ve uzun köprülerde hala kullanım yeri vardır.
+
+## Üç Malzemenin Karşılaştırma Tablosu
+
+| Kriter | Zirkonyum | E-max | Metal Destekli |
+|---|---|---|---|
+| Yapı | Zirkonyum oksit seramik | Lityum disilikat | Metal + porselen |
+| Estetik (ön diş) | İyi (multilayer ile çok iyi) | Mükemmel | Düşük-orta |
+| Dayanıklılık | Çok yüksek | Yüksek | Yüksek |
+| Köprü uygunluğu | Uzun köprü uygun | Tek diş / kısa köprü | Uzun köprü uygun |
+| Metal alerjisi | Yok | Yok | Riskli (nikel) |
+| Doku uyumu | Çok iyi | Çok iyi | Orta |
+| Diş eti çekilme görüntüsü | Sorun yok | Sorun yok | "Siyah kenar" riski |
+| Üretim teknolojisi | CAD/CAM | CAD/CAM veya pres | Geleneksel laboratuvar |
+| Tipik kullanım yeri | Tüm dişler | Ön dişler tercihen | Arka diş + köprü |
+
+> ℹ️ Bu karşılaştırma genel rehberdir. Bireysel karar hekim değerlendirmesine bağlıdır.
+
+## Hangi Malzeme Hangi Diş İçin?
+
+### Ön dişler (kesici, kanin)
+
+- **E-max** veya **multilayer zirkonyum** → en doğal estetik
+- Tek diş restorasyonu veya 2-3 dişli kısa köprü için uygun
+- Metal destekli ön dişte estetik açıdan tercih edilmez
+
+### Yan dişler (premolar)
+
+- **Zirkonyum** sık tercih
+- E-max da uygun
+- Estetik + dayanıklılık dengesi
+
+### Arka dişler (azı / molar)
+
+- **Monolitik zirkonyum** → yüksek ısırma kuvvetine dayanıklılık
+- Uzun köprü çalışmalarında zirkonyum veya metal destekli
+- E-max tek diş için uygun ama köprüde önerilmez
+
+### İmplant üstü kaplama
+
+- Zirkonyum sık tercih (CAD/CAM kişiselleştirme)
+- Detaylar: [Diş implantı süreç rehberi](/blog/dis-implanti-surec-rehberi)
+
+> 💬 Tek bir diş için E-max ve zirkonyum arasında karar; **diş eti görünürlüğü, mevcut dişlerin rengi, hasta beklentisi** temelinde yapılır. Hekiminiz sizin için en uygunu önerir.
+
+## Hangi Durumlarda Kaplama Önerilir?
+
+- Geniş çürük sonrası kalan diş dokusunun zayıflığı
+- **Kanal tedavisi** sonrası (diş kırılmaya yatkın hale gelir)
+- Kırık veya çatlamış diş
+- Aşınmış / eski dolgular
+- **Estetik amaçlı** form / renk değişikliği
+- **İmplant** üstü restorasyon
+- Köprü ayağı olarak
+
+## Kimler İçin Uygun Değildir?
+
+- **Ağır periodontal hastalık** (önce diş eti tedavisi gerekir)
+- Aktif çürük (önce restorasyon)
+- Yetersiz diş dokusu (önce post-core veya kanal tedavisi)
+- Kontrolsüz bruksizm (önce gece plağı planlanmalı)
+- Çok genç hastalar (diş gelişimi tamamlanmamış)
+- Kötü ağız hijyeni
+
+## Diş Kaplama Süreci
+
+### 1. Konsültasyon (1. seans)
+
+- Klinik muayene + röntgen
+- Tedavi planı yazılı sunumu
+- Malzeme tercihi tartışılır
+- Yazılı bilgilendirilmiş onam
+
+### 2. Hazırlık (2. seans)
+
+- Diş, kaplama kalınlığı kadar **aşındırılır** (preparasyon)
+- Ölçü alınır (dijital veya geleneksel)
+- Geçici kaplama yerleştirilir
+
+### 3. Laboratuvar Aşaması (5-10 gün)
+
+- CAD/CAM veya geleneksel teknikle kaplama üretilir
+- Renk uyumu için fotoğraf ve renk seçici kullanılır
+
+### 4. Yapıştırma (3. seans)
+
+- Geçici çıkarılır
+- Yeni kaplama prova edilir → renk, form, oklüzyon kontrolü
+- Adeziv yapıştırıcı ile kalıcı olarak yapıştırılır
+
+### 5. Takip
+
+- 1 hafta sonra kontrol
+- 6 ay – 1 yıl arayla rutin diş kontrolü
+
+## Kaplama Ömrü
+
+Modern kaplamaların ömrü; **ağız hijyeni, diş hekimi kontrolleri ve kullanım alışkanlığına** bağlıdır:
+
+| Faktör | Ömre Etkisi |
+|---|---|
+| Düzenli ağız hijyeni | Çok yüksek |
+| 6 ayda bir dental kontrol | Yüksek |
+| Bruksizm (gece plağı kullanımı) | Yüksek |
+| Sert besinler (buz, sert kabuk) | Orta-yüksek (negatif) |
+| Sigara | Orta (renk değişimi) |
+| Kaplama malzemesi | Orta |
+
+> ⚠️ "Ömür boyu garanti", "30 yıl dayanır" gibi mutlak vaatlere şüpheyle yaklaşın. Hiçbir restoratif yapı sınırsız ömür beklentisine sahip değildir. Düzenli kontrol ve bakımla uzun kullanım mümkündür.
+
+## Risk ve Komplikasyonlar
+
+- **Geçici hassasiyet** (sıcak/soğuk) — birkaç hafta sürebilir
+- Diş eti tahrişi
+- Kaplama altında çürük (kötü ağız hijyeni → marjinal çürük)
+- Kaplama kırılması veya çıkması
+- Oklüzyon (ısırma) uyumsuzluğu → ayarlama gerekir
+- Karşı dişin aşınması (parlatma kalitesine bağlı)
+- Diş eti çekilmesi → estetik kayıp
+- Kanal tedavisi ihtiyacı (preparasyon stresi sonrası, nadir)
+
+## Hekim ve Laboratuvar Seçim Kriterleri
+
+> 👉 [Diş hekimliği](/branslar/dis-hekimligi) profesyonelleri arasından seçim yaparken:
+
+- **Diş Hekimliği Fakültesi** mezunu, TDB sicilli
+- Estetik diş hekimliği veya protez alanında ek eğitim/sertifika
+- **CAD/CAM teknolojisi** kullanımı
+- Çalışılan **dental laboratuvarın akreditasyonu**
+- Sağlık Bakanlığı ruhsatlı klinik
+- Yazılı bilgilendirilmiş onam
+- Operasyon sonrası takip programı
+- Önceki vaka çalışmaları (etik kurallar çerçevesinde gösterilebilir)
+
+Detaylı sertifika ve dernek analizi için: [TPRECD/ISAPS sertifikalarının anlamı](/blog/tprecd-isaps-sertifika-anlami).
+
+## Sık Sorulan Sorular
+
+### Zirkonyum mu E-max mı tercih edilmeli?
+
+Ön dişlerde estetik öncelikse E-max veya multilayer zirkonyum öne çıkar. Arka dişlerde, geniş köprülerde ve dayanıklılık öncelikse zirkonyum tercih edilir. Karar diş diş verilir.
+
+### Metal destekli kaplama hala kullanılır mı?
+
+Evet, özellikle uzun köprülerde ve arka dişlerde maliyet/dayanıklılık avantajıyla kullanılır. Ancak estetik öne çıkan ön dişlerde günümüzde tercih edilmez.
+
+### Kaplama yaparken kanal tedavisi de yapılır mı?
+
+Yalnızca pulpaya (diş canlı sinir dokusu) zarar varsa veya restorasyon gereği zorunluysa yapılır. Sağlıklı diş için **rutin olarak kanal tedavisi gerekmez**.
+
+### Diş eti çekilirse kaplama yenilenmeli mi?
+
+Mutlaka değil. Metal destekli kaplamada estetik açıdan görünür "siyah kenar" çıkarsa değişim önerilir. Zirkonyum / E-max'da bu sorun yoktur.
+
+### Sigara kaplamaya zarar verir mi?
+
+Direkt malzemeye zarar vermez ama **renk değişimi** ve özellikle marjinde plak / diş eti hastalığı riski artar. Bu da kaplama ömrünü kısaltır.
+
+### Bruksizm (diş gıcırdatma) varsa kaplama yapılır mı?
+
+Önce **gece plağı (night guard)** ile koruma sağlanmalı, ardından zirkonyum gibi yüksek dayanıklı kaplama tercih edilebilir. E-max bruksizm olan hastada kırılma riski daha yüksektir.
+
+### Yurt dışından geliyorum, ne kadar kalmalıyım?
+
+Tek diş kaplaması için **2 ziyaret** gereklidir (hazırlık + yapıştırma) — yaklaşık 7-10 gün ülke içinde kalış. Geniş restorasyonlarda süre uzar. Detaylı planlama: [sağlık turizmi rehberi](/blog/saglik-turizmi-nelere-dikkat).
+
+---
+
+Kaplama malzemesi tercihi diş diş yapılan bireysel bir karardır. Bu yazı genel bilgilendirme niteliğindedir; sizin için uygun malzeme seçimi **diş hekimi muayenesi** sonucunda belirlenmelidir.`,
+    heroImageAlt: "Zirkonyum ve E-max diş kaplama karşılaştırma",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["zirkonyum-kaplama", "lamine-dis", "dis-implanti", "dis-beyazlatma"],
+    relatedSpecialtySlugs: ["dis-hekimligi"],
+    sources: [
+      {
+        title: "Dental Crowns — Patient Information",
+        publisher: "American Dental Association (ADA)",
+        url: "https://www.ada.org",
+      },
+      {
+        title: "Clinical Performance of Lithium Disilicate (E-max) and Zirconia Crowns: Systematic Review",
+        publisher: "PubMed — Journal of Prosthetic Dentistry",
+        url: "https://pubmed.ncbi.nlm.nih.gov/",
+      },
+      {
+        title: "All-Ceramic Restorations: A Review",
+        publisher: "PubMed — International Journal of Prosthodontics",
+        url: "https://pubmed.ncbi.nlm.nih.gov/",
+      },
+      {
+        title: "Dental Restorations Guidance",
+        publisher: "NICE (UK)",
+        url: "https://www.nice.org.uk",
+      },
+      {
+        title: "Türk Diş Hekimleri Birliği",
+        publisher: "TDB",
+        url: "https://www.tdb.org.tr",
+      },
+    ],
+  },
+
+  {
+    slug: "ortodonti-tedavi-suresi-yetiskin-cocuk",
+    title: "Ortodonti Tedavi Süresi: Yetişkin ve Çocuk Diş Teli Süreci",
+    excerpt:
+      "Ortodontik tedavi nedir, çocuk ve yetişkin tedavisi nasıl farklılaşır, metal / şeffaf / şeffaf plak (Invisalign) yöntemleri ve süre beklentileri.",
+    bodyMd: `Ortodonti, dişlerin ve çene yapısının düzensizliklerini düzelten diş hekimliği uzmanlık alanıdır. Tedavi süresi; yaş, vaka karmaşıklığı ve kullanılan yönteme göre belirgin biçimde değişir. Bu yazıda **çocuk ve yetişkin ortodontik tedavi** süreçlerini, yöntemleri ve süre beklentilerini karşılaştırıyoruz.
+
+> 📌 Bu yazı [diş hekimliği](/branslar/dis-hekimligi) branşı altında **Ortodonti** uzmanlığı kapsamındaki tedavi seçenekleri için bilgilendirmedir. Estetik diş restorasyonu için: [Zirkonyum, E-max ve metal destekli diş kaplama farkları](/blog/zirkonyum-emax-metal-destekli-dis-kaplama).
+
+## Ortodonti Nedir?
+
+Ortodonti, **dişlerin ve çenelerin doğru pozisyonda hizalanmasını** sağlayan diş hekimliği uzmanlığıdır. Türkiye'de ortodonti uzmanı olabilmek için diş hekimliği fakültesinden sonra **4 yıl ortodonti uzmanlık eğitimi** alınması gerekir.
+
+Tedavi sadece estetik değil **fonksiyonel** amaç da taşır:
+
+- Doğru ısırma (oklüzyon)
+- Etkili çiğneme
+- Daha kolay ağız hijyeni → diş eti hastalığı ve çürük riskinde azalma
+- Konuşma kalitesi
+- Çene ekleminde (TME) dengeli yük dağılımı
+
+## Çocuklarda Ortodontik Tedavi
+
+Çocuklarda ortodonti genellikle **iki dönemde** ele alınır.
+
+### Erken Ortodontik Tedavi (7-10 yaş)
+
+İskelet gelişimi devam ettiği için **çene büyümesi yönlendirilebilir**. Bu dönemde:
+
+- Çapraz kapanış düzeltme
+- Damak genişletme aparatları
+- Alışkanlık kırma (parmak emme, dil itme)
+- Yer kazanma / yer tutucu
+
+### Esas Ortodontik Tedavi (11-14 yaş)
+
+Daimi dişlerin büyük çoğunluğu sürdükten sonra:
+
+- Klasik braket (diş teli) tedavisi
+- Şeffaf plak tedavisi (Invisalign Teen vb.)
+- Çene ortopedisi (Headgear, Twin-block) gerekirse
+
+### Çocuklarda Süre Beklentisi
+
+| Yaş aralığı | Tedavi tipi | Tipik süre |
+|---|---|---|
+| 7-10 | Erken (preventif) tedavi | 6-18 ay |
+| 11-14 | Esas tedavi (klasik braket) | 18-30 ay |
+| 11-14 | Şeffaf plak | 12-24 ay |
+
+> 💡 Çocuklarda iskelet gelişiminin avantajı sayesinde tedavi genellikle yetişkine göre **daha kısa ve etkili** olur. İlk ortodonti muayenesi **7 yaş** dolayında önerilir (AAO — American Association of Orthodontists).
+
+## Yetişkinlerde Ortodontik Tedavi
+
+Yetişkin ortodontisi son 15 yılda dramatik biçimde yaygınlaşmıştır. **18-65+ yaş aralığında** sağlıklı dişler ve diş eti dokusu varsa tedavi mümkündür.
+
+### Yetişkinde Beklenen Farklar
+
+- **İskelet büyümesi tamamlanmış** — çene büyütme aparatları işe yaramaz, gerekirse ortognatik cerrahi
+- **Diş hareket hızı daha yavaş** — kemik yoğunluğu daha sıkı
+- Tedavi süresi **çocuklara göre %20-40 daha uzun** olabilir
+- Mevcut restorasyonlar (kaplama, dolgu) tedavi planlamasını etkileyebilir
+- Bruksizm veya diş eti çekilmesi varsa önce yönetim
+
+### Yetişkin Tedavi Süresi
+
+| Vaka karmaşıklığı | Klasik braket | Şeffaf plak |
+|---|---|---|
+| Hafif (1-2 mm sıkışıklık, ufak kaymalar) | 6-12 ay | 6-12 ay |
+| Orta (orta düzey çapraşıklık, kapanış sorunu) | 18-30 ay | 12-24 ay |
+| Ağır (cerrahi gerektiren çene anomalileri) | 24-36 ay | Tek başına uygun olmayabilir |
+
+## Ortodontik Tedavi Yöntemleri
+
+### 1. Klasik Metal Braket (Diş Teli)
+
+En geleneksel ve hala en yaygın yöntem.
+
+**Avantajları:**
+- Geniş vaka aralığında etkili (basit-ağır)
+- Hekim kontrolü yüksek
+- Maliyet uygun
+- Karmaşık vakalarda da kullanılabilir
+
+**Sınırlamaları:**
+- Estetik (görünür)
+- Ağız hijyeni daha zor → çürük ve diş eti hastalığı riski artar
+- Bazı yiyeceklerden kaçınma (sakız, sert kabuklu, yapışkan)
+- Düzenli muayene (her 4-6 hafta)
+
+### 2. Şeffaf (Porselen / Seramik) Braket
+
+Metal yerine **diş renginde seramik braketler** kullanılır.
+
+**Avantajları:**
+- Daha estetik (uzaktan zor fark edilir)
+- Klasik braket tedavi etkinliğine yakın
+
+**Sınırlamaları:**
+- Metalden daha kırılgan
+- Hafif renk değişimi olabilir (sigara, koyu içecekler)
+- Maliyet metalin üzerinde
+
+### 3. Lingual (İç Yüz) Braket
+
+Braketler dişin **iç (lingual) yüzüne** yapıştırılır.
+
+**Avantajları:**
+- Dışarıdan tamamen görünmez
+- Estetik beklentisi en yüksek hastalarda tercih edilir
+
+**Sınırlamaları:**
+- Konuşma adaptasyonu 2-4 hafta sürer
+- Dil tahrişi (ilk haftalar)
+- Yüksek hekim deneyimi gerekir → Türkiye'de görece az merkez
+- Maliyet yüksek
+
+### 4. Şeffaf Plak (Invisalign vb.)
+
+Bilgisayar destekli planlamayla üretilen **çıkarılabilir şeffaf plaklar** ile tedavi.
+
+**Avantajları:**
+- Görünmez denecek kadar şeffaf
+- Çıkarılabilir → ağız hijyeni kolay
+- Tüketim alışkanlıklarında esneklik (plak çıkarılıp yenir)
+- Konfor (braket teli batma sorunu yok)
+
+**Sınırlamaları:**
+- **Hasta uyumu kritik** — günde 20-22 saat takılmalı
+- Karmaşık vakalarda yetersiz kalabilir
+- Maliyet en yüksek seçenek
+- Periyodik plak değişimi (genellikle 1-2 haftada bir)
+- Bazı diş hareketleri için **attachment** (diş üzerine küçük kompozit ekler) gerekir
+
+> 💬 **Hasta uyumu olmazsa şeffaf plak tedavisi başarısız olur.** Bu yöntem disiplinli kullanım gerektirir. Çocuklarda klasik braket genellikle daha öngörülebilir sonuç verir.
+
+## Yöntemlerin Karşılaştırma Tablosu
+
+| Kriter | Metal Braket | Şeffaf Braket | Lingual Braket | Şeffaf Plak |
+|---|---|---|---|---|
+| Estetik | Düşük | Orta-yüksek | Yüksek (görünmez) | Yüksek (görünmez) |
+| Vaka aralığı | Geniş | Geniş | Geniş (deneyim gerekir) | Hafif-orta |
+| Konfor | Orta | Orta | Düşük (ilk haftalar) | Yüksek |
+| Hijyen | Zor | Zor | Zor | Kolay |
+| Hasta uyumu | Sabit | Sabit | Sabit | **Kritik** |
+| Hekim deneyim ihtiyacı | Standart | Standart | Yüksek | Standart-yüksek |
+| Tipik süre (orta vaka) | 18-30 ay | 18-30 ay | 18-30 ay | 12-24 ay |
+
+## Ortodontik Tedavi Süreci
+
+### 1. Konsültasyon (1. seans)
+
+- Klinik muayene
+- **Sefalometrik röntgen** + panoramik röntgen + diş model ölçüleri
+- Yüz, gülüş, profil analizi
+- Tedavi planı yazılı sunumu
+- Yöntem seçeneklerinin sunulması
+
+### 2. Hazırlık
+
+- Çürük varsa önce tedavi
+- Diş eti hastalığı varsa periodontoloji
+- Gerekirse diş çekimi (yer kazanmak için)
+- Hijyen eğitimi
+
+### 3. Aktif Tedavi
+
+| Yöntem | Kontrol sıklığı |
+|---|---|
+| Metal / şeffaf braket | 4-6 haftada bir |
+| Lingual braket | 4-6 haftada bir |
+| Şeffaf plak | 6-10 haftada bir |
+
+### 4. Pekiştirme (Retansiyon) — Çok Önemli!
+
+Braketler çıkarıldıktan sonra dişlerin **geri kaymasını önlemek için pekiştirici** kullanılır:
+
+- **Sabit pekiştirici** — dişlerin iç yüzüne yapıştırılan ince tel (kalıcı)
+- **Hareketli pekiştirici (plak)** — gece kullanılır
+- Kullanım süresi: en az **1-2 yıl** aktif, sonrasında genellikle gece kullanım önerilir
+- **Pekiştirici disiplini sağlanmazsa diş hareketi geri gelir**
+
+> ⚠️ **Kritik:** Pekiştirici kullanmamak, tedavi sonucunun **birkaç yıl içinde kaybedilmesine** neden olur. Bu, ortodontik tedavi başarısının ayrılmaz parçasıdır.
+
+## Tedavi Süresini Etkileyen Faktörler
+
+- **Yaş** — çocukta daha hızlı, yetişkinde daha yavaş
+- **Vaka karmaşıklığı** — basit kayma vs. ağır iskelet anomalisi
+- **Diş çekimi gerekip gerekmediği**
+- **Cerrahi gereksinim** (ortognatik cerrahi)
+- **Hasta uyumu** (lastik takma, plak kullanma, hijyen, randevu sıklığı)
+- **Diş hareket biyolojisi** (kemik yoğunluğu, periodontal sağlık)
+- **Yöntem** — şeffaf plak hafif vakalarda daha hızlı olabilir
+- **Hekim deneyimi**
+
+## Kimler İçin Uygundur?
+
+- Çapraşık dişler
+- Açık kapanış / derin kapanış
+- Çapraz kapanış
+- Diastema (diş arası boşluk)
+- İskelet uyumsuzlukları (sınıf II, III maloklüzyon)
+- Estetik kaygılar
+- Çiğneme veya çene ekleminde sorunlar
+
+## Kimler İçin Uygun Değildir / Dikkat Gerekir?
+
+- **Aktif diş eti hastalığı** (önce tedavi)
+- Aktif çürük (önce tedavi)
+- Ciddi kemik kaybı
+- Kontrolsüz sistemik hastalıklar
+- Bazı bisfosfonat ilaç kullanımları
+- Kötü ağız hijyeni
+- Beklentilerin tedaviyle uyumsuz olması
+
+## Risk ve Komplikasyonlar
+
+- **Diş kökü emilimi (rezorpsiyon)** — nadir ama bilinmesi gereken risk
+- Diş eti çekilmesi
+- Kök kanal tedavisi ihtiyacı (nadir)
+- Çürük (kötü hijyen → braket etrafında)
+- Diş minesinde geçici beyaz lezyonlar
+- Çene eklemi (TME) hassasiyeti
+- Pekiştirici uyumsuzluğunda **relaps** (geri kayma)
+- Braket teli batması, yara
+- Konuşma ve çiğneme adaptasyon dönemi
+
+## Hekim Seçim Kriterleri
+
+> 👉 [Diş hekimliği](/branslar/dis-hekimligi) profesyonelleri arasından ortodonti uzmanı seçerken:
+
+- **Ortodonti uzmanlık belgesi** (4 yıl uzmanlık) — bu kritik
+- TDB sicilli
+- **Türk Ortodonti Derneği** üyeliği
+- Şeffaf plak tercihinde resmi sertifika (Invisalign provider seviyesi)
+- Sağlık Bakanlığı ruhsatlı klinik
+- Yazılı tedavi planı + bilgilendirme
+- Sefalometrik ve dijital ölçüm imkanı
+- Önceki vaka çalışmaları (etik kurallar çerçevesinde)
+
+> ⚠️ Genel diş hekimleri (uzman olmayan) bazı ortodontik tedavileri yapabilirler, ancak **karmaşık vakalar mutlaka ortodonti uzmanı** tarafından tedavi edilmelidir.
+
+Detaylı dernek ve sertifika analizi: [TPRECD/ISAPS sertifikalarının anlamı](/blog/tprecd-isaps-sertifika-anlami).
+
+## Sık Sorulan Sorular
+
+### Yetişkinde ortodontik tedavi başarılı olur mu?
+
+Evet. Sağlıklı dişler ve diş eti varsa yetişkinlikte de tedavi başarıyla yapılabilir. Süre çocuklara göre uzun olabilir; uyum disiplini önemlidir.
+
+### Şeffaf plak (Invisalign) metal braket kadar etkili mi?
+
+Hafif-orta vakalarda evet, etkili sonuç sağlar. **Karmaşık vakalarda klasik braket** genellikle daha öngörülebilir. Karar konsültasyonla verilir.
+
+### Tedavi ağrılı mı?
+
+Braket veya plak değişiminden sonra **2-5 gün hafif rahatsızlık ve hassasiyet** beklenebilir. Klasik ağrı kesicilerle yönetilir. Sürekli ağrı normal değildir; hekiminize bildirin.
+
+### Diş çekimi gerekir mi?
+
+Vakaya göre değişir. Yer darlığı, çapraşıklık veya iskelet uyumsuzluğunda **premolar çekimi** ile yer açılması gerekebilir. Bu karar sefalometrik analizle verilir.
+
+### Tedavi sonrası dişler tekrar bozulur mu?
+
+**Pekiştirici (retainer) düzgün kullanılmazsa** evet. Pekiştirici kullanım disiplini, tedavi sonucunu uzun vadede koruyan en kritik unsurdur.
+
+### Cerrahi gerekir mi?
+
+Ağır iskelet uyumsuzluklarında (örn. belirgin alt çene ileride veya geride) **ortognatik cerrahi** + ortodonti kombinasyonu gerekebilir. Bu vakalarda [estetik cerrahi](/branslar/estetik-cerrahi) ve ortodonti birlikte çalışır.
+
+### Yurt dışından geliyorum, ortodonti uygun mu?
+
+Karmaşık vakalarda **uzun süreli takip** gerektiği için ortodonti sağlık turizmine pek uygun değildir. Şeffaf plak vakaları uzaktan takip ile yönetilebilir ancak yine de **3-6 ayda bir** kontrol önerilir. Genel rehber: [sağlık turizmi nelere dikkat](/blog/saglik-turizmi-nelere-dikkat).
+
+### Ortodonti sırasında diş beyazlatma yapılabilir mi?
+
+Braket tedavisi sırasında [diş beyazlatma](/tedaviler/dis-beyazlatma) uygun değildir (braket altı renk farkı oluşur). **Tedavi sonrası** beyazlatma planlanabilir.
+
+### Tedavi sonunda kaplama veya lamine ile birleşik tedavi olur mu?
+
+Evet. Bazı vakalarda ortodonti ile diş pozisyonu düzeltilir, ardından estetik için [lamine](/tedaviler/lamine-dis) veya [zirkonyum kaplama](/tedaviler/zirkonyum-kaplama) yapılabilir. Detaylar: [Zirkonyum, E-max ve metal destekli kaplama farkları](/blog/zirkonyum-emax-metal-destekli-dis-kaplama).
+
+---
+
+Ortodontik tedavi süresi bireyseldir ve yaş, vaka karmaşıklığı ve hasta uyumuna bağlıdır. Hiçbir yöntem belirli bir sürede tamamlanma garantisi vermez. Bu yazı genel bilgilendirme niteliğindedir; bireysel tedavi planı için **ortodonti uzmanı muayenesi** şarttır.`,
+    heroImageAlt: "Ortodonti diş teli tedavisi",
+    authorName: AUTHOR,
+    medicalReviewerName: REVIEWER,
+    publishedAt: PUBLISHED_NEW,
+    lastReviewedAt: PUBLISHED_NEW,
+    nextReviewDueAt: NEXT_REVIEW_NEW,
+    relatedProcedureSlugs: ["zirkonyum-kaplama", "lamine-dis", "dis-beyazlatma"],
+    relatedSpecialtySlugs: ["dis-hekimligi"],
+    sources: [
+      {
+        title: "Orthodontic Treatment — Patient Information",
+        publisher: "American Association of Orthodontists (AAO)",
+        url: "https://www.aaoinfo.org",
+      },
+      {
+        title: "Clear Aligner Therapy vs. Fixed Appliances: A Systematic Review",
+        publisher: "PubMed — American Journal of Orthodontics and Dentofacial Orthopedics",
+        url: "https://pubmed.ncbi.nlm.nih.gov/",
+      },
+      {
+        title: "Orthodontic Retention: Clinical Guidance",
+        publisher: "PubMed — European Journal of Orthodontics",
+        url: "https://pubmed.ncbi.nlm.nih.gov/",
+      },
+      {
+        title: "Orthodontic Treatment Guidance",
+        publisher: "NICE (UK)",
+        url: "https://www.nice.org.uk",
+      },
+      {
+        title: "Türk Ortodonti Derneği",
+        publisher: "TOD-Ortodonti",
+      },
+      {
+        title: "Türk Diş Hekimleri Birliği",
+        publisher: "TDB",
+        url: "https://www.tdb.org.tr",
       },
     ],
   },
