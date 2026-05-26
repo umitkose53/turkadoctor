@@ -92,13 +92,19 @@ export function physicianLd(args: {
   geo?: { latitude: number; longitude: number } | null;
 }): JsonLd {
   const fullName = `${args.titlePrefix ?? "Dr."} ${args.fullName}`;
+  // Doktor profili hem Person (Physician) hem yerel işletme (MedicalBusiness)
+  // olarak işaretlenir. Google Local Search ve haritalı rich-snippet için
+  // MedicalBusiness daha güçlü; klinik adresi varsa LocalBusiness profilini
+  // tetikler.
   const ld: JsonLd = {
     "@context": CTX,
-    "@type": "Physician",
+    "@type": ["Physician", "MedicalBusiness"],
+    "@id": `${SITE_URL}/doktor/${args.slug}#physician`,
     name: fullName,
     url: `${SITE_URL}/doktor/${args.slug}`,
     medicalSpecialty: args.specialty,
     inLanguage: "tr-TR",
+    priceRange: "$$",
   };
   if (args.photoUrl) ld.image = args.photoUrl;
 
