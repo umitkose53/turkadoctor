@@ -29,6 +29,9 @@ import { doctorsEge } from "./doctors-ege";
 import { doctorsBasaksehirSehir } from "./doctors-basaksehir-sehir";
 import { doctorsYeditepe } from "./doctors-yeditepe";
 import { doctorsBezmialem } from "./doctors-bezmialem";
+import { doctorsYildirimBeyazit } from "./doctors-yildirim-beyazit";
+import { doctorsPamukkale } from "./doctors-pamukkale";
+import { doctorsBilkentSehir } from "./doctors-bilkent-sehir";
 
 /**
  * Day-1 manuel seed doktor verisi.
@@ -1018,6 +1021,9 @@ const _all = [
   ...doctorsBasaksehirSehir,
   ...doctorsYeditepe,
   ...doctorsBezmialem,
+  ...doctorsYildirimBeyazit,
+  ...doctorsPamukkale,
+  ...doctorsBilkentSehir,
 ];
 const _seen = new Set<string>();
 export const doctors: DoctorSummary[] = _all.filter((d) => {
