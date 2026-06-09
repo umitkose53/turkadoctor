@@ -177,6 +177,32 @@ export type ClinicSummary = {
   signals: ReviewSignal[];
 };
 
+export type DoctorPublication = {
+  title: string;
+  url?: string;
+  year?: number;
+  publisher?: string;
+};
+
+export type DoctorSocialLinks = {
+  instagram?: string;
+  youtube?: string;
+  facebook?: string;
+  linkedin?: string;
+  twitter?: string;
+};
+
+export type DoctorCareerEntry = {
+  institution: string;
+  role?: string;
+  startYear?: number;
+  endYear?: number;
+  /** Halen sürüyorsa true */
+  current?: boolean;
+  /** "Beylikdüzü, İstanbul" gibi serbest metin lokasyon */
+  location?: string;
+};
+
 export type DoctorSummary = {
   slug: string;
   fullName: string;
@@ -193,5 +219,17 @@ export type DoctorSummary = {
   educations?: { school: string; degree: string; year?: number }[];
   memberships?: string[];
   signals: ReviewSignal[];
+
+  // --- Detaylı profil alanları (opsiyonel; varsa /doktor/[slug] sayfasında render edilir)
+  /** Hekimin kendi resmi web sitesi (varsa). */
+  website?: string;
+  /** Sosyal medya linkleri (URL veya handle). */
+  socialLinks?: DoctorSocialLinks;
+  /** Kariyer / çalıştığı kurumlar — tarih aralıklarıyla. */
+  career?: DoctorCareerEntry[];
+  /** Akademik yayınlar (PubMed/DergiPark/Türkiye Klinikleri vb.). */
+  publications?: DoctorPublication[];
+  /** Tıbbi inceleme / editöryel doğrulama tarihi (ISO). */
+  lastVerifiedAt?: string;
 };
 

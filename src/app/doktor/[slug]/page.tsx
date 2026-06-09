@@ -344,7 +344,9 @@ export default async function DoctorPage({
         </h2>
         <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-sky-700">
           <li><a href="#hakkinda" className="hover:underline">Hakkında</a></li>
+          {doctor.career?.length ? <li><a href="#kariyer" className="hover:underline">Kariyer</a></li> : null}
           {doctorProcedures.length > 0 ? <li><a href="#tedaviler" className="hover:underline">Yaptığı tedaviler</a></li> : null}
+          {doctor.publications?.length ? <li><a href="#yayinlar" className="hover:underline">Yayınlar</a></li> : null}
           {visibleSignals.length > 0 ? <li><a href="#yorumlar" className="hover:underline">Yorumlar</a></li> : null}
           <li><a href="#harita" className="hover:underline">Harita</a></li>
           {primaryClinic ? <li><a href="#konum" className="hover:underline">Konum</a></li> : null}
@@ -434,7 +436,132 @@ export default async function DoctorPage({
             </ul>
           </div>
         ) : null}
+
+        {doctor.website || doctor.socialLinks ? (
+          <div className="mt-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+              Web ve Sosyal Medya
+            </h3>
+            <ul className="mt-2 flex flex-wrap gap-3 text-sm">
+              {doctor.website ? (
+                <li>
+                  <a
+                    href={doctor.website}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow ugc"
+                    className="text-sky-700 hover:underline"
+                  >
+                    Resmi web sitesi
+                  </a>
+                </li>
+              ) : null}
+              {doctor.socialLinks?.instagram ? (
+                <li>
+                  <a
+                    href={doctor.socialLinks.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow ugc"
+                    className="text-sky-700 hover:underline"
+                  >
+                    Instagram
+                  </a>
+                </li>
+              ) : null}
+              {doctor.socialLinks?.youtube ? (
+                <li>
+                  <a
+                    href={doctor.socialLinks.youtube}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow ugc"
+                    className="text-sky-700 hover:underline"
+                  >
+                    YouTube
+                  </a>
+                </li>
+              ) : null}
+              {doctor.socialLinks?.facebook ? (
+                <li>
+                  <a
+                    href={doctor.socialLinks.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow ugc"
+                    className="text-sky-700 hover:underline"
+                  >
+                    Facebook
+                  </a>
+                </li>
+              ) : null}
+              {doctor.socialLinks?.linkedin ? (
+                <li>
+                  <a
+                    href={doctor.socialLinks.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow ugc"
+                    className="text-sky-700 hover:underline"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+              ) : null}
+              {doctor.socialLinks?.twitter ? (
+                <li>
+                  <a
+                    href={doctor.socialLinks.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow ugc"
+                    className="text-sky-700 hover:underline"
+                  >
+                    Twitter / X
+                  </a>
+                </li>
+              ) : null}
+            </ul>
+          </div>
+        ) : null}
+
+        {doctor.lastVerifiedAt ? (
+          <p className="mt-4 text-xs text-zinc-500">
+            Profil son editöryel doğrulama: {formatTrDate(doctor.lastVerifiedAt)}
+          </p>
+        ) : null}
       </section>
+
+      {/* Kariyer / Çalıştığı Kurumlar (tarih aralıklı) */}
+      {doctor.career?.length ? (
+        <section
+          id="kariyer"
+          className="mt-6 rounded-xl border border-zinc-200 bg-white p-6"
+        >
+          <h2 className="text-xl font-semibold text-zinc-900">Kariyer</h2>
+          <ol className="mt-4 space-y-3 border-l border-zinc-200 pl-4 text-sm text-zinc-700">
+            {doctor.career.map((entry, i) => {
+              const range =
+                entry.startYear && entry.current
+                  ? `${entry.startYear} – günümüz`
+                  : entry.startYear && entry.endYear
+                    ? `${entry.startYear} – ${entry.endYear}`
+                    : entry.startYear
+                      ? `${entry.startYear}`
+                      : "";
+              return (
+                <li key={i} className="relative">
+                  <span
+                    aria-hidden
+                    className="absolute -left-[1.1rem] top-1.5 h-2 w-2 rounded-full bg-sky-500"
+                  />
+                  <p className="font-medium text-zinc-900">{entry.institution}</p>
+                  {entry.role ? (
+                    <p className="text-zinc-700">{entry.role}</p>
+                  ) : null}
+                  <p className="text-xs text-zinc-500">
+                    {[range, entry.location].filter(Boolean).join(" · ")}
+                  </p>
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      ) : null}
 
       {/* Yaptığı tedaviler */}
       {doctorProcedures.length > 0 ? (
@@ -460,6 +587,49 @@ export default async function DoctorPage({
               </Link>
             ))}
           </div>
+        </section>
+      ) : null}
+
+      {/* Akademik Yayınlar */}
+      {doctor.publications?.length ? (
+        <section
+          id="yayinlar"
+          className="mt-6 rounded-xl border border-zinc-200 bg-white p-6"
+        >
+          <h2 className="text-xl font-semibold text-zinc-900">
+            Akademik Yayınlar
+          </h2>
+          <p className="mt-1 text-xs text-zinc-500">
+            Kamuya açık kaynaklardan (PubMed vb.) derlenmiş yayınlar.
+          </p>
+          <ol className="mt-4 space-y-3 text-sm text-zinc-700">
+            {doctor.publications.map((p, i) => (
+              <li key={i} className="leading-relaxed">
+                <span className="mr-2 text-zinc-400">{i + 1}.</span>
+                {p.url ? (
+                  <a
+                    href={p.url}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="font-medium text-sky-700 hover:underline"
+                  >
+                    {p.title}
+                  </a>
+                ) : (
+                  <span className="font-medium text-zinc-900">{p.title}</span>
+                )}
+                {p.publisher ? (
+                  <span className="text-zinc-600">
+                    {" — "}
+                    <em className="not-italic">{p.publisher}</em>
+                  </span>
+                ) : null}
+                {p.year ? (
+                  <span className="text-zinc-500">{` (${p.year})`}</span>
+                ) : null}
+              </li>
+            ))}
+          </ol>
         </section>
       ) : null}
 

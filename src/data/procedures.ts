@@ -1890,6 +1890,150 @@ export const procedures: Procedure[] = [
     lastReviewedAt: LAST_REVIEWED,
     nextReviewDueAt: NEXT_REVIEW,
   },
+
+  // ═════════════════════════════════════════════════════════════════════════
+  // KALP VE DAMAR CERRAHİSİ
+  // ═════════════════════════════════════════════════════════════════════════
+  {
+    slug: "varis-tedavisi",
+    name: "Varis Tedavisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Bacak toplardamarlarındaki kapakçık yetmezliğine bağlı varislerin tıbbi, lazer veya cerrahi yöntemlerle tedavisi.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "lazerle-varis-tedavisi",
+    name: "Lazerle Varis Tedavisi (Endovenöz Lazer)",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Yetersiz toplardamarın kateter aracılığıyla içten lazer enerjisiyle kapatıldığı minimal invaziv yöntem.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "kilcal-damar-tedavisi",
+    name: "Kılcal Damar (Telenjiektazi) Tedavisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Bacaklardaki kılcal damarların skleroterapi veya yüzeyel lazerle silikleştirilmesi.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "venoz-yetmezlik-tedavisi",
+    name: "Venöz Yetmezlik Tedavisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Toplardamar kapakçık yetmezliğine bağlı bacak ağrısı, şişlik ve cilt değişikliklerinin tanı ve tedavisi.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "aort-anevrizmasi-cerrahisi",
+    name: "Aort Anevrizması Cerrahisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Aort damarındaki genişleme (anevrizma) için açık cerrahi veya endovasküler (EVAR/TEVAR) onarım.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "sah-damari-tikanikligi-tedavisi",
+    name: "Şah Damarı (Karotis) Tıkanıklığı Tedavisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Karotis arter darlığında inme riskini azaltmaya yönelik karotis endarterektomi veya stentleme.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "bacakta-damar-tikanikligi-tedavisi",
+    name: "Bacakta Damar Tıkanıklığı Tedavisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Periferik arter hastalığında balon-stent, by-pass veya hibrit yöntemlerle kan akımının yeniden sağlanması.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "buerger-hastaligi-tedavisi",
+    name: "Buerger Hastalığı Tedavisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Tromboanjiitis obliterans (Buerger) hastalığında sigara bırakma, medikal tedavi ve seçili olgularda revaskülarizasyon.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "diyabetik-ayak-tedavisi",
+    name: "Diyabetik Ayak Tedavisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Diyabete bağlı ayak yaralarında damar açıklığının sağlanması, yara bakımı ve uzuv koruma odaklı çok-disiplinli tedavi.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "tavi-aort-kapak-tedavisi",
+    name: "TAVI (Transkateter Aort Kapak Replasmanı)",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Yüksek cerrahi riskli aort kapak darlığı hastalarında kateter yoluyla yapay kapak yerleştirme.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "romatizmal-kalp-kapak-cerrahisi",
+    name: "Romatizmal Kalp Kapak Cerrahisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Romatizmal ateş sonrası gelişen mitral/aort kapak hastalıklarının onarım veya replasman cerrahisi.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "aritmi-cerrahisi",
+    name: "Aritmi Cerrahisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Atriyal fibrilasyon başta olmak üzere belirli ritim bozukluklarında MAZE prosedürü ve seçili cerrahi ablasyon yaklaşımları.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "robotik-damar-cerrahisi",
+    name: "Robotik / Minimal İnvaziv Damar Cerrahisi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Robotik ve minimal invaziv tekniklerle damar açma, by-pass ve endovasküler hibrit girişimler.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
+  {
+    slug: "kalp-damar-risk-degerlendirmesi",
+    name: "Kalp ve Damar Yaşı / Risk Değerlendirmesi",
+    specialtySlug: "kalp-ve-damar-cerrahisi",
+    description:
+      "Kardiyovasküler risk faktörleri ve damar yaşının değerlendirildiği koruyucu hekimlik konsültasyonu.",
+    medicalReviewerName: REVIEWER,
+    lastReviewedAt: LAST_REVIEWED,
+    nextReviewDueAt: NEXT_REVIEW,
+  },
 ];
 
 export function findProcedure(slug: string): Procedure | undefined {

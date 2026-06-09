@@ -722,4 +722,265 @@ export const doctorsAdditional: DoctorSummary[] = [
       { source: "google_places", ratingAvg: 4.7, reviewCount: 124, visible: true },
     ],
   },
+
+  // ───────────── İSTANBUL — KALP VE DAMAR CERRAHİSİ (DETAYLI PROFİL) ─────────────
+  // Kamuya açık kaynak: https://www.yusufkalko.com — doktorun kendi resmi sitesi.
+  {
+    slug: "prof-dr-yusuf-kalko",
+    fullName: "Yusuf Kalko",
+    titlePrefix: "Prof. Dr.",
+    deneyimYili: 30,
+    specialtySlugs: ["kalp-ve-damar-cerrahisi"],
+    procedureSlugs: [
+      "aort-anevrizmasi-cerrahisi",
+      "aritmi-cerrahisi",
+      "bacakta-damar-tikanikligi-tedavisi",
+      "buerger-hastaligi-tedavisi",
+      "diyabetik-ayak-tedavisi",
+      "kalp-damar-risk-degerlendirmesi",
+      "kilcal-damar-tedavisi",
+      "lazerle-varis-tedavisi",
+      "robotik-damar-cerrahisi",
+      "romatizmal-kalp-kapak-cerrahisi",
+      "sah-damari-tikanikligi-tedavisi",
+      "tavi-aort-kapak-tedavisi",
+      "varis-tedavisi",
+      "venoz-yetmezlik-tedavisi",
+    ],
+    clinicSlugs: ["prof-dr-yusuf-kalko-muayenehanesi"],
+    citySlug: "istanbul",
+    districtSlug: "beylikduzu",
+    educations: [
+      {
+        school: "Akdeniz Üniversitesi Tıp Fakültesi",
+        degree: "Tıp Doktoru (MD)",
+        year: 1994,
+      },
+      {
+        school: "İstanbul Üniversitesi İstanbul Tıp Fakültesi",
+        degree: "Kalp ve Damar Cerrahisi Uzmanlık",
+        year: 2001,
+      },
+      {
+        school: "Üniversiteler Arası Kurul",
+        degree: "Doçentlik (Kalp ve Damar Cerrahisi)",
+        year: 2009,
+      },
+      {
+        school: "Üniversiteler Arası Kurul",
+        degree: "Profesörlük (Kalp ve Damar Cerrahisi)",
+        year: 2015,
+      },
+    ],
+    career: [
+      {
+        institution: "Taşköprü Sağlık Ocağı",
+        role: "Pratisyen Hekim",
+        startYear: 1994,
+        endYear: 1995,
+        location: "Kastamonu",
+      },
+      {
+        institution: "İstanbul Üniversitesi İstanbul Tıp Fakültesi, Kalp ve Damar Cerrahisi AD",
+        role: "Araştırma Görevlisi",
+        startYear: 1995,
+        endYear: 2001,
+        location: "İstanbul",
+      },
+      {
+        institution: "Vakıf Gureba Eğitim ve Araştırma Hastanesi, Kalp ve Damar Cerrahisi Kliniği",
+        role: "Uzman Hekim",
+        startYear: 2001,
+        endYear: 2010,
+        location: "İstanbul",
+      },
+      {
+        institution: "İstanbul Medical Park Bahçelievler Hastanesi",
+        role: "Aort ve Periferik Arter Cerrahisi Sorumlu Hekimi",
+        startYear: 2010,
+        endYear: 2017,
+        location: "İstanbul",
+      },
+      {
+        institution: "İstinye Üniversitesi Bahçeşehir Liv Hospital — Damar Sağlığı ve Yaşam Merkezi (DAS)",
+        role: "Periferik Damar Cerrahisi Sorumlu Hekimi",
+        startYear: 2017,
+        current: true,
+        location: "İstanbul",
+      },
+      {
+        institution: "Prof. Dr. Yusuf Kalko Muayenehanesi",
+        role: "Kurucu, Kalp ve Damar Cerrahisi Uzmanı",
+        startYear: 2021,
+        current: true,
+        location: "Beylikdüzü, İstanbul",
+      },
+    ],
+    memberships: [
+      "Türk Kalp ve Damar Cerrahisi Derneği (TKDCD)",
+      "Ulusal Vasküler ve Endovasküler Cerrahi Derneği (UVCD)",
+      "Türk Tabipleri Birliği",
+    ],
+    publications: [
+      {
+        title:
+          "Relationship between the two surgical access of aortoiliac occlusive disease and recovery of erectile dysfunction",
+        publisher: "International Journal of Impotence Research",
+        year: 2015,
+        url: "https://pubmed.ncbi.nlm.nih.gov/25099637/",
+      },
+      {
+        title:
+          "Interleukin-10 levels and clinical outcome: retroperitoneal versus transperitoneal approaches in infra-renal abdominal aorta reconstruction",
+        publisher: "Acta Chirurgica Belgica",
+        year: 2014,
+        url: "https://pubmed.ncbi.nlm.nih.gov/26021535/",
+      },
+      {
+        title: "Effects of atorvastatin on vascular intimal hyperplasia",
+        publisher: "Angiology",
+        year: 2009,
+        url: "https://pubmed.ncbi.nlm.nih.gov/18796450/",
+      },
+      {
+        title:
+          "Influence of methylprednisolone on levels of neuron-specific enolase in cardiac surgery",
+        publisher: "Journal of Cardiac Surgery",
+        year: 2009,
+        url: "https://pubmed.ncbi.nlm.nih.gov/19583607/",
+      },
+      {
+        title:
+          "Aortic stiffness in diabetes mellitus — association with glutamine and heat shock protein 70 expression",
+        publisher: "Expert Opinion on Therapeutic Targets",
+        year: 2009,
+        url: "https://pubmed.ncbi.nlm.nih.gov/19236149/",
+      },
+      {
+        title:
+          "Comparison of transperitoneal and retroperitoneal approaches in abdominal aortic surgery",
+        publisher: "Acta Chirurgica Belgica",
+        year: 2008,
+        url: "https://pubmed.ncbi.nlm.nih.gov/19051466/",
+      },
+      {
+        title:
+          "Mid-term outcome with surgery for type B aortic dissections: a single center experience",
+        publisher: "Journal of Cardiac Surgery",
+        year: 2008,
+        url: "https://pubmed.ncbi.nlm.nih.gov/18290883/",
+      },
+      {
+        title:
+          "Surgical experiences in acute spontaneous dissection of the infrarenal abdominal aorta",
+        publisher: "Anadolu Kardiyoloji Dergisi",
+        year: 2008,
+        url: "https://pubmed.ncbi.nlm.nih.gov/18676305/",
+      },
+      {
+        title:
+          "Standard open repair versus minilaparotomy approach for abdominal aortic aneurysms in patients with ischemic heart disease",
+        publisher: "Minerva Chirurgica",
+        year: 2008,
+        url: "https://pubmed.ncbi.nlm.nih.gov/18607322/",
+      },
+      {
+        title:
+          "Cyanoacrylate gluing increases the effectiveness of systemic antimicrobial treatment in sternal infection",
+        publisher: "The Thoracic and Cardiovascular Surgeon",
+        year: 2008,
+        url: "https://pubmed.ncbi.nlm.nih.gov/18200464/",
+      },
+      {
+        title: "Visceral artery aneurysms",
+        publisher: "The Heart Surgery Forum",
+        year: 2007,
+        url: "https://pubmed.ncbi.nlm.nih.gov/17162396/",
+      },
+      {
+        title:
+          "Surgery of the carotid artery: local anaesthesia versus general anaesthesia",
+        publisher: "Acta Chirurgica Belgica",
+        year: 2007,
+        url: "https://pubmed.ncbi.nlm.nih.gov/17405599/",
+      },
+      {
+        title:
+          "Epidural anaesthesia and mini-laparotomy for the treatment of abdominal aortic aneurysms",
+        publisher: "Acta Chirurgica Belgica",
+        year: 2007,
+        url: "https://pubmed.ncbi.nlm.nih.gov/17685259/",
+      },
+      {
+        title:
+          "Carotid endarterectomy under local anesthesia: single institutional experience",
+        publisher: "Interactive CardioVascular and Thoracic Surgery",
+        year: 2006,
+        url: "https://pubmed.ncbi.nlm.nih.gov/17670648/",
+      },
+      {
+        title: "Aortoduodenal fistulae: about two cases",
+        publisher: "Annales de Chirurgie",
+        year: 2006,
+        url: "https://pubmed.ncbi.nlm.nih.gov/16324682/",
+      },
+      {
+        title:
+          "The surgical treatment of arterial aneurysms in Behçet disease: a report of 16 patients",
+        publisher: "Journal of Vascular Surgery",
+        year: 2005,
+        url: "https://pubmed.ncbi.nlm.nih.gov/16242553/",
+      },
+      {
+        title:
+          "Patency and venous pressure of arteriovenous fistulas for hemodialysis",
+        publisher: "Asian Cardiovascular and Thoracic Annals",
+        year: 2005,
+        url: "https://pubmed.ncbi.nlm.nih.gov/15905340/",
+      },
+      {
+        title:
+          "Repair of ascending aortic aneurysm in a patient with fibrosarcoma over sternum",
+        publisher: "Asian Cardiovascular and Thoracic Annals",
+        year: 2003,
+        url: "https://pubmed.ncbi.nlm.nih.gov/14681101/",
+      },
+      {
+        title:
+          "A comparison between minilaparotomy and standard median laparotomy for reconstruction of aorto-iliac occlusive disease",
+        publisher: "Acta Chirurgica Belgica",
+        year: 2003,
+        url: "https://pubmed.ncbi.nlm.nih.gov/12768865/",
+      },
+      {
+        title:
+          "Gastrointestinal complications after transperitoneal abdominal aortic surgery",
+        publisher: "Asian Cardiovascular and Thoracic Annals",
+        year: 2003,
+        url: "https://pubmed.ncbi.nlm.nih.gov/12692013/",
+      },
+      {
+        title:
+          "Postinfarction left ventricular free wall rupture repaired successfully",
+        publisher: "Asian Cardiovascular and Thoracic Annals",
+        year: 2002,
+        url: "https://pubmed.ncbi.nlm.nih.gov/12213753/",
+      },
+    ],
+    website: "https://www.yusufkalko.com",
+    socialLinks: {
+      instagram: "https://www.instagram.com/dryusufkalko/",
+      facebook: "https://www.facebook.com/profdryusufkalko",
+      youtube: "https://www.youtube.com/channel/UCRu3vqLjK8YNsqy68_yU1rA",
+    },
+    lastVerifiedAt: "2026-06-09",
+    signals: [
+      {
+        source: "google_places",
+        sourceUrl:
+          "https://www.google.com/maps/search/?api=1&query=Prof+Dr+Yusuf+Kalko+Beylikd%C3%BCz%C3%BC+%C4%B0stanbul",
+        visible: true,
+      },
+    ],
+  },
 ];

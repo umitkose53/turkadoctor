@@ -2135,6 +2135,44 @@ export const clinics: ClinicSummary[] = [
       },
     ],
   },
+
+  // ────────────── İSTANBUL — KALP VE DAMAR CERRAHİSİ MUAYENEHANE ──────────────
+  {
+    slug: "prof-dr-yusuf-kalko-muayenehanesi",
+    name: "Prof. Dr. Yusuf Kalko Muayenehanesi",
+    type: "muayenehane",
+    citySlug: "istanbul",
+    districtSlug: "beylikduzu",
+    address:
+      "Brand İstanbul Park, Büyükşehir Mah., Beylikdüzü Cad., Dış Kapı No:5/1, B Blok Kat 7, D:53, 34520 Beylikdüzü/İstanbul",
+    phone: "+90 552 324 45 41",
+    website: "https://www.yusufkalko.com",
+    specialties: ["kalp-ve-damar-cerrahisi"],
+    procedures: [
+      "varis-tedavisi",
+      "lazerle-varis-tedavisi",
+      "kilcal-damar-tedavisi",
+      "venoz-yetmezlik-tedavisi",
+      "aort-anevrizmasi-cerrahisi",
+      "sah-damari-tikanikligi-tedavisi",
+      "bacakta-damar-tikanikligi-tedavisi",
+      "buerger-hastaligi-tedavisi",
+      "diyabetik-ayak-tedavisi",
+      "tavi-aort-kapak-tedavisi",
+      "romatizmal-kalp-kapak-cerrahisi",
+      "aritmi-cerrahisi",
+      "robotik-damar-cerrahisi",
+      "kalp-damar-risk-degerlendirmesi",
+    ],
+    signals: [
+      {
+        source: "google_places",
+        sourceUrl:
+          "https://www.google.com/maps/search/?api=1&query=Prof+Dr+Yusuf+Kalko+Beylikd%C3%BCz%C3%BC+%C4%B0stanbul",
+        visible: true,
+      },
+    ],
+  },
 ];
 
 export function findClinic(slug: string): ClinicSummary | undefined {
