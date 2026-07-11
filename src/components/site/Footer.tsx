@@ -106,8 +106,22 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-8 border-t border-zinc-200 pt-6 text-xs text-zinc-500">
-          © {year} {SITE_NAME}. Tüm hakları saklıdır. Site içeriği
-          bilgilendirme amaçlıdır, tıbbi tavsiye yerine geçmez.
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              © {year} {SITE_NAME}. Tüm hakları saklıdır. Site içeriği
+              bilgilendirme amaçlıdır, tıbbi tavsiye yerine geçmez.
+            </div>
+            <div>
+              <a
+                href="https://healtinturkey.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-zinc-900"
+              >
+                healtinturkey.com ↗
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
