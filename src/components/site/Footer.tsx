@@ -111,7 +111,7 @@ export function SiteFooter() {
               © {year} {SITE_NAME}. Tüm hakları saklıdır. Site içeriği
               bilgilendirme amaçlıdır, tıbbi tavsiye yerine geçmez.
             </div>
-            <div>
+            <div className="flex flex-wrap gap-x-4 gap-y-1">
               <a
                 href="https://healtinturkey.com/"
                 target="_blank"
@@ -119,6 +119,14 @@ export function SiteFooter() {
                 className="hover:text-zinc-900"
               >
                 healtinturkey.com ↗
+              </a>
+              <a
+                href="https://www.dralicetinkaya.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-zinc-900"
+              >
+                dralicetinkaya.com ↗
               </a>
             </div>
           </div>
